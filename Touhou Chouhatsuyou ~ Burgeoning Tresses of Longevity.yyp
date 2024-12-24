@@ -178,6 +178,7 @@
     {"id":{"name":"spr_buttons_type","path":"sprites/spr_buttons_type/spr_buttons_type.yy",},},
     {"id":{"name":"spr_font_mp","path":"sprites/spr_font_mp/spr_font_mp.yy",},},
     {"id":{"name":"spr_font","path":"sprites/spr_font/spr_font.yy",},},
+    {"id":{"name":"spr_hud_bottom","path":"sprites/spr_hud_bottom/spr_hud_bottom.yy",},},
     {"id":{"name":"spr_menu_cursor","path":"sprites/spr_menu_cursor/spr_menu_cursor.yy",},},
     {"id":{"name":"spr_setup_cursor","path":"sprites/spr_setup_cursor/spr_setup_cursor.yy",},},
     {"id":{"name":"spr_textbox","path":"sprites/spr_textbox/spr_textbox.yy",},},
