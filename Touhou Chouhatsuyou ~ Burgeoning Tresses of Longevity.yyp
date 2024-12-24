@@ -185,6 +185,7 @@
     {"id":{"name":"spr_setup_cursor","path":"sprites/spr_setup_cursor/spr_setup_cursor.yy",},},
     {"id":{"name":"spr_textbox","path":"sprites/spr_textbox/spr_textbox.yy",},},
     {"id":{"name":"spr_title_background","path":"sprites/spr_title_background/spr_title_background.yy",},},
+    {"id":{"name":"spr_yuugiku_defeat","path":"sprites/spr_yuugiku_defeat/spr_yuugiku_defeat.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
