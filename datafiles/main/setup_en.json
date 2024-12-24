@@ -1,0 +1,91 @@
+{
+    "type_select" : {
+        "option_name" : [
+            "Classic", 
+            "Breezy"
+        ],
+        "option_description" : [
+            "You only get one hit before a life is lost. Choose this if you want a challenge.",
+            "You become more durable to danmaku. Choose this if you want to quickly progress the story."
+        ]
+    },
+    "mode_select" : {
+        "option_name" : [
+            "Normal", 
+            "Extra",
+            "Free Play"
+        ],
+        "option_description" : [
+            "Play the story mode. We recommend playing this first.",
+            "Play the extra stage. We recommend playing this after finishing Normal mode.",
+            "Freely play on any stage. Recommended for those wanting a quick game."
+        ]
+    },
+    "difficulty_select" : {
+        "option_name" : [
+            "Easy", 
+            "Normal",
+            "Difficult",
+            "Lunatic"
+        ],
+        "option_description" : [
+            "A starter mode recommended for beginners.",
+            "A basic mode recommended for most players.",
+            "A challenge mode recommended for experienced players.",
+            "A mode not for the faint-hearted. Recommended for experts."
+        ]
+    },
+    "character_select" : {
+        "option_name" : [
+            "Reimu Hakurei", 
+            "Marisa Kirisame",
+            "Aya Shameimaru",
+            "Sanae Kochiya"
+        ],
+        "option_description" : [
+            "The shrine maiden of the Hakurei Shrine. Special attack homes in on enemies.",
+            "A magician and the ruler of the Federal Kingdom of Gensokyo. Special attack fires a laser that continuously deals damage.",
+            "The editor of The Daily Bunbunmaru. Special attack fires piercing shots while focusing.",
+            "The wind goddess of the Moriya Shrine. Special attack homes in on enemies, but to a lesser extent."
+        ]
+    },
+    "stage_select" : [
+        "Stage 1\nThe Origin of the Mysterious Scent",
+        "Stage 2\nThe River of the Bamboo Forest of the Lost",
+        "Stage 3\nAn Experiment in the Palace of Eternity",
+        "Stage 4\nThe Road Leading to a Secret Tower",
+        "Stage 5\nDarkness, Everything Inside ~ Dragon's Tower",
+        "Final Stage\nWhere is That Long-Haired Dancer's Mother?",
+        "Extra Stage\nAftermath of the Yao Queen ~ Off Season Eclipse"
+    ],
+    "stage_intro" : [
+        "The Origin of the Mysterious Scent",
+        "The River of the Bamboo Forest of the Lost",
+        "An Experiment in the Palace of Eternity",
+        "The Road Leading to a Secret Tower",
+        "Darkness, Everything Inside ~ Dragon's Tower",
+        "Where is That Long-Haired Dancer's Mother?",
+        "Aftermath of the Yao Queen ~ Off Season Eclipse"
+    ],
+    "how_to_play" : [
+        "Welcome! Before the game begins, let us explain the controls to you.",
+        "Use the cursor keys, D-pad, or joystick to move your character.",
+        "Hold %au to fire.",
+        "Hold %bu to focus.",
+        "When in difficult situations, push %xu to use a spell card."
+    ],
+    "miscellaneous" : {
+        "continue" : "To continue, insert coins and push 1P %startu.",
+        "insert_coin" : "To insert coins, push %selectu.",
+        "power_off" : "Power off the cabinet?",
+        "name_entry_screen" : "Push %au to input, %bu to erase, and %startu to confirm."
+    },
+    "_paused" : [
+        "Player 1 paused the game.",
+        "Player 2 paused the game."
+    ],
+    "menu_choices" : [
+        "Yes",
+        "No"
+    ]
+}
