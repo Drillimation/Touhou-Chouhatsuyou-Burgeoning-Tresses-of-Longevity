@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_spell_card_declare",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":1.459365,
+  "name":"snd_spell_card_declare",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_spell_card_declare.wav",
+  "type":1,
+  "volume":1.0,
+}

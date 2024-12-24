@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_border_bonus",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":1.025125,
+  "name":"snd_border_bonus",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_border_bonus.wav",
+  "type":1,
+  "volume":1.0,
+}
