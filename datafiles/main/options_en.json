@@ -1,0 +1,34 @@
+{
+    "prompt" : {
+        "main_menu" : "↑↓ Select  %au Confirm  %bu Back",
+        "adjust_option" : "←→ Scroll  %bu Back"
+    },
+    "option_select" : {
+        "option_name" : [
+            "Music Volume", 
+            "Sound Effects Volume",
+            "Toggle Fullscreen",
+            "Language",
+            "Border Brightness",
+            "Statistics"
+        ],
+        "option_description" : [
+            "Adjust the music volume.", 
+            "Adjust the sound effects volume.",
+            "Toggle to or from fullscreen mode.",
+            "Change the display language.",
+            "Adjust the brightness of the border to reduce screen burn-in.",
+            "View your Spell Card statistics and history."
+        ]
+    },
+    "brightness_options" : [
+        "Off",
+        "Dim",
+        "Bright"
+    ],
+    "statistics" : [
+        "Captures",
+        "Encounters",
+        "Success Rate"
+    ]
+}

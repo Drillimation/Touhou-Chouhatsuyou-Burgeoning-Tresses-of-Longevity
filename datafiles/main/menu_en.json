@@ -1,0 +1,21 @@
+{
+    "prompt" : "↑↓ Select  %au Confirm",
+    "option_select" : {
+        "option_name" : [
+            "Start Game", 
+            "Music Room",
+            "Options",
+            "Fork on GitHub",
+            "Drillipedia",
+            "Exit"
+        ],
+        "option_description" : [
+            "Power up the Touhou Chouhatsuyou arcade cabinet.", 
+            "Listen to the game's soundtrack.",
+            "Adjust the game's settings.",
+            "Opens the GitHub repository for the game.",
+            "Opens Drillipedia.",
+            "Shut down the game."
+        ]
+    }
+}
