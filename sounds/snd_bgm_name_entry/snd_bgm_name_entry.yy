@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_bgm_name_entry",
+  "audioGroupId":{
+    "name":"bgm",
+    "path":"audiogroups/bgm",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":1,
+  "conversionMode":0,
+  "duration":61.715714,
+  "name":"snd_bgm_name_entry",
+  "parent":{
+    "name":"BGM",
+    "path":"folders/Sounds/BGM.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":48000,
+  "soundFile":"snd_bgm_name_entry.ogg",
+  "type":1,
+  "volume":1.0,
+}

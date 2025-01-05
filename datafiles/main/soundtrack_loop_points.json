@@ -1,0 +1,22 @@
+{
+    "soundtrack" : [
+        ["snd_bgm_title",22.154,97.846],
+        ["snd_bgm_stage_1",0,0],
+        ["snd_bgm_boss_1",0,0],
+        ["snd_bgm_stage_2",0,0],
+        ["snd_bgm_boss_2",0,0],
+        ["snd_bgm_stage_3",0,0],
+        ["snd_bgm_boss_3",0,0],
+        ["snd_bgm_stage_4",0,0],
+        ["snd_bgm_boss_4",0,0],
+        ["snd_bgm_stage_5",0,0],
+        ["snd_bgm_boss_5",0,0],
+        ["snd_bgm_stage_6",0,0],
+        ["snd_bgm_boss_6",0,0],
+        ["snd_bgm_stage_extra",0,0],
+        ["snd_bgm_boss_extra",0,0],
+        ["snd_bgm_ending",9.600,105.600],
+        ["snd_bgm_staff_roll",0,0],
+        ["snd_bgm_name_entry",0,0]
+    ]
+}

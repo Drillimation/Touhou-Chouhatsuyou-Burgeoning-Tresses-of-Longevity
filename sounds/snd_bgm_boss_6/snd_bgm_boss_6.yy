@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_bgm_boss_6",
+  "audioGroupId":{
+    "name":"bgm",
+    "path":"audiogroups/bgm",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":1,
+  "conversionMode":0,
+  "duration":460.2369,
+  "name":"snd_bgm_boss_6",
+  "parent":{
+    "name":"BGM",
+    "path":"folders/Sounds/BGM.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":48000,
+  "soundFile":"snd_bgm_boss_6.ogg",
+  "type":1,
+  "volume":1.0,
+}

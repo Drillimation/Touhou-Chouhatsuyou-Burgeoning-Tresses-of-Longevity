@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_bgm_game_over",
+  "audioGroupId":{
+    "name":"bgm",
+    "path":"audiogroups/bgm",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":1,
+  "conversionMode":0,
+  "duration":9.610159,
+  "name":"snd_bgm_game_over",
+  "parent":{
+    "name":"BGM",
+    "path":"folders/Sounds/BGM.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":48000,
+  "soundFile":"snd_bgm_game_over.ogg",
+  "type":0,
+  "volume":1.0,
+}
