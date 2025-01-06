@@ -1,0 +1,38 @@
+{
+    "player_char" : {
+        "REIMU" : "Spirit Sign \"Fantasy Seal\"",
+        "MARISA" : "Love Sign \"Master Spark\"",
+        "AYA" : "Wind Sign \"Tengu Rainstorm Gust\"",
+        "SANAE" : "Frog Sign \"Wily Toad\""
+    },
+    "boss_char" : [
+        "Needle Sign \"Split Hair Thorns\"",
+        "Needle Sign \"Split Hair Branches\"",
+        "Hair Fence \"Barbed Vines\"",
+        "Hair Fence \"Razor Vines\"",
+        "Hair Missile \"Branch Poke\"",
+        "Hair Missile \"Lock Shoot\"",
+        "Bad Smile \"Frenzy Plant\"",
+        "Phantom Fish \"High Calorie Load\"",
+        "Phantom Fish \"Siren in the Hot Springs\"",
+        "Water Sign \"Water Missile\"",
+        "Water Sign \"Siren Torpedo\"",
+        "Scale Sign \"Rough Tail\"",
+        "Scale Sign \"True Ctenoid\"",
+        "Wave Sign \"Geisha's Underwater Dance\"",
+        "Wave Sign \"Protection in the Shallow End\"",
+        "Curse of the Ancients \"Desert Sarcophagus\"",
+        "Nosferatu \"Curse of Blood\"",
+        "Nosferatu \"Nocturnal Bloodlust\""
+    ],
+    "boss_names" : {
+        "BOSS_MAYU" : "Mayu Ikazuchi",
+        "BOSS_KAGAMI" : "Kagami Ochiai",
+        "BOSS_KISUMI" : "Kisumi Torisawa",
+        "BOSS_KIYOMI" : "Kiyomi Tatariya",
+        "BOSS_SUIKA" : "Suika Ibuki",
+        "BOSS_ASTA" : "Asta Nattendottir",
+        "BOSS_MABAYU" : "Mabayu Kanbe",
+        "BOSS_YUUGIKU" : "Yuugiku Kanbe"
+    }
+}
