@@ -1,0 +1,34 @@
+{
+    "char_info" : {
+        "char_name" : "Kagami Ochiai",
+        "char_desc" : "The Phantom Who Leapt Through Time"
+    },
+    "t_scene_info" : [
+        {
+            "left_portrait" : "spr_reimu_idle",
+            "speaker" : "Reimu:",
+            "dialogue" : "Woah, where am I?",
+            "function" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : "spr_reimu_idle",
+            "right_portrait" : "spr_kagami_idle",
+            "speaker" : "Kagami:",
+            "dialogue" : "You should not be seeing this. If you are, you probably found a bug."
+        },
+        {
+            "left_portrait" : "spr_reimu_idle",
+            "right_portrait" : "spr_kagami_idle",
+            "speaker" : "Reimu:",
+            "dialogue" : "What!? Is there anything I can do?",
+            "function" : ["scr_cutscene_change_bgm",15]
+        },
+        {
+            "left_portrait" : "spr_reimu_idle",
+            "right_portrait" : "spr_kagami_idle",
+            "speaker" : "Kagami:",
+            "dialogue" : "There's nothing else you can do. Time to close this game.",
+            "function" : ["scr_cutscene_show_error"]
+        }
+    ]
+}
