@@ -1,6 +1,6 @@
 function scr_change_bgm(_no){
 	with(obj_bgm) {
-		scr_json_load_file("main/soundtrack_loop_points.json","bgm_tracks",false);
+		bgm_tracks = scr_json_load_file("main/soundtrack_loop_points.json","bgm_tracks",false);
 		
 		song = asset_get_index(bgm_tracks.soundtrack[_no][0]);
 		loop_point = bgm_tracks.soundtrack[_no][1];

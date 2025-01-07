@@ -1,7 +1,7 @@
 {
     "prompt" : {
         "main_menu" : "↑↓ 選択  %au 確認  %bu 戻る",
-        "adjust_option" : "←→ スクロール  %bu 戻る"
+        "adjust_option" : "↑↓ スクロール  %bu 戻る"
     },
     "option_select" : {
         "option_name" : [

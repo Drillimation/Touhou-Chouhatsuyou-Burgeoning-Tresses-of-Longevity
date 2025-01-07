@@ -1,5 +1,5 @@
-projection_x = display_get_width();
-projection_y = display_get_height();
+var projection_x = display_get_width();
+var projection_y = display_get_height();
 global.windowwidth = 640 * floor(projection_x / 640)
 global.windowheight = 360 * floor(projection_y / 360)
 

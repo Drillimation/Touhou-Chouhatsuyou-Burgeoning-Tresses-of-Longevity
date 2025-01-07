@@ -1,4 +1,4 @@
-scr_json_load_file("main/menu" + string(global.suf) + ".json","struct_data",false)
+struct_data = scr_json_load_file("main/menu" + string(global.suf) + ".json","struct_data",false)
 
 prompt = struct_data.prompt;
 prompt = scr_button_menu(prompt);

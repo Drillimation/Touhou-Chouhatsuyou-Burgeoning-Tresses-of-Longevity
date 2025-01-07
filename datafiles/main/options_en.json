@@ -1,7 +1,7 @@
 {
     "prompt" : {
         "main_menu" : "↑↓ Select  %au Confirm  %bu Back",
-        "adjust_option" : "←→ Scroll  %bu Back"
+        "adjust_option" : "↑↓ Scroll  %bu Back"
     },
     "option_select" : {
         "option_name" : [
