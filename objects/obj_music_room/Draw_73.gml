@@ -1,0 +1,17 @@
+scribble_object[0] = scribble(prompt)
+	.starting_format("drp_shd",make_color_rgb(255,255,255))
+	.align(fa_left,fa_top)
+	.wrap(640)
+	.draw(view_xview + 0,view_yview + 0)
+	
+scribble_object[1] = scribble(button[menu_index_y])
+	.starting_format("drp_shd",make_color_rgb(255,255,255))
+	.align(fa_left,fa_top)
+	.wrap(624)
+	.draw(view_xview + 8,view_yview + 32)
+	
+scribble_object[2] = scribble(desc[menu_index_y])
+	.starting_format("drp_shd",make_color_rgb(255,255,255))
+	.align(fa_left,fa_top)
+	.wrap(624)
+	.draw(view_xview + 8,view_yview + 64)

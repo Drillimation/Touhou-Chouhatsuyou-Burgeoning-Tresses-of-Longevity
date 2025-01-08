@@ -75,7 +75,7 @@
         "困難な状況があれば、スペルカードを使うには、%xuを押せ。"
     ],
     "miscellaneous" : {
-        "continue" : "続けるには、コインを入れて1Pの%startuを押せ。",
+        "continue_screen" : "続けるには、コインを入れて1Pの%startuを押せ。",
         "insert_coin" : "コインを入れるには、%selectuを押せ。",
         "power_off" : "アーケードマシンをオフにしますか？",
         "name_entry_screen" : "%auで入れて、%buで消して、%startuで終わる。"
