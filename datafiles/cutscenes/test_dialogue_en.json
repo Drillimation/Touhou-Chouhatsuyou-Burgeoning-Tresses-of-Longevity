@@ -5,27 +5,27 @@
     },
     "t_scene_info" : [
         {
-            "left_portrait" : "spr_reimu_idle",
+            "left_portrait" : ["spr_reimu_portrait",0],
             "speaker" : "Reimu:",
             "dialogue" : "Woah, where am I?",
             "function" : ["scr_cutscene_reveal_name"]
         },
         {
-            "left_portrait" : "spr_reimu_idle",
-            "right_portrait" : "spr_kagami_idle",
+            "left_portrait" : ["spr_reimu_portrait",0],
+            "right_portrait" : ["spr_kagami_portrait",0],
             "speaker" : "Kagami:",
             "dialogue" : "You should not be seeing this. If you are, you probably found a bug."
         },
         {
-            "left_portrait" : "spr_reimu_idle",
-            "right_portrait" : "spr_kagami_idle",
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kagami_portrait",0],
             "speaker" : "Reimu:",
             "dialogue" : "What!? Is there anything I can do?",
             "function" : ["scr_cutscene_change_bgm",15]
         },
         {
-            "left_portrait" : "spr_reimu_idle",
-            "right_portrait" : "spr_kagami_idle",
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kagami_portrait",0],
             "speaker" : "Kagami:",
             "dialogue" : "There's nothing else you can do. Time to close this game.",
             "function" : ["scr_cutscene_show_error"]
