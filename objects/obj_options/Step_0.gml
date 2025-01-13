@@ -9,7 +9,7 @@ if keyboard_check_pressed(vk_enter) or keyboard_check_pressed(ord("Z")) or gamep
 		case 2: scr_toggle_fullscreen(); break;
 		case 3: instance_destroy(); instance_create_depth(0,0,0,obj_language_select); break;
 		case 4: instance_destroy(); instance_create_depth(0,0,0,obj_border_brightness); break;
-		case 5: /*instance_destroy(); instance_create_depth(0,0,0,obj_spell_card_statistics);*/ break;
+		case 5: instance_destroy(); instance_create_depth(0,0,0,obj_spell_card_statistics); break;
 	}
 }
 
