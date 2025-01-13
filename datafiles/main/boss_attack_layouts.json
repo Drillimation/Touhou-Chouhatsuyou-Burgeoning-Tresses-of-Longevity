@@ -42,64 +42,64 @@
         ["timeline_asta_01","timeline_asta_01","timeline_asta_01","timeline_asta_01",60],
         ["timeline_spell_card_27","timeline_spell_card_27","timeline_spell_card_27","timeline_spell_card_27",60],
         ["timeline_asta_02","timeline_asta_02","timeline_asta_02","timeline_asta_02",60],
-        ["timeline_spell_card_28","timeline_spell_card_28","timeline_spell_card_29","timeline_spell_card_29",60],
+        ["timeline_spell_card_28","timeline_spell_card_28","timeline_spell_card_28","timeline_spell_card_28",60],
         ["timeline_asta_03","timeline_asta_03","timeline_asta_03","timeline_asta_03",60],
-        ["timeline_spell_card_30","timeline_spell_card_30","timeline_spell_card_31","timeline_spell_card_31",60],
-        ["timeline_spell_card_32","timeline_spell_card_32","timeline_spell_card_32","timeline_spell_card_32",60]
+        ["timeline_spell_card_29","timeline_spell_card_29","timeline_spell_card_29","timeline_spell_card_29",60],
+        ["timeline_spell_card_30","timeline_spell_card_30","timeline_spell_card_30","timeline_spell_card_30",60]
     ],
     "BOSS_KIYOMI_ST5" : [
         ["timeline_kiyomi_05","timeline_kiyomi_05","timeline_kiyomi_05","timeline_kiyomi_05",60],
-        ["timeline_spell_card_33","timeline_spell_card_33","timeline_spell_card_33","timeline_spell_card_33",50]
+        ["timeline_spell_card_31","timeline_spell_card_31","timeline_spell_card_31","timeline_spell_card_31",50]
     ],
     "BOSS_MABAYU" : [
         ["timeline_mabayu_01","timeline_mabayu_01","timeline_mabayu_01","timeline_mabayu_01",60],
-        ["timeline_spell_card_33","timeline_spell_card_33","timeline_spell_card_34","timeline_spell_card_34",60],
+        ["timeline_spell_card_31","timeline_spell_card_31","timeline_spell_card_32","timeline_spell_card_32",60],
         ["timeline_mabayu_02","timeline_mabayu_02","timeline_mabayu_02","timeline_mabayu_02",60],
-        ["timeline_spell_card_35","timeline_spell_card_35","timeline_spell_card_36","timeline_spell_card_36",60],
+        ["timeline_spell_card_33","timeline_spell_card_33","timeline_spell_card_34","timeline_spell_card_34",60],
         ["timeline_mabayu_03","timeline_mabayu_03","timeline_mabayu_03","timeline_mabayu_03",60],
-        ["timeline_spell_card_37","timeline_spell_card_37","timeline_spell_card_38","timeline_spell_card_38",65],
-        ["timeline_spell_card_39","timeline_spell_card_39","timeline_spell_card_39","timeline_spell_card_39",70]
+        ["timeline_spell_card_35","timeline_spell_card_35","timeline_spell_card_36","timeline_spell_card_36",65],
+        ["timeline_spell_card_37","timeline_spell_card_37","timeline_spell_card_38","timeline_spell_card_38",70]
     ],
     "BOSS_MABAYU_ST6" : [
         ["timeline_mabayu_04","timeline_mabayu_04","timeline_mabayu_04","timeline_mabayu_04",60],
-        ["timeline_spell_card_40","timeline_spell_card_40","timeline_spell_card_40","timeline_spell_card_40",50]
+        ["timeline_spell_card_39","timeline_spell_card_39","timeline_spell_card_39","timeline_spell_card_39",50]
     ],
     "BOSS_YUUGIKU" : [
         ["timeline_yuugiku_01","timeline_yuugiku_01","timeline_yuugiku_01","timeline_yuugiku_01",60],
-        ["timeline_spell_card_41","timeline_spell_card_41","timeline_spell_card_42","timeline_spell_card_42",65],
+        ["timeline_spell_card_40","timeline_spell_card_40","timeline_spell_card_41","timeline_spell_card_41",65],
         ["timeline_yuugiku_02","timeline_yuugiku_02","timeline_yuugiku_02","timeline_yuugiku_02",60],
-        ["timeline_spell_card_43","timeline_spell_card_43","timeline_spell_card_44","timeline_spell_card_44",65],
+        ["timeline_spell_card_42","timeline_spell_card_42","timeline_spell_card_43","timeline_spell_card_43",65],
         ["timeline_yuugiku_03","timeline_yuugiku_03","timeline_yuugiku_03","timeline_yuugiku_03",60],
-        ["timeline_spell_card_45","timeline_spell_card_45","timeline_spell_card_46","timeline_spell_card_46",65],
+        ["timeline_spell_card_44","timeline_spell_card_44","timeline_spell_card_45","timeline_spell_card_45",65],
         ["timeline_yuugiku_04","timeline_yuugiku_04","timeline_yuugiku_04","timeline_yuugiku_04",60],
-        ["timeline_spell_card_47","timeline_spell_card_47","timeline_spell_card_48","timeline_spell_card_48",65],
+        ["timeline_spell_card_46","timeline_spell_card_46","timeline_spell_card_47","timeline_spell_card_47",65],
         ["timeline_yuugiku_05","timeline_yuugiku_05","timeline_yuugiku_05","timeline_yuugiku_05",60],
-        ["timeline_spell_card_49","timeline_spell_card_49","timeline_spell_card_50","timeline_spell_card_50",65],
-        ["timeline_spell_card_51","timeline_spell_card_51","timeline_spell_card_51","timeline_spell_card_51",90]
+        ["timeline_spell_card_48","timeline_spell_card_48","timeline_spell_card_49","timeline_spell_card_49",65],
+        ["timeline_spell_card_50","timeline_spell_card_50","timeline_spell_card_50","timeline_spell_card_50",90]
     ],
     "BOSS_MABAYU_EX" : [
+        ["timeline_spell_card_51","timeline_spell_card_51","timeline_spell_card_51","timeline_spell_card_51",60],
         ["timeline_spell_card_52","timeline_spell_card_52","timeline_spell_card_52","timeline_spell_card_52",60],
         ["timeline_spell_card_53","timeline_spell_card_53","timeline_spell_card_53","timeline_spell_card_53",60],
-        ["timeline_spell_card_54","timeline_spell_card_54","timeline_spell_card_54","timeline_spell_card_54",60],
-        ["timeline_spell_card_55","timeline_spell_card_55","timeline_spell_card_55","timeline_spell_card_55",60]
+        ["timeline_spell_card_54","timeline_spell_card_54","timeline_spell_card_54","timeline_spell_card_54",60]
     ],
     "BOSS_YUUGIKU_EX" : [
         ["timeline_yuugiku_06","timeline_yuugiku_06","timeline_yuugiku_06","timeline_yuugiku_06",60],
-        ["timeline_spell_card_56","timeline_spell_card_56","timeline_spell_card_56","timeline_spell_card_56",70],
+        ["timeline_spell_card_55","timeline_spell_card_55","timeline_spell_card_55","timeline_spell_card_55",70],
         ["timeline_yuugiku_07","timeline_yuugiku_07","timeline_yuugiku_07","timeline_yuugiku_07",60],
-        ["timeline_spell_card_57","timeline_spell_card_57","timeline_spell_card_57","timeline_spell_card_57",70],
+        ["timeline_spell_card_56","timeline_spell_card_56","timeline_spell_card_56","timeline_spell_card_56",70],
         ["timeline_yuugiku_08","timeline_yuugiku_08","timeline_yuugiku_08","timeline_yuugiku_08",60],
-        ["timeline_spell_card_58","timeline_spell_card_58","timeline_spell_card_58","timeline_spell_card_58",70],
+        ["timeline_spell_card_57","timeline_spell_card_57","timeline_spell_card_57","timeline_spell_card_57",70],
         ["timeline_yuugiku_09","timeline_yuugiku_09","timeline_yuugiku_09","timeline_yuugiku_09",60],
-        ["timeline_spell_card_59","timeline_spell_card_59","timeline_spell_card_59","timeline_spell_card_59",70],
+        ["timeline_spell_card_58","timeline_spell_card_58","timeline_spell_card_58","timeline_spell_card_58",70],
         ["timeline_yuugiku_10","timeline_yuugiku_10","timeline_yuugiku_10","timeline_yuugiku_10",60],
-        ["timeline_spell_card_60","timeline_spell_card_60","timeline_spell_card_60","timeline_spell_card_60",70],
+        ["timeline_spell_card_59","timeline_spell_card_59","timeline_spell_card_59","timeline_spell_card_59",70],
         ["timeline_yuugiku_11","timeline_yuugiku_11","timeline_yuugiku_11","timeline_yuugiku_11",60],
-        ["timeline_spell_card_61","timeline_spell_card_61","timeline_spell_card_61","timeline_spell_card_61",70],
+        ["timeline_spell_card_60","timeline_spell_card_60","timeline_spell_card_60","timeline_spell_card_60",70],
         ["timeline_yuugiku_12","timeline_yuugiku_12","timeline_yuugiku_12","timeline_yuugiku_12",60],
-        ["timeline_spell_card_62","timeline_spell_card_62","timeline_spell_card_62","timeline_spell_card_62",70],
+        ["timeline_spell_card_61","timeline_spell_card_61","timeline_spell_card_61","timeline_spell_card_61",70],
         ["timeline_yuugiku_13","timeline_yuugiku_13","timeline_yuugiku_13","timeline_yuugiku_13",60],
-        ["timeline_spell_card_63","timeline_spell_card_63","timeline_spell_card_63","timeline_spell_card_63",70],
-        ["timeline_spell_card_64","timeline_spell_card_64","timeline_spell_card_64","timeline_spell_card_64",90]
+        ["timeline_spell_card_62","timeline_spell_card_62","timeline_spell_card_62","timeline_spell_card_62",70],
+        ["timeline_spell_card_63","timeline_spell_card_63","timeline_spell_card_63","timeline_spell_card_63",90]
     ]
 }
