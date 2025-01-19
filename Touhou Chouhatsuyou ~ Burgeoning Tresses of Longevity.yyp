@@ -323,6 +323,7 @@
     {"id":{"name":"spr_item","path":"sprites/spr_item/spr_item.yy",},},
     {"id":{"name":"spr_marisa_portrait","path":"sprites/spr_marisa_portrait/spr_marisa_portrait.yy",},},
     {"id":{"name":"spr_menu_cursor","path":"sprites/spr_menu_cursor/spr_menu_cursor.yy",},},
+    {"id":{"name":"spr_opening_eientei","path":"sprites/spr_opening_eientei/spr_opening_eientei.yy",},},
     {"id":{"name":"spr_opening_kaguya","path":"sprites/spr_opening_kaguya/spr_opening_kaguya.yy",},},
     {"id":{"name":"spr_opening_mabayu","path":"sprites/spr_opening_mabayu/spr_opening_mabayu.yy",},},
     {"id":{"name":"spr_opening_reimu","path":"sprites/spr_opening_reimu/spr_opening_reimu.yy",},},
