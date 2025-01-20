@@ -34,7 +34,7 @@ desc = [];
 array_copy(button,0,spell_names.boss_char,0,array_length(spell_names.boss_char));
 array_copy(desc,0,struct_data.statistics,0,array_length(struct_data.statistics));
 
-for(var i = 0; i < 16; i += 1) {
+for(var i = 0; i < 16; i++) {
 	scribble_object[i] = undefined;
 }
 shd = scribble_font_bake_shadow("font_ms_gothic","drp_shd",1,1,make_color_rgb(0,0,0),1,0,false);

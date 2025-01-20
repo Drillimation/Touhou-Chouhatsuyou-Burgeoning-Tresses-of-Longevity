@@ -9,7 +9,7 @@ text = txt[array_length(txt) - 1];
 typist = scribble_typist()
 	.in(0.5, 0);
 
-for(var i = 0; i < 16; i += 1) {
+for(var i = 0; i < 16; i++) {
 	scribble_object[i] = undefined;
 }
 shd = scribble_font_bake_shadow(font_get_name(global.font[1]),"drp_shd",1,1,make_color_rgb(0,0,0),1,0,false);
