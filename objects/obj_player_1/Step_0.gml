@@ -44,6 +44,11 @@ if keyboard_check_pressed(ord("X")) or gamepad_button_check_pressed(play_id,gp_f
 				case "SANAE": cut_in = spr_sanae_portrait; break;
 			}
 		}
+		if instance_exists(obj_spell_banner_enemy) {
+			with(obj_spell_banner_enemy) {
+				failed = true;
+			}
+		}
 	}
 	else {
 		audio_play_sound(snd_buzzer,10,false);

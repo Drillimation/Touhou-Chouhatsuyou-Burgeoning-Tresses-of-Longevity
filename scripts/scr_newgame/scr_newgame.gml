@@ -5,7 +5,7 @@ function scr_newgame(){
 		gamemode : 0,
 		point_item : 0,
 		cherry : 0,
-		cherry_max : 0,
+		cherry_max : 1500,
 		border : 0,
 		breezy_mode : 0,
 		freeplaymode : 0,
@@ -28,6 +28,7 @@ function scr_newgame(){
 		total_power_items : 0,
 		total_cherry_items : 0,
 		total_bombs_used: 0,
+		total_supernatural_borders: 0
 	}
 	global.player_stats[1] = {
 		character : "MARISA",
@@ -45,6 +46,7 @@ function scr_newgame(){
 		total_power_items : 0,
 		total_cherry_items : 0,
 		total_bombs_used: 0,
+		total_supernatural_borders: 0
 	}
 }
 
