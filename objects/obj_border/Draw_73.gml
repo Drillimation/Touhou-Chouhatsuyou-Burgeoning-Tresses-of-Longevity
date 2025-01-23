@@ -12,7 +12,7 @@ draw_text(view_xview + 640,view_yview + 344,"FPS: " + string(fps));
 
 draw_set_halign(fa_left);
 
-/*if room == room_arcade_title {
+if room == room_arcade_title {
 	scribble_object[0] = scribble(prompt[0])
 		.starting_format("drp_shd",make_color_rgb(255,255,255))
 		.align(fa_left,fa_top)
@@ -25,4 +25,4 @@ if instance_exists(obj_name_entry_p1) or instance_exists(obj_name_entry_p2) {
 		.align(fa_left,fa_top)
 		.wrap(640)
 		.draw(view_xview + 0,view_yview + 0)
-}*/
+}

@@ -9,6 +9,6 @@ if keyboard_check_pressed(vk_enter) or keyboard_check_pressed(ord("Z")) or gamep
 		case 2: global.player_stats[0].character = "AYA"; break;
 		case 3: global.player_stats[0].character = "SANAE"; break;
 	}
-	instance_create_depth(0,0,0,obj_select_character_2p)
+	instance_create_depth(0,0,0,obj_select_character_p2)
 	instance_destroy();
 }

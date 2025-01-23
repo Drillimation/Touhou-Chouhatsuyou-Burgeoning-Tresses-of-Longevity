@@ -7,6 +7,6 @@ if keyboard_check_pressed(vk_enter) or keyboard_check_pressed(ord("Z")) or gamep
 		case 0: global.global_stats.breezy_mode = 0; break;
 		case 1: global.global_stats.breezy_mode = 1; break;
 	}
-	instance_create_depth(0,0,0,obj_select_character_1p)
+	instance_create_depth(0,0,0,obj_select_character_p1)
 	instance_destroy();
 }

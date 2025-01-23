@@ -4,7 +4,7 @@ view_yview = camera_get_view_y(view_camera[0]);
 draw_sprite_stretched(spr_textbox,0,view_xview + 0,view_yview + 208,256,64)
 
 scribble_object[0] = scribble(prompt)
-	.starting_format(font_get_name("drp_shd"),make_color_rgb(255,255,255))
+	.starting_format("drp_shd",make_color_rgb(255,255,255))
 	.wrap(240)
 	.line_spacing(16)
 	.draw(view_xview + 8, view_yview + 216)

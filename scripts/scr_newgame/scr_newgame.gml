@@ -57,7 +57,7 @@ function scr_newgame_ext(){
 		gamemode : 0,
 		point_item : 0,
 		cherry : 0,
-		cherry_max : 0,
+		cherry_max : 1500,
 		border : 0,
 		breezy_mode : 0,
 		freeplaymode : 0,

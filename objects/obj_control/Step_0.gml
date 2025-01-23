@@ -1,4 +1,4 @@
-if keyboard_check_pressed(vk_tab) or gamepad_button_check_pressed(0,gp_select) {
+if keyboard_check_pressed(vk_f1) or gamepad_button_check_pressed(0,gp_select) {
 	audio_play_sound(snd_credit,10,false);
 	global.credits += 1;
 
@@ -16,8 +16,11 @@ if keyboard_check_pressed(vk_tab) or gamepad_button_check_pressed(0,gp_select) {
 	}
 }
 
+view_xview = camera_get_view_x(view_camera[0]);
+view_yview = camera_get_view_y(view_camera[0]);
+
 //Joining and continuing
-if array_contains(pausable_room_list,room_get_name(room)) {
+if array_contains(pausable_room_list,room_get_name(room)) or global.global_stats.canjoin == 1 {
 	if global.credits >= 1 {
 		if keyboard_check_pressed(vk_enter) or keyboard_check_pressed(ord("Z")) or gamepad_button_check_pressed(0,gp_face1) or gamepad_button_check_pressed(0,gp_start) {
 			if global.player_stats[0].player_active == 0 {
