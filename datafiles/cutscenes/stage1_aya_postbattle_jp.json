@@ -1,0 +1,27 @@
+{
+    "char_info" : {
+        "char_name" : "雷マユ",
+        "char_desc" : "髪の伸ばしが終わらない植物"
+    },
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",8],
+            "speaker" : "アヤ：",
+            "dialogue" : "愚かな変異体だ。まだ、これに治しを見つけるつもり。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",9],
+            "speaker" : "マユ：",
+            "dialogue" : "永遠亭では成功しないでしょうね…"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_mayu_portrait",9],
+            "speaker" : "アヤ：",
+            "dialogue" : "ここが始まったのか？対戦中に撮った写真以外にも、もっと良い写真を取るのが待ちきれないわ。",
+            "funct" : ["scr_cutscene_stage_clear"]
+        }
+    ]
+}

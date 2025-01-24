@@ -1,0 +1,116 @@
+{
+    "char_info" : {
+        "char_name" : "Mayu Ikazuchi",
+        "char_desc" : "The Plant Whose Hair Never Stops Growing"
+    },
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "speaker" : "Aya:",
+            "dialogue" : "What has happened here? Did an experiment by a youkai-born go disastrously wrong or something?"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "speaker" : "Aya:",
+            "dialogue" : "It left my hair excessively long. It's unpleasant and I'm not the tengu everybody knows."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "speaker" : "Aya:",
+            "dialogue" : "It's impossible to cut it off. Where can I find a cure for this?"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "speaker" : "???:",
+            "dialogue" : "There is no cure for whatever you're talking about.",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_mayu_portrait",0],
+            "speaker" : "???:",
+            "dialogue" : "If you try finding one, you'll give up before you even try."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",0],
+            "speaker" : "Aya:",
+            "dialogue" : "Give up? This long hair thing is totally unacceptable."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",0],
+            "speaker" : "Aya:",
+            "dialogue" : "I look like a freak who just crawled out of the remains of Chernobyl."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",0],
+            "speaker" : "Aya:",
+            "dialogue" : "I shall not be this way!",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",3],
+            "speaker" : "Mayu:",
+            "dialogue" : "But you need to be like this. Hair is the essence of beauty."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_mayu_portrait",3],
+            "speaker" : "Aya:",
+            "dialogue" : "My dog is growling at me. How can I live in this godawful condition?"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_mayu_portrait",4],
+            "speaker" : "Mayu:",
+            "dialogue" : "There are no problems to worry about."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_mayu_portrait",4],
+            "speaker" : "Aya:",
+            "dialogue" : "Every man I try to talk to flees in terror when they see me."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_mayu_portrait",4],
+            "speaker" : "Mayu:",
+            "dialogue" : "Are those humanoid men?"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_mayu_portrait",4],
+            "speaker" : "Aya:",
+            "dialogue" : "I write for The Daily Bunbunmaru.",
+            "funct" : ["scr_cutscene_change_bgm",2]
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",4],
+            "speaker" : "Aya:",
+            "dialogue" : "I'm not hostile to humanoids, but listen to me, you person with overgrown hair!"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",3],
+            "speaker" : "Mayu:",
+            "dialogue" : "My overgrown hair has made me beautiful. No need for insults!"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",3],
+            "speaker" : "Aya:",
+            "dialogue" : "Even if you're beautiful now, Queen Marisa or Yukari will still beat you. Mind if I do it to you?"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",3],
+            "speaker" : "Mayu:",
+            "dialogue" : "Battling me won't make any difference, even if you make my hair fall out!",
+            "funct" : ["scr_cutscene_start_boss","obj_mayu_true"]
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "char_info" : {
+        "char_name" : "Mayu Ikazuchi",
+        "char_desc" : "The Plant Whose Hair Never Stops Growing"
+    },
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_reimu_portrait",1],
+            "right_portrait" : ["spr_mayu_portrait",8],
+            "speaker" : "Mayu:",
+            "dialogue" : "Even if you made most of my hair fall out, watch what happens!"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",9],
+            "speaker" : "Mayu:",
+            "dialogue" : "I'm beautiful once again!"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",9],
+            "speaker" : "Reimu:",
+            "dialogue" : "Yeah. I tried to cut it only for it to grow back within seconds."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",9],
+            "speaker" : "Mayu:",
+            "dialogue" : "I'll leave you alone, but good luck trying to find the spell's origin!",
+            "funct" : ["scr_cutscene_stage_clear"]
+        }
+    ]
+}

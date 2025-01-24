@@ -1,0 +1,94 @@
+{
+    "char_info" : {
+        "char_name" : "Mayu Ikazuchi",
+        "char_desc" : "The Plant Whose Hair Never Stops Growing"
+    },
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "speaker" : "Reimu:",
+            "dialogue" : "This long hair effect is annoying. I need to solve this incident before I make any cuts or trimmings permanent."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "speaker" : " ",
+            "dialogue" : "All attempts you make will fail. This spell you're under affects more than just the hair on your scalp.",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",0],
+            "speaker" : "???:",
+            "dialogue" : "You don't seem to understand how this spell happens to affect all women in Gensokyo."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_mayu_portrait",0],
+            "speaker" : "Reimu:",
+            "dialogue" : "It doesn't seem to make any sense."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_mayu_portrait",0],
+            "speaker" : "???:",
+            "dialogue" : "You will never break this spell."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",0],
+            "speaker" : "Reimu:",
+            "dialogue" : "I must find some way to rid myself of this absurd hairstyle."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",0],
+            "speaker" : "Reimu:",
+            "dialogue" : "I don't intend to spend a lot of time looking like a girl grabbing the eyes of boys."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",0],
+            "speaker" : "Reimu:",
+            "dialogue" : "I also have no intent on becoming a long-hair model."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",0],
+            "speaker" : "Reimu:",
+            "dialogue" : "I will not be resting until this problem is resolved. Do you know anything about this spell?",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",4],
+            "speaker" : "Mayu:",
+            "dialogue" : "I might know a word or two, but you seem to resolve all incidents."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",4],
+            "speaker" : "Mayu:",
+            "dialogue" : "You're the shrine maiden of the Hakurei Shrine after all.",
+            "funct" : ["scr_cutscene_change_bgm",2]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",0],
+            "speaker" : "Reimu:",
+            "dialogue" : "I know that, but I won't be defeated by this. I will end this spell."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",3],
+            "speaker" : "Mayu:",
+            "dialogue" : "Say what? This spell is the fertilizer that makes hair feel like grass!"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",3],
+            "speaker" : "Mayu:",
+            "dialogue" : "You want to try damaging my hair? Go ahead!",
+            "funct" : ["scr_cutscene_start_boss","obj_mayu_true"]
+        }
+    ]
+}

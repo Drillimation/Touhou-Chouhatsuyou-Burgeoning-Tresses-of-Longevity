@@ -1,0 +1,94 @@
+{
+    "char_info" : {
+        "char_name" : "雷マユ",
+        "char_desc" : "髪の伸ばしが終わらない植物"
+    },
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "speaker" : "レイム：",
+            "dialogue" : "この長髪効果はうるさい。切りが永続なる前にこの異変を解決する必要。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "speaker" : " ",
+            "dialogue" : "すべての試みが失敗するわ。お前の髪だけに影響を与えるわけじゃん。",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",0],
+            "speaker" : "？？？：",
+            "dialogue" : "この呪文がすべての幻想郷の女性に影響を理解してないね。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_mayu_portrait",0],
+            "speaker" : "レイム：",
+            "dialogue" : "意味をなさないの…"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_mayu_portrait",0],
+            "speaker" : "？？？：",
+            "dialogue" : "この呪文を壊さないのよ。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",0],
+            "speaker" : "レイム：",
+            "dialogue" : "この不条理な髪型を削除し方を学ばなきゃ。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",0],
+            "speaker" : "レイム：",
+            "dialogue" : "少年たちの着目が欲しい少女みたいになりたくない。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",0],
+            "speaker" : "レイム：",
+            "dialogue" : "私も長髪モデルならないのよ！"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",0],
+            "speaker" : "レイム：",
+            "dialogue" : "この問題を直すまで眠らないわ。この呪文について何かを知るのか？",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",4],
+            "speaker" : "マユ：",
+            "dialogue" : "一つか２つかの単語を知るかも。すべての異変を解決するようだけど。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",4],
+            "speaker" : "マユ：",
+            "dialogue" : "やっぱり博麗神社の巫女さんよ。",
+            "funct" : ["scr_cutscene_change_bgm",2]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",0],
+            "speaker" : "レイム：",
+            "dialogue" : "わかるけど、これで倒さないの。この呪文を終わろ。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",3],
+            "speaker" : "マユ：",
+            "dialogue" : "何だって？この呪文は髪を草のように見える肥料！"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",3],
+            "speaker" : "マユ：",
+            "dialogue" : "髪型にダメージを与えてみるのか？どうぞ！",
+            "funct" : ["scr_cutscene_start_boss","obj_mayu_true"]
+        }
+    ]
+}

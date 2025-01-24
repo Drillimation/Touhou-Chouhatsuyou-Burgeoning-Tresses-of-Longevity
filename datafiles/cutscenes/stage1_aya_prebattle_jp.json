@@ -1,0 +1,116 @@
+{
+    "char_info" : {
+        "char_name" : "雷マユ",
+        "char_desc" : "髪の伸ばしが終わらない植物"
+    },
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "speaker" : "アヤ：",
+            "dialogue" : "私に何が起こったのか？妖怪人の実験が悲惨な失敗に終わった？"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "speaker" : "アヤ：",
+            "dialogue" : "髪が長すぎるんだ！不快であり、皆さんが知る天狗じゃない。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "speaker" : "アヤ：",
+            "dialogue" : "切れないわ。これに治しはどこ？"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "speaker" : "？？？：",
+            "dialogue" : "何を言っても、治しがないよ。",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_mayu_portrait",0],
+            "speaker" : "？？？：",
+            "dialogue" : "見つけようとすれば、諦めるでしょ。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",0],
+            "speaker" : "アヤ：",
+            "dialogue" : "諦め？この長髪のもんは全く受け入れられない。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",0],
+            "speaker" : "アヤ：",
+            "dialogue" : "チェルノブイリの残りから這った変人のように。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",0],
+            "speaker" : "アヤ：",
+            "dialogue" : "こうはならないわよ！",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",3],
+            "speaker" : "マユ：",
+            "dialogue" : "このように見える必要だけど。髪は美しさの本質。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_mayu_portrait",3],
+            "speaker" : "アヤ：",
+            "dialogue" : "犬は私に唸り声を。どうやってこのひどい状態で生きればいいのか？"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_mayu_portrait",4],
+            "speaker" : "マユ：",
+            "dialogue" : "心配できる問題がない。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_mayu_portrait",4],
+            "speaker" : "アヤ：",
+            "dialogue" : "私がすべての男性と話そうとすれば恐怖で逃げる。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_mayu_portrait",4],
+            "speaker" : "マユ：",
+            "dialogue" : "人間の男性なのか？"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_mayu_portrait",4],
+            "speaker" : "アヤ：",
+            "dialogue" : "ブンブン丸新聞に記事を書いているのだ。",
+            "funct" : ["scr_cutscene_change_bgm",2]
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",4],
+            "speaker" : "アヤ：",
+            "dialogue" : "人間に対して敵対的じゃないが、生い茂った髪で貴様、私に聞いて。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",3],
+            "speaker" : "マユ：",
+            "dialogue" : "生い茂った髪は私を美しくにした。侮辱が必要ないよ！"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",3],
+            "speaker" : "アヤ：",
+            "dialogue" : "今美しくても、マリサ女王かユカリ女王があなたかをまだ倒す…あなたを戦ってもいい？"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",3],
+            "speaker" : "マユ：",
+            "dialogue" : "髪の毛が抜けても…戦ってるのは何も変わらない。",
+            "funct" : ["scr_cutscene_start_boss","obj_mayu_true"]
+        }
+    ]
+}

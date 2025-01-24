@@ -1,0 +1,127 @@
+{
+    "char_info" : {
+        "char_name" : "Mayu Ikazuchi",
+        "char_desc" : "The Plant Whose Hair Never Stops Growing"
+    },
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "speaker" : "Sanae:",
+            "dialogue" : "When I first saw this, I thought somebody had put me under a curse."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "speaker" : "Sanae:",
+            "dialogue" : "It wasn't until I saw that Kanako and Suwako were both affected as well!"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",7],
+            "speaker" : "Sanae:",
+            "dialogue" : "Has practically everyone in Gensokyo been affected?"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",6],
+            "speaker" : "???:",
+            "dialogue" : "Yes. Everyone has changed form. Also, any hair ornaments you are used to wearing are affected.",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",0],
+            "speaker" : "Sanae:",
+            "dialogue" : "Is there someone who can remedy this?"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",6],
+            "right_portrait" : ["spr_mayu_portrait",0],
+            "speaker" : "???:",
+            "dialogue" : "You appear to be the Wind Priestess of the Moriya Shrine. You're simply out of luck."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",6],
+            "right_portrait" : ["spr_mayu_portrait",0],
+            "speaker" : "???:",
+            "dialogue" : "You can't cut it as it will simply grow back."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",7],
+            "right_portrait" : ["spr_mayu_portrait",0],
+            "speaker" : "Sanae:",
+            "dialogue" : "That's what I tried to do. It just grew back as you mentioned."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",7],
+            "right_portrait" : ["spr_mayu_portrait",0],
+            "speaker" : "Sanae:",
+            "dialogue" : "I don't want the Moriya Shrine to have piles of cut hair.",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",7],
+            "right_portrait" : ["spr_mayu_portrait",4],
+            "speaker" : "Mayu:",
+            "dialogue" : "All women in Gensokyo now have floor-length hair that will never stop growing."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",4],
+            "speaker" : "Sanae:",
+            "dialogue" : "This is a disaster. I look like a complete freak."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",4],
+            "speaker" : "Mayu:",
+            "dialogue" : "Long-haired women aren't freaks."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",4],
+            "speaker" : "Sanae:",
+            "dialogue" : "I have no doubt someone is to blame for this situation. My poor beautiful hair."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",3],
+            "speaker" : "Mayu:",
+            "dialogue" : "Did you look beautiful before it began?"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",7],
+            "right_portrait" : ["spr_mayu_portrait",3],
+            "speaker" : "Sanae:",
+            "dialogue" : "Yes, but I demand a solution be found for this ugly problem."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",7],
+            "right_portrait" : ["spr_mayu_portrait",3],
+            "speaker" : "Sanae:",
+            "dialogue" : "How can I bless or sanctify my people at my shrine like this?"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",7],
+            "right_portrait" : ["spr_mayu_portrait",3],
+            "speaker" : "Mayu:",
+            "dialogue" : "You're getting out of hand. You look fine.",
+            "funct" : ["scr_cutscene_change_bgm",2]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",3],
+            "speaker" : "Sanae:",
+            "dialogue" : "Look at yourself in a mirror. You're just a freak like me."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",4],
+            "speaker" : "Mayu:",
+            "dialogue" : "I can now have a larger bun with this hair."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",4],
+            "speaker" : "Sanae:",
+            "dialogue" : "I'm pleased that you're a happy girl looking like an alien from space. Let me see if I can make you bald!",
+            "funct" : ["scr_cutscene_start_boss","obj_mayu_true"]
+        }
+    ]
+}

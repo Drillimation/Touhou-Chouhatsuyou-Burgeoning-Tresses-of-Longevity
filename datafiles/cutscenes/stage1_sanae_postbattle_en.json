@@ -1,0 +1,32 @@
+{
+    "char_info" : {
+        "char_name" : "Mayu Ikazuchi",
+        "char_desc" : "The Plant Whose Hair Never Stops Growing"
+    },
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",8],
+            "speaker" : "Sanae:",
+            "dialogue" : "There you go. I ruined your hair. How do you like it?"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",8],
+            "speaker" : "Mayu:",
+            "dialogue" : "I might have a pixie cut, but..."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",9],
+            "speaker" : "Mayu:",
+            "dialogue" : "My hair is back. I'll have to redo my hair though."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",9],
+            "speaker" : "Sanae:",
+            "dialogue" : "I'm out of here. I heard this may have started in the Palace of Eternity..."
+        }
+    ]
+}

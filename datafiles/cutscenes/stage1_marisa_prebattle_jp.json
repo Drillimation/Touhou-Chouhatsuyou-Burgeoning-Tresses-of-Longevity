@@ -1,0 +1,83 @@
+{
+    "char_info" : {
+        "char_name" : "雷マユ",
+        "char_desc" : "髪の伸ばしが終わらない植物"
+    },
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_marisa_portrait",3],
+            "speaker" : "マリサ：",
+            "dialogue" : "超ロングヘアは女王にぴったりだとしても、なんでレイムは私のように見える？",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",3],
+            "right_portrait" : ["spr_mayu_portrait",0],
+            "speaker" : "？？？：",
+            "dialogue" : "今、この長い髪で踊れる。こんなに印象的だったことはない。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",0],
+            "right_portrait" : ["spr_mayu_portrait",0],
+            "speaker" : "マリサ：",
+            "dialogue" : "じゃ、どうしたの？"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",0],
+            "right_portrait" : ["spr_mayu_portrait",0],
+            "speaker" : "？？？：",
+            "dialogue" : "あなたを含め幻想郷の皆さんはこの呪文で影響を与えた。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",0],
+            "right_portrait" : ["spr_mayu_portrait",0],
+            "speaker" : "マリサ：",
+            "dialogue" : "で、皆さんの髪は床まで伸びた？この呪文を無効化する方法があるのか？",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",0],
+            "right_portrait" : ["spr_mayu_portrait",4],
+            "speaker" : "マユ：",
+            "dialogue" : "女王陛下、この呪文を無効化する方法がないわ。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",3],
+            "right_portrait" : ["spr_mayu_portrait",4],
+            "speaker" : "マリサ：",
+            "dialogue" : "呪文が施行された前に、夫を結婚するために髪を伸ばした。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",3],
+            "right_portrait" : ["spr_mayu_portrait",4],
+            "speaker" : "マリサ：",
+            "dialogue" : "ユカリ女王様の美しさを追い越したかったし。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",3],
+            "right_portrait" : ["spr_mayu_portrait",4],
+            "speaker" : "マリサ：",
+            "dialogue" : "切れば、鉱山京の人々は私を認識しないよ。",
+            "funct" : ["scr_cutscene_change_bgm",2]
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",0],
+            "right_portrait" : ["spr_mayu_portrait",0],
+            "speaker" : "マユ：",
+            "dialogue" : "この呪文から逃げれないわ。切れば、また伸ばられる。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",4],
+            "right_portrait" : ["spr_mayu_portrait",0],
+            "speaker" : "マリサ：",
+            "dialogue" : "戦闘は？"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",4],
+            "right_portrait" : ["spr_mayu_portrait",0],
+            "speaker" : "マユ：",
+            "dialogue" : "じゃ、がんばれ。戦闘中に失う髪も同じ。戦ってみて。",
+            "funct" : ["scr_cutscene_start_boss","obj_mayu_true"]
+        }
+    ]
+}

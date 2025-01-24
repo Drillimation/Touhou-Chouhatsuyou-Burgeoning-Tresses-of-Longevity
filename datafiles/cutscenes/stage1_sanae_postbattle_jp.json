@@ -1,0 +1,32 @@
+{
+    "char_info" : {
+        "char_name" : "雷マユ",
+        "char_desc" : "髪の伸ばしが終わらない植物"
+    },
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",8],
+            "speaker" : "サナエ：",
+            "dialogue" : "ほら、髪を台無しにした。いかがなの？"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",8],
+            "speaker" : "マユ：",
+            "dialogue" : "ピクシーカットが持ってるかも、"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",9],
+            "speaker" : "マユ：",
+            "dialogue" : "髪型が戻ってきたけど！私も直す必要。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",9],
+            "speaker" : "サナエ：",
+            "dialogue" : "行ってくる。これは永遠亭で始めたと思うわ…"
+        }
+    ]
+}

@@ -1,0 +1,127 @@
+{
+    "char_info" : {
+        "char_name" : "雷マユ",
+        "char_desc" : "髪の伸ばしが終わらない植物"
+    },
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "speaker" : "サナエ：",
+            "dialogue" : "これを見たときは、誰かが呪を私に置きたと思ったし。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "speaker" : "サナエ：",
+            "dialogue" : "カナコ様とスワコ様も影響を与えたまで…"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",7],
+            "speaker" : "サナエ：",
+            "dialogue" : "幻想郷に皆さんは影響を与えたのか？"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",6],
+            "speaker" : "？？？：",
+            "dialogue" : "はい。皆さんが変えった。被っている髪飾りも影響を与えたよ。",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",0],
+            "speaker" : "サナエ：",
+            "dialogue" : "これを治せる誰かなのか？"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",6],
+            "right_portrait" : ["spr_mayu_portrait",0],
+            "speaker" : "？？？：",
+            "dialogue" : "守矢神社の風祝と思うね。簡単に運が悪い。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",6],
+            "right_portrait" : ["spr_mayu_portrait",0],
+            "speaker" : "？？？：",
+            "dialogue" : "髪が伸ばし続けるので、切れないわよ。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",7],
+            "right_portrait" : ["spr_mayu_portrait",0],
+            "speaker" : "サナエ：",
+            "dialogue" : "それはやろうとしたもの。今言ったように再び伸びた。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",7],
+            "right_portrait" : ["spr_mayu_portrait",0],
+            "speaker" : "サナエ：",
+            "dialogue" : "守矢神社が切った髪の山が持って欲しくないのよ。",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",7],
+            "right_portrait" : ["spr_mayu_portrait",4],
+            "speaker" : "マユ：",
+            "dialogue" : "今すべての幻想郷の女性たちは伸ばしを止めない髪が持つ。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",4],
+            "speaker" : "サナエ：",
+            "dialogue" : "これが災害。今完全な変人に似てるの。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",4],
+            "speaker" : "マユ：",
+            "dialogue" : "長い髪で女性は変人じゃん。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",4],
+            "speaker" : "サナエ：",
+            "dialogue" : "この状況に誰かのせいかを知らないわよ。かわいそうな美しい髪型…"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",3],
+            "speaker" : "マユ：",
+            "dialogue" : "香りが始めた前に美しそうだったの？"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",7],
+            "right_portrait" : ["spr_mayu_portrait",3],
+            "speaker" : "サナエ：",
+            "dialogue" : "はい、この醜い問題に解決が見つかるのを要求するけど。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",7],
+            "right_portrait" : ["spr_mayu_portrait",3],
+            "speaker" : "サナエ：",
+            "dialogue" : "この外観で、どうすれば神社で人々を祝福したり聖別したりできる？"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",7],
+            "right_portrait" : ["spr_mayu_portrait",3],
+            "speaker" : "マユ：",
+            "dialogue" : "物事は手に負えなくなってる。元気そう。",
+            "funct" : ["scr_cutscene_change_bgm",2]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",3],
+            "speaker" : "サナエ：",
+            "dialogue" : "自分を鏡に見ろ。私のように変人。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",4],
+            "speaker" : "マユ：",
+            "dialogue" : "今この髪型でより大きなお団子が持つよ。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mayu_portrait",4],
+            "speaker" : "サナエ：",
+            "dialogue" : "宇宙から宇宙人のように見える嬉しい少女かと思うのか？禿げた変人に変えられるか試してみるよ！",
+            "funct" : ["scr_cutscene_start_boss","obj_mayu_true"]
+        }
+    ]
+}

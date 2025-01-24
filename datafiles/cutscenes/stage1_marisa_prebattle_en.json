@@ -1,0 +1,83 @@
+{
+    "char_info" : {
+        "char_name" : "Mayu Ikazuchi",
+        "char_desc" : "The Plant Whose Hair Never Stops Growing"
+    },
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_marisa_portrait",3],
+            "speaker" : "Marisa:",
+            "dialogue" : "Even though very long hair is perfect for a queen, how come Reimu ended up looking like me?",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",3],
+            "right_portrait" : ["spr_mayu_portrait",0],
+            "speaker" : "???:",
+            "dialogue" : "I can now dance with this very long hair. Never before have I looked so impressive."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",0],
+            "right_portrait" : ["spr_mayu_portrait",0],
+            "speaker" : "Marisa:",
+            "dialogue" : "So, what's going on?"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",0],
+            "right_portrait" : ["spr_mayu_portrait",0],
+            "speaker" : "???:",
+            "dialogue" : "Everyone in Gensokyo including you is affected by this enchantment."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",0],
+            "right_portrait" : ["spr_mayu_portrait",0],
+            "speaker" : "Marisa:",
+            "dialogue" : "So, everyone's hair is now floor-length? Is there a way to deactivate this enchantment?",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",0],
+            "right_portrait" : ["spr_mayu_portrait",4],
+            "speaker" : "Mayu:",
+            "dialogue" : "My Majesty, there is currently no way to deactivate this enchantment."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",3],
+            "right_portrait" : ["spr_mayu_portrait",4],
+            "speaker" : "Marisa:",
+            "dialogue" : "Before the enchantment went into effect, I grew my hair out to marry my husband."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",3],
+            "right_portrait" : ["spr_mayu_portrait",4],
+            "speaker" : "Marisa:",
+            "dialogue" : "I did this to beat Queen Yukari in terms of beauty."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",3],
+            "right_portrait" : ["spr_mayu_portrait",4],
+            "speaker" : "Marisa:",
+            "dialogue" : "I have no intent on cutting it because the people of Kozankyo won't see me as Queen Marisa.",
+            "funct" : ["scr_cutscene_change_bgm",2]
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",0],
+            "right_portrait" : ["spr_mayu_portrait",0],
+            "speaker" : "Mayu:",
+            "dialogue" : "There's no way to get out of this enchantment because it will grow back if you cut it."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",4],
+            "right_portrait" : ["spr_mayu_portrait",0],
+            "speaker" : "Marisa:",
+            "dialogue" : "What about combat?"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",4],
+            "right_portrait" : ["spr_mayu_portrait",0],
+            "speaker" : "Mayu:",
+            "dialogue" : "Well, good luck. Same thing goes for any hair lost during combat. Try for yourself!",
+            "funct" : ["scr_cutscene_start_boss","obj_mayu_true"]
+        }
+    ]
+}

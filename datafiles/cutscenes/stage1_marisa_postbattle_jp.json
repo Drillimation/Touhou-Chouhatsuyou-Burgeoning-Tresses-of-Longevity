@@ -1,0 +1,45 @@
+{
+    "char_info" : {
+        "char_name" : "雷マユ",
+        "char_desc" : "髪の伸ばしが終わらない植物"
+    },
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_marisa_portrait",3],
+            "right_portrait" : ["spr_mayu_portrait",8],
+            "speaker" : "マリサ：",
+            "dialogue" : "あなたを倒したので、何は起こるのか？"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",3],
+            "right_portrait" : ["spr_mayu_portrait",9],
+            "speaker" : "マユ：",
+            "dialogue" : "髪がまた伸ばした。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",4],
+            "right_portrait" : ["spr_mayu_portrait",9],
+            "speaker" : "マリサ：",
+            "dialogue" : "頭皮に肥料が多くのを植えた？"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",4],
+            "right_portrait" : ["spr_mayu_portrait",9],
+            "speaker" : "マユ：",
+            "dialogue" : "いいえ、呪文は肥料。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",1],
+            "right_portrait" : ["spr_mayu_portrait",9],
+            "speaker" : "マリサ：",
+            "dialogue" : "誰かがこれを永遠亭で始まったと聞いた。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",1],
+            "right_portrait" : ["spr_mayu_portrait",9],
+            "speaker" : "マリサ：",
+            "dialogue" : "カグヤ皇后に訪問をするかも…",
+            "funct" : ["scr_cutscene_stage_clear"]
+        }
+    ]
+}

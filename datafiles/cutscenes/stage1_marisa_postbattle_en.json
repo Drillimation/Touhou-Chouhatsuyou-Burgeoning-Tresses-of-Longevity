@@ -1,0 +1,45 @@
+{
+    "char_info" : {
+        "char_name" : "Mayu Ikazuchi",
+        "char_desc" : "The Plant Whose Hair Never Stops Growing"
+    },
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_marisa_portrait",3],
+            "right_portrait" : ["spr_mayu_portrait",8],
+            "speaker" : "Marisa:",
+            "dialogue" : "I've defeated you. So, what's going to happen?"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",3],
+            "right_portrait" : ["spr_mayu_portrait",9],
+            "speaker" : "Mayu:",
+            "dialogue" : "My hair has grown back."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",4],
+            "right_portrait" : ["spr_mayu_portrait",9],
+            "speaker" : "Marisa:",
+            "dialogue" : "So, you planted a bunch of fertilizer on your scalp?"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",4],
+            "right_portrait" : ["spr_mayu_portrait",9],
+            "speaker" : "Mayu:",
+            "dialogue" : "No, the enchantment is the fertilizer."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",1],
+            "right_portrait" : ["spr_mayu_portrait",9],
+            "speaker" : "Marisa:",
+            "dialogue" : "I've heard somebody kickstarted this at the Palace of Eternity."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",1],
+            "right_portrait" : ["spr_mayu_portrait",9],
+            "speaker" : "Marisa:",
+            "dialogue" : "I'm guessing it's time to pay a visit to Empress Kaguya...",
+            "funct" : ["scr_cutscene_stage_clear"]
+        }
+    ]
+}
