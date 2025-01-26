@@ -1,4 +1,8 @@
 {
+    "BOSS_TEST" : [
+        ["timeline_basic_attack","timeline_basic_attack","timeline_basic_attack","timeline_basic_attack",30],
+        ["timeline_basic_attack","timeline_basic_attack","timeline_basic_attack","timeline_basic_attack",30]
+    ],
     "BOSS_MAYU_MID" : [
         ["timeline_mayu_01","timeline_mayu_01","timeline_mayu_01","timeline_mayu_01",30],
         ["timeline_spell_card_01","timeline_spell_card_01","timeline_spell_card_02","timeline_spell_card_02",40]
