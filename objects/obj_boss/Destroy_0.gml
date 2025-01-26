@@ -37,13 +37,41 @@ if hp <= 0 {
 		instance_destroy();
 	}
 }
+switch(boss_type) {
+	case 0:
+		view_xview = camera_get_view_x(view_camera[0]);
+		view_yview = camera_get_view_y(view_camera[0]);
+		var cam = instance_create_layer(view_xview + 128,view_yview + 144,"Instances",obj_camera)
+		with(cam) {
+			stage_speed = 0.5;
+			end_path_function = "BOSS_CUTSCENE";
+			midboss = obj_enemy;
+			midboss_sprite = spr_mayu;
+		}
+		break;
+	case 1:
+		var postbattle_cutscene = instance_create_depth(0,0,0,obj_dialogue);
+		with(postbattle_cutscene) {
+			struct_data = scr_json_load_file("cutscenes/stage" + string(global.global_stats.stage) + "_" + string(_char) + "postbattle" + string(global.suf) + ".json","struct_data",false);
+			t_scene_info = [];
+			array_copy(t_scene_info,0,struct_data.t_scene_info,0,array_length(struct_data.t_scene_info));
 
-view_xview = camera_get_view_x(view_camera[0]);
-view_yview = camera_get_view_y(view_camera[0]);
-var cam = instance_create_layer(view_xview + 128,view_yview + 144,"Instances",obj_camera)
-with(cam) {
-	stage_speed = 0.5;
-	end_path_function = "BOSS_CUTSCENE";
-	midboss = obj_enemy;
-	midboss_sprite = spr_mayu;
+			boss_name = string(struct_data.char_info.char_name) + "\n" + string(struct_data.char_info.char_desc);	
+			boss_sprite = asset_get_index(struct_data.boss_sprite);
+		}
+		break;
+	case 2:
+		var midbattle_cutscene = instance_create_depth(0,0,0,obj_dialogue);
+		with(midbattle_cutscene) {
+			struct_data = scr_json_load_file("cutscenes/stage" + string(global.global_stats.stage) + "_" + string(_char) + "prebattle" + string(global.suf) + ".json","struct_data",false);
+			t_scene_info = [];
+			array_copy(t_scene_info,0,struct_data.t_scene_info,0,array_length(struct_data.t_scene_info));
+
+			boss_name = string(struct_data.char_info.char_name) + "\n" + string(struct_data.char_info.char_desc);	
+			boss_sprite = asset_get_index(struct_data.boss_sprite);
+		}
+		break;
+	case 3:
+		instance_create_depth(0,0,0,obj_final_defeat);
+		break;
 }

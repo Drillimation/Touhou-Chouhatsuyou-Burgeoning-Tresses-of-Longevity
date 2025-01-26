@@ -3,7 +3,9 @@ entered = false;
 enemy_id = 0;
 _t = 0;
 boss_id = 0;
+boss_type = 0;
 _bar = spr_boss_health_2;
+drop_items_after_death = true;
 
 struct_data[0] = scr_json_load_file("main/boss_attack_layouts.json","struct_data",false);
 attack = array_reverse(struct_data[0].BOSS_TEST)
@@ -23,3 +25,7 @@ y_pos = y - view_yview;
 
 struct_data[1] = scr_json_load_file("main/spell_cards" + string(global.suf) + ".json","struct_data",false);
 txt = struct_get(struct_data[1].boss_names,"BOSS_MAYU");
+
+_v = 0;
+face = 0;
+image_speed = 0;

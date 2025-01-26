@@ -81,3 +81,12 @@ if can_attack == true {
 		alarm[0] = 5;
 	}
 }
+
+_v += 1
+_v = _v mod 19
+if _v == 0 {
+	image_index = (face * 4)
+}
+else {
+	image_index = (face * 4) + floor( _v / 5);
+}
