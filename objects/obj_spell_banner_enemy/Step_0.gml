@@ -9,5 +9,5 @@ if opac <= 0.99 {
 }
 
 if instance_exists(boss_id) {
-	spell_bonus = round((global.stage * 1000) + ((boss_id.timer) * 100))
+	spell_bonus = round((global.global_stats.stage * 1000) + ((boss_id.timer) * 100))
 }

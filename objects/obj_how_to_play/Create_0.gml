@@ -1,3 +1,4 @@
+audio_stop_sound(global.bgm);
 _sequence = layer_sequence_create("Instances",0,0,sequence_tutorial);
 
 struct_data = scr_json_load_file("main/setup" + string(global.suf) + ".json","struct_data",false);

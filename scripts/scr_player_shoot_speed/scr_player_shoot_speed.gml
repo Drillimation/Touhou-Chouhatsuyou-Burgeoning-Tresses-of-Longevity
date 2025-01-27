@@ -20,12 +20,12 @@ function scr_player_shoot_speed(){
 		switch(global.player_stats[play_id].character) {
 			case "REIMU":
 				for (var i = 0; i < (floor(global.player_stats[play_id].pow / 25) + 1); i += 1) {
-						scr_shoot_bullet_player(4,(90 + (twist * sm_nrm)) - (i * nrm),spr_reimu_shot,0,0,0,false,snd_shoot,play_id,scr_danmaku_reimu_aim,[256]);
+						scr_shoot_bullet_player(4,(90 + (twist * sm_nrm)) - (i * nrm),spr_reimu_shot,0,0,0,false,snd_shoot,play_id);
 				}
 				break;
 			case "MARISA":
 				for (var i = 0; i < (floor(global.player_stats[play_id].pow / 25) + 1); i += 1) {
-						scr_shoot_bullet_player(4,(90 + (twist * sm_nrm)) - (i * nrm),spr_marisa_shot,0,0,0,false,snd_shoot,play_id,scr_danmaku_marisa_laser,[0,18]);
+						scr_shoot_bullet_player(4,(90 + (twist * sm_nrm)) - (i * nrm),spr_marisa_shot,0,0,0,false,snd_shoot,play_id);
 				}
 				break;
 			case "AYA":
@@ -35,7 +35,7 @@ function scr_player_shoot_speed(){
 				break;
 			case "SANAE":
 				for (var i = 0; i < (floor(global.player_stats[play_id].pow / 25) + 1); i += 1) {
-						scr_shoot_bullet_player(4,(90 + (twist * sm_nrm)) - (i * nrm),spr_sanae_shot,0,0,0,false,snd_shoot,play_id,scr_danmaku_sanae_aim,[256]);
+						scr_shoot_bullet_player(4,(90 + (twist * sm_nrm)) - (i * nrm),spr_sanae_shot,0,0,0,false,snd_shoot,play_id);
 				}
 				break;
 		}
@@ -74,20 +74,20 @@ function scr_player_shoot_speed(){
 			for (var i = 0; i < (amt + 1); i += 1) {
 				switch(global.player_stats[play_id].character) {
 					case "REIMU":
-						scr_shoot_bullet_player(4,(90 + (amt * 2.5)) - (i * 5),aux,0,aux_tur[0],aux_tur[1],do_aim,snd_shoot,play_id);
-						scr_shoot_bullet_player(4,(90 + (amt * 2.5)) - (i * 5),aux,0,aux_tur[2],aux_tur[1],do_aim,snd_shoot,play_id);
+						scr_shoot_bullet_player(4,(90 + (amt * 2.5)) - (i * 5),aux,0,aux_tur[0],aux_tur[1],do_aim,snd_shoot,play_id,scr_danmaku_reimu_aim,[256]);
+						scr_shoot_bullet_player(4,(90 + (amt * 2.5)) - (i * 5),aux,0,aux_tur[2],aux_tur[1],do_aim,snd_shoot,play_id,scr_danmaku_reimu_aim,[256]);
 						break;
 					case "MARISA":
-						scr_shoot_bullet_player(4,(90 + (amt * 2.5)) - (i * 5),aux,0,aux_tur[0],aux_tur[1],do_aim,snd_shoot,play_id);
-						scr_shoot_bullet_player(4,(90 + (amt * 2.5)) - (i * 5),aux,0,aux_tur[2],aux_tur[1],do_aim,snd_shoot,play_id);
+						scr_shoot_bullet_player(4,(90 + (amt * 2.5)) - (i * 5),aux,0,aux_tur[0],aux_tur[1],do_aim,snd_shoot,play_id,scr_danmaku_marisa_laser,[0,18]);
+						scr_shoot_bullet_player(4,(90 + (amt * 2.5)) - (i * 5),aux,0,aux_tur[2],aux_tur[1],do_aim,snd_shoot,play_id,scr_danmaku_marisa_laser,[0,18]);
 						break;
 					case "AYA":
 						scr_shoot_bullet_player(4,(90 + (amt * 2.5)) - (i * 5),aux,0,aux_tur[0],aux_tur[1],do_aim,snd_shoot,play_id);
 						scr_shoot_bullet_player(4,(90 + (amt * 2.5)) - (i * 5),aux,0,aux_tur[2],aux_tur[1],do_aim,snd_shoot,play_id);
 						break;
 					case "SANAE":
-						scr_shoot_bullet_player(4,(90 + (amt * 2.5)) - (i * 5),aux,0,aux_tur[0],aux_tur[1],do_aim,snd_shoot,play_id);
-						scr_shoot_bullet_player(4,(90 + (amt * 2.5)) - (i * 5),aux,0,aux_tur[2],aux_tur[1],do_aim,snd_shoot,play_id);
+						scr_shoot_bullet_player(4,(90 + (amt * 2.5)) - (i * 5),aux,0,aux_tur[0],aux_tur[1],do_aim,snd_shoot,play_id,scr_danmaku_sanae_aim,[256]);
+						scr_shoot_bullet_player(4,(90 + (amt * 2.5)) - (i * 5),aux,0,aux_tur[2],aux_tur[1],do_aim,snd_shoot,play_id,scr_danmaku_sanae_aim,[256]);
 						break;
 				}
 			}

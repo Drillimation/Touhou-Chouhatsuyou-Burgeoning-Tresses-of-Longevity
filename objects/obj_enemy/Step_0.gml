@@ -17,6 +17,10 @@ if point_in_rectangle(x,y,vx + 0,vy + 0,vx + 640,vy + 360) {
 
 	x_pos += hspeed;
 	y_pos += vspeed;
+	
+	if enemy_function != undefined {
+		script_execute_ext(enemy_function,enemy_function_array);
+	}
 }
 else {
 	can_attack = false;

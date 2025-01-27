@@ -18,6 +18,18 @@ if point_in_rectangle(x,y,vx + 0,vy + 0,vx + 640,vy + 360) {
 	x_pos += hspeed;
 	y_pos += vspeed;
 	
+	if enemy_hor_wrap == true {
+		if x_pos < enemy_bbox_left { x_pos = enemy_bbox_right; }
+		if x_pos > enemy_bbox_right { x_pos = enemy_bbox_left; }
+	}
+	else { x_pos = clamp(x_pos,enemy_bbox_left,enemy_bbox_right); }
+	if enemy_ver_wrap == true {
+		if y_pos < enemy_bbox_top { y_pos = enemy_bbox_bottom; }
+		if y_pos > enemy_bbox_bottom { y_pos = enemy_bbox_top; }
+	}
+	else { y_pos = clamp(y_pos,enemy_bbox_top,enemy_bbox_bottom)}
+
+	
 	_t += 1
 	_t = _t mod 6
 	if (_t == 0) {
@@ -37,8 +49,8 @@ if point_in_rectangle(x,y,vx + 0,vy + 0,vx + 640,vy + 360) {
 			timeline_running = false;
 			randomize();
 			if timer >= 0.1 {
-				if global.playeractive[0] == true { global.playerscore[0] += round(timer*100); }
-				if global.playeractive[1] == true { global.playerscore[1] += round(timer*100); }
+				if global.player_stats[0].player_active == 1 { global.player_stats[0].player_score += round(timer*100); }
+				if global.player_stats[1].player_active == 1 { global.player_stats[1].player_score += round(timer*100); }
 				randomize();
 				var inst = instance_create_depth(x + irandom_range(-32,32),y + irandom_range(-32,32),0,obj_item)
 				inst.image_index = 2
@@ -70,6 +82,9 @@ if point_in_rectangle(x,y,vx + 0,vy + 0,vx + 640,vy + 360) {
 		else {
 			instance_destroy();
 		}
+	}
+	if enemy_function != undefined {
+		script_execute_ext(enemy_function,enemy_function_array);
 	}
 }
 else {

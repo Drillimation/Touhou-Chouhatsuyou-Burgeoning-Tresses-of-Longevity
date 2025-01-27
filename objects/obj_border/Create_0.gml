@@ -13,4 +13,4 @@ prompt[1] = scr_button_menu(prompt[1]);
 for(var i = 0; i < 16; i++) {
 	scribble_object[i] = undefined;
 }
-shd = scribble_font_bake_shadow("font_ms_gothic","drp_shd",1,1,make_color_rgb(0,0,0),1,0,false);
+shd = scribble_font_bake_shadow(font_get_name(global.font[0]),"drp_shdw",1,1,make_color_rgb(0,0,0),1,0,false);

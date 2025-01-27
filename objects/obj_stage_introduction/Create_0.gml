@@ -13,14 +13,14 @@ switch(global.global_stats.stage) {
 
 struct_data = scr_json_load_file("main/setup" + string(global.suf) + ".json","struct_data",false);
 
-txt = struct_data.stage_intro[global.global_stats.stage];
+txt = struct_data.stage_intro[global.global_stats.stage - 1];
 
 typist[0] = scribble_typist()
-	.in(0.2,2)
+	.in(0.5,2)
 	.ease(SCRIBBLE_EASE.LINEAR,0,48,1,0,0,1)
 	
 typist[1] = scribble_typist()
-	.in(0.2,2)
+	.in(0.5,2)
 	.ease(SCRIBBLE_EASE.LINEAR,0,-16,1,0,0,1)
 
 alarm[0] = 240;

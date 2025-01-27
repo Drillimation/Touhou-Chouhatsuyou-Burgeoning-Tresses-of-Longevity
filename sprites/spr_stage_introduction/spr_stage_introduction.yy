@@ -23,7 +23,7 @@
   ],
   "name":"spr_stage_introduction",
   "nineSlice":null,
-  "origin":0,
+  "origin":3,
   "parent":{
     "name":"Miscellaneous",
     "path":"folders/Sprites/Miscellaneous.yy",
@@ -76,7 +76,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":0,
-    "yorigin":0,
+    "yorigin":32,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

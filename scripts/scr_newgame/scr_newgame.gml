@@ -81,6 +81,7 @@ function scr_newgame_ext(){
 		total_power_items : 0,
 		total_cherry_items : 0,
 		total_bombs_used: 0,
+		total_supernatural_borders: 0
 	}
 	global.player_stats[0].player_active = remember_active[0]
 	global.player_stats[1] = {
@@ -99,6 +100,7 @@ function scr_newgame_ext(){
 		total_power_items : 0,
 		total_cherry_items : 0,
 		total_bombs_used: 0,
+		total_supernatural_borders: 0
 	}
 	global.player_stats[1].player_active = remember_active[1]
 }

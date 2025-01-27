@@ -14,14 +14,14 @@ draw_set_halign(fa_left);
 
 if room == room_arcade_title {
 	scribble_object[0] = scribble(prompt[0])
-		.starting_format("drp_shd",make_color_rgb(255,255,255))
+		.starting_format("drp_shdw",make_color_rgb(255,255,255))
 		.align(fa_left,fa_top)
 		.wrap(640)
 		.draw(view_xview + 0,view_yview + 0)
 }
 if instance_exists(obj_name_entry_p1) or instance_exists(obj_name_entry_p2) {
 	scribble_object[1] = scribble(prompt[1])
-		.starting_format("drp_shd",make_color_rgb(255,255,255))
+		.starting_format("drp_shdw",make_color_rgb(255,255,255))
 		.align(fa_left,fa_top)
 		.wrap(640)
 		.draw(view_xview + 0,view_yview + 0)

@@ -10,7 +10,7 @@ layer_sequence_y(_sequence,y);
 if layer_sequence_is_finished(_sequence) != 0 {
 	layer_sequence_destroy(_sequence);
 	instance_destroy();
-	switch(global.stage) {
+	switch(global.global_stats.stage) {
 		case 1: room_goto(room_transition_1); break;
 		case 2: room_goto(room_transition_2); break;
 		case 3: room_goto(room_transition_3); break;

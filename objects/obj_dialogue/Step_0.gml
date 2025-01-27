@@ -7,10 +7,10 @@ if keyboard_check_pressed(vk_enter) or keyboard_check_pressed(ord("Z")) or gamep
 		else {
 			if struct_exists(t_scene_info[index],"funct") {
 				if array_length(t_scene_info[index].funct) > 1 {
-					script_execute_ext(script_get_name(t_scene_info[index].funct[0]),t_scene_info[index].funct,1)
+					script_execute_ext(asset_get_index(t_scene_info[index].funct[0]),t_scene_info[index].funct,1)
 				}
 				else {
-					script_execute_ext(script_get_name(t_scene_info[index].funct[0]));
+					script_execute_ext(asset_get_index(t_scene_info[index].funct[0]));
 				}
 			}
 			index += 1

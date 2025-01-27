@@ -1,5 +1,5 @@
 if hp <= 0 {
-	global.playerscore[enemy_id] += 50;
+	global.player_stats[enemy_id].player_score += 50;
 	instance_create_depth(x,y,-1000,obj_enemy_explosion);
 	randomize();
 	if irandom(2) = 1 {

@@ -11,6 +11,7 @@ if other.invincible == false {
 	}
 	else {
 		switch (sprite_index) {
+			case spr_bullet_pellet: scr_declare_damage(1,1); break;
 			case spr_bullet_small_1: scr_declare_damage(1,1); break;
 			case spr_bullet_small_2: scr_declare_damage(1,1); break;
 			case spr_bullet_small_3: scr_declare_damage(1,1); break;

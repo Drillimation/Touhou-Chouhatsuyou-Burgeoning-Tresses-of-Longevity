@@ -29,3 +29,13 @@ txt = struct_get(struct_data[1].boss_names,"BOSS_MAYU");
 _v = 0;
 face = 0;
 image_speed = 0;
+
+enemy_hor_wrap = false;
+enemy_ver_wrap = false;
+enemy_bbox_top = 32;
+enemy_bbox_bottom = 256;
+enemy_bbox_left = 16;
+enemy_bbox_right = 240;
+
+enemy_function = undefined;
+enemy_function_array = [];

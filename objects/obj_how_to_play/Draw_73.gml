@@ -4,6 +4,7 @@ scribble_object[0] = scribble(text)
 	.starting_format("drp_shd",make_color_rgb(255,255,255))
 	.wrap(240)
 	.line_spacing(16)
+	.align(fa_left, fa_top)
 	.draw((view_xview + 8) + 1, (view_yview + 200) + 1,typist)
 
 draw_set_font(global.sprite_font[1]);

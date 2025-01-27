@@ -8,11 +8,20 @@ function scr_danmaku_curve(_direction,_speed,_infinite,_time = 60) {
 	if (_tick == 0) {
 		direction += _direction
 	}
-	if _infinite == true {
+	if _infinite == false {
 		temp_time -= 1;
 		if temp_time <= 0 {
 			effect_script = undefined;
 			script_array = undefined;
+		}
+	}
+}
+
+function scr_danmaku_split(_amount,_array,_delay_time = 0) {
+	_delay_time -= 1;
+	if _delay_time == 0 {
+		for(var i = 0; i < _amount; i++) {
+			script_execute_ext(scr_shoot_bullet_enemy,_array)
 		}
 	}
 }

@@ -6,3 +6,5 @@ scribble_object[0] = scribble(text)
 	.wrap(240)
 	.line_spacing(16)
 	.draw((view_xview + 8) + 1, (view_yview + 200) + 1,typist)
+
+draw_set_font(font_ms_gothic);

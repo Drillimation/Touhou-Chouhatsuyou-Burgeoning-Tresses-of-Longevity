@@ -1,7 +1,7 @@
 {
   "$GMFont":"",
   "%Name":"font_chicago",
-  "AntiAlias":1,
+  "AntiAlias":0,
   "applyKerning":0,
   "ascender":11,
   "ascenderOffset":0,
@@ -202,7 +202,7 @@
     "253":{"character":253,"h":14,"offset":0,"shift":7,"w":6,"x":242,"y":18,},
     "254":{"character":254,"h":14,"offset":0,"shift":7,"w":6,"x":2,"y":34,},
     "255":{"character":255,"h":14,"offset":0,"shift":7,"w":6,"x":214,"y":34,},
-    "9647":{"character":9647,"h":14,"offset":3,"shift":16,"w":10,"x":160,"y":82,},
+    "9647":{"character":9647,"h":14,"offset":3,"shift":16,"w":9,"x":160,"y":82,},
   },
   "hinting":0,
   "includeTTF":false,

@@ -3,7 +3,7 @@ function scr_declare_damage(_damage, _id){
 		instance_destroy();
 		global.player_stats[_id].player_health -= _damage;
 		scr_one_channel_sound(snd_hurt)
-		global.global_stats.cherry -= 10;
+		global.global_stats.cherry -= 5;
 		global.global_stats.cherry = clamp(global.global_stats.cherry,0,global.global_stats.cherry_max);
 		if global.player_stats[_id].player_health <= 0 {
 			scr_one_channel_sound(snd_pichuun);

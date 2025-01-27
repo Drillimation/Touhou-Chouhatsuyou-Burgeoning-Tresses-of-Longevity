@@ -10,14 +10,14 @@ left_text = ["DIFFICULTY",
 	"POINT ITEMS COLLECTED",
 	"CHERRY ITEMS COLLECTED"];
 
-p1_statistics = [global.player_stats[0].playerscore,
+p1_statistics = [global.player_stats[0].player_score,
 global.player_stats[0].timesrevived,
 global.player_stats[0].total_bombs_used,
 global.player_stats[0].total_power_items,
 global.player_stats[0].total_point_items,
 global.player_stats[0].total_cherry_items];
 
-p2_statistics = [global.player_stats[1].playerscore,
+p2_statistics = [global.player_stats[1].player_score,
 global.player_stats[1].timesrevived,
 global.player_stats[1].total_bombs_used,
 global.player_stats[1].total_power_items,
