@@ -8,26 +8,28 @@ if hp <= 0 {
 		if global.player_stats[1].player_active == 1 { global.player_stats[1].player_score += round(defeat_bonus + (timer*100)); }
 		var inst6 = instance_create_depth(x,y,0,obj_sub_score_display);
 		inst6.display_score = defeat_bonus;
-		randomize();
-		var inst1 = instance_create_depth(x,y,-1000,obj_item);
-		inst1.image_index = choose(3,5);
-		var inst2 = instance_create_depth(x + irandom_range(-32,32),y + irandom_range(-32,32),0,obj_item)
-		inst2.image_index = 2
-		for (var i = 0; i < 4; i += 1) {
-			var inst3 = instance_create_depth(x + irandom_range(-32,32),y + irandom_range(-32,32),0,obj_item)
-			inst3.image_index = 0;
-		}
-		for (var i = 0; i < 5; i += 1) {
-			var inst4 = instance_create_depth(x + irandom_range(-32,32),y + irandom_range(-32,32),0,obj_item)
-			inst4.image_index = 1;
-		}
-		for (var i = 0; i < 3; i += 1) {
-			var inst5 = instance_create_depth(x + irandom_range(-32,32),y + irandom_range(-32,32),0,obj_item)
-			inst5.image_index = 6
-		}
-		for (var i = 0; i < 3; i += 1) {
-			var inst7 = instance_create_depth(x + irandom_range(-32,32),y + irandom_range(-32,32),0,obj_item)
-			inst7.image_index = 7
+		if drop_items_after_death == true {
+			randomize();
+			var inst1 = instance_create_depth(x,y,-1000,obj_item);
+			inst1.image_index = choose(3,5);
+			var inst2 = instance_create_depth(x + irandom_range(-32,32),y + irandom_range(-32,32),0,obj_item)
+			inst2.image_index = 2
+			for (var i = 0; i < 4; i += 1) {
+				var inst3 = instance_create_depth(x + irandom_range(-32,32),y + irandom_range(-32,32),0,obj_item)
+				inst3.image_index = 0;
+			}
+			for (var i = 0; i < 5; i += 1) {
+				var inst4 = instance_create_depth(x + irandom_range(-32,32),y + irandom_range(-32,32),0,obj_item)
+				inst4.image_index = 1;
+			}
+			for (var i = 0; i < 3; i += 1) {
+				var inst5 = instance_create_depth(x + irandom_range(-32,32),y + irandom_range(-32,32),0,obj_item)
+				inst5.image_index = 6
+			}
+			for (var i = 0; i < 3; i += 1) {
+				var inst7 = instance_create_depth(x + irandom_range(-32,32),y + irandom_range(-32,32),0,obj_item)
+				inst7.image_index = 7
+			}
 		}
 	}
 	with(obj_bullet_enemy) {
@@ -39,6 +41,7 @@ if hp <= 0 {
 			global.global_stats.border = clamp(global.global_stats.border,0,5000);
 		instance_destroy();
 	}
+	with(obj_warning_laser) { instance_destroy(); }
 }
 switch(boss_type) {
 	case 0:
@@ -50,6 +53,7 @@ switch(boss_type) {
 			end_path_function = "BOSS_CUTSCENE";
 			midboss = obj_enemy;
 			midboss_sprite = spr_mayu;
+			path_start(path_scroll_h2,stage_speed,path_action_stop,true);
 		}
 		break;
 	case 1:

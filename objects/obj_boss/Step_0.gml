@@ -80,6 +80,7 @@ if point_in_rectangle(x,y,vx + 0,vy + 0,vx + 640,vy + 360) {
 				global.global_stats.border = clamp(global.global_stats.border,0,5000);
 				instance_destroy();
 			}
+			with(obj_warning_laser) { instance_destroy(); }
 			timer = attack[life-1][4]
 		}
 		else {

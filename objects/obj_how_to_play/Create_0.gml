@@ -22,5 +22,5 @@ shd = scribble_font_bake_shadow(font_get_name(global.font[1]),"drp_shd",1,1,make
 opac = 0;
 depth = -1000;
 
-view_xview = camera_get_view_x(view_camera[0]);
-view_yview = camera_get_view_y(view_camera[0]);
+view_xview = floor(camera_get_view_x(view_camera[0]));
+view_yview = floor(camera_get_view_y(view_camera[0]));

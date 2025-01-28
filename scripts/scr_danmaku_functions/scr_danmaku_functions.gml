@@ -26,6 +26,28 @@ function scr_danmaku_split(_amount,_array,_delay_time = 0) {
 	}
 }
 
+function scr_danmaku_gravity(_gravity) {
+	gravity = _gravity
+}
+
+function scr_danmaku_scale(_xscale,_yscale,_xspeed,_yspeed) {
+	image_xscale += _xspeed;
+	image_xscale += clamp(image_xscale,1,_xscale);
+	image_yscale += _yspeed;
+	image_yscale += clamp(image_yscale,1,_yscale);
+}
+
+function scr_danmaku_orbit(_distance,_speed,_distance_max,_distance_speed = 1,_origin = id) {
+	if instance_exists(_origin) {
+		direction += _speed;
+		x_pos = _origin.x_pos + lengthdir_x(_distance,direction)
+		y_pos = _origin.y_pos + lengthdir_y(_distance,direction)
+		if _distance < _distance_max { _distance += _distance_speed; }
+		if _distance > _distance_max { _distance -= _distance_speed; }
+	}
+}
+
+
 function scr_danmaku_marisa_laser(_speed,_xscale) {
 	speed = _speed;
 	image_xscale = _xscale;

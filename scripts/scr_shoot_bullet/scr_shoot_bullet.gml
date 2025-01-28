@@ -30,8 +30,8 @@ function scr_shoot_bullet_enemy(_speed, _direction, _sprite, _color, _x, _y, _ai
 	view_yview = camera_get_view_y(view_camera[0]);
 	
 	if _relative == false {
-		var ex = _x;
-		var ey = _y;
+		var ex = view_xview + _x;
+		var ey = view_yview + _y;
 	}
 	else {
 		var ex = x + _x;
