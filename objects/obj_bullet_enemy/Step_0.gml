@@ -27,7 +27,7 @@ if grazable == true {
 	}
 	if collision_circle(x,y,16,obj_player_2,false,false){
 			global.player_stats[1].player_score += 50;
-			global.player_stats[1].player_score += 1;
+			global.player_stats[1].graze += 1;
 			if instance_exists(obj_supernatural_border) {
 				switch(obj_player_2.focusmode) {
 					case true:
@@ -58,4 +58,8 @@ switch (sprite_index) {
 	case spr_bullet_large: image_angle = 0; break;
 	case spr_bullet_arrowhead: image_angle = direction; break;
 	case spr_bullet_amulet: image_angle = direction; break;
+}
+
+if effect_script != undefined {
+	script_execute_ext(effect_script,script_array)
 }

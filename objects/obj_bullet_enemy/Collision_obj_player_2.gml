@@ -5,6 +5,7 @@ if other.invincible == false {
 	if instance_exists(obj_supernatural_border) {
 		with(obj_supernatural_border) {
 			instance_destroy();
+			global.global_stats.border = 0;
 			var inst = instance_create_layer(view_xview + 0,view_yview + 0,"Effects",obj_supernatural_bonus);
 			inst.cleared = true;
 		}

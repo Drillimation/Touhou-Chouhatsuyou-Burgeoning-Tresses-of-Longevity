@@ -9,7 +9,7 @@ if hp <= 0 {
 	}
 	if irandom(2) = 1 {
 		var inst;
-		inst = instance_create_depth(x + irandom_range(-32,32),y + irandom_range(-32,32),-1000,obj_item);
+		inst = instance_create_depth(x + irandom_range(-16,16),y + irandom_range(-16,16),-1000,obj_item);
 		inst.image_index = choose(7,8);
 	}
 }

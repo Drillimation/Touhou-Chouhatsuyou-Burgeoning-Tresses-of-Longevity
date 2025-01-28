@@ -1,6 +1,6 @@
 function scr_danmaku_curve(_direction,_speed,_infinite,_time = 60) {
-	if variable_instance_exists(self,"_tick") {
-		variable_instance_set(self,"_tick",0);
+	if !variable_instance_exists(id,"_tick") {
+		_tick = 0;
 		temp_time = _time;
 	}
 	_tick += 1
@@ -12,7 +12,7 @@ function scr_danmaku_curve(_direction,_speed,_infinite,_time = 60) {
 		temp_time -= 1;
 		if temp_time <= 0 {
 			effect_script = undefined;
-			script_array = undefined;
+			script_array = [];
 		}
 	}
 }

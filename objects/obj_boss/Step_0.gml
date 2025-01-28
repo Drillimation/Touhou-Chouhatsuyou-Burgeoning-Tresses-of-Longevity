@@ -74,7 +74,10 @@ if point_in_rectangle(x,y,vx + 0,vy + 0,vx + 640,vy + 360) {
 			with(obj_bullet_enemy) {
 				if global.player_stats[0].player_active == 1 { global.player_stats[0].player_score += (abs(round((y_pos / 10) - 30)) * 10); }
 				if global.player_stats[1].player_active == 1 { global.player_stats[1].player_score += (abs(round((y_pos / 10) - 30)) * 10); }
-				global.global_stats.cherry += 1;
+				global.global_stats.cherry += 10;
+				global.global_stats.border += 10;
+				global.global_stats.cherry = clamp(global.global_stats.cherry,0,global.global_stats.cherry_max);
+				global.global_stats.border = clamp(global.global_stats.border,0,5000);
 				instance_destroy();
 			}
 			timer = attack[life-1][4]

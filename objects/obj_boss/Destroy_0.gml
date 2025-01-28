@@ -1,7 +1,7 @@
 scr_one_channel_sound(snd_boss_defeat);
 var inst;
 inst = instance_create_depth(x,y,0,obj_defeated_boss)
-inst.sprite_index = defeat_img;
+inst.image_index = defeat_img;
 if hp <= 0 {
 	if timer >= 0.1 {
 		if global.player_stats[0].player_active == 1 { global.player_stats[0].player_score += round(defeat_bonus + (timer*100)); }
@@ -33,7 +33,10 @@ if hp <= 0 {
 	with(obj_bullet_enemy) {
 		if global.player_stats[0].player_active == 1 { global.player_stats[0].player_score += (abs(round((y_pos / 10) - 30)) * 10); }
 		if global.player_stats[1].player_active == 1 { global.player_stats[1].player_score += (abs(round((y_pos / 10) - 30)) * 10); }
-		global.global_stats.cherry += 1;
+			global.global_stats.cherry += 10;
+			global.global_stats.border += 10;
+			global.global_stats.cherry = clamp(global.global_stats.cherry,0,global.global_stats.cherry_max);
+			global.global_stats.border = clamp(global.global_stats.border,0,5000);
 		instance_destroy();
 	}
 }

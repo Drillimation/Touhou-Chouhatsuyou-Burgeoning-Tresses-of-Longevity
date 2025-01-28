@@ -34,6 +34,11 @@ switch(end_path_function) {
 
 with(obj_bullet_enemy) {
 	instance_destroy();
+	global.global_stats.cherry += 10;
+	global.global_stats.border += 10;
+	global.global_stats.cherry = clamp(global.global_stats.cherry,0,global.global_stats.cherry_max);
+	global.global_stats.border = clamp(global.global_stats.border,0,5000);
+	
 }
 with(obj_enemy) {
 	if can_attack == true {

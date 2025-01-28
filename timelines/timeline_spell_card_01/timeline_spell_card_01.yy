@@ -8,8 +8,8 @@
   ],
   "name":"timeline_spell_card_01",
   "parent":{
-    "name":"Timelines",
-    "path":"folders/Timelines.yy",
+    "name":"Spell Cards",
+    "path":"folders/Timelines/Spell Cards.yy",
   },
   "resourceType":"GMTimeline",
   "resourceVersion":"2.0",

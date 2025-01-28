@@ -50,8 +50,8 @@ switch(image_index) {
 	case 3:
 		scr_one_channel_sound(snd_get_bomb);
 		global.player_stats[other.play_id].player_score += 1000;
-		global.bombs[other.play_id] += 1
-		global.bombs[other.play_id] = clamp(global.bombs[other.play_id],0,10);
+		global.player_stats[other.play_id].bombs += 1
+		global.player_stats[other.play_id].bombs = clamp(global.player_stats[other.play_id].bombs,0,10);
 		var inst1 = instance_create_depth(x,y,0,obj_sub_score_display);
 		inst1.display_score = 1000;
 		break;
@@ -79,9 +79,9 @@ switch(image_index) {
 	case 6:
 		scr_one_channel_sound(snd_get_item);
 		global.player_stats[other.play_id].total_cherry_items += 1;
-		global.global_stats.cherry += 1;
+		global.global_stats.cherry += 10;
 		global.global_stats.cherry = clamp(global.global_stats.cherry,0,global.global_stats.cherry_max)
-		global.global_stats.border += 1;
+		global.global_stats.border += 10;
 		global.player_stats[other.play_id].player_score += 100 + (global.player_stats[other.play_id].total_supernatural_borders * 10);
 		var inst1 = instance_create_depth(x,y,0,obj_sub_score_display);
 		inst1.display_score = 100 + (global.player_stats[other.play_id].total_supernatural_borders * 10);
@@ -89,9 +89,9 @@ switch(image_index) {
 	case 7:
 		scr_one_channel_sound(snd_get_item);
 		global.player_stats[other.play_id].total_cherry_items += 1;
-		global.global_stats.cherry += 5;
+		global.global_stats.cherry += 50;
 		global.global_stats.cherry = clamp(global.global_stats.cherry,0,global.global_stats.cherry_max)
-		global.global_stats.border += 5;
+		global.global_stats.border += 50;
 		global.player_stats[other.play_id].player_score += 100 + (global.player_stats[other.play_id].total_supernatural_borders * 10);
 		var inst1 = instance_create_depth(x,y,0,obj_sub_score_display);
 		inst1.display_score = 100 + (global.player_stats[other.play_id].total_supernatural_borders * 10);

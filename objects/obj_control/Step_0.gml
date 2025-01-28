@@ -141,7 +141,7 @@ if global.player_stats[1].player_score > global.highscore {
 }
 if global.player_stats[0].player_score > global.player_stats[0].bombscore {
 	if global.global_stats.breezy_mode == true {
-		global.bombs[0] += 1;
+		global.player_stats[0].bombs += 1;
 		scr_one_channel_sound(snd_get_bomb);
 	}
 	else {
@@ -153,7 +153,7 @@ if global.player_stats[0].player_score > global.player_stats[0].bombscore {
 }
 if global.player_stats[1].player_score > global.player_stats[1].bombscore {
 	if global.global_stats.breezy_mode == true {
-		global.bombs[1] += 1;
+		global.player_stats[1].bombs += 1;
 		scr_one_channel_sound(snd_get_bomb);
 	}
 	else {
@@ -162,6 +162,13 @@ if global.player_stats[1].player_score > global.player_stats[1].bombscore {
 	}
 	global.player_stats[1].received += 1;
 	global.player_stats[1].bombscore += global.player_stats[1].received * 100000;
+}
+
+//Supernatural Border
+if global.global_stats.border >= 5000 {
+	if !instance_exists(obj_supernatural_border) and layer_exists("Spell") {
+		instance_create_layer(0,0,"Spell",obj_supernatural_border);
+	}
 }
 
 //Fading Out the BGM

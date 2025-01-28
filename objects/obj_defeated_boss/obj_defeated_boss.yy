@@ -32,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_defeat_chars",
+    "path":"sprites/spr_defeat_chars/spr_defeat_chars.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

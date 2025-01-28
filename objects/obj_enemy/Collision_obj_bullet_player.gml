@@ -12,9 +12,9 @@ switch(other.sprite_index) {
 enemy_id = other.play_id;
 global.player_stats[other.play_id].player_score += 10;
 global.global_stats.cherry += 1;
-global.global_stats.border += 1;
+if !instance_exists(obj_supernatural_border) { global.global_stats.border += 1; }
 global.global_stats.cherry = clamp(global.global_stats.cherry,0,global.global_stats.cherry_max);
-global.global_stats.border = clamp(global.global_stats.border,0,500);
+global.global_stats.border = clamp(global.global_stats.border,0,5000);
 if other.sprite_index != spr_marisa_shot_s {
 	scr_one_channel_sound(snd_enemy_damage);
 	instance_destroy(other);

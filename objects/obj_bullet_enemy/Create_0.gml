@@ -8,4 +8,4 @@ x_pos = x - view_xview;
 y_pos = y - view_yview;
 
 effect_script = undefined;
-script_array = undefined;
+script_array = [];

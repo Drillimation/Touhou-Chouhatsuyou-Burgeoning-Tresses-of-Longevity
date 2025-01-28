@@ -59,6 +59,7 @@
     {"$GMFolder":"","%Name":"Miscellaneous","folderPath":"folders/Sprites/Miscellaneous.yy","name":"Miscellaneous","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Spell Cards","folderPath":"folders/Timelines/Spell Cards.yy","name":"Spell Cards","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"intro_en.json","CopyToMask":-1,"filePath":"datafiles/cutscenes","name":"intro_en.json","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
@@ -164,6 +165,7 @@
     {"id":{"name":"obj_spell_card_statistics","path":"objects/obj_spell_card_statistics/obj_spell_card_statistics.yy",},},
     {"id":{"name":"obj_spellbomb","path":"objects/obj_spellbomb/obj_spellbomb.yy",},},
     {"id":{"name":"obj_stage_1_fairy_01","path":"objects/obj_stage_1_fairy_01/obj_stage_1_fairy_01.yy",},},
+    {"id":{"name":"obj_stage_1_fairy_02","path":"objects/obj_stage_1_fairy_02/obj_stage_1_fairy_02.yy",},},
     {"id":{"name":"obj_stage_1_kedama_01","path":"objects/obj_stage_1_kedama_01/obj_stage_1_kedama_01.yy",},},
     {"id":{"name":"obj_stage_clear","path":"objects/obj_stage_clear/obj_stage_clear.yy",},},
     {"id":{"name":"obj_stage_introduction","path":"objects/obj_stage_introduction/obj_stage_introduction.yy",},},
@@ -518,6 +520,7 @@
     {"id":{"name":"timeline_spell_card_01","path":"timelines/timeline_spell_card_01/timeline_spell_card_01.yy",},},
     {"id":{"name":"timeline_spell_card_02","path":"timelines/timeline_spell_card_02/timeline_spell_card_02.yy",},},
     {"id":{"name":"timeline_stage_1_fairy_01","path":"timelines/timeline_stage_1_fairy_01/timeline_stage_1_fairy_01.yy",},},
+    {"id":{"name":"timeline_stage_1_fairy_02","path":"timelines/timeline_stage_1_fairy_02/timeline_stage_1_fairy_02.yy",},},
     {"id":{"name":"timeline_stage_1_kedama_01","path":"timelines/timeline_stage_1_kedama_01/timeline_stage_1_kedama_01.yy",},},
   ],
   "resourceType":"GMProject",
