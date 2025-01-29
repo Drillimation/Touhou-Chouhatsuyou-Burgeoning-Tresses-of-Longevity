@@ -4,6 +4,8 @@ view_yview = camera_get_view_y(view_camera[0]);
 vx = camera_get_view_x(view_camera[1]);
 vy = camera_get_view_y(view_camera[1]);
 
+depth = -y;
+
 if point_in_rectangle(x,y,vx + 0,vy + 0,vx + 640,vy + 360) {
 	if entered == false {
 		x_pos = x - view_xview;
