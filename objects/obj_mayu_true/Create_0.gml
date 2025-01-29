@@ -4,7 +4,7 @@ enemy_id = 0;
 _t = 0;
 boss_id = 0;
 boss_type = 1;
-_bar = spr_boss_health_4;
+_bar = spr_boss_health_5;
 drop_items_after_death = false;
 defeat_img = 0;
 
@@ -40,3 +40,10 @@ enemy_bbox_right = 240;
 
 enemy_function = undefined;
 enemy_function_array = [];
+
+switch(global.player_stats[0].character) {
+	case "REIMU": _char = "reimu"; break;
+	case "MARISA": _char = "marisa"; break;
+	case "AYA": _char = "aya"; break;
+	case "SANAE": _char = "sanae"; break;
+}

@@ -258,6 +258,7 @@
     {"id":{"name":"scr_hud","path":"scripts/scr_hud/scr_hud.yy",},},
     {"id":{"name":"scr_json_load_file","path":"scripts/scr_json_load_file/scr_json_load_file.yy",},},
     {"id":{"name":"scr_json_save_file","path":"scripts/scr_json_save_file/scr_json_save_file.yy",},},
+    {"id":{"name":"scr_load_cutscene_scripts","path":"scripts/scr_load_cutscene_scripts/scr_load_cutscene_scripts.yy",},},
     {"id":{"name":"scr_menu_initiate","path":"scripts/scr_menu_initiate/scr_menu_initiate.yy",},},
     {"id":{"name":"scr_menu_input","path":"scripts/scr_menu_input/scr_menu_input.yy",},},
     {"id":{"name":"scr_move_state","path":"scripts/scr_move_state/scr_move_state.yy",},},

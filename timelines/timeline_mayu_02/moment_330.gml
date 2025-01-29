@@ -5,6 +5,8 @@ for(var i = 0; i < 16; i++) {
 	}
 }
 randomize();
-hspeed = choose(-1.5,1.5);
+hspeed = choose(-1,1);
+if hspeed < 0 { face = 1; }
+if hspeed > 0 { face = 2; }
 enemy_function = scr_enemy_set_friction;
 enemy_function_array = [0.01];

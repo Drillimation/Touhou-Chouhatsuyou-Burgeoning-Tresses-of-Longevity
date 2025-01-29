@@ -59,7 +59,7 @@ switch(boss_type) {
 	case 1:
 		var postbattle_cutscene = instance_create_depth(0,0,0,obj_dialogue);
 		with(postbattle_cutscene) {
-			struct_data = scr_json_load_file("cutscenes/stage" + string(global.global_stats.stage) + "_" + string(_char) + "postbattle" + string(global.suf) + ".json","struct_data",false);
+			struct_data = scr_json_load_file("cutscenes/stage" + string(global.global_stats.stage) + "_" + string(other._char) + "_" + "postbattle" + string(global.suf) + ".json","struct_data",false);
 			t_scene_info = [];
 			array_copy(t_scene_info,0,struct_data.t_scene_info,0,array_length(struct_data.t_scene_info));
 
@@ -70,7 +70,7 @@ switch(boss_type) {
 	case 2:
 		var midbattle_cutscene = instance_create_depth(0,0,0,obj_dialogue);
 		with(midbattle_cutscene) {
-			struct_data = scr_json_load_file("cutscenes/stage" + string(global.global_stats.stage) + "_" + string(_char) + "prebattle" + string(global.suf) + ".json","struct_data",false);
+			struct_data = scr_json_load_file("cutscenes/stage" + string(global.global_stats.stage) + "_" + string(other._char) + "_" + "prebattle" + string(global.suf) + ".json","struct_data",false);
 			t_scene_info = [];
 			array_copy(t_scene_info,0,struct_data.t_scene_info,0,array_length(struct_data.t_scene_info));
 

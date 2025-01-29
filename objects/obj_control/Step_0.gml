@@ -71,7 +71,7 @@ if array_contains(pausable_room_list,room_get_name(room)) or global.global_stats
 		if who_can_pause {
 			if paused == false {
 				audio_play_sound(snd_pause,10,false);
-				audio_pause_sound(global.bgm);
+				if audio_is_playing(global.bgm) { audio_pause_sound(global.bgm); }
 				paused = true;
 				var a = layer_get_all_elements("Instances");
 				for (var i = 0; i < array_length(a); i++;) {
@@ -95,7 +95,7 @@ if array_contains(pausable_room_list,room_get_name(room)) or global.global_stats
 				}
 			}
 			else {
-				audio_resume_sound(global.bgm)
+				if audio_is_paused(global.bgm) { audio_resume_sound(global.bgm) }
 				paused = false;
 				instance_destroy(obj_pause);
 				instance_activate_all();
@@ -106,7 +106,7 @@ if array_contains(pausable_room_list,room_get_name(room)) or global.global_stats
 	if !window_has_focus() and !instance_exists(obj_continue) {
 		if paused == false {
 			audio_play_sound(snd_pause,10,false);
-			audio_pause_sound(global.bgm);
+			if audio_is_playing(global.bgm) { audio_pause_sound(global.bgm); }
 			paused = true;
 			var a = layer_get_all_elements("Instances");
 			for (var i = 0; i < array_length(a); i++;) {
@@ -124,7 +124,7 @@ if array_contains(pausable_room_list,room_get_name(room)) or global.global_stats
 			}
 		}
 		else {
-			audio_resume_sound(global.bgm)
+			if audio_is_paused(global.bgm) { audio_resume_sound(global.bgm) }
 			paused = false;
 			instance_destroy(obj_pause);
 			instance_activate_all();

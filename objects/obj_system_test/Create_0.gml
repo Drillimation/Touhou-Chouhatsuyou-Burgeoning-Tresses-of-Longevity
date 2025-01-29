@@ -48,7 +48,7 @@ if !file_exists("spellcards.save") {
 }
 else {
 	spell_table = scr_json_load_file("spellcards.save","struct_data",false)
-	global.spellcard_history = ds_grid_create(2,array_length(spell_table));
+	global.spellcard_history = ds_grid_create(2,array_length(spell_table.default_table));
 	for(var i = 0; i < ds_grid_height(global.spellcard_history); i++) {
 		global.spellcard_history[# 0,i] = spell_table.default_table[i].captured
 		global.spellcard_history[# 1,i] = spell_table.default_table[i].encountered

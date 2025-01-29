@@ -12,7 +12,7 @@ draw_text(view_xview + 8,view_yview + 56,left_text);
 
 draw_set_halign(fa_right);
 for(var i = 0; i < 2; i += 1) {
-	if global.playeractive[i] == true {
+	if global.player_stats[i].player_active == 1 {
 		draw_text((view_xview + 176) + (72 * i),view_yview + 64,statistics[i]);
 	}
 }

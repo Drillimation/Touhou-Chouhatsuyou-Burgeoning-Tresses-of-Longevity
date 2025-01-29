@@ -29,10 +29,10 @@ if keyboard_check_pressed(vk_enter) or gamepad_button_check_pressed(0,gp_start) 
 	
 	for(var i = 0; i < 10; i++) {
 		_j.default_table[i] = {
-			name : global.highscores[# 0,9],
-			score : global.highscores[# 1,9],
-			stage : global.highscores[# 2,9],
-			char : global.highscores[# 3,9]
+			name : global.highscores[# 0,i],
+			score : global.highscores[# 1,i],
+			stage : global.highscores[# 2,i],
+			char : global.highscores[# 3,i]
 		}
 	}
 	scr_json_save_file(_j,"highscores.save");

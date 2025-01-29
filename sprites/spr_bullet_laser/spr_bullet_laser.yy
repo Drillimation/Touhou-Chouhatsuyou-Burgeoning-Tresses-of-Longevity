@@ -38,7 +38,7 @@
   ],
   "name":"spr_bullet_laser",
   "nineSlice":null,
-  "origin":4,
+  "origin":3,
   "parent":{
     "name":"Items",
     "path":"folders/Sprites/Items.yy",
@@ -135,7 +135,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":8,
+    "xorigin":0,
     "yorigin":8,
   },
   "swatchColours":null,

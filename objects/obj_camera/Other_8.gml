@@ -11,7 +11,7 @@ switch(end_path_function) {
 	case "MIDBOSS_CUTSCENE": 
 		var inst = instance_create_depth(0,0,0,obj_dialogue);
 		with(inst) {
-			struct_data = scr_json_load_file("cutscenes/stage" + string(global.global_stats.stage) + "_" + string(_char) + "midbattle" + string(global.suf) + ".json","struct_data",false);
+			struct_data = scr_json_load_file("cutscenes/stage" + string(global.global_stats.stage) + "_" + string(other._char) + "_" + "midbattle" + string(global.suf) + ".json","struct_data",false);
 			t_scene_info = [];
 			array_copy(t_scene_info,0,struct_data.t_scene_info,0,array_length(struct_data.t_scene_info));
 
@@ -22,7 +22,7 @@ switch(end_path_function) {
 	case "BOSS_CUTSCENE": 
 		var inst = instance_create_depth(0,0,0,obj_dialogue);
 		with(inst) {
-			struct_data = scr_json_load_file("cutscenes/stage" + string(global.global_stats.stage) + "_" + string(_char) + "prebattle" + string(global.suf) + ".json","struct_data",false);
+			struct_data = scr_json_load_file("cutscenes/stage" + string(global.global_stats.stage) + "_" + string(other._char) + "_" + "prebattle" + string(global.suf) + ".json","struct_data",false);
 			t_scene_info = [];
 			array_copy(t_scene_info,0,struct_data.t_scene_info,0,array_length(struct_data.t_scene_info));
 

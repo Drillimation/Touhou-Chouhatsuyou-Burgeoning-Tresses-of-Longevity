@@ -3,6 +3,7 @@
         "char_name" : "雷マユ",
         "char_desc" : "髪の伸ばしが終わらない植物"
     },
+    "boss_sprite" : "spr_mayu",
     "t_scene_info" : [
         {
             "left_portrait" : ["spr_aya_portrait",2],

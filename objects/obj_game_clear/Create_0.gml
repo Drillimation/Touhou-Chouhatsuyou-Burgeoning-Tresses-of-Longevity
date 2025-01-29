@@ -1,4 +1,4 @@
-audio_stop_sound(global.bgm);
+scr_stop_bgm();
 audio_play_sound(snd_bgm_game_clear,10,false);
 alarm[0] = 900;
 

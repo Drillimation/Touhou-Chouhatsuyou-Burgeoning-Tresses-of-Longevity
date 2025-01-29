@@ -1,0 +1,1 @@
+global.global_stats.canjoin = 0;

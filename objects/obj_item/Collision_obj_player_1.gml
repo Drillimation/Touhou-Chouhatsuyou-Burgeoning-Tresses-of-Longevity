@@ -81,8 +81,10 @@ switch(image_index) {
 		global.player_stats[other.play_id].total_cherry_items += 1;
 		global.global_stats.cherry += 10;
 		global.global_stats.cherry = clamp(global.global_stats.cherry,0,global.global_stats.cherry_max)
-		global.global_stats.border += 10;
-		global.player_stats[other.play_id].player_score += 100 + (global.player_stats[other.play_id].total_supernatural_borders * 10);
+		if !instance_exists(obj_supernatural_border) {
+			global.global_stats.border += 10;
+			global.player_stats[other.play_id].player_score += 100 + (global.player_stats[other.play_id].total_supernatural_borders * 10);
+		}
 		var inst1 = instance_create_depth(x,y,0,obj_sub_score_display);
 		inst1.display_score = 100 + (global.player_stats[other.play_id].total_supernatural_borders * 10);
 		break;
@@ -91,8 +93,10 @@ switch(image_index) {
 		global.player_stats[other.play_id].total_cherry_items += 1;
 		global.global_stats.cherry += 50;
 		global.global_stats.cherry = clamp(global.global_stats.cherry,0,global.global_stats.cherry_max)
-		global.global_stats.border += 50;
-		global.player_stats[other.play_id].player_score += 100 + (global.player_stats[other.play_id].total_supernatural_borders * 10);
+		if !instance_exists(obj_supernatural_border) {
+			global.global_stats.border += 50;
+			global.player_stats[other.play_id].player_score += 100 + (global.player_stats[other.play_id].total_supernatural_borders * 10);
+		}
 		var inst1 = instance_create_depth(x,y,0,obj_sub_score_display);
 		inst1.display_score = 100 + (global.player_stats[other.play_id].total_supernatural_borders * 10);
 		break;

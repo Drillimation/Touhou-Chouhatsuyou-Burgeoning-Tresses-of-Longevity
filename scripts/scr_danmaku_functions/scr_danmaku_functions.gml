@@ -32,9 +32,9 @@ function scr_danmaku_gravity(_gravity) {
 
 function scr_danmaku_scale(_xscale,_yscale,_xspeed,_yspeed) {
 	image_xscale += _xspeed;
-	image_xscale += clamp(image_xscale,1,_xscale);
+	image_xscale = clamp(image_xscale,1,_xscale);
 	image_yscale += _yspeed;
-	image_yscale += clamp(image_yscale,1,_yscale);
+	image_yscale = clamp(image_yscale,1,_yscale);
 }
 
 function scr_danmaku_orbit(_distance,_speed,_distance_max,_distance_speed = 1,_origin = id) {

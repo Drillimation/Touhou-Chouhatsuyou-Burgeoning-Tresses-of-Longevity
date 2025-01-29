@@ -40,3 +40,10 @@ enemy_bbox_right = 240;
 
 enemy_function = undefined;
 enemy_function_array = [];
+
+switch(global.player_stats[0].character) {
+	case "REIMU": _char = "reimu"; break;
+	case "MARISA": _char = "marisa"; break;
+	case "AYA": _char = "aya"; break;
+	case "SANAE": _char = "sanae"; break;
+}

@@ -6,11 +6,11 @@ for(var i = 0; i < ((game_difficulty * 3) + 3); i++) {
 with(obj_bullet_enemy) {
 	if sprite_index == spr_bullet_laser {
 		for(var i = 0; i < game_difficulty + 1; i++) {
-			scr_shoot_bullet_enemy(0.5,direction + (irandom_range(-5,5)),spr_bullet_small_2,5,0,0,false,snd_enemy_fire_kira,true,scr_danmaku_gravity,[0.01])
+			scr_shoot_bullet_enemy(random_range(0.5,1.5),direction + (irandom_range(-5,5)),spr_bullet_small_2,5,0,0,false,snd_enemy_fire_kira,true,scr_danmaku_gravity,[0.001])
 		}
 	}
 }
-direction = irandom(0,360);
+direction = irandom_range(0,360);
 if direction > 90 and direction < 270 { face = 1; } else { face = 2; }
 speed = 1;
 enemy_function = scr_enemy_set_friction;
