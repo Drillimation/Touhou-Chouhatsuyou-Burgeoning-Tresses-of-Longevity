@@ -1,0 +1,46 @@
+{
+    "char_info" : {
+        "char_name" : "Kisumi Torisawa",
+        "char_desc" : "The Siren Who Swims at Fast Speeds"
+    },
+    "boss_sprite" : "spr_kisumi",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_aya_portrait",1],
+            "right_portrait" : ["spr_kisumi_portrait",8],
+            "speaker" : "Aya:",
+            "dialogue" : "So, what did you think?"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",1],
+            "right_portrait" : ["spr_kisumi_portrait",8],
+            "speaker" : "Kisumi:",
+            "dialogue" : "No amount of damage can degrade our beauty. My husband always looks forward to seeing me every day."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",1],
+            "right_portrait" : ["spr_kagami_portrait",8],
+            "speaker" : "Kagami:",
+            "dialogue" : "Same with Driller when I get the chance..."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",1],
+            "right_portrait" : ["spr_kagami_portrait",8],
+            "speaker" : "Aya:",
+            "dialogue" : "Even if I'm stuck in this hideous condition,"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",1],
+            "right_portrait" : ["spr_kagami_portrait",8],
+            "speaker" : "Aya:",
+            "dialogue" : "I'm confident my original short hair is acceptable for most peoples desires."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",1],
+            "right_portrait" : ["spr_kagami_portrait",8],
+            "speaker" : "Aya:",
+            "dialogue" : "They think my image is handsome.",
+            "funct" : ["scr_cutscene_stage_clear"]
+        }
+    ]
+}

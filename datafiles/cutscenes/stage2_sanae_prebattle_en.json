@@ -1,0 +1,124 @@
+{
+    "char_info" : {
+        "char_name" : "Kisumi Torisawa",
+        "char_desc" : "The Siren Who Swims at Fast Speeds"
+    },
+    "boss_sprite" : "spr_kisumi",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "speaker" : "Sanae:",
+            "dialogue" : "Where's that orange siren going? I'm demanding an end to this madness."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "speaker" : " ",
+            "dialogue" : "Whoever I just heard, I have no idea what \"madness\" you're talking about.",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_kisumi_portrait",0],
+            "speaker" : "???:",
+            "dialogue" : "My daughter took me here for a swim in this river."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_kisumi_portrait",0],
+            "speaker" : " ",
+            "dialogue" : "Mom?"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",3],
+            "right_portrait" : ["spr_kagami_portrait",0],
+            "speaker" : "Sanae:",
+            "dialogue" : "Ah! There you are! I don't want this hairstyle. How do I get rid of it?"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",3],
+            "right_portrait" : ["spr_kagami_portrait",0],
+            "speaker" : "Kagami:",
+            "dialogue" : "I time traveled with my mom to the Edo Period to swim here."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",3],
+            "right_portrait" : ["spr_kagami_portrait",0],
+            "speaker" : "Kagami:",
+            "dialogue" : "I don't understand how you have super long hair. My mother has it..."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",3],
+            "right_portrait" : ["spr_kisumi_portrait",4],
+            "speaker" : "Kisumi:",
+            "dialogue" : "I did it for my husband. Same thing goes for Queen Marisa."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "right_portrait" : ["spr_kisumi_portrait",4],
+            "speaker" : "Sanae:",
+            "dialogue" : "Somebody told me that all women are affected by this. I have no clue what may have caused it."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "right_portrait" : ["spr_kisumi_portrait",4],
+            "speaker" : "Sanae:",
+            "dialogue" : "If I attempt to restore myself to my former glory, I'll fail."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "right_portrait" : ["spr_kisumi_portrait",0],
+            "speaker" : "Kisumi:",
+            "dialogue" : "Does it grow back?"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "right_portrait" : ["spr_kisumi_portrait",0],
+            "speaker" : "Sanae:",
+            "dialogue" : "Yes. This is a major incident."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "right_portrait" : ["spr_kagami_portrait",3],
+            "speaker" : "Kagami:",
+            "dialogue" : "Because we're from the present day, we aren't affected."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "right_portrait" : ["spr_kagami_portrait",3],
+            "speaker" : "Kagami:",
+            "dialogue" : "There's no way you can make any progress to remove it."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_kagami_portrait",3],
+            "speaker" : "Sanae:",
+            "dialogue" : "Dang it. There should be a way to remove it.",
+            "funct" : ["scr_cutscene_change_bgm",5]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_kagami_portrait",3],
+            "speaker" : "Sanae:",
+            "dialogue" : "In fact, I should duel you to see if your hair will fall out."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_kisumi_portrait",7],
+            "speaker" : "Kisumi:",
+            "dialogue" : "Kagami and I are youkai-borns who can't be sealed away."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_kisumi_portrait",7],
+            "speaker" : "Sanae:",
+            "dialogue" : "This spell was inflicted on me and I have faith this can be reversed."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_kagami_portrait",7],
+            "speaker" : "Kagami:",
+            "dialogue" : "Hair takes a long time to grow back. My boy Driller doesn't want to see me or my mother bald...",
+            "funct" : ["scr_cutscene_start_boss","obj_kisumi"]
+        }
+    ]
+}

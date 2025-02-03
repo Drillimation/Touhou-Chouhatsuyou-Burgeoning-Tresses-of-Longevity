@@ -1,0 +1,46 @@
+{
+    "char_info" : {
+        "char_name" : "Kisumi Torisawa",
+        "char_desc" : "The Siren Who Swims at Fast Speeds"
+    },
+    "boss_sprite" : "spr_kisumi",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_sanae_portrait",1],
+            "right_portrait" : ["spr_kagami_portrait",8],
+            "speaker" : "Kagami:",
+            "dialogue" : "You just proved yourself wrong. Our hair can't fall out in intense battles like these."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",1],
+            "right_portrait" : ["spr_kisumi_portrait",8],
+            "speaker" : "Kisumi:",
+            "dialogue" : "But this hair spell has permanently altered your physical appearance on a supramolecular scale."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",1],
+            "right_portrait" : ["spr_kagami_portrait",8],
+            "speaker" : "Kagami:",
+            "dialogue" : "You should enjoy your new appearance and your hair is damaged beyond repair."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_kagami_portrait",8],
+            "speaker" : "Sanae:",
+            "dialogue" : "You're not going to help. All I got was nothing but lame excuses from two sirens."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_kagami_portrait",8],
+            "speaker" : "Sanae:",
+            "dialogue" : "I'm going to leave you alone and head to the Palace of Eternity to search for a solution."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_kagami_portrait",8],
+            "speaker" : "Sanae:",
+            "dialogue" : "And if I fail, I will wrap myself up in a cocoon and sleep until the effect wears off.",
+            "funct" : ["scr_cutscene_stage_clear"]
+        }
+    ]
+}
