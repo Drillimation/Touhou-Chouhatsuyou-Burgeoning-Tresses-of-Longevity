@@ -1,0 +1,34 @@
+{
+    "char_info" : {
+        "char_name" : "Kisumi Torisawa",
+        "char_desc" : "The Siren Who Swims at Fast Speeds"
+    },
+    "boss_sprite" : "spr_kisumi",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_reimu_portrait",1],
+            "right_portrait" : ["spr_kagami_portrait",8],
+            "speaker" : "Kagami:",
+            "dialogue" : "Because you defeated us both, you will probably find a solution to this troubling incident."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",1],
+            "right_portrait" : ["spr_kisumi_portrait",8],
+            "speaker" : "Kisumi:",
+            "dialogue" : "You will probably restore it in no time. Will you not be beaten by this?"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kisumi_portrait",8],
+            "speaker" : "Reimu:",
+            "dialogue" : "There is no way I can fail, fushinja."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kisumi_portrait",9],
+            "speaker" : "Kisumi:",
+            "dialogue" : "Thanks a lot for insulting me again. I'm out of here.",
+            "funct" : ["scr_cutscene_stage_clear"]
+        }
+    ]
+}

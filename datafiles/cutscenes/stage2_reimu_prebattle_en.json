@@ -1,0 +1,174 @@
+{
+    "char_info" : {
+        "char_name" : "Kisumi Torisawa",
+        "char_desc" : "The Siren Who Swims at Fast Speeds"
+    },
+    "boss_sprite" : "spr_kisumi",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "speaker" : "Reimu:",
+            "dialogue" : "The Bamboo Forest of the Lost doesn't have a river to begin with. Why is it there?",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_kisumi_portrait",0],
+            "speaker" : "???:",
+            "dialogue" : "Greetings, Miss Hakurei. You have an opportunity to take advantage of your new hairstyle."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_kisumi_portrait",0],
+            "speaker" : "???:",
+            "dialogue" : "You can be a kannushi's bride!"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",7],
+            "right_portrait" : ["spr_kisumi_portrait",0],
+            "speaker" : "Reimu:",
+            "dialogue" : "Even if you may know me, my hair won't be in a man's favor."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_kisumi_portrait",0],
+            "speaker" : "???:",
+            "dialogue" : "What are you going to do then?"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",0],
+            "right_portrait" : ["spr_kisumi_portrait",0],
+            "speaker" : "Reimu:",
+            "dialogue" : "I intend to break the spell and restore my hairstyle, mergirl.",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",0],
+            "right_portrait" : ["spr_kisumi_portrait",3],
+            "speaker" : "Kisumi:",
+            "dialogue" : "If you're going to call a mother a mergirl, think again. Just look who's also swimming with me!"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",0],
+            "right_portrait" : ["spr_kisumi_portrait",3],
+            "speaker" : " ",
+            "dialogue" : "Mom?"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_kagami_portrait",0],
+            "speaker" : "Reimu:",
+            "dialogue" : "Wait a minute. Is it that time-traveling girl again? Is the woman in the purple hair your mother?"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_kisumi_portrait",4],
+            "speaker" : "Kisumi:",
+            "dialogue" : "Yes, that is my daughter."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_kagami_portrait",0],
+            "speaker" : "Kagami:",
+            "dialogue" : "This is what you need to do now, Mom."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_kagami_portrait",0],
+            "speaker" : "Kagami:",
+            "dialogue" : "Yumi and I were attacked when we were avenging that primordial concert that drained our audiences."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",6],
+            "right_portrait" : ["spr_kagami_portrait",0],
+            "speaker" : "Reimu:",
+            "dialogue" : "Hold on, how come you aren't affected by this enchantment, Kagami?"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",6],
+            "right_portrait" : ["spr_kagami_portrait",3],
+            "speaker" : "Kagami:",
+            "dialogue" : "People coming from other time periods are not affected by this."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kagami_portrait",3],
+            "speaker" : "Reimu:",
+            "dialogue" : "I'm convinced that there is a way to fix this problem."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kagami_portrait",3],
+            "speaker" : "Reimu:",
+            "dialogue" : "I won't stand by; this hair debacle will not mark my downfall!"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kisumi_portrait",0],
+            "speaker" : "Kisumi:",
+            "dialogue" : "What do you intend to do, Reimu?"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kisumi_portrait",0],
+            "speaker" : "Reimu:",
+            "dialogue" : "I am searching for a solution to this problem."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",7],
+            "right_portrait" : ["spr_kisumi_portrait",0],
+            "speaker" : "Reimu:",
+            "dialogue" : "It appears to have originated in the Palace of Eternity."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",7],
+            "right_portrait" : ["spr_kagami_portrait",3],
+            "speaker" : "Kagami:",
+            "dialogue" : "Before you turn it off, you should start singing to attract the river's inhabitants!"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kagami_portrait",3],
+            "speaker" : "Reimu:",
+            "dialogue" : "I am not going to sit here and sing. I'm not good at that anyway."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kisumi_portrait",0],
+            "speaker" : "Kisumi:",
+            "dialogue" : "Reimu, I predict that you will fail to resolve this incident."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kisumi_portrait",0],
+            "speaker" : "Reimu:",
+            "dialogue" : "Why are you so pessimistic? You want to try me?"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kisumi_portrait",4],
+            "speaker" : "Kisumi:",
+            "dialogue" : "You will not be able to."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kisumi_portrait",4],
+            "speaker" : "Reimu:",
+            "dialogue" : "For God's sake, I will not fail, you fushinja.",
+            "funct" : ["scr_cutscene_change_bgm",5]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kisumi_portrait",6],
+            "speaker" : "Kisumi:",
+            "dialogue" : "What did you just call me!?"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kisumi_portrait",6],
+            "speaker" : "Reimu:",
+            "dialogue" : "If you don't shut up about failure, I will expel you from this time period.",
+            "funct" : ["scr_cutscene_start_boss","obj_kisumi"]
+        }
+    ]
+}
