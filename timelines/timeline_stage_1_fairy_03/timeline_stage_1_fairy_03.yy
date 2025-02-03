@@ -8,8 +8,8 @@
   ],
   "name":"timeline_stage_1_fairy_03",
   "parent":{
-    "name":"Timelines",
-    "path":"folders/Timelines.yy",
+    "name":"Stage 1",
+    "path":"folders/Timelines/Stage 1.yy",
   },
   "resourceType":"GMTimeline",
   "resourceVersion":"2.0",

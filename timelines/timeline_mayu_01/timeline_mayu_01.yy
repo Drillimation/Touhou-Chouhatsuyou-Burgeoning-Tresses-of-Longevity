@@ -11,8 +11,8 @@
   ],
   "name":"timeline_mayu_01",
   "parent":{
-    "name":"Timelines",
-    "path":"folders/Timelines.yy",
+    "name":"Stage 1",
+    "path":"folders/Timelines/Stage 1.yy",
   },
   "resourceType":"GMTimeline",
   "resourceVersion":"2.0",

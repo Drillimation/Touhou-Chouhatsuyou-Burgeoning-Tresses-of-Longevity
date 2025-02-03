@@ -9,8 +9,8 @@
   "name":"obj_stage_1_fairy_03",
   "overriddenProperties":[],
   "parent":{
-    "name":"Enemies",
-    "path":"folders/Objects/Enemies.yy",
+    "name":"Stage 1",
+    "path":"folders/Objects/Enemies/Stage 1.yy",
   },
   "parentObjectId":{
     "name":"obj_enemy",
