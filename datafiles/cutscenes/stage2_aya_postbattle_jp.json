@@ -1,0 +1,46 @@
+{
+    "char_info" : {
+        "char_name" : "鳥沢キスミ",
+        "char_desc" : "速い速度で泳ぐ人魚"
+    },
+    "boss_sprite" : "spr_kisumi",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_aya_portrait",1],
+            "right_portrait" : ["spr_kisumi_portrait",8],
+            "speaker" : "アヤ：",
+            "dialogue" : "じゃ、どう思ったのか？"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",1],
+            "right_portrait" : ["spr_kisumi_portrait",8],
+            "speaker" : "キスミ：",
+            "dialogue" : "被害額は美しさを劣化でけへん。夫は毎日うちに会うのを楽しみにしとる。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",1],
+            "right_portrait" : ["spr_kagami_portrait",8],
+            "speaker" : "カガミ：",
+            "dialogue" : "機会があるときはドリラーはんも同じ…"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",1],
+            "right_portrait" : ["spr_kagami_portrait",8],
+            "speaker" : "アヤ：",
+            "dialogue" : "ひどい状態ではまっても、"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",1],
+            "right_portrait" : ["spr_kagami_portrait",8],
+            "speaker" : "アヤ：",
+            "dialogue" : "私の短髪は最も人々の欲望に好ましいと確信だ。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",1],
+            "right_portrait" : ["spr_kagami_portrait",8],
+            "speaker" : "アヤ：",
+            "dialogue" : "外見は立派と思う。",
+            "funct" : ["scr_cutscene_stage_clear"]
+        }
+    ]
+}

@@ -1,0 +1,132 @@
+{
+    "char_info" : {
+        "char_name" : "鳥沢キスミ",
+        "char_desc" : "速い速度で泳ぐ人魚"
+    },
+    "boss_sprite" : "spr_kisumi",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_marisa_portrait",0],
+            "speaker" : "マリサ：",
+            "dialogue" : "迷いの竹林に旅行が多くのを通して、川であったのを知らなかった！",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",0],
+            "right_portrait" : ["spr_kisumi_portrait",0],
+            "speaker" : "？？？：",
+            "dialogue" : "おはようさん、女王陛下。お元気でっか？"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",7],
+            "right_portrait" : ["spr_kisumi_portrait",0],
+            "speaker" : "マリサ：",
+            "dialogue" : "うわっ、どんな人魚の種類なのか？"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",7],
+            "right_portrait" : ["spr_kisumi_portrait",4],
+            "speaker" : "？？？：",
+            "dialogue" : "うちの時代でも、最も人魚はこのくらい長い髪があれへん。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",1],
+            "right_portrait" : ["spr_kisumi_portrait",0],
+            "speaker" : "マリサ：",
+            "dialogue" : "これは私と夫がカグヤ皇后から削除した呪いを思い出させる…"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",1],
+            "right_portrait" : ["spr_kisumi_portrait",0],
+            "speaker" : "？？？：",
+            "dialogue" : "ほな…"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",1],
+            "right_portrait" : ["spr_kisumi_portrait",0],
+            "speaker" : " ",
+            "dialogue" : "おかん？"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",3],
+            "right_portrait" : ["spr_kagami_portrait",0],
+            "speaker" : "マリサ：",
+            "dialogue" : "久しぶり！紫色の人魚はお母さんなのか？",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",3],
+            "right_portrait" : ["spr_kisumi_portrait",4],
+            "speaker" : "キスミ：",
+            "dialogue" : "はい。うちは落合カガミはんのおかんやで。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",0],
+            "right_portrait" : ["spr_kisumi_portrait",4],
+            "speaker" : "マリサ：",
+            "dialogue" : "一晩中レイムの含めすべての女性の髪が伸びた。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",0],
+            "right_portrait" : ["spr_kisumi_portrait",4],
+            "speaker" : "マリサ：",
+            "dialogue" : "なぜカガミちゃんは影響を与えなかった？"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",0],
+            "right_portrait" : ["spr_kagami_portrait",3],
+            "speaker" : "カガミ：",
+            "dialogue" : "時間旅行者に影響を与えてへん。物語終了。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",4],
+            "right_portrait" : ["spr_kagami_portrait",3],
+            "speaker" : "マリサ：",
+            "dialogue" : "幻想郷連邦王国の女王であり、すでに十分美しい。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",4],
+            "right_portrait" : ["spr_kagami_portrait",3],
+            "speaker" : "マリサ：",
+            "dialogue" : "レイムはそんなに美しくなくてもいいね。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",0],
+            "right_portrait" : ["spr_kisumi_portrait",0],
+            "speaker" : "キスミ：",
+            "dialogue" : "他の国とは異なり、髪に関して幻想郷は外れ値や。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",0],
+            "right_portrait" : ["spr_kisumi_portrait",0],
+            "speaker" : "キスミ：",
+            "dialogue" : "他の国と比べて、女性の髪はずっと長い。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",3],
+            "right_portrait" : ["spr_kisumi_portrait",0],
+            "speaker" : "マリサ：",
+            "dialogue" : "わかる。カグヤ皇后が普及したものだ。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",0],
+            "right_portrait" : ["spr_kisumi_portrait",0],
+            "speaker" : "マリサ：",
+            "dialogue" : "皇后について言えば、竹林市の永遠亭に始まったと思う。",
+            "funct" : ["scr_cutscene_change_bgm",5]
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",0],
+            "right_portrait" : ["spr_kisumi_portrait",4],
+            "speaker" : "キスミ：",
+            "dialogue" : "危険に遭遇するかもと伝説が言う。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",0],
+            "right_portrait" : ["spr_kisumi_portrait",4],
+            "speaker" : "キスミ：",
+            "dialogue" : "弾幕を容認できるために、あんたに挑戦せんならん！",
+            "funct" : ["scr_cutscene_start_boss","obj_kisumi"]
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "char_info" : {
+        "char_name" : "鳥沢キスミ",
+        "char_desc" : "速い速度で泳ぐ人魚"
+    },
+    "boss_sprite" : "spr_kisumi",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_reimu_portrait",1],
+            "right_portrait" : ["spr_kagami_portrait",8],
+            "speaker" : "カガミ：",
+            "dialogue" : "二人を破ったので、この異変の解決をおそらく探す。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",1],
+            "right_portrait" : ["spr_kisumi_portrait",8],
+            "speaker" : "キスミ：",
+            "dialogue" : "おそらくすぐに解決する。これに負けへんの？"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kisumi_portrait",8],
+            "speaker" : "レイム：",
+            "dialogue" : "不信者さん、失敗するわけがないわ。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kisumi_portrait",9],
+            "speaker" : "キスミ：",
+            "dialogue" : "また侮辱したさかい、行ってきます！",
+            "funct" : ["scr_cutscene_stage_clear"]
+        }
+    ]
+}

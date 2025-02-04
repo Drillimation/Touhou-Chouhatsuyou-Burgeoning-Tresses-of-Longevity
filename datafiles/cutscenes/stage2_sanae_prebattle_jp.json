@@ -1,0 +1,124 @@
+{
+    "char_info" : {
+        "char_name" : "鳥沢キスミ",
+        "char_desc" : "速い速度で泳ぐ人魚"
+    },
+    "boss_sprite" : "spr_kisumi",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "speaker" : "サナエ：",
+            "dialogue" : "そのオレンジ色の人魚がどこへ行ってるのか？この狂気が終わってほしい。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "speaker" : " ",
+            "dialogue" : "今言うたのは何であれ、話しとる「狂気」についてわかれへん。",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_kisumi_portrait",0],
+            "speaker" : "？？？：",
+            "dialogue" : "娘はんはうちをこの川に泳ぐ連れて行ってくれはった。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_kisumi_portrait",0],
+            "speaker" : " ",
+            "dialogue" : "おかん？"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",3],
+            "right_portrait" : ["spr_kagami_portrait",0],
+            "speaker" : "サナエ：",
+            "dialogue" : "あっ！そこにいたよ！この髪型が欲しくないわ。どうすれば削除できるのか？"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",3],
+            "right_portrait" : ["spr_kagami_portrait",0],
+            "speaker" : "カガミ：",
+            "dialogue" : "ここに泳げるにはおかんで江戸時代に時間飛んだ。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",3],
+            "right_portrait" : ["spr_kagami_portrait",0],
+            "speaker" : "カガミ：",
+            "dialogue" : "超長い髪が持ってる理由かわかれへんのね。おかんが持ってるんで…"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",3],
+            "right_portrait" : ["spr_kisumi_portrait",4],
+            "speaker" : "キスミ：",
+            "dialogue" : "夫はうちをこう見したかった。マリサ女王様で同じもん！"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "right_portrait" : ["spr_kisumi_portrait",4],
+            "speaker" : "サナエ：",
+            "dialogue" : "すべての女性たちはこれに影響を受けると誰かが言った。原因に関するものを知らない。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "right_portrait" : ["spr_kisumi_portrait",4],
+            "speaker" : "サナエ：",
+            "dialogue" : "自分をかつての栄光に回復しようとすれば、失敗する。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "right_portrait" : ["spr_kisumi_portrait",0],
+            "speaker" : "キスミ：",
+            "dialogue" : "もっかい伸ばすのか？"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "right_portrait" : ["spr_kisumi_portrait",0],
+            "speaker" : "サナエ：",
+            "dialogue" : "はい。これは重大な異変。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "right_portrait" : ["spr_kagami_portrait",3],
+            "speaker" : "カガミ：",
+            "dialogue" : "現代から来たさけ、影響を受けなんだよ。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "right_portrait" : ["spr_kagami_portrait",3],
+            "speaker" : "カガミ：",
+            "dialogue" : "切る方法がないわね。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_kagami_portrait",3],
+            "speaker" : "サナエ：",
+            "dialogue" : "くそ。切る方法があるはず。",
+            "funct" : ["scr_cutscene_change_bgm",5]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_kagami_portrait",3],
+            "speaker" : "サナエ：",
+            "dialogue" : "実際には、髪の毛が抜ける場合を見たいなら、対戦をやろう！"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_kisumi_portrait",7],
+            "speaker" : "キスミ：",
+            "dialogue" : "カガミはんとうちは妖怪人であり、封印不可や。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_kisumi_portrait",7],
+            "speaker" : "サナエ：",
+            "dialogue" : "この呪文は私に置かれ、逆転すると信じるのよ。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_kagami_portrait",7],
+            "speaker" : "カガミ：",
+            "dialogue" : "髪は伸ばすのに長い時間がかかる。うちは禿げたになるのをドリラーはんが見てほしくないわ…",
+            "funct" : ["scr_cutscene_start_boss","obj_kisumi"]
+        }
+    ]
+}

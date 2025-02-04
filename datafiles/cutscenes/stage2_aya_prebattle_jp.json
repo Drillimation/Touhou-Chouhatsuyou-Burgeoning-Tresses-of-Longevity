@@ -1,0 +1,119 @@
+{
+    "char_info" : {
+        "char_name" : "鳥沢キスミ",
+        "char_desc" : "速い速度で泳ぐ人魚"
+    },
+    "boss_sprite" : "spr_kisumi",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "speaker" : "アヤ：",
+            "dialogue" : "妖怪人であるにもかかわらず、この危機を解決するのを祈ってる。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",0],
+            "speaker" : "アヤ：",
+            "dialogue" : "解決を見つけるのを祈ってる。さもないと、幸運かも…",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",0],
+            "right_portrait" : ["spr_kisumi_portrait",0],
+            "speaker" : "？？？：",
+            "dialogue" : "最高の心は解決が持つかもと思いまっか？"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",1],
+            "right_portrait" : ["spr_kisumi_portrait",0],
+            "speaker" : "アヤ：",
+            "dialogue" : "誰か！状況は不快であり、この過度に長い髪を切る必要。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",1],
+            "right_portrait" : ["spr_kisumi_portrait",4],
+            "speaker" : "？？？：",
+            "dialogue" : "切っとれへんけど…"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",0],
+            "right_portrait" : ["spr_kisumi_portrait",4],
+            "speaker" : "アヤ：",
+            "dialogue" : "私の修復はすごいなるのか？"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",0],
+            "right_portrait" : ["spr_kagami_portrait",0],
+            "speaker" : "カガミ：",
+            "dialogue" : "誰がほんまの妖怪民族か知れへん…"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",4],
+            "right_portrait" : ["spr_kagami_portrait",0],
+            "speaker" : "アヤ：",
+            "dialogue" : "二人は人魚？誰が現れたばかりのもん？",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",4],
+            "right_portrait" : ["spr_kisumi_portrait",0],
+            "speaker" : "キスミ：",
+            "dialogue" : "そちらは娘や。川で泳ぎたかったさかい、時間旅行で連れて行ってくれはった。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_kisumi_portrait",0],
+            "speaker" : "アヤ：",
+            "dialogue" : "始めるには、迷いの竹林は川がある理由がわからないわ。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_kisumi_portrait",0],
+            "speaker" : "アヤ：",
+            "dialogue" : "しかし、どうしたの？髪はあなたのより短い。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_kagami_portrait",3],
+            "speaker" : "カガミ：",
+            "dialogue" : "異なる時代から来よった。うちに影響を与えへん。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_kagami_portrait",3],
+            "speaker" : "アヤ：",
+            "dialogue" : "幻想郷の皆さんは影響を受けているようだけど、能力を保持する。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_kagami_portrait",0],
+            "speaker" : "カガミ：",
+            "dialogue" : "弾幕を投げつけたい個人のリストがある。",
+            "funct" : ["scr_cutscene_change_bgm",5]
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_kagami_portrait",0],
+            "speaker" : "アヤ：",
+            "dialogue" : "あら、するな！永遠亭へ行く途中。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_kisumi_portrait",7],
+            "speaker" : "キスミ：",
+            "dialogue" : "あんたから中断が欲しくないわ。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_kagami_portrait",7],
+            "speaker" : "アヤ：",
+            "dialogue" : "去らないなら、弾幕ゲームを遊ぶ！"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_kagami_portrait",3],
+            "speaker" : "カガミ：",
+            "dialogue" : "ゲーム中にうちの髪の毛が抜けなくて嬉しいわよ！",
+            "funct" : ["scr_cutscene_start_boss","obj_kisumi"]
+        }
+    ]
+}

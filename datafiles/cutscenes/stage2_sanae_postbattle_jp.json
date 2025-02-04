@@ -1,0 +1,46 @@
+{
+    "char_info" : {
+        "char_name" : "鳥沢キスミ",
+        "char_desc" : "速い速度で泳ぐ人魚"
+    },
+    "boss_sprite" : "spr_kisumi",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_sanae_portrait",1],
+            "right_portrait" : ["spr_kagami_portrait",8],
+            "speaker" : "キスミ：",
+            "dialogue" : "まちごとったのを証明したわよ。激しい対戦中に髪の毛が抜けられへん。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",1],
+            "right_portrait" : ["spr_kisumi_portrait",8],
+            "speaker" : "キスミ：",
+            "dialogue" : "この髪の呪文は超分子的な規模に外見を永久に変更されたけど。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",1],
+            "right_portrait" : ["spr_kagami_portrait",8],
+            "speaker" : "キスミ：",
+            "dialogue" : "新しい外見を楽しむはずや。髪型も修復不可能なほど損傷された。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_kagami_portrait",8],
+            "speaker" : "サナエ：",
+            "dialogue" : "助ける気がないのか？二人の人魚からつまらない言い訳にだった。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_kagami_portrait",8],
+            "speaker" : "サナエ：",
+            "dialogue" : "解決を探せるには放っておいて永遠亭に行く。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_kagami_portrait",8],
+            "speaker" : "サナエ：",
+            "dialogue" : "そして失敗すれば、香りが消えるまで私は繭に身を包んで眠るのよ。",
+            "funct" : ["scr_cutscene_stage_clear"]
+        }
+    ]
+}

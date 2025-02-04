@@ -1,0 +1,174 @@
+{
+    "char_info" : {
+        "char_name" : "鳥沢キスミ",
+        "char_desc" : "速い速度で泳ぐ人魚"
+    },
+    "boss_sprite" : "spr_kisumi",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "speaker" : "レイム：",
+            "dialogue" : "迷いの竹林は川がない。なんでそこにあるのか？",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_kisumi_portrait",0],
+            "speaker" : "？？？：",
+            "dialogue" : "博麗はん、こんにちは！新しい髪型を利用する機会や。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_kisumi_portrait",0],
+            "speaker" : "？？？：",
+            "dialogue" : "神主のお読めなれる！"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",7],
+            "right_portrait" : ["spr_kisumi_portrait",0],
+            "speaker" : "レイム：",
+            "dialogue" : "私を知ってたとしても、髪が男性にとって有利じゃない。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_kisumi_portrait",0],
+            "speaker" : "？？？：",
+            "dialogue" : "どないしまっか？"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",0],
+            "right_portrait" : ["spr_kisumi_portrait",0],
+            "speaker" : "レイム：",
+            "dialogue" : "人魚さん、この呪文を壊して髪型を修復するわ。",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",0],
+            "right_portrait" : ["spr_kisumi_portrait",3],
+            "speaker" : "キスミ：",
+            "dialogue" : "じゃ、誰がうちと泳ぎてるか見て。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",0],
+            "right_portrait" : ["spr_kisumi_portrait",3],
+            "speaker" : " ",
+            "dialogue" : "おかん？"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_kagami_portrait",0],
+            "speaker" : "レイム：",
+            "dialogue" : "ちょっと。あれはその時間飛ぶ少女なの？紫の髪はお母さんなの？"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_kisumi_portrait",4],
+            "speaker" : "キスミ：",
+            "dialogue" : "はい、そちらは娘はんや。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_kagami_portrait",0],
+            "speaker" : "カガミ：",
+            "dialogue" : "おかん、なんかをやる必要。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_kagami_portrait",0],
+            "speaker" : "カガミ：",
+            "dialogue" : "観客がその始原のコンサートに減ったことへの復讐をしとったときは、うちとユミちゃんを戦った！"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",6],
+            "right_portrait" : ["spr_kagami_portrait",0],
+            "speaker" : "レイム：",
+            "dialogue" : "つかまって、カガミちゃん、なんでこの呪文で影響を受けなかったわ？"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",6],
+            "right_portrait" : ["spr_kagami_portrait",3],
+            "speaker" : "カガミ：",
+            "dialogue" : "他の時代から人々はこれで影響を与えとれへん。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kagami_portrait",3],
+            "speaker" : "レイム：",
+            "dialogue" : "この問題を直す方法があると確信しているよ。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kagami_portrait",3],
+            "speaker" : "レイム：",
+            "dialogue" : "傍観しないけど。この髪の大失敗は没落ならないのだ！"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kisumi_portrait",0],
+            "speaker" : "キスミ：",
+            "dialogue" : "レイムはん、どないしまっか？"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kisumi_portrait",0],
+            "speaker" : "レイム：",
+            "dialogue" : "この問題の解決策を探してる。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",7],
+            "right_portrait" : ["spr_kisumi_portrait",0],
+            "speaker" : "レイム：",
+            "dialogue" : "永遠亭から始まったのかも。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",7],
+            "right_portrait" : ["spr_kagami_portrait",3],
+            "speaker" : "カガミ：",
+            "dialogue" : "オフにする前に、川の住人を引き寄せるために歌い始めるべき！"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kagami_portrait",3],
+            "speaker" : "レイム：",
+            "dialogue" : "ここで座って歌わないの。とにかく上手じゃないね。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kisumi_portrait",0],
+            "speaker" : "キスミ：",
+            "dialogue" : "レイムはん、この異変を解決できひんと思う。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kisumi_portrait",0],
+            "speaker" : "レイム：",
+            "dialogue" : "なぜ悲観的なったのか？私に挑戦したい？"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kisumi_portrait",4],
+            "speaker" : "キスミ：",
+            "dialogue" : "解決できひん。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kisumi_portrait",4],
+            "speaker" : "レイム：",
+            "dialogue" : "不信者さん、失敗しないの！",
+            "funct" : ["scr_cutscene_change_bgm",5]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kisumi_portrait",6],
+            "speaker" : "キスミ：",
+            "dialogue" : "うちを何と呼んだん！？"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kisumi_portrait",6],
+            "speaker" : "レイム：",
+            "dialogue" : "失敗について黙らないなら、この時代から追放するんだ！",
+            "funct" : ["scr_cutscene_start_boss","obj_kisumi"]
+        }
+    ]
+}

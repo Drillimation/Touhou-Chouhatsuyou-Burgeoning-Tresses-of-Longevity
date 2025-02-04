@@ -1,0 +1,40 @@
+{
+    "char_info" : {
+        "char_name" : "鳥沢キスミ",
+        "char_desc" : "速い速度で泳ぐ人魚"
+    },
+    "boss_sprite" : "spr_kisumi",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_marisa_portrait",1],
+            "right_portrait" : ["spr_kisumi_portrait",8],
+            "speaker" : "キスミ：",
+            "dialogue" : "女王陛下、あんたに嘆願さして。強さは想像を絶するかも。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",3],
+            "right_portrait" : ["spr_kisumi_portrait",8],
+            "speaker" : "マリサ：",
+            "dialogue" : "教会を入って嵐のようなコンサートを終わるつもりのときはカガミちゃんが私を教えたの？"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",3],
+            "right_portrait" : ["spr_kagami_portrait",8],
+            "speaker" : "カガミ：",
+            "dialogue" : "はい、そうやった。永遠亭に行くつもりでっか？"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kagami_portrait",8],
+            "speaker" : "マリサ：",
+            "dialogue" : "はい。実際には、エイリンが髪に肥料のようなビタミンについて教えてくれた。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kisumi_portrait",8],
+            "speaker" : "キスミ：",
+            "dialogue" : "ほな、これは自分の王国の女王になった経緯や…",
+            "funct" : ["scr_cutscene_stage_clear"]
+        }
+    ]
+}
