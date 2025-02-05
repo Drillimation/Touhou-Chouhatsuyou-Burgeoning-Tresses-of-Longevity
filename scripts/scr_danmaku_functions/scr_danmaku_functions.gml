@@ -47,6 +47,27 @@ function scr_danmaku_orbit(_distance,_speed,_distance_max,_distance_speed = 1,_o
 	}
 }
 
+function scr_danmaku_change_direction(_direction,_relative = false,_delay = 0,_sound = undefined) {
+	if !variable_instance_exists(id,"_tick") {
+		_tick = 0;
+	}
+	_tick += 1;
+	if _tick == _delay {
+		if _sound != undefined { scr_one_channel_sound(_sound); }
+		if _relative == false {
+			direction = _direction;
+		}
+		else {
+			direction += _direction;
+		}
+		enemy_function = undefined;
+		enemy_function_array = [];
+	}
+}
+
+function scr_danmaku_friction(_friction) {
+	friction = _friction;
+}
 
 function scr_danmaku_marisa_laser(_speed,_xscale) {
 	speed = _speed;

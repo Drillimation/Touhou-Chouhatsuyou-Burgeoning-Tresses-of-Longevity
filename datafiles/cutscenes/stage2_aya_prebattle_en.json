@@ -88,7 +88,7 @@
             "right_portrait" : ["spr_kagami_portrait",0],
             "speaker" : "Kagami:",
             "dialogue" : "I have a list of individuals I want to unleash my danmaku on.",
-            "funct" : ["scr_cutscene_change_bgm",5]
+            "funct" : ["scr_cutscene_change_bgm",4]
         },
         {
             "left_portrait" : ["spr_aya_portrait",2],

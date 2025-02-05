@@ -93,7 +93,7 @@
             "right_portrait" : ["spr_kagami_portrait",3],
             "speaker" : "Sanae:",
             "dialogue" : "Dang it. There should be a way to remove it.",
-            "funct" : ["scr_cutscene_change_bgm",5]
+            "funct" : ["scr_cutscene_change_bgm",4]
         },
         {
             "left_portrait" : ["spr_sanae_portrait",2],

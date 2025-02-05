@@ -8,7 +8,7 @@ x_pos += hspeed;
 y_pos += vspeed;
 
 
-switch(global.character[item_id]) {
+switch(global.player_stats[item_id].character) {
 	case "REIMU": sprite_index = spr_reimu_spell; break;
 	case "MARISA": sprite_index = spr_marisa_spell; break;
 	case "AYA": sprite_index = spr_aya_spell; break;

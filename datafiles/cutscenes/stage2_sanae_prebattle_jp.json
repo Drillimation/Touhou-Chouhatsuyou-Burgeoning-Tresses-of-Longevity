@@ -93,7 +93,7 @@
             "right_portrait" : ["spr_kagami_portrait",3],
             "speaker" : "サナエ：",
             "dialogue" : "くそ。切る方法があるはず。",
-            "funct" : ["scr_cutscene_change_bgm",5]
+            "funct" : ["scr_cutscene_change_bgm",4]
         },
         {
             "left_portrait" : ["spr_sanae_portrait",2],

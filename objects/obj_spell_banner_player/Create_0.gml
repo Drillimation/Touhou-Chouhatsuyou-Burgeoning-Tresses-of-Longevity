@@ -4,7 +4,7 @@ var struct_data = scr_json_load_file("main/spell_cards" + string(global.suf) + "
 
 if struct_exists(struct_data, "player_char") {
 	var _names = struct_get_names(struct_data.player_char);
-	txt = string(struct_get(struct_data.player_char,global.character[item_id]));
+	txt = string(struct_get(struct_data.player_char,global.player_stats[item_id].character));
 }
 
 cut_in = spr_blank_portrait;

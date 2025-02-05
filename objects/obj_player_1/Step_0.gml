@@ -34,8 +34,7 @@ if keyboard_check_pressed(ord("X")) or gamepad_button_check_pressed(play_id,gp_f
 			var struct_data = scr_json_load_file("main/spell_cards" + string(global.suf) + ".json","struct_data",false);
 
 			if struct_exists(struct_data, "player_char") {
-				var _names = struct_get_names(struct_data.player_char);
-				txt = string(struct_get(struct_data.player_char,global.player_stats[item_id].character));
+				txt = struct_get(struct_data.player_char,string(global.player_stats[item_id].character));
 			}
 			switch(global.player_stats[item_id].character) {
 				case "REIMU": cut_in = spr_reimu_portrait; break;

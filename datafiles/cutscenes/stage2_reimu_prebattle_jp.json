@@ -155,7 +155,7 @@
             "right_portrait" : ["spr_kisumi_portrait",4],
             "speaker" : "レイム：",
             "dialogue" : "不信者さん、失敗しないの！",
-            "funct" : ["scr_cutscene_change_bgm",5]
+            "funct" : ["scr_cutscene_change_bgm",4]
         },
         {
             "left_portrait" : ["spr_reimu_portrait",2],

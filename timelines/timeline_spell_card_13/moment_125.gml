@@ -1,0 +1,1 @@
+scr_shoot_bullet_enemy(0,0,spr_bullet_large,15,0,0,false,snd_enemy_fire);

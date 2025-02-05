@@ -113,7 +113,7 @@
             "right_portrait" : ["spr_kisumi_portrait",0],
             "speaker" : "マリサ：",
             "dialogue" : "皇后について言えば、竹林市の永遠亭に始まったと思う。",
-            "funct" : ["scr_cutscene_change_bgm",5]
+            "funct" : ["scr_cutscene_change_bgm",4]
         },
         {
             "left_portrait" : ["spr_marisa_portrait",0],

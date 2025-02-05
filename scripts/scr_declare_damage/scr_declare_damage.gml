@@ -10,7 +10,7 @@ function scr_declare_damage(_damage, _id){
 			if global.global_stats.point_item >= 20 + (20 * global.player_stats[_id].timesrevived) {
 				global.global_stats.point_item -= 20 + (20 * global.player_stats[_id].timesrevived);
 				global.player_stats[_id].timesrevived += 1;
-				global.global_stats[other.play_id].player_health = 30;
+				global.player_stats[other.play_id].player_health = 30;
 				randomize();
 				if global.player_stats[_id].pow >= 9 {
 					var inst = instance_create_depth(x + irandom_range(-32,32),y + irandom_range(-32,32),0,obj_item);

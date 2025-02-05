@@ -113,7 +113,7 @@
             "right_portrait" : ["spr_kisumi_portrait",0],
             "speaker" : "Marisa:",
             "dialogue" : "Speaking of the Empress, I heard this started in the Palace of Eternity in Chikurin.",
-            "funct" : ["scr_cutscene_change_bgm",5]
+            "funct" : ["scr_cutscene_change_bgm",4]
         },
         {
             "left_portrait" : ["spr_marisa_portrait",0],
