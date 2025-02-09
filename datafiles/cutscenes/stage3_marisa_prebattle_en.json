@@ -1,0 +1,165 @@
+{
+    "char_info" : {
+        "char_name" : "Kiyomi Tatariya",
+        "char_desc" : "The Mysterious Masked Conductor"
+    },
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "speaker" : "Marisa:",
+            "dialogue" : "Empress Kaguya? Where are you?"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "speaker" : " ",
+            "dialogue" : "I heard your voice, my Majesty."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",4],
+            "speaker" : "Marisa:",
+            "dialogue" : "Excuse me but I'm not Empress Kaguya. That was Queen Marisa you heard.",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",4],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "???:",
+            "dialogue" : "Oh. I'm sorry to say, but Empress Kaguya and her courtiers are not here at the moment."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "Marisa:",
+            "dialogue" : "Where are they?"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "right_portrait" : ["spr_kiyomi_portrait",5],
+            "speaker" : "???:",
+            "dialogue" : "No idea."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "right_portrait" : ["spr_kiyomi_portrait",5],
+            "speaker" : "Marisa:",
+            "dialogue" : "I don't know either."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",5],
+            "speaker" : "Marisa:",
+            "dialogue" : "Speaking of this enchantment, Reimu has said this is totally unacceptable."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",5],
+            "speaker" : "Marisa:",
+            "dialogue" : "Why aren't you also affected like that one siren?",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",5],
+            "speaker" : "Kiyomi:",
+            "dialogue" : "What do you mean?"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",5],
+            "speaker" : "Marisa:",
+            "dialogue" : "Reimu claims that she, along with some other folks, looks like complete fools."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",4],
+            "speaker" : "Kiyomi:",
+            "dialogue" : "No, all the women don't look like fools. They look great."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",4],
+            "speaker" : "Kiyomi:",
+            "dialogue" : "My magic protects my body from scents like these."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",7],
+            "right_portrait" : ["spr_kiyomi_portrait",4],
+            "speaker" : "Marisa:",
+            "dialogue" : "I hope the Scarlet Devil is happy. She might use her long hair to fend off people without it."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",7],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "Kiyomi:",
+            "dialogue" : "Are you referring to that Chinese legend?"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "Marisa:",
+            "dialogue" : "No, but Reimu says it's annoying."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "Marisa:",
+            "dialogue" : "There's no way she can give orders to the Supreme Court or Gensokyo Royal Defense Force with this hair."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",3],
+            "speaker" : "Kiyomi:",
+            "dialogue" : "There's nothing much to worry about."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",7],
+            "right_portrait" : ["spr_kiyomi_portrait",3],
+            "speaker" : "Marisa:",
+            "dialogue" : "Whenever I'd host a ball, all of the men would want Reimu's hand in a waltz."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",7],
+            "right_portrait" : ["spr_kiyomi_portrait",3],
+            "speaker" : "Kiyomi:",
+            "dialogue" : "Why are you complaining? Everyone looks amazing now."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",3],
+            "speaker" : "Marisa:",
+            "dialogue" : "She doesn't want to look cool. She wants her old hair back.",
+            "funct" : ["scr_cutscene_change_bgm",6]
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",4],
+            "speaker" : "Kiyomi:",
+            "dialogue" : "I might as well start playing this song on my harp."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",4],
+            "speaker" : "Marisa:",
+            "dialogue" : "If you sing this song in front of Reimu, it will be an embarrassment for her."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "Kiyomi:",
+            "dialogue" : "How will it be an embarrassment?"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "Marisa:",
+            "dialogue" : "It will be an epic failure."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",3],
+            "speaker" : "Kiyomi:",
+            "dialogue" : "I might as well go on with the show!",
+            "funct" : ["scr_cutscene_start_boss","obj_kiyomi_true"]
+        }
+    ]
+}

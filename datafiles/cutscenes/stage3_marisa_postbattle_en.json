@@ -1,0 +1,57 @@
+{
+    "char_info" : {
+        "char_name" : "Kiyomi Tatariya",
+        "char_desc" : "The Mysterious Masked Conductor"
+    },
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_marisa_portrait",1],
+            "right_portrait" : ["spr_kiyomi_portrait",11],
+            "speaker" : "Kiyomi:",
+            "dialogue" : "Oof... I hope this incident doesn't get leaked in the Daily Bunbunmaru."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",1],
+            "right_portrait" : ["spr_kiyomi_portrait",11],
+            "speaker" : "Marisa:",
+            "dialogue" : "Once it does, you will be contacted by the fashion industry."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",1],
+            "right_portrait" : ["spr_kiyomi_portrait",11],
+            "speaker" : "Marisa:",
+            "dialogue" : "They would no doubt create a \"Little Hair Queen\" club."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",1],
+            "right_portrait" : ["spr_kiyomi_portrait",10],
+            "speaker" : "Kiyomi:",
+            "dialogue" : "Little Hair Queen? Gee, it would have to be run by a phantom or something."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",7],
+            "right_portrait" : ["spr_kiyomi_portrait",10],
+            "speaker" : "Marisa:",
+            "dialogue" : "So, looks like it didn't start here. Where do you think it may have begun?"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",7],
+            "right_portrait" : ["spr_kiyomi_portrait",10],
+            "speaker" : "Kiyomi:",
+            "dialogue" : "Probably in a tower situated near the Youkai Mountain range..."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",3],
+            "right_portrait" : ["spr_kiyomi_portrait",10],
+            "speaker" : "Marisa:",
+            "dialogue" : "Time to leave for there!"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",10],
+            "speaker" : "Marisa:",
+            "dialogue" : "I won't let anyone challenge the hair of the sweet holy Queen of the Federal Kingdom of Gensokyo.",
+            "funct" : ["scr_cutscene_stage_clear"]
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "char_info" : {
+        "char_name" : "Kiyomi Tatariya",
+        "char_desc" : "The Mysterious Masked Conductor"
+    },
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_sanae_portrait",1],
+            "right_portrait" : ["spr_kiyomi_portrait",11],
+            "speaker" : "Kiyomi:",
+            "dialogue" : "I’m starting to cry because you made me ugly..."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "right_portrait" : ["spr_kiyomi_portrait",11],
+            "speaker" : "Sanae:",
+            "dialogue" : "What a way to end up. All the women are now an ugly mess. When will this end?"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "right_portrait" : ["spr_kiyomi_portrait",10],
+            "speaker" : "Kiyomi:",
+            "dialogue" : "My answer will be inferior, but there is hope for you."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "right_portrait" : ["spr_kiyomi_portrait",10],
+            "speaker" : "Kiyomi:",
+            "dialogue" : "It may have started in a tower near the Youkai Mountain range."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",7],
+            "right_portrait" : ["spr_kiyomi_portrait",10],
+            "speaker" : "Sanae:",
+            "dialogue" : "I spent way too much time going here. I have faith in success.",
+            "funct" : ["scr_cutscene_stage_clear"]
+        }
+    ]
+}

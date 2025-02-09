@@ -1,0 +1,51 @@
+{
+    "char_info" : {
+        "char_name" : "Kiyomi Tatariya",
+        "char_desc" : "The Mysterious Masked Conductor"
+    },
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_aya_portrait",1],
+            "right_portrait" : ["spr_kiyomi_portrait",9],
+            "speaker" : "Kiyomi:",
+            "dialogue" : "There's no way to turn off this spell."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_kiyomi_portrait",9],
+            "speaker" : "Aya:",
+            "dialogue" : "Is this how things will end? I sentimentally remember all the years before this..."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_kiyomi_portrait",8],
+            "speaker" : "Kiyomi:",
+            "dialogue" : "Some wanted this because they want to marry into royalty..."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_kiyomi_portrait",8],
+            "speaker" : "Aya:",
+            "dialogue" : "I guess I'm now a freak like everyone..."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_kiyomi_portrait",8],
+            "speaker" : "Kiyomi:",
+            "dialogue" : "Is your only hope to figure out a way to undo this?"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_kiyomi_portrait",8],
+            "speaker" : "Kiyomi:",
+            "dialogue" : "There's a tower near the Youkai Mountain range where you can make yourself normal again..."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_kiyomi_portrait",8],
+            "speaker" : "Aya:",
+            "dialogue" : "I'm going to go there and make myself normal again.",
+            "funct" : ["scr_cutscene_stage_clear"]
+        }
+    ]
+}

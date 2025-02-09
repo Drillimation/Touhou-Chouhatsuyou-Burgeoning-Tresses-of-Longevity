@@ -1,0 +1,165 @@
+{
+    "char_info" : {
+        "char_name" : "Kiyomi Tatariya",
+        "char_desc" : "The Mysterious Masked Conductor"
+    },
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "speaker" : "Aya:",
+            "dialogue" : "I'm not sure where any of the Palace of Eternity folks are."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "speaker" : "Aya:",
+            "dialogue" : "What I mean is where's either Kaguya, Eirin, or Reisen?"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "speaker" : " ",
+            "dialogue" : "I'm sorry to say. They are not here right now, which is why the palace has been empty.",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "???:",
+            "dialogue" : "But what do I need to say? I'll enjoy seeing people dance in this!"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",3],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "Aya:",
+            "dialogue" : "Speaking of dance, this hairstyle would be perfect for a masquerade ball."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "Aya:",
+            "dialogue" : "It's bad enough for anxious people though!"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "Aya:",
+            "dialogue" : "Or better yet: Why aren't you also affected like that one siren I fought earlier?",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",3],
+            "speaker" : "Kiyomi:",
+            "dialogue" : "I'm not anxious in any way. I'm blessed to see this!"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_kiyomi_portrait",3],
+            "speaker" : "Aya:",
+            "dialogue" : "If I ever saw Hatate, she would look hideous."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_kiyomi_portrait",3],
+            "speaker" : "Aya:",
+            "dialogue" : "I can't sleep because my hair will get tangled in my surroundings!"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_kiyomi_portrait",4],
+            "speaker" : "Kiyomi:",
+            "dialogue" : "Yeah... that's what happens when you have hair like this."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "Kiyomi:",
+            "dialogue" : "The only good thing is it keeps you warmer in the winter."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "Kiyomi:",
+            "dialogue" : "But to me, my magic protects my body from such enchantments."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "Aya:",
+            "dialogue" : "That might be true but look at my state."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "Aya:",
+            "dialogue" : "I shocked myself upon first sight, and even woodblock prints don't help my appearance."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "Aya:",
+            "dialogue" : "I'm no longer my traditional self."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_kiyomi_portrait",3],
+            "speaker" : "Kiyomi:",
+            "dialogue" : "That's what happens with a big transformation that was placed upon this land."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",3],
+            "speaker" : "Aya:",
+            "dialogue" : "I heard this may have started here."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",3],
+            "speaker" : "Aya:",
+            "dialogue" : "It may have been only intended for one person, but it instead affected everyone!"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "Kiyomi:",
+            "dialogue" : "That wasn't the case. Somebody came to Gensokyo and here to conduct this."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",6],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "Aya:",
+            "dialogue" : "Somebody? Where? What kind of magic did they use for this!?"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",6],
+            "right_portrait" : ["spr_kiyomi_portrait",3],
+            "speaker" : "Kiyomi:",
+            "dialogue" : "I won't tell, but you are stuck like this."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",3],
+            "speaker" : "Aya:",
+            "dialogue" : "I don't want to look like someone who emerged from the radioactive depths of Mount Komeiji."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",3],
+            "speaker" : "Aya:",
+            "dialogue" : "I'm assuming that Reimu also looks hideous as well.",
+            "funct" : ["scr_cutscene_change_bgm",6]
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",4],
+            "speaker" : "Kiyomi:",
+            "dialogue" : "Because you originally had short hair, you were never attractive."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",4],
+            "speaker" : "Aya:",
+            "dialogue" : "Wrong! I am no matter what! I'll take you on and see how much damage I do!",
+            "funct" : ["scr_cutscene_start_boss","obj_kiyomi_true"]
+        }
+    ]
+}

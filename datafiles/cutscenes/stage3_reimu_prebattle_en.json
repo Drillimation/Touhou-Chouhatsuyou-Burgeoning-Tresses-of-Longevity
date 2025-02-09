@@ -1,0 +1,99 @@
+{
+    "char_info" : {
+        "char_name" : "Kiyomi Tatariya",
+        "char_desc" : "The Mysterious Masked Conductor"
+    },
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "speaker" : "Reimu:",
+            "dialogue" : "So, is this where the incident all began? Right here?"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",7],
+            "speaker" : "Reimu:",
+            "dialogue" : "Empress Kaguya and her courtiers Reisen and Eirin aren't affected by this, so..."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",7],
+            "speaker" : " ",
+            "dialogue" : "Yeah, and they didn't notice it with Tewi.",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "Reimu:",
+            "dialogue" : "I don't want to be stuck with this hair. I look stupid. Everyone in the Palace of Eternity doesn't."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "???:",
+            "dialogue" : "I was unaffected, but do you think restoring your hair is important? Do you have faith in success?"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "Reimu:",
+            "dialogue" : "That's something Sanae might have, but not me."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "Reimu:",
+            "dialogue" : "How come you're also not affected, unlike that one siren I fought earlier?",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",3],
+            "speaker" : "Kiyomi:",
+            "dialogue" : "Everyone in Gensokyo will not have any chance to be freed from this spell!"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",3],
+            "speaker" : "Reimu:",
+            "dialogue" : "What do you know about this spell? This better be important! You can help me fix this problem."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",5],
+            "speaker" : "Kiyomi:",
+            "dialogue" : "I've had no success in finding a possible solution."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",4],
+            "speaker" : "Kiyomi:",
+            "dialogue" : "I don't know a word or two about the incident. I think you are stuck with this.",
+            "funct" : ["scr_cutscene_change_bgm",6]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",4],
+            "speaker" : "Reimu:",
+            "dialogue" : "I will not give up. I'm convinced there is a solution to this."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",4],
+            "speaker" : "Kiyomi:",
+            "dialogue" : "Even if you want to fight me, you will still be unable to find a solution."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",4],
+            "speaker" : "Kiyomi:",
+            "dialogue" : "You'll have to live with it."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",4],
+            "speaker" : "Reimu:",
+            "dialogue" : "Failure won't be an option. Bring it on.",
+            "funct" : ["scr_cutscene_start_boss","obj_kiyomi_true"]
+        }
+    ]
+}

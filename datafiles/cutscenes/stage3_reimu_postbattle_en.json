@@ -1,0 +1,45 @@
+{
+    "char_info" : {
+        "char_name" : "Kiyomi Tatariya",
+        "char_desc" : "The Mysterious Masked Conductor"
+    },
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",8],
+            "speaker" : "Kiyomi:",
+            "dialogue" : "Do you think you can find a solution to the incident? I’m convinced you won’t be able to break the spell."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",8],
+            "speaker" : "Reimu:",
+            "dialogue" : "What the heck am I going to be able to do about it? I’m not wasting any more time!"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",9],
+            "speaker" : "Kiyomi:",
+            "dialogue" : "I doubt you’ll find it in a tower."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",4],
+            "right_portrait" : ["spr_kiyomi_portrait",9],
+            "speaker" : "Reimu:",
+            "dialogue" : "A tower? That may be a place to find a possible solution."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",4],
+            "right_portrait" : ["spr_kiyomi_portrait",9],
+            "speaker" : "Kiyomi:",
+            "dialogue" : "Yeah right."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",3],
+            "right_portrait" : ["spr_kiyomi_portrait",9],
+            "speaker" : "Reimu:",
+            "dialogue" : "Off I go then!",
+            "funct" : ["scr_cutscene_stage_clear"]
+        }
+    ]
+}

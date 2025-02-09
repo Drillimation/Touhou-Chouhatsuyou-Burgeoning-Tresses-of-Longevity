@@ -1,0 +1,105 @@
+{
+    "char_info" : {
+        "char_name" : "Kiyomi Tatariya",
+        "char_desc" : "The Mysterious Masked Conductor"
+    },
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "speaker" : "Sanae:",
+            "dialogue" : "Unbelievable... Those sirens were not willing to help me solve this problem."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "speaker" : "Sanae:",
+            "dialogue" : "And they claim it can't be resolved? They're probably idiots who say the cake is a lie."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "speaker" : " ",
+            "dialogue" : "You want to turn off this spell? Why do you want to do so?",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "Sanae:",
+            "dialogue" : "Just look at me. Not only do I look ugly, this hairstyle is ridiculous!"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "Sanae:",
+            "dialogue" : "I don't want my people to see me like this. They'll probably be horrified by it."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "Sanae:",
+            "dialogue" : "Kanako and Suwako ran away from me because of it.",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",3],
+            "speaker" : "Kiyomi:",
+            "dialogue" : "You think super long hair is scary? It's beautiful!"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "right_portrait" : ["spr_kiyomi_portrait",3],
+            "speaker" : "Sanae:",
+            "dialogue" : "But I don't. I'd be perfect for Halloween. I wouldn't need to dress up to scare people."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "Kiyomi:",
+            "dialogue" : "Despite my comments, my magic protects my body from such enchantments."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "Sanae:",
+            "dialogue" : "Just look at the state of me. I look horrible. I scared myself the first time I saw myself like this."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "Sanae:",
+            "dialogue" : "Queen Marisa is enough, and so is Queen Yukari and Empress Kaguya."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",4],
+            "speaker" : "Kiyomi:",
+            "dialogue" : "Would you be a ruler of the province you live in?"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "right_portrait" : ["spr_kiyomi_portrait",4],
+            "speaker" : "Sanae:",
+            "dialogue" : "I'd say so, but you're not helping me find a solution to it.",
+            "funct" : ["scr_cutscene_change_bgm",6]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "right_portrait" : ["spr_kiyomi_portrait",3],
+            "speaker" : "Kiyomi:",
+            "dialogue" : "Want a solution? I'll have to deal with your ugly face."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",7],
+            "right_portrait" : ["spr_kiyomi_portrait",3],
+            "speaker" : "Kiyomi:",
+            "dialogue" : "This is all I needed. A game of danmaku. Every night I have nightmares about this."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",7],
+            "right_portrait" : ["spr_kiyomi_portrait",4],
+            "speaker" : "Kiyomi:",
+            "dialogue" : "This madness will never seem to end, just when you think incidents can't get any worse!",
+            "funct" : ["scr_cutscene_start_boss","obj_kiyomi_true"]
+        }
+    ]
+}
