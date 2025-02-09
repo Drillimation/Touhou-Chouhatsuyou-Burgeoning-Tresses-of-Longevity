@@ -8,7 +8,7 @@
             "left_portrait" : ["spr_sanae_portrait",1],
             "right_portrait" : ["spr_kiyomi_portrait",11],
             "speaker" : "Kiyomi:",
-            "dialogue" : "I’m starting to cry because you made me ugly..."
+            "dialogue" : "I'm starting to cry because you made me ugly..."
         },
         {
             "left_portrait" : ["spr_sanae_portrait",5],
