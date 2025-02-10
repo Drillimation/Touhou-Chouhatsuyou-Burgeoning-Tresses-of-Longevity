@@ -1,0 +1,51 @@
+{
+    "char_info" : {
+        "char_name" : "祟夜キヨミ",
+        "char_desc" : "マスクでかぶる不思議な指揮者"
+    },
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_aya_portrait",1],
+            "right_portrait" : ["spr_kiyomi_portrait",9],
+            "speaker" : "キヨミ：",
+            "dialogue" : "この呪文をオフにする方法がない。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_kiyomi_portrait",9],
+            "speaker" : "アヤ：",
+            "dialogue" : "こうやって終わるのか？その前に若い頃を感傷的に思い出す…"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_kiyomi_portrait",8],
+            "speaker" : "キヨミ：",
+            "dialogue" : "王族と結婚したかったのでこれが欲しかった…"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_kiyomi_portrait",8],
+            "speaker" : "アヤ：",
+            "dialogue" : "皆さんのように変人なったと思う…"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_kiyomi_portrait",8],
+            "speaker" : "キヨミ：",
+            "dialogue" : "唯一の希望はこれを元に戻す方法を考え出す。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_kiyomi_portrait",8],
+            "speaker" : "キヨミ：",
+            "dialogue" : "妖怪の山の近くに、塔であるし。また普通になれる…"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_kiyomi_portrait",8],
+            "speaker" : "アヤ：",
+            "dialogue" : "そこに行くよ。また普通になりたい。",
+            "funct" : ["scr_cutscene_stage_clear"]
+        }
+    ]
+}

@@ -1,0 +1,105 @@
+{
+    "char_info" : {
+        "char_name" : "祟夜キヨミ",
+        "char_desc" : "マスクでかぶる不思議な指揮者"
+    },
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "speaker" : "サナエ：",
+            "dialogue" : "信じられないわ…その人魚たちはこの問題を解決するのを手伝う気がなかった。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "speaker" : "サナエ：",
+            "dialogue" : "そして解決できないと主張するのか？おそらくケーキは嘘と言うバカ。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "speaker" : " ",
+            "dialogue" : "この呪文をオフにしたいのか？どうして？",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "サナエ：",
+            "dialogue" : "私を見ろ。見た目が醜いだけでなくけど、この髪型はばかげている！"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "サナエ：",
+            "dialogue" : "人々がこんな私を見て欲しくない。おそらく恐怖なる。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "サナエ：",
+            "dialogue" : "このためにカナコ様とスワコ様が逃げた。",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",3],
+            "speaker" : "キヨミ：",
+            "dialogue" : "超長い髪は怖いと思うの？美しいよね！"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "right_portrait" : ["spr_kiyomi_portrait",3],
+            "speaker" : "サナエ：",
+            "dialogue" : "美しくないけど。ハロウィーンに最適だ。人々を怖がらせるには着飾る必要がないわ。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "キヨミ：",
+            "dialogue" : "言葉にもかかわらず、魔法は体をそのような香りから守っているよ。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "サナエ：",
+            "dialogue" : "私の状態を見ろ。恐ろしいね。自分をこれで見た初回に怖がらせた。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "サナエ：",
+            "dialogue" : "マリサ女王様は十分。ユカリ女王様とカグヤ皇后様も。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",4],
+            "speaker" : "キヨミ：",
+            "dialogue" : "住んでいる州の君主になるのか？"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "right_portrait" : ["spr_kiyomi_portrait",4],
+            "speaker" : "サナエ：",
+            "dialogue" : "そうだと思うが、あんたは解決を探すのを助けてない。",
+            "funct" : ["scr_cutscene_change_bgm",6]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "right_portrait" : ["spr_kiyomi_portrait",3],
+            "speaker" : "キヨミ：",
+            "dialogue" : "解決がほしい？醜い顔に対処しなきゃ。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",7],
+            "right_portrait" : ["spr_kiyomi_portrait",3],
+            "speaker" : "キヨミ：",
+            "dialogue" : "これが必要なすべてだぜ。弾幕ゲーム。毎晩悪夢を見る。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",7],
+            "right_portrait" : ["spr_kiyomi_portrait",4],
+            "speaker" : "キヨミ：",
+            "dialogue" : "異変は悪くなれないと思えば、この狂気は終わらないよう！",
+            "funct" : ["scr_cutscene_start_boss","obj_kiyomi_true"]
+        }
+    ]
+}

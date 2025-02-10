@@ -1,0 +1,57 @@
+{
+    "char_info" : {
+        "char_name" : "祟夜キヨミ",
+        "char_desc" : "マスクでかぶる不思議な指揮者"
+    },
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_marisa_portrait",1],
+            "right_portrait" : ["spr_kiyomi_portrait",11],
+            "speaker" : "キヨミ：",
+            "dialogue" : "うーん…この異変はブンブン丸新聞に漏洩しないのを祈る。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",1],
+            "right_portrait" : ["spr_kiyomi_portrait",11],
+            "speaker" : "マリサ：",
+            "dialogue" : "漏洩後、ファッション工業はあなたに連絡するのだ。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",1],
+            "right_portrait" : ["spr_kiyomi_portrait",11],
+            "speaker" : "マリサ：",
+            "dialogue" : "「髪女王」倶楽部の設立かを話すのだろう。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",1],
+            "right_portrait" : ["spr_kiyomi_portrait",10],
+            "speaker" : "キヨミ：",
+            "dialogue" : "髪女王は？じゃ、きっと亡霊が運営するんね。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",7],
+            "right_portrait" : ["spr_kiyomi_portrait",10],
+            "speaker" : "マリサ：",
+            "dialogue" : "で、物事はここで開始されなかったわけ？異変の始原は？"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",7],
+            "right_portrait" : ["spr_kiyomi_portrait",10],
+            "speaker" : "キヨミ：",
+            "dialogue" : "きっと妖怪の山の近くの塔で…"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",3],
+            "right_portrait" : ["spr_kiyomi_portrait",10],
+            "speaker" : "マリサ：",
+            "dialogue" : "行ってくる時間！"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",10],
+            "speaker" : "マリサ：",
+            "dialogue" : "運営する誰でもに幻想郷連邦王国の甘くて聖なる女王の髪型を論争させないのよ！",
+            "funct" : ["scr_cutscene_stage_clear"]
+        }
+    ]
+}

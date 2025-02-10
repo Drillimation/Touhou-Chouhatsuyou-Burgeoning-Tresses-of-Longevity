@@ -1,0 +1,45 @@
+{
+    "char_info" : {
+        "char_name" : "祟夜キヨミ",
+        "char_desc" : "マスクでかぶる不思議な指揮者"
+    },
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",8],
+            "speaker" : "キヨミ：",
+            "dialogue" : "異変の解決を見つけられると思う？呪文を壊せないと確信した。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",8],
+            "speaker" : "レイム：",
+            "dialogue" : "一体何かをやれるでしょ？もう時間を無駄にしないの！"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",9],
+            "speaker" : "キヨミ：",
+            "dialogue" : "塔の中に見つけるかと思うね。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",4],
+            "right_portrait" : ["spr_kiyomi_portrait",9],
+            "speaker" : "レイム：",
+            "dialogue" : "塔の中は？解決を見つけられる場所かも。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",4],
+            "right_portrait" : ["spr_kiyomi_portrait",9],
+            "speaker" : "キヨミ：",
+            "dialogue" : "そうだね笑"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",3],
+            "right_portrait" : ["spr_kiyomi_portrait",9],
+            "speaker" : "レイム：",
+            "dialogue" : "行ってきま～すよ！",
+            "funct" : ["scr_cutscene_stage_clear"]
+        }
+    ]
+}

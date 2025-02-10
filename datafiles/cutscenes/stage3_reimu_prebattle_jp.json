@@ -1,0 +1,99 @@
+{
+    "char_info" : {
+        "char_name" : "祟夜キヨミ",
+        "char_desc" : "マスクでかぶる不思議な指揮者"
+    },
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "speaker" : "レイム：",
+            "dialogue" : "じゃ、異変がここで始めたね？"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",7],
+            "speaker" : "レイム：",
+            "dialogue" : "カグヤ皇后と逓信が影響を受けなかったので…"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",7],
+            "speaker" : " ",
+            "dialogue" : "はい、テイさんは気づかなかった。",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "レイム：",
+            "dialogue" : "この髪型にこだわりたくない。バカそう。永遠亭の住民たちがバカみたいじゃんよ。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "？？？：",
+            "dialogue" : "影響を受けなかったが、髪型を修復することは重要と思うのか？成功に信仰があるのか？"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "レイム：",
+            "dialogue" : "サナエさんは信仰があるかもが、私が持たない。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "レイム：",
+            "dialogue" : "以前戦った一人の人魚とは違って、なんで影響を受けなかったのか？",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",3],
+            "speaker" : "キヨミ：",
+            "dialogue" : "すべての幻想郷の住民はこの呪文から解放しないのだ!"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",3],
+            "speaker" : "レイム：",
+            "dialogue" : "この呪文について何かを知るのか？重要なことだ！この問題を治すのを手伝える。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",5],
+            "speaker" : "キヨミ：",
+            "dialogue" : "可能な解決策を見つけられなかった。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",4],
+            "speaker" : "キヨミ：",
+            "dialogue" : "異変について何でもを知らないが、これで行き詰まっていると思う。",
+            "funct" : ["scr_cutscene_change_bgm",6]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",4],
+            "speaker" : "レイム：",
+            "dialogue" : "諦めないのよ。解決策があると確信した。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",4],
+            "speaker" : "キヨミ：",
+            "dialogue" : "たとえ私を戦いたいなら、まだ解決を見つけられない。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",4],
+            "speaker" : "キヨミ：",
+            "dialogue" : "耐えなきゃ。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",4],
+            "speaker" : "レイム：",
+            "dialogue" : "失敗は選択じゃない！かかって来い！",
+            "funct" : ["scr_cutscene_start_boss","obj_kiyomi_true"]
+        }
+    ]
+}

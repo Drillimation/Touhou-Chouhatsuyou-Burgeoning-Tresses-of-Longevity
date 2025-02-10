@@ -1,0 +1,165 @@
+{
+    "char_info" : {
+        "char_name" : "祟夜キヨミ",
+        "char_desc" : "マスクでかぶる不思議な指揮者"
+    },
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "speaker" : "マリサ：",
+            "dialogue" : "カグヤ皇后さま？どこにいるの？"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "speaker" : " ",
+            "dialogue" : "女王陛下、声を聞きた。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",4],
+            "speaker" : "マリサ：",
+            "dialogue" : "すみませんがカグヤ皇后さまじゃん。あんたが聞きた人はマリサ女王様だぜ。",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",4],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "？？？：",
+            "dialogue" : "あら。ごめんなさいが、現時点でカグヤ皇后と廷臣はここにいないよ。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "マリサ：",
+            "dialogue" : "どこは？"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "right_portrait" : ["spr_kiyomi_portrait",5],
+            "speaker" : "？？？：",
+            "dialogue" : "知らないわ。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "right_portrait" : ["spr_kiyomi_portrait",5],
+            "speaker" : "マリサ：",
+            "dialogue" : "私も知らないのだ。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",5],
+            "speaker" : "マリサ：",
+            "dialogue" : "この呪文について言えば、これが全く受け入れられないとレイムが言った。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",5],
+            "speaker" : "マリサ：",
+            "dialogue" : "その一人の人魚のようになんであんたも影響を受けなかった？",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",5],
+            "speaker" : "キヨミ：",
+            "dialogue" : "どういう意味なのか？"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",5],
+            "speaker" : "マリサ：",
+            "dialogue" : "レイムが彼女と他の人々は全くバカたちに似ているんだと主張する。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",4],
+            "speaker" : "キヨミ：",
+            "dialogue" : "いいえ、すべての女性はバカじゃんよ。素晴らしそう。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",4],
+            "speaker" : "キヨミ：",
+            "dialogue" : "魔法は体を香りから守られる。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",7],
+            "right_portrait" : ["spr_kiyomi_portrait",4],
+            "speaker" : "マリサ：",
+            "dialogue" : "紅悪魔は嬉しいと思う。人々を長い髪で撃退するかも。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",7],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "キヨミ：",
+            "dialogue" : "その中華伝説のことか？"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "マリサ：",
+            "dialogue" : "いいえ、うるさいとレイムが言ったけど。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "マリサ：",
+            "dialogue" : "この髪型で命令を最高裁判所か幻想郷王立守隊に与える方法がない。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",3],
+            "speaker" : "キヨミ：",
+            "dialogue" : "心配するのはないよね。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",7],
+            "right_portrait" : ["spr_kiyomi_portrait",3],
+            "speaker" : "マリサ：",
+            "dialogue" : "舞踏会を主催すれば、すべての男性たちはレイムでワルツしたいのだろう。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",7],
+            "right_portrait" : ["spr_kiyomi_portrait",3],
+            "speaker" : "キヨミ：",
+            "dialogue" : "なぜ文句を言う？今皆さんはすごいになれられた。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",3],
+            "speaker" : "マリサ：",
+            "dialogue" : "かっこよく見られたくないのよ。古い髪型を取り戻したいのよ。",
+            "funct" : ["scr_cutscene_change_bgm",6]
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",4],
+            "speaker" : "キヨミ：",
+            "dialogue" : "この曲をハープに演奏し始めるかも。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",4],
+            "speaker" : "マリサ：",
+            "dialogue" : "この歌をレイムに歌えば、恥ずかしいわ。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "キヨミ：",
+            "dialogue" : "なんで恥ずかしいのか？"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "マリサ：",
+            "dialogue" : "大失敗だぜ。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",3],
+            "speaker" : "キヨミ：",
+            "dialogue" : "音楽会を開始するかも！",
+            "funct" : ["scr_cutscene_start_boss","obj_kiyomi_true"]
+        }
+    ]
+}

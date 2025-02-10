@@ -1,0 +1,165 @@
+{
+    "char_info" : {
+        "char_name" : "祟夜キヨミ",
+        "char_desc" : "マスクでかぶる不思議な指揮者"
+    },
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "speaker" : "アヤ：",
+            "dialogue" : "永遠亭の住人がどこにあるか知らないのだ。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "speaker" : "アヤ：",
+            "dialogue" : "つまり、カグヤ様か、エイリンさんか、レイセンさんは？"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "speaker" : " ",
+            "dialogue" : "ごめんなさいが、今ここにいない。永遠亭は空いている理由。",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "？？？：",
+            "dialogue" : "何を言う必要？人々がこれで踊るのを見て楽しむ！"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",3],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "アヤ：",
+            "dialogue" : "踊りについて言えば、この髪型は仮面舞踏会にぴったりだろうが、"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "アヤ：",
+            "dialogue" : "心配な人に十分悪い！"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "アヤ：",
+            "dialogue" : "さらに、前に戦った人魚のようになんで影響を与えないのか？",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",3],
+            "speaker" : "キヨミ：",
+            "dialogue" : "心配じゃない。これを見て幸せ。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_kiyomi_portrait",3],
+            "speaker" : "アヤ：",
+            "dialogue" : "ハタテさんを見たら、醜そう。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_kiyomi_portrait",3],
+            "speaker" : "アヤ：",
+            "dialogue" : "髪が周囲で絡まってしまうので眠れないわ！"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_kiyomi_portrait",4],
+            "speaker" : "キヨミ：",
+            "dialogue" : "なるほど…この種類の髪が持つときは、起こるのだ。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "キヨミ：",
+            "dialogue" : "良いことは冬は暖かく過ごせる。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "キヨミ：",
+            "dialogue" : "私に、魔法は体は香りから守られる。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "アヤ：",
+            "dialogue" : "それが本当だが、状態を見て。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "アヤ：",
+            "dialogue" : "一目見て衝撃を受けた。浮世絵は外見を直さなくても。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "アヤ：",
+            "dialogue" : "もう伝統的な自分じゃない。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_kiyomi_portrait",3],
+            "speaker" : "キヨミ：",
+            "dialogue" : "大きな変身が土地に入ったときは、起こることだ。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",3],
+            "speaker" : "アヤ：",
+            "dialogue" : "これがここで始めたと思う。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",3],
+            "speaker" : "アヤ：",
+            "dialogue" : "一人に意図したかも。代わりに皆さんが影響を与えた！"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "キヨミ：",
+            "dialogue" : "そうじゃない。誰かが幻想郷に来てこの実験を行った。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",6],
+            "right_portrait" : ["spr_kiyomi_portrait",0],
+            "speaker" : "アヤ：",
+            "dialogue" : "誰だ？どこ？どんな魔法の種類を使われたのか？"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",6],
+            "right_portrait" : ["spr_kiyomi_portrait",3],
+            "speaker" : "キヨミ：",
+            "dialogue" : "言わないが、これに陥っていた。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",3],
+            "speaker" : "アヤ：",
+            "dialogue" : "残りの人生を古明地山の放射能深度から出現した人のように見えながら過ごしたくない。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",3],
+            "speaker" : "アヤ：",
+            "dialogue" : "レイムも醜そうと思う。",
+            "funct" : ["scr_cutscene_change_bgm",6]
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",4],
+            "speaker" : "キヨミ：",
+            "dialogue" : "元々短髪が持ったから、あんたは美しくなかった。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_kiyomi_portrait",4],
+            "speaker" : "アヤ：",
+            "dialogue" : "正しくないわ！何を言っても、あなたに挑戦してどれだけダメージを与えたか見てみよう！",
+            "funct" : ["scr_cutscene_start_boss","obj_kiyomi_true"]
+        }
+    ]
+}

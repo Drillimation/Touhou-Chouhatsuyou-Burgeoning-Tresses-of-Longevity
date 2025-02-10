@@ -1,0 +1,39 @@
+{
+    "char_info" : {
+        "char_name" : "祟夜キヨミ",
+        "char_desc" : "マスクでかぶる不思議な指揮者"
+    },
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_sanae_portrait",1],
+            "right_portrait" : ["spr_kiyomi_portrait",11],
+            "speaker" : "キヨミ：",
+            "dialogue" : "醜いにしたので、泣き始めてる…"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "right_portrait" : ["spr_kiyomi_portrait",11],
+            "speaker" : "サナエ：",
+            "dialogue" : "状況はこうなるのでしょう？すべての女性は醜い混乱。いつこれが終わる？"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "right_portrait" : ["spr_kiyomi_portrait",10],
+            "speaker" : "キヨミ：",
+            "dialogue" : "答えは劣っているが、希望がある。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "right_portrait" : ["spr_kiyomi_portrait",10],
+            "speaker" : "キヨミ：",
+            "dialogue" : "妖怪の山の近くの塔に始まった。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",7],
+            "right_portrait" : ["spr_kiyomi_portrait",10],
+            "speaker" : "サナエ：",
+            "dialogue" : "ここに行ってる時間がかかりすぎた。成功に信仰があるけど！",
+            "funct" : ["scr_cutscene_stage_clear"]
+        }
+    ]
+}
