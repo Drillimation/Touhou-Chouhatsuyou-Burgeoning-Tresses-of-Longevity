@@ -25,7 +25,7 @@ x_pos = x - view_xview;
 y_pos = y - view_yview;
 
 struct_data[1] = scr_json_load_file("main/spell_cards" + string(global.suf) + ".json","struct_data",false);
-txt = struct_get(struct_data[1].boss_names,"BOSS_MAYU");
+txt = struct_get(struct_data[1].boss_names,"BOSS_UNKNOWN");
 
 _v = 0;
 face = 0;

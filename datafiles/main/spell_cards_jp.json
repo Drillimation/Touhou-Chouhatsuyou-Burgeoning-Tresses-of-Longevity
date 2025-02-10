@@ -78,6 +78,7 @@
         "BOSS_SUIKA" : "伊吹スイカ",
         "BOSS_ASTA" : "アスタ・ナッテンドティル",
         "BOSS_MABAYU" : "神戸マバユ",
-        "BOSS_YUUGIKU" : "神戸ユウギク"
+        "BOSS_YUUGIKU" : "神戸ユウギク",
+        "BOSS_UNKNOWN" : "？？？"
     }
 }

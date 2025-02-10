@@ -78,6 +78,7 @@
         "BOSS_SUIKA" : "Suika Ibuki",
         "BOSS_ASTA" : "Asta Nattendottir",
         "BOSS_MABAYU" : "Mabayu Kanbe",
-        "BOSS_YUUGIKU" : "Yuugiku Kanbe"
+        "BOSS_YUUGIKU" : "Yuugiku Kanbe",
+        "BOSS_UNKNOWN" : "???"
     }
 }
