@@ -69,6 +69,20 @@ function scr_danmaku_friction(_friction) {
 	friction = _friction;
 }
 
+function scr_danmaku_shoot_flower(_delay,_i_max,_j_max,_init_speed,_speed_decrease,_separation,_sprite,_color,_x,_y,_aimed,_sound,_relative = true,_function = undefined,_function_arguments = []) {
+	_delay_time = _delay;
+	_delay_time -= 1;
+	if _delay_time <= 0 {
+		instance_destroy();
+		for(var i = 0; i < _i_max; i++) {
+			for(var j = 0; j < _j_max; j++) {
+				scr_shoot_bullet_enemy(_init_speed - (_speed_decrease * j),((360 / _i_max) * i) + (j * _separation),_sprite,_color,_x,_y,_aimed,_sound,_relative,_function,_function_arguments)
+				scr_shoot_bullet_enemy(_init_speed - (_speed_decrease * j),((360 / _i_max) * i) - (j * _separation),_sprite,_color,_x,_y,_aimed,_sound,_relative,_function,_function_arguments)
+			}
+		}
+	}
+}
+
 function scr_danmaku_marisa_laser(_speed,_xscale) {
 	speed = _speed;
 	image_xscale = _xscale;
