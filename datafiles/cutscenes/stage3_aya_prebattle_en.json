@@ -3,6 +3,7 @@
         "char_name" : "Kiyomi Tatariya",
         "char_desc" : "The Mysterious Masked Conductor"
     },
+    "boss_sprite" : "spr_kiyomi",
     "t_scene_info" : [
         {
             "left_portrait" : ["spr_aya_portrait",5],

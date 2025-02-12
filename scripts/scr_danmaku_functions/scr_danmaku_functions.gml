@@ -70,7 +70,9 @@ function scr_danmaku_friction(_friction) {
 }
 
 function scr_danmaku_shoot_flower(_delay,_i_max,_j_max,_init_speed,_speed_decrease,_separation,_sprite,_color,_x,_y,_aimed,_sound,_relative = true,_function = undefined,_function_arguments = []) {
-	_delay_time = _delay;
+	if !variable_instance_exists(id,"_delay_time") {
+		_delay_time = _delay;
+	}
 	_delay_time -= 1;
 	if _delay_time <= 0 {
 		instance_destroy();

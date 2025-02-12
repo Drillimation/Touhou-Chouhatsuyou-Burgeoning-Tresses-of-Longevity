@@ -34,7 +34,7 @@
   ],
   "name":"spr_kiyomi_portrait",
   "nineSlice":null,
-  "origin":0,
+  "origin":9,
   "parent":{
     "name":"Cutscenes",
     "path":"folders/Sprites/Cutscenes.yy",
@@ -119,7 +119,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
+    "xorigin":64,
     "yorigin":0,
   },
   "swatchColours":null,

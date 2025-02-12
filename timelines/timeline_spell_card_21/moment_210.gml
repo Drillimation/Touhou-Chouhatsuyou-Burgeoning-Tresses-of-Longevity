@@ -1,3 +1,3 @@
 if ammo >= 1 {
-	timeline_position = 125;
+	timeline_position = 200;
 }

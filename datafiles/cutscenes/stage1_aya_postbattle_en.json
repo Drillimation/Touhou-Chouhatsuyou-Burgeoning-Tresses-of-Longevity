@@ -9,19 +9,19 @@
             "left_portrait" : ["spr_aya_portrait",2],
             "right_portrait" : ["spr_mayu_portrait",8],
             "speaker" : "Aya:",
-            "dialogue" : "You’re a dumb mutant. I’m still going to find a remedy to this."
+            "dialogue" : "You're a dumb mutant. I'm still going to find a remedy to this."
         },
         {
             "left_portrait" : ["spr_aya_portrait",2],
             "right_portrait" : ["spr_mayu_portrait",9],
             "speaker" : "Mayu:",
-            "dialogue" : "You’re not likely going to succeed at the Palace of Eternity..."
+            "dialogue" : "You're not likely going to succeed at the Palace of Eternity..."
         },
         {
             "left_portrait" : ["spr_aya_portrait",7],
             "right_portrait" : ["spr_mayu_portrait",9],
             "speaker" : "Aya:",
-            "dialogue" : "Is this where it began? I can’t wait to take good photos, including the one I took during our duel.",
+            "dialogue" : "Is this where it began? I can't wait to take good photos, including the one I took during our duel.",
             "funct" : ["scr_cutscene_stage_clear"]
         }
     ]

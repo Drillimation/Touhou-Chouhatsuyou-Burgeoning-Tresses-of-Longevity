@@ -3,6 +3,7 @@
         "char_name" : "祟夜キヨミ",
         "char_desc" : "マスクでかぶる不思議な指揮者"
     },
+    "boss_sprite" : "spr_kiyomi",
     "t_scene_info" : [
         {
             "left_portrait" : ["spr_marisa_portrait",5],
