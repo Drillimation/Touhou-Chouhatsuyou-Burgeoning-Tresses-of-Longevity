@@ -1,0 +1,60 @@
+{
+    "char_info" : {
+        "char_name" : "Suika Ibuki",
+        "char_desc" : "The Oni Happy With Long Hair"
+    },
+    "boss_sprite" : "spr_suika",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "right_portrait" : ["spr_suika_portrait",3],
+            "speaker" : "Suika:",
+            "dialogue" : "Hey! Lady Sanae, where are you going?",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_suika_portrait",3],
+            "speaker" : "Sanae:",
+            "dialogue" : "My plans are obvious. I plan to remove this long hair that has been inflicted on me."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_suika_portrait",3],
+            "speaker" : "Sanae:",
+            "dialogue" : "Not only does it look ugly, but also ridiculous.",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_suika_portrait",3],
+            "speaker" : "Suika:",
+            "dialogue" : "Why do you want to undo it? It's amazing!"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_suika_portrait",3],
+            "speaker" : "Sanae:",
+            "dialogue" : "I'm currently heading to a tower near the Youkai Mountain range to see if I can find the solution."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_suika_portrait",4],
+            "speaker" : "Suika:",
+            "dialogue" : "You look a bit like Queen Marisa. I would like to keep it."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_suika_portrait",4],
+            "speaker" : "Sanae:",
+            "dialogue" : "You're an ugly oni. Marisa is happy."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_suika_portrait",4],
+            "speaker" : "Suika:",
+            "dialogue" : "I'm not going to restore myself. I'll just battle you for glory.",
+            "funct" : ["scr_cutscene_start_boss","obj_suika"]
+        }
+    ]
+}

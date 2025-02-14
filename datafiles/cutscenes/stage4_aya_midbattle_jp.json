@@ -1,0 +1,60 @@
+{
+    "char_info" : {
+        "char_name" : "伊吹スイカ",
+        "char_desc" : "長い髪で嬉しい鬼"
+    },
+    "boss_sprite" : "spr_suika",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_suika_portrait",3],
+            "speaker" : "スイカ：",
+            "dialogue" : "あっ！馴染みのもの！新しい髪型を楽しんでる。あなたも？",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_suika_portrait",3],
+            "speaker" : "アヤ：",
+            "dialogue" : "聞け。この髪型でばかげてるのだ。",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_suika_portrait",4],
+            "speaker" : "スイカ：",
+            "dialogue" : "この髪型で本当に上品と思う。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_suika_portrait",4],
+            "speaker" : "アヤ：",
+            "dialogue" : "同意しない。ひどい。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_suika_portrait",4],
+            "speaker" : "アヤ：",
+            "dialogue" : "どのように幻想郷の人民が不条理な外見で私を見れるの？"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_suika_portrait",3],
+            "speaker" : "スイカ：",
+            "dialogue" : "気に入らないよう。これを始めた人は面白いと思うかも…"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_suika_portrait",3],
+            "speaker" : "アヤ：",
+            "dialogue" : "やっぱり塔の中に…"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_suika_portrait",4],
+            "speaker" : "スイカ：",
+            "dialogue" : "塔は危険かも。覚悟したいなら、私を倒せ！",
+            "funct" : ["scr_cutscene_start_boss","obj_suika"]
+        }
+    ]
+}

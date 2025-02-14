@@ -1,0 +1,60 @@
+{
+    "char_info" : {
+        "char_name" : "伊吹スイカ",
+        "char_desc" : "長い髪で嬉しい鬼"
+    },
+    "boss_sprite" : "spr_suika",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "right_portrait" : ["spr_suika_portrait",3],
+            "speaker" : "スイカ：",
+            "dialogue" : "あっ！サナエ様、どこに行くの？",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_suika_portrait",3],
+            "speaker" : "サナエ：",
+            "dialogue" : "計画は明らか。私に置きたこの長い髪を削除する計画。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_suika_portrait",3],
+            "speaker" : "サナエ：",
+            "dialogue" : "醜いだけじゃないが、ばかげているのだ。",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_suika_portrait",3],
+            "speaker" : "スイカ：",
+            "dialogue" : "なぜ元に戻したいの？すごいよ！"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_suika_portrait",3],
+            "speaker" : "サナエ：",
+            "dialogue" : "解決を探すには妖怪の山の近くの塔に行ってる。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_suika_portrait",4],
+            "speaker" : "スイカ：",
+            "dialogue" : "あなたはマリサ女王様に似ているよう。それを保ちたい。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_suika_portrait",4],
+            "speaker" : "サナエ：",
+            "dialogue" : "醜い鬼！マリサは嬉しいね。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_suika_portrait",4],
+            "speaker" : "スイカ：",
+            "dialogue" : "自分を回復しないわよ。ただ栄光のために戦う！",
+            "funct" : ["scr_cutscene_start_boss","obj_suika"]
+        }
+    ]
+}

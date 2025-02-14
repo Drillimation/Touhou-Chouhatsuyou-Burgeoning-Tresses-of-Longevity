@@ -1,0 +1,54 @@
+{
+    "char_info" : {
+        "char_name" : "伊吹スイカ",
+        "char_desc" : "長い髪で嬉しい鬼"
+    },
+    "boss_sprite" : "spr_suika",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_marisa_portrait",0],
+            "right_portrait" : ["spr_suika_portrait",3],
+            "speaker" : "スイカ：",
+            "dialogue" : "鬼たちはこの髪型が持つ？責任者を感謝すべきよ。",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",0],
+            "right_portrait" : ["spr_suika_portrait",3],
+            "speaker" : "マリサ：",
+            "dialogue" : "幻想郷連邦王国を設立しても、この髪型を楽しむ。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",7],
+            "right_portrait" : ["spr_suika_portrait",3],
+            "speaker" : "マリサ：",
+            "dialogue" : "レイム様は髪女王ならないのよ。",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",7],
+            "right_portrait" : ["spr_suika_portrait",4],
+            "speaker" : "スイカ：",
+            "dialogue" : "髪女王なの？他に誰が髪女王なの？カグヤ皇后かユカリ女王か？"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",0],
+            "right_portrait" : ["spr_suika_portrait",4],
+            "speaker" : "マリサ：",
+            "dialogue" : "私も髪女王。すべての王国の女性の君主は髪女王。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_suika_portrait",4],
+            "speaker" : "マリサ：",
+            "dialogue" : "楽しくて幸せと思えば、あまり長く待つな！"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_suika_portrait",4],
+            "speaker" : "スイカ：",
+            "dialogue" : "始めた人を追いかけてるの？スペルカードを倒せる場合にのみ継続できるわよ！",
+            "funct" : ["scr_cutscene_start_boss","obj_suika"]
+        }
+    ]
+}

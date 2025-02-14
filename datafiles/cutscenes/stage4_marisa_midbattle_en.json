@@ -1,0 +1,54 @@
+{
+    "char_info" : {
+        "char_name" : "Suika Ibuki",
+        "char_desc" : "The Oni Happy With Long Hair"
+    },
+    "boss_sprite" : "spr_suika",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_marisa_portrait",0],
+            "right_portrait" : ["spr_suika_portrait",3],
+            "speaker" : "Suika:",
+            "dialogue" : "Should oni also be having this hair? I should thank the one responsible.",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",0],
+            "right_portrait" : ["spr_suika_portrait",3],
+            "speaker" : "Marisa:",
+            "dialogue" : "While I enjoy the hair that I've had before the Federal Kingdom of Gensokyo was established,"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",7],
+            "right_portrait" : ["spr_suika_portrait",3],
+            "speaker" : "Marisa:",
+            "dialogue" : "Reimu refuses to be a Little Hair Queen.",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",7],
+            "right_portrait" : ["spr_suika_portrait",4],
+            "speaker" : "Suika:",
+            "dialogue" : "Little Hair Queen? Who is one then, Empress Kaguya or Queen Yukari?"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",0],
+            "right_portrait" : ["spr_suika_portrait",4],
+            "speaker" : "Marisa:",
+            "dialogue" : "I too am one. Every kingdom that has a female ruler is one!"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_suika_portrait",4],
+            "speaker" : "Marisa:",
+            "dialogue" : "If I think you're amused and happy about this, don't wait too long."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_suika_portrait",4],
+            "speaker" : "Suika:",
+            "dialogue" : "Are you going to go after the person who kickstarted it? Only if you defeat my spell card!",
+            "funct" : ["scr_cutscene_start_boss","obj_suika"]
+        }
+    ]
+}

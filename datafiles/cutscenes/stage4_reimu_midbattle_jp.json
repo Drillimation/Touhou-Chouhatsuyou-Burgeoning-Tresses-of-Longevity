@@ -1,0 +1,48 @@
+{
+    "char_info" : {
+        "char_name" : "伊吹スイカ",
+        "char_desc" : "長い髪で嬉しい鬼"
+    },
+    "boss_sprite" : "spr_suika",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_suika_portrait",3],
+            "speaker" : "スイカ：",
+            "dialogue" : "これを楽しんでるのか？これがとても楽しい！",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_suika_portrait",3],
+            "speaker" : "レイム：",
+            "dialogue" : "この異変の解決が持たなきゃ。この髪型に飽きた。",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_suika_portrait",0],
+            "speaker" : "スイカ：",
+            "dialogue" : "レイム様、この呪文をオフにする方法がない。正直に言わなきゃ。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_suika_portrait",0],
+            "speaker" : "スイカ：",
+            "dialogue" : "すべての試みが失敗するよ。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",6],
+            "right_portrait" : ["spr_suika_portrait",0],
+            "speaker" : "レイム：",
+            "dialogue" : "一体誰があなたに教えた？"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",6],
+            "right_portrait" : ["spr_suika_portrait",4],
+            "speaker" : "スイカ：",
+            "dialogue" : "答えを持ってる人に導くけど、短い戦いを勝つ場合のみ！",
+            "funct" : ["scr_cutscene_start_boss","obj_suika"]
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "char_info" : {
+        "char_name" : "Suika Ibuki",
+        "char_desc" : "The Oni Happy With Long Hair"
+    },
+    "boss_sprite" : "spr_suika",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_suika_portrait",3],
+            "speaker" : "Suika:",
+            "dialogue" : "Are you enjoying this? This is so fun!",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_suika_portrait",3],
+            "speaker" : "Reimu:",
+            "dialogue" : "You better have a solution to this incident. I'm sick of this hairstyle.",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_suika_portrait",0],
+            "speaker" : "Suika:",
+            "dialogue" : "Reimu, there's no way to turn this spell off. I will have to be honest."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_suika_portrait",0],
+            "speaker" : "Suika:",
+            "dialogue" : "All attempts anyone makes will not work."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",6],
+            "right_portrait" : ["spr_suika_portrait",0],
+            "speaker" : "Reimu:",
+            "dialogue" : "Who the heck told you that?"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",6],
+            "right_portrait" : ["spr_suika_portrait",4],
+            "speaker" : "Suika:",
+            "dialogue" : "I'll lead you to a person who may have the answer, but only if you win a quick fight!",
+            "funct" : ["scr_cutscene_start_boss","obj_suika"]
+        }
+    ]
+}

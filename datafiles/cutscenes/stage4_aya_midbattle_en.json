@@ -1,0 +1,60 @@
+{
+    "char_info" : {
+        "char_name" : "Suika Ibuki",
+        "char_desc" : "The Oni Happy With Long Hair"
+    },
+    "boss_sprite" : "spr_suika",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_suika_portrait",3],
+            "speaker" : "Suika:",
+            "dialogue" : "Hey! There's a familiar face! I'm enjoying my new hair. Are you as well?",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_suika_portrait",3],
+            "speaker" : "Aya:",
+            "dialogue" : "Listen to me. I look ridiculous with this hairstyle.",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_suika_portrait",4],
+            "speaker" : "Suika:",
+            "dialogue" : "I think we look very elegant with these new hairstyles."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_suika_portrait",4],
+            "speaker" : "Aya:",
+            "dialogue" : "I disagree. We look awful."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_suika_portrait",4],
+            "speaker" : "Aya:",
+            "dialogue" : "How can the people of Gensokyo stand up to me with an absurd appearance like this?"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_suika_portrait",3],
+            "speaker" : "Suika:",
+            "dialogue" : "You don't seem to like it, and whoever started this may find it amusing..."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_suika_portrait",3],
+            "speaker" : "Aya:",
+            "dialogue" : "It's apparently in a tower..."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_suika_portrait",4],
+            "speaker" : "Suika:",
+            "dialogue" : "The tower may be dangerous, so defeat me to prepare yourself.",
+            "funct" : ["scr_cutscene_start_boss","obj_suika"]
+        }
+    ]
+}
