@@ -1,0 +1,46 @@
+{
+    "char_info" : {
+        "char_name" : "Asta Nattendottir",
+        "char_desc" : "Gatekeeper of Dragon's Tower"
+    },
+    "boss_sprite" : "spr_asta",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_reimu_portrait",1],
+            "right_portrait" : ["spr_asta_portrait",8],
+            "speaker" : "Asta:",
+            "dialogue" : "Unbelievable."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",8],
+            "speaker" : "Reimu:",
+            "dialogue" : "I defeated you because you aren't doing anything to resolve this."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",11],
+            "speaker" : "Asta:",
+            "dialogue" : "Even if you enter the tower ahead of you, good luck trying to find the one who started the spell."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_asta_portrait",11],
+            "speaker" : "Reimu:",
+            "dialogue" : "God knows how much longer I have to tolerate this."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_asta_portrait",11],
+            "speaker" : "Asta:",
+            "dialogue" : "Many have discovered advantages to this spell. They can be open for marriage."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",7],
+            "right_portrait" : ["spr_asta_portrait",11],
+            "speaker" : "Reimu:",
+            "dialogue" : "Absolute nonsense.",
+            "funct" : ["scr_cutscene_stage_clear"]
+        }
+    ] 
+}

@@ -1,0 +1,52 @@
+{
+    "char_info" : {
+        "char_name" : "アスタ・ナッテンドティル",
+        "char_desc" : "龍の塔の門番"
+    },
+    "boss_sprite" : "spr_asta",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_marisa_portrait",1],
+            "right_portrait" : ["spr_asta_portrait",8],
+            "speaker" : "アスタ：",
+            "dialogue" : "うぇぇぇ！"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",1],
+            "right_portrait" : ["spr_asta_portrait",8],
+            "speaker" : "マリサ：",
+            "dialogue" : "あなたが泣きたかったか知った。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",1],
+            "right_portrait" : ["spr_asta_portrait",8],
+            "speaker" : "アスタ：",
+            "dialogue" : "耐えられなかったのよ！"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",3],
+            "right_portrait" : ["spr_asta_portrait",8],
+            "speaker" : "マリサ：",
+            "dialogue" : "髪型が重くて多くのメンテナンスを必要としても、問題もなく暮らしてるよ。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "right_portrait" : ["spr_asta_portrait",8],
+            "speaker" : "マリサ：",
+            "dialogue" : "レイムがこの髪型で暮らさないの。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "right_portrait" : ["spr_asta_portrait",10],
+            "speaker" : "アスタ：",
+            "dialogue" : "もう話さないが塔の中に生き残らないわね。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",7],
+            "right_portrait" : ["spr_asta_portrait",10],
+            "speaker" : "マリサ：",
+            "dialogue" : "解決を見つけるまで出てないし。レイムがこれをもう容認できないのだ。",
+            "funct" : ["scr_cutscene_stage_clear"]
+        }
+    ]
+}

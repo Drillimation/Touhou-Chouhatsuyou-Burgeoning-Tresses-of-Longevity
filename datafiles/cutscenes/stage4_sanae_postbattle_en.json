@@ -1,0 +1,34 @@
+{
+    "char_info" : {
+        "char_name" : "Asta Nattendottir",
+        "char_desc" : "Gatekeeper of Dragon's Tower"
+    },
+    "boss_sprite" : "spr_asta",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_sanae_portrait",1],
+            "right_portrait" : ["spr_asta_portrait",9],
+            "speaker" : "Asta:",
+            "dialogue" : "The tower must be around here."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",9],
+            "speaker" : "Sanae:",
+            "dialogue" : "I will keep going until I find it."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",11],
+            "speaker" : "Asta:",
+            "dialogue" : "You should turn back because your search won't be easy."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",11],
+            "speaker" : "Sanae:",
+            "dialogue" : "I'll be here to stay you piece of filth.",
+            "funct" : ["scr_cutscene_stage_clear"]
+        }
+    ]
+}

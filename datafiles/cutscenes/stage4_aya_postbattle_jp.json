@@ -1,0 +1,58 @@
+{
+    "char_info" : {
+        "char_name" : "アスタ・ナッテンドティル",
+        "char_desc" : "龍の塔の門番"
+    },
+    "boss_sprite" : "spr_asta",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",8],
+            "speaker" : "アヤ：",
+            "dialogue" : "貴様を終わった…"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",8],
+            "speaker" : "アスタ：",
+            "dialogue" : "で、どのように終わるのか？"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_asta_portrait",8],
+            "speaker" : "アヤ：",
+            "dialogue" : "責任のものは何百万人もの命かを台無しにされた。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_asta_portrait",8],
+            "speaker" : "アスタ：",
+            "dialogue" : "あなたもその一人だったし…"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",8],
+            "speaker" : "アヤ：",
+            "dialogue" : "進んでバカな髪型の責任者を探す。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",8],
+            "speaker" : "アスタ：",
+            "dialogue" : "じゃ、探さないのよ。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_asta_portrait",8],
+            "speaker" : "アヤ：",
+            "dialogue" : "どこかにあるはず。探したいよ。助けるのか？"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_asta_portrait",10],
+            "speaker" : "アスタ：",
+            "dialogue" : "ちょうど倒れたのでいいえと言うつもり。",
+            "funct" : ["scr_cutscene_stage_clear"]
+        }
+    ]
+}

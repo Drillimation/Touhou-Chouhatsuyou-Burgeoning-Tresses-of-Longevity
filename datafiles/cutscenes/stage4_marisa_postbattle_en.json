@@ -1,0 +1,52 @@
+{
+    "char_info" : {
+        "char_name" : "Asta Nattendottir",
+        "char_desc" : "Gatekeeper of Dragon's Tower"
+    },
+    "boss_sprite" : "spr_asta",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_marisa_portrait",1],
+            "right_portrait" : ["spr_asta_portrait",8],
+            "speaker" : "Asta:",
+            "dialogue" : "Waaaah!"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",1],
+            "right_portrait" : ["spr_asta_portrait",8],
+            "speaker" : "Marisa:",
+            "dialogue" : "I knew you wanted to cry."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",1],
+            "right_portrait" : ["spr_asta_portrait",8],
+            "speaker" : "Asta:",
+            "dialogue" : "This was intolerable!"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",3],
+            "right_portrait" : ["spr_asta_portrait",8],
+            "speaker" : "Marisa:",
+            "dialogue" : "I live with my own hair and have no problems with it, aside from being heavy and requiring lots of care."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "right_portrait" : ["spr_asta_portrait",8],
+            "speaker" : "Marisa:",
+            "dialogue" : "Reimu won't likely live with this hair though."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "right_portrait" : ["spr_asta_portrait",10],
+            "speaker" : "Asta:",
+            "dialogue" : "I won't talk anymore, but you still won't brave the tower."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",7],
+            "right_portrait" : ["spr_asta_portrait",10],
+            "speaker" : "Marisa:",
+            "dialogue" : "I'm not leaving once I find a solution. Reimu can't stand seeing herself like this.",
+            "funct" : ["scr_cutscene_stage_clear"]
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "char_info" : {
+        "char_name" : "アスタ・ナッテンドティル",
+        "char_desc" : "龍の塔の門番"
+    },
+    "boss_sprite" : "spr_asta",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_reimu_portrait",1],
+            "right_portrait" : ["spr_asta_portrait",8],
+            "speaker" : "アスタ：",
+            "dialogue" : "信じられない！"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",8],
+            "speaker" : "レイム：",
+            "dialogue" : "これを解決される何でもをやらなかったので倒した。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",11],
+            "speaker" : "アスタ：",
+            "dialogue" : "前の塔に入っても、呪文を始めたものを頑張って探してね。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_asta_portrait",11],
+            "speaker" : "レイム：",
+            "dialogue" : "神様があとどれくらい我慢しなきゃか知るの？"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_asta_portrait",11],
+            "speaker" : "アスタ：",
+            "dialogue" : "多くの人々はこの呪文の利点を発見した。結婚可能！"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",7],
+            "right_portrait" : ["spr_asta_portrait",11],
+            "speaker" : "レイム：",
+            "dialogue" : "まったく無意味な！",
+            "funct" : ["scr_cutscene_stage_clear"]
+        }
+    ] 
+}

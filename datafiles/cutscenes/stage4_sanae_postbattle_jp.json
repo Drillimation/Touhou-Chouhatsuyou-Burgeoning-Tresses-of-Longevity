@@ -1,0 +1,34 @@
+{
+    "char_info" : {
+        "char_name" : "アスタ・ナッテンドティル",
+        "char_desc" : "龍の塔の門番"
+    },
+    "boss_sprite" : "spr_asta",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_sanae_portrait",1],
+            "right_portrait" : ["spr_asta_portrait",9],
+            "speaker" : "アスタ：",
+            "dialogue" : "塔はこの辺り。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",9],
+            "speaker" : "サナエ：",
+            "dialogue" : "起源を見つけるまで進む。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",11],
+            "speaker" : "アスタ：",
+            "dialogue" : "探しは簡単じゃないので引き返すべき。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",11],
+            "speaker" : "サナエ：",
+            "dialogue" : "ここに留まるのよ。",
+            "funct" : ["scr_cutscene_stage_clear"]
+        }
+    ]
+}

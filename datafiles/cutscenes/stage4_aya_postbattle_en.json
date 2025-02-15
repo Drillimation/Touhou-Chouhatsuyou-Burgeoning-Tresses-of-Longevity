@@ -1,0 +1,58 @@
+{
+    "char_info" : {
+        "char_name" : "Asta Nattendottir",
+        "char_desc" : "Gatekeeper of Dragon's Tower"
+    },
+    "boss_sprite" : "spr_asta",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",8],
+            "speaker" : "Aya:",
+            "dialogue" : "Curse those morons."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",8],
+            "speaker" : "Asta:",
+            "dialogue" : "So, is this how things will end?"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_asta_portrait",8],
+            "speaker" : "Aya:",
+            "dialogue" : "I have no doubt the one responsible would ruin the lives of millions."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_asta_portrait",8],
+            "speaker" : "Asta:",
+            "dialogue" : "You happened to be one of them..."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",8],
+            "speaker" : "Aya:",
+            "dialogue" : "I'm going forward to find the one responsible for my stupid hair."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",8],
+            "speaker" : "Asta:",
+            "dialogue" : "Well, you probably won't."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_asta_portrait",8],
+            "speaker" : "Aya:",
+            "dialogue" : "They must be somewhere inside and I want to find them. Will you help me?"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_asta_portrait",10],
+            "speaker" : "Asta:",
+            "dialogue" : "You just beat me up, so I'm going to say no.",
+            "funct" : ["scr_cutscene_stage_clear"]
+        }
+    ]
+}
