@@ -1,0 +1,77 @@
+{
+    "char_info" : {
+        "char_name" : "アスタ・ナッテンドティル",
+        "char_desc" : "龍の塔の門番"
+    },
+    "boss_sprite" : "spr_asta",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "speaker" : "サナエ：",
+            "dialogue" : "マリサは輝く金で囲む。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "speaker" : "サナエ：",
+            "dialogue" : "気分の違いを見ん。",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "right_portrait" : ["spr_asta_portrait",0],
+            "speaker" : "？？？：",
+            "dialogue" : "質問させて。醜いなのか？"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",0],
+            "speaker" : "サナエ：",
+            "dialogue" : "いいえ！影響を受けなかったとしても、この髪型で方が見栄えが良いのか？",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",3],
+            "speaker" : "アスタ：",
+            "dialogue" : "あの、はい。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",3],
+            "speaker" : "サナエ：",
+            "dialogue" : "正しくないのよ！答えもいいえ！"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",4],
+            "speaker" : "アスタ：",
+            "dialogue" : "なんでこの髪型が好きじゃないの？"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",7],
+            "right_portrait" : ["spr_asta_portrait",4],
+            "speaker" : "サナエ：",
+            "dialogue" : "最悪な悪夢なった。これについて愚かな？"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",7],
+            "right_portrait" : ["spr_asta_portrait",4],
+            "speaker" : "アスタ：",
+            "dialogue" : "いいえ。あんたはおそらく愚かなもの。",
+            "funct" : ["scr_cutscene_change_bgm",8]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",4],
+            "speaker" : "サナエ：",
+            "dialogue" : "汚い獣！私をこれから救おうとしないの？"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",4],
+            "speaker" : "アスタ：",
+            "dialogue" : "話しをやめて。消えろ。",
+            "funct" : ["scr_cutscene_start_boss","obj_asta"]
+        }
+    ]
+}

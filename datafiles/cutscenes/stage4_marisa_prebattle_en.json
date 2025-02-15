@@ -1,0 +1,90 @@
+{
+    "char_info" : {
+        "char_name" : "Asta Nattendottir",
+        "char_desc" : "Gatekeeper of Dragon's Tower"
+    },
+    "boss_sprite" : "spr_asta",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "speaker" : "Marisa:",
+            "dialogue" : "Why do incidents like these always happen? Something always goes wrong at least once a year.",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "right_portrait" : ["spr_asta_portrait",0],
+            "speaker" : "???:",
+            "dialogue" : "That's what malicious youkai-borns are doing here, my Majesty."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",4],
+            "right_portrait" : ["spr_asta_portrait",0],
+            "speaker" : "Marisa:",
+            "dialogue" : "People in Gensokyo have been divided. While some praise, others have a problem to deal with.",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",4],
+            "right_portrait" : ["spr_asta_portrait",0],
+            "speaker" : "Asta:",
+            "dialogue" : "You mean the hair you have?"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "right_portrait" : ["spr_asta_portrait",0],
+            "speaker" : "Marisa:",
+            "dialogue" : "When will this ever end for the ones who despise?"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "right_portrait" : ["spr_asta_portrait",3],
+            "speaker" : "Asta:",
+            "dialogue" : "Never. Despite me being unaffected, this spell can't be turned off."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",3],
+            "speaker" : "Marisa:",
+            "dialogue" : "Never in my life have I seen Reimu like this. She didn't do anything to deserve this."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",5],
+            "speaker" : "Asta:",
+            "dialogue" : "Was this in revenge for the youkai-borns?"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",5],
+            "speaker" : "Asta:",
+            "dialogue" : "While your kingdom recognizes them, she intends to hate and persecute them.",
+            "funct" : ["scr_cutscene_change_bgm",8]
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",5],
+            "speaker" : "Marisa:",
+            "dialogue" : "You don't need to talk smack about Reimu's actions. She demands the spell be deactivated immediately."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",4],
+            "speaker" : "Asta:",
+            "dialogue" : "You can't get inside the tower. If you try, you will just get humiliated."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",4],
+            "speaker" : "Marisa:",
+            "dialogue" : "If you fail to let me pass and inside, you will be brought down."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",7],
+            "speaker" : "Asta:",
+            "dialogue" : "Did you want to make me cry? I'll accept your duel, but my own danmaku is enough to bring you down!",
+            "funct" : ["scr_cutscene_start_boss","obj_asta"]
+        }
+    ]
+}

@@ -3,6 +3,7 @@
         "char_name" : "落合カガミ",
         "char_desc" : "時をかけた亡霊"
     },
+    "boss_sprite" : "spr_kagami",
     "t_scene_info" : [
         {
             "left_portrait" : ["spr_reimu_portrait",0],

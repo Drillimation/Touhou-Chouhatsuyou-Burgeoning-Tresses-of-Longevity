@@ -3,6 +3,7 @@
         "char_name" : "Kagami Ochiai",
         "char_desc" : "The Phantom Who Leapt Through Time"
     },
+    "boss_sprite" : "spr_kagami",
     "t_scene_info" : [
         {
             "left_portrait" : ["spr_reimu_portrait",0],

@@ -1,0 +1,90 @@
+{
+    "char_info" : {
+        "char_name" : "アスタ・ナッテンドティル",
+        "char_desc" : "龍の塔の門番"
+    },
+    "boss_sprite" : "spr_asta",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "speaker" : "マリサ：",
+            "dialogue" : "なぜこんな異変が常に起こるのか？年に一度何かは問題が発生。",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "right_portrait" : ["spr_asta_portrait",0],
+            "speaker" : "？？？：",
+            "dialogue" : "女王陛下、凶悪な妖怪人がやるものだ。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",4],
+            "right_portrait" : ["spr_asta_portrait",0],
+            "speaker" : "マリサ：",
+            "dialogue" : "幻想郷の人民の意見が分かれる。賞賛する人もいるが、他は問題を抱えてるのだ。",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",4],
+            "right_portrait" : ["spr_asta_portrait",0],
+            "speaker" : "アスタ：",
+            "dialogue" : "持つ髪型のことか？"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "right_portrait" : ["spr_asta_portrait",0],
+            "speaker" : "マリサ：",
+            "dialogue" : "軽蔑する人たちにいつ終わられるの？"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "right_portrait" : ["spr_asta_portrait",3],
+            "speaker" : "アスタ：",
+            "dialogue" : "終わらないわ。影響を受けなかったとしても、この呪文をオフにできないのよ。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",3],
+            "speaker" : "マリサ：",
+            "dialogue" : "レイム様をこれで見なかった。これに値する何でもをやらなかったの。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",5],
+            "speaker" : "アスタ：",
+            "dialogue" : "妖怪民族に復讐だったわ？"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",5],
+            "speaker" : "アスタ：",
+            "dialogue" : "王国が妖怪人を承認しても、レイムが迫害するよ。",
+            "funct" : ["scr_cutscene_change_bgm",8]
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",5],
+            "speaker" : "マリサ：",
+            "dialogue" : "レイムの活動について悪口を言う必要じゃん。すぐに呪文をオフにするよう要求。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",4],
+            "speaker" : "アスタ：",
+            "dialogue" : "塔に入られない。試せば屈辱を受けるよ。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",4],
+            "speaker" : "マリサ：",
+            "dialogue" : "通させて中に行かせてくれないなら、あんたを降ろす。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",7],
+            "speaker" : "アスタ：",
+            "dialogue" : "私が泣くのを見たいのか？挑戦を受けるけど、弾幕は降ろすのに十分だぜ！",
+            "funct" : ["scr_cutscene_start_boss","obj_asta"]
+        }
+    ]
+}

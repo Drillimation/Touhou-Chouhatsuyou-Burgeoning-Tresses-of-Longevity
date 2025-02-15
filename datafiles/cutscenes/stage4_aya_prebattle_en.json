@@ -1,0 +1,78 @@
+{
+    "char_info" : {
+        "char_name" : "Asta Nattendottir",
+        "char_desc" : "Gatekeeper of Dragon's Tower"
+    },
+    "boss_sprite" : "spr_asta",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "speaker" : "Aya:",
+            "dialogue" : "Will I lose myself in society if I continue to look like this?",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_asta_portrait",3],
+            "speaker" : "???:",
+            "dialogue" : "Why stick out from the crowds? My magic makes me stick out from the new ones."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_asta_portrait",3],
+            "speaker" : "Aya:",
+            "dialogue" : "This is what happens when an experiment fails or something.",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_asta_portrait",0],
+            "speaker" : "Asta:",
+            "dialogue" : "This isn't a failed experiment. This is a blessing to all of Gensokyo."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",0],
+            "speaker" : "Aya:",
+            "dialogue" : "Just look at me. It's not a blessing. I look terrible. How does the public think?"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",3],
+            "speaker" : "Asta:",
+            "dialogue" : "Wonderful."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_asta_portrait",3],
+            "speaker" : "Aya:",
+            "dialogue" : "I really don't know how much longer I can live with this stupid hairstyle.",
+            "funct" : ["scr_cutscene_change_bgm",8]
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_asta_portrait",3],
+            "speaker" : "Aya:",
+            "dialogue" : "The one responsible will pay dearly for this disgrace."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",4],
+            "speaker" : "Asta:",
+            "dialogue" : "I'm amused that you're mad about it."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",4],
+            "speaker" : "Aya:",
+            "dialogue" : "Even though it's humanoids who mostly resolve these problems, I've seen youkai-borns do it too."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",4],
+            "speaker" : "Asta:",
+            "dialogue" : "You aren't going to enter the tower you see ahead of you. If you turn it off, they'll be sad.",
+            "funct" : ["scr_cutscene_start_boss","obj_asta"]
+        }
+    ]
+}

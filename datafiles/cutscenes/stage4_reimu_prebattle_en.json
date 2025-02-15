@@ -1,0 +1,78 @@
+{
+    "char_info" : {
+        "char_name" : "Asta Nattendottir",
+        "char_desc" : "Gatekeeper of Dragon's Tower"
+    },
+    "boss_sprite" : "spr_asta",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "speaker" : "Reimu:",
+            "dialogue" : "Suika told me about some person to talk to...",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_asta_portrait",0],
+            "speaker" : "???:",
+            "dialogue" : "If you're looking for that person, that would be me."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",6],
+            "right_portrait" : ["spr_asta_portrait",0],
+            "speaker" : "Reimu:",
+            "dialogue" : "You also appear to be unaffected! So, is there a way to break the spell?",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",6],
+            "right_portrait" : ["spr_asta_portrait",0],
+            "speaker" : "Asta:",
+            "dialogue" : "No."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",0],
+            "speaker" : "Reimu:",
+            "dialogue" : "Why not? I need to get rid of this absurd hairstyle."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",4],
+            "speaker" : "Asta:",
+            "dialogue" : "No, you should like your hairstyle now."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",4],
+            "speaker" : "Reimu:",
+            "dialogue" : "Well, you're an idiot then. I must know if there is a way to restore my hair to normal."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",3],
+            "speaker" : "Asta:",
+            "dialogue" : "There is no way to turn off the spell."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",3],
+            "speaker" : "Asta:",
+            "dialogue" : "Most of the humanoid and youkai-born girls in Gensokyo are having fun with their new hair.",
+            "funct" : ["scr_cutscene_change_bgm",8]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",3],
+            "speaker" : "Reimu:",
+            "dialogue" : "I am proving that you may have idiots working for you. I hate this hairstyle."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",3],
+            "speaker" : "Reimu:",
+            "dialogue" : "I demand this be fixed before I'm forced to seal you inside a bottle!",
+            "funct" : ["scr_cutscene_start_boss","obj_asta"]
+        }
+    ]
+}

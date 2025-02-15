@@ -1,0 +1,78 @@
+{
+    "char_info" : {
+        "char_name" : "アスタ・ナッテンドティル",
+        "char_desc" : "龍の塔の門番"
+    },
+    "boss_sprite" : "spr_asta",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "speaker" : "アヤ：",
+            "dialogue" : "これで暮らし続ければ社会に迷う？",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_asta_portrait",3],
+            "speaker" : "？？？：",
+            "dialogue" : "なんで群衆から目立つの？魔法は新しい群衆から目立ちにするよ。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_asta_portrait",3],
+            "speaker" : "アヤ：",
+            "dialogue" : "実験が失敗するときはこれが起こり。",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_asta_portrait",0],
+            "speaker" : "アスタ：",
+            "dialogue" : "失敗した実験じゃない。幻想郷全国に祝福。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",0],
+            "speaker" : "アヤ：",
+            "dialogue" : "私を見ろ。祝福じゃん。ひどい。国民がどう思うか？"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",3],
+            "speaker" : "アスタ：",
+            "dialogue" : "素晴らしい。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_asta_portrait",3],
+            "speaker" : "アヤ：",
+            "dialogue" : "どれくらいバカな髪型で暮らせるか知らん。",
+            "funct" : ["scr_cutscene_change_bgm",8]
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_asta_portrait",3],
+            "speaker" : "アヤ：",
+            "dialogue" : "責任のものはこの不名誉なので高くつく。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",4],
+            "speaker" : "アスタ：",
+            "dialogue" : "あんたが怒りなので面白い。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",4],
+            "speaker" : "アヤ：",
+            "dialogue" : "人間がこんな問題を解決しても、妖怪人も問題を解決できるのだ！"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",4],
+            "speaker" : "アスタ：",
+            "dialogue" : "見る目の前に塔を入らないわ。オフにしたら、悲しい。",
+            "funct" : ["scr_cutscene_start_boss","obj_asta"]
+        }
+    ]
+}

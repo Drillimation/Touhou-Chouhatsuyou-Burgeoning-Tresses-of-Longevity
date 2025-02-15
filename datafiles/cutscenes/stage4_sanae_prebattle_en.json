@@ -1,0 +1,77 @@
+{
+    "char_info" : {
+        "char_name" : "Asta Nattendottir",
+        "char_desc" : "Gatekeeper of Dragon's Tower"
+    },
+    "boss_sprite" : "spr_asta",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "speaker" : "Sanae:",
+            "dialogue" : "Marisa should still be surrounded by shiny gold."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "speaker" : "Sanae:",
+            "dialogue" : "I don't see any difference in the moods between myself and her.",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "right_portrait" : ["spr_asta_portrait",0],
+            "speaker" : "???:",
+            "dialogue" : "Let me ask. Are you ugly?"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",0],
+            "speaker" : "Sanae:",
+            "dialogue" : "No! Do you see I look better with this hair, compared to you who also appears to be unaffected?",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",3],
+            "speaker" : "Asta:",
+            "dialogue" : "Umm, yes."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",3],
+            "speaker" : "Sanae:",
+            "dialogue" : "Wrong! The answer to that is no as well!"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",4],
+            "speaker" : "Asta:",
+            "dialogue" : "Why don't you like this hair?"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",7],
+            "right_portrait" : ["spr_asta_portrait",4],
+            "speaker" : "Sanae:",
+            "dialogue" : "It's become my worst nightmare. Are you braindead about what has happened here?"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",7],
+            "right_portrait" : ["spr_asta_portrait",4],
+            "speaker" : "Asta:",
+            "dialogue" : "Nothing. You're probably braindead and not me.",
+            "funct" : ["scr_cutscene_change_bgm",8]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",4],
+            "speaker" : "Sanae:",
+            "dialogue" : "Foul beast. You're not willing to help me save myself from this."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",4],
+            "speaker" : "Asta:",
+            "dialogue" : "I've had enough of this. You're screwed.",
+            "funct" : ["scr_cutscene_start_boss","obj_asta"]
+        }
+    ]
+}

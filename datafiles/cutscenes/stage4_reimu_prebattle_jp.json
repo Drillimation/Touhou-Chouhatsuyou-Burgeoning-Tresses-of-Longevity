@@ -1,0 +1,78 @@
+{
+    "char_info" : {
+        "char_name" : "アスタ・ナッテンドティル",
+        "char_desc" : "龍の塔の門番"
+    },
+    "boss_sprite" : "spr_asta",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "speaker" : "レイム：",
+            "dialogue" : "スイカさんが誰かで話す必要について言った…",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_asta_portrait",0],
+            "speaker" : "？？？：",
+            "dialogue" : "あの人を探していれば、私だろう。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",6],
+            "right_portrait" : ["spr_asta_portrait",0],
+            "speaker" : "レイム：",
+            "dialogue" : "あんたも影響を受けなかった！じゃ、この呪文を壊す方法なのか？",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",6],
+            "right_portrait" : ["spr_asta_portrait",0],
+            "speaker" : "アスタ：",
+            "dialogue" : "いいえ。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",0],
+            "speaker" : "レイム：",
+            "dialogue" : "なぜだめ？この不条理な髪型を削除しなきゃ。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",4],
+            "speaker" : "アスタ：",
+            "dialogue" : "いいえ、髪型が好きになるはず。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",4],
+            "speaker" : "レイム：",
+            "dialogue" : "じゃ、バカだわ。髪を正常に戻す方法の場合を知らなきゃ。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",3],
+            "speaker" : "アスタ：",
+            "dialogue" : "呪文をオフにする方法がないよ。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",3],
+            "speaker" : "アスタ：",
+            "dialogue" : "最も人間と妖怪の少女たちは新しい髪型で楽しんでる。",
+            "funct" : ["scr_cutscene_change_bgm",8]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",3],
+            "speaker" : "レイム：",
+            "dialogue" : "バカたちがあんたで働くかもを証明。この髪型が好きじゃないの！"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_asta_portrait",3],
+            "speaker" : "レイム：",
+            "dialogue" : "ボトルの中に封印せざるを得る前に修正されるのを要求！",
+            "funct" : ["scr_cutscene_start_boss","obj_asta"]
+        }
+    ]
+}
