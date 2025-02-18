@@ -11,7 +11,7 @@ defeat_img = 3;
 struct_data[0] = scr_json_load_file("main/boss_attack_layouts.json","struct_data",false);
 attack = array_reverse(struct_data[0].BOSS_KIYOMI_MID)
 
-scr_boss_stats(array_length(attack),1500)
+scr_boss_stats(array_length(attack),1400)
 
 timer = attack[life - 1][4];
 

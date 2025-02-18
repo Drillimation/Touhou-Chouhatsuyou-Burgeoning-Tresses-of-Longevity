@@ -1,4 +1,4 @@
-scr_declare_spell(20,spr_kiyomi_portrait,spr_kiyomi_spell);
+scr_declare_spell(22,spr_kiyomi_portrait,spr_kiyomi_spell);
 face = 3;
 x_pos = 128;
 y_pos = 96;
