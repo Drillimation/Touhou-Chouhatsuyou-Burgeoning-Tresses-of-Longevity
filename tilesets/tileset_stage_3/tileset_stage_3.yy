@@ -1,25 +1,25 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"tileset_stage_23",
+  "%Name":"tileset_stage_3",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"tileset_stage_23",
+  "name":"tileset_stage_3",
   "out_columns":7,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Tile Sets",
+    "path":"folders/Tile Sets.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_tileset_stage3131",
-    "path":"sprites/spr_tileset_stage3131/spr_tileset_stage3131.yy",
+    "name":"spr_tileset_stage3",
+    "path":"sprites/spr_tileset_stage3/spr_tileset_stage3.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
