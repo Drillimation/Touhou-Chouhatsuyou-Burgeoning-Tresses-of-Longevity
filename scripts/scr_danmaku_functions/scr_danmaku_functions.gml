@@ -1,4 +1,4 @@
-function scr_danmaku_curve(_direction,_speed,_infinite,_time = 60) {
+function scr_danmaku_curve(_direction,_speed,_infinite,_time = 60,_spawn_more = false,_spawn_array = undefined) {
 	if !variable_instance_exists(id,"_tick") {
 		_tick = 0;
 		temp_time = _time;
@@ -7,6 +7,9 @@ function scr_danmaku_curve(_direction,_speed,_infinite,_time = 60) {
 	_tick = _tick mod _speed
 	if (_tick == 0) {
 		direction += _direction
+		if _spawn_more == true {
+			script_execute_ext(scr_shoot_bullet_enemy,_spawn_array)
+		}
 	}
 	if _infinite == false {
 		temp_time -= 1;
@@ -14,6 +17,16 @@ function scr_danmaku_curve(_direction,_speed,_infinite,_time = 60) {
 			effect_script = undefined;
 			script_array = [];
 		}
+	}
+}
+
+function scr_danmaku_timed_disappear(_time) {
+	if !variable_instance_exists(id,"tick") {
+		tick = _time;
+	}
+	tick -= 1;
+	if tick == 0 {
+		instance_destroy();
 	}
 }
 
