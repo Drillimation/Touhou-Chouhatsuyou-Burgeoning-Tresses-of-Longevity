@@ -1,0 +1,133 @@
+{
+    "char_info" : {
+        "char_name" : "Mabayu Kanbe",
+        "char_desc" : "The Dancing Haunted Doll"
+    },
+    "boss_sprite" : "spr_mabayu",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_marisa_portrait",0],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "???:",
+            "dialogue" : "I will now dance for this woman in gold.",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",1],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "Marisa:",
+            "dialogue" : "I found someone! What's going on in Gensokyo?",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",1],
+            "right_portrait" : ["spr_mabayu_portrait",3],
+            "speaker" : "Mabayu:",
+            "dialogue" : "Everybody is enjoying this blessing!"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",7],
+            "right_portrait" : ["spr_mabayu_portrait",3],
+            "speaker" : "Marisa:",
+            "dialogue" : "Others are not. Only I have this hairstyle."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",7],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "Mabayu:",
+            "dialogue" : "With all that gold that's on you, I'd love to call you a \"big fat witch\"."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "Marisa:",
+            "dialogue" : "Oh, for God's sake, you cannot lay an insult on the Queen of the Federal Kingdom of Gensokyo."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "Marisa:",
+            "dialogue" : "You won't mock me, and I'm not overweight, you imbecile."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",5],
+            "speaker" : "Mabayu:",
+            "dialogue" : "Oh. I didn't realize you were Queen Marisa."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",5],
+            "speaker" : "Mabayu:",
+            "dialogue" : "From other interpretations, you had shorter hair and wore a black outfit..."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",0],
+            "right_portrait" : ["spr_mabayu_portrait",5],
+            "speaker" : "Marisa:",
+            "dialogue" : "That's what I used to wear before I became a princess on my 15th birthday. But listen up."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",5],
+            "speaker" : "Marisa:",
+            "dialogue" : "Reimu does not like this. She tried to cut it off but it only grew back within seconds."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",3],
+            "speaker" : "Mabayu:",
+            "dialogue" : "That's what my mother wanted to bless Gensokyo with. Very long hair will be the new essence of beauty!"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",3],
+            "speaker" : "Marisa:",
+            "dialogue" : "I wish I could ram my Master Spark down her throat. She went a little overboard!"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "Mabayu:",
+            "dialogue" : "Overboard? Wow, you must be a tough queen."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "Marisa:",
+            "dialogue" : "Yukari may be tough in terms of power, but your mom will pay for ruining Reimu's hair."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "Mabayu:",
+            "dialogue" : "Pay? How much?",
+            "funct" : ["scr_cutscene_change_bgm",10]
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "Marisa:",
+            "dialogue" : "She will be drowned in my danmaku. I will not let her be any more beautiful than me."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "right_portrait" : ["spr_mabayu_portrait",4],
+            "speaker" : "Mabayu:",
+            "dialogue" : "You will not meet with her. Even if you get past me, she will just defeat you black and blue."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",4],
+            "speaker" : "Marisa:",
+            "dialogue" : "How about green, black, and blue like the colors of the sky?"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",3],
+            "speaker" : "Mabayu:",
+            "dialogue" : "Are those the colors of your danmaku? Show me what you've got.",
+            "funct" : ["scr_cutscene_start_boss","obj_mabayu"]
+        }
+    ]
+}

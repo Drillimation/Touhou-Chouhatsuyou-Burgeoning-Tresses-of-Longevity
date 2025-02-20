@@ -1,0 +1,28 @@
+{
+    "char_info" : {
+        "char_name" : "Mabayu Kanbe",
+        "char_desc" : "The Dancing Haunted Doll"
+    },
+    "boss_sprite" : "spr_mabayu",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_sanae_portrait",1],
+            "right_portrait" : ["spr_mabayu_portrait",15],
+            "speaker" : "Mabayu:",
+            "dialogue" : "Unbelievable. Screw this. This tower wasn't designed for guests and now you've made a breakthrough."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",1],
+            "right_portrait" : ["spr_mabayu_portrait",15],
+            "speaker" : "Mabayu:",
+            "dialogue" : "You want to convince her to turn it off."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "right_portrait" : ["spr_mabayu_portrait",15],
+            "speaker" : "Sanae:",
+            "dialogue" : "Why did she start this in the first place? I should meet her before it's too late.",
+            "funct" : ["scr_cutscene_stage_clear"]
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "char_info" : {
+        "char_name" : "Mabayu Kanbe",
+        "char_desc" : "The Dancing Haunted Doll"
+    },
+    "boss_sprite" : "spr_mabayu",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "???:",
+            "dialogue" : "Now I can dance like I could never before with this hairstyle.",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "???:",
+            "dialogue" : "Such a good girl I am now, I could win fashion awards."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "Reimu:",
+            "dialogue" : "But I don't like the new hairstyle I have.",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_mabayu_portrait",3],
+            "speaker" : "Mabayu:",
+            "dialogue" : "Ahh, the shrine maiden of the Hakurei Shrine. You aren't sharing your enthusiasm for this hairstyle."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",3],
+            "speaker" : "Reimu:",
+            "dialogue" : "Listen up. This is an order."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",4],
+            "speaker" : "Mabayu:",
+            "dialogue" : "I think you want my mother to turn off this spell."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",7],
+            "right_portrait" : ["spr_mabayu_portrait",4],
+            "speaker" : "Reimu:",
+            "dialogue" : "From what I've heard in the wilderness, I've had no success with finding anyone who can help me."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",7],
+            "right_portrait" : ["spr_mabayu_portrait",4],
+            "speaker" : "Reimu:",
+            "dialogue" : "Perhaps your mother's the one I'm looking for..."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",7],
+            "right_portrait" : ["spr_mabayu_portrait",3],
+            "speaker" : "Mabayu:",
+            "dialogue" : "She will be a lie. You can't ask her to end the spell.",
+            "funct" : ["scr_cutscene_change_bgm",10]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",3],
+            "speaker" : "Reimu:",
+            "dialogue" : "Well, this is an order from the Chief Priestess of the Hakurei Shrine, being me."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",3],
+            "speaker" : "Reimu:",
+            "dialogue" : "I want to speak to your mother about a solution to this problem."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",6],
+            "right_portrait" : ["spr_mabayu_portrait",4],
+            "speaker" : "Mabayu:",
+            "dialogue" : "I fear that you'll end up finding the impossible. Trying to defeat me won't result in any luck.",
+            "funct" : ["scr_cutscene_start_boss","obj_mabayu"]
+        }
+    ]
+}

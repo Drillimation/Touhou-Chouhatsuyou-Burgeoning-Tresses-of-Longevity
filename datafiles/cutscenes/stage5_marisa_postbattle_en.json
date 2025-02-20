@@ -1,0 +1,40 @@
+{
+    "char_info" : {
+        "char_name" : "Mabayu Kanbe",
+        "char_desc" : "The Dancing Haunted Doll"
+    },
+    "boss_sprite" : "spr_mabayu",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_marisa_portrait",1],
+            "right_portrait" : ["spr_mabayu_portrait",15],
+            "speaker" : "Marisa:",
+            "dialogue" : "I wish your mother could choke to death on my own danmaku!"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",1],
+            "right_portrait" : ["spr_mabayu_portrait",15],
+            "speaker" : "Mabayu:",
+            "dialogue" : "You won't disrespect or harm my dear mother..."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",1],
+            "right_portrait" : ["spr_mabayu_portrait",15],
+            "speaker" : "Marisa:",
+            "dialogue" : "If there's any food, I'm going to eat it all, but not to make me fat!"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",1],
+            "right_portrait" : ["spr_mabayu_portrait",13],
+            "speaker" : "Mabayu:",
+            "dialogue" : "Do you eat only Japanese food?"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",7],
+            "right_portrait" : ["spr_mabayu_portrait",13],
+            "speaker" : "Marisa:",
+            "dialogue" : "Not only that, but enough...",
+            "funct" : ["scr_cutscene_stage_clear"]
+        }
+    ]
+}

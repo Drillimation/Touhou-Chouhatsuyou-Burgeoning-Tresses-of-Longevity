@@ -1,0 +1,76 @@
+{
+    "char_info" : {
+        "char_name" : "Mabayu Kanbe",
+        "char_desc" : "The Dancing Haunted Doll"
+    },
+    "boss_sprite" : "spr_mabayu",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_reimu_portrait",1],
+            "right_portrait" : ["spr_mabayu_portrait",8],
+            "speaker" : "Reimu:",
+            "dialogue" : "There must be a solution from your mother."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",1],
+            "right_portrait" : ["spr_mabayu_portrait",8],
+            "speaker" : "Reimu:",
+            "dialogue" : "I won't leave until I meet with her and convince her to turn it off."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",1],
+            "right_portrait" : ["spr_mabayu_portrait",12],
+            "speaker" : "Mabayu:",
+            "dialogue" : "You won't surrender? You're still going to fail though."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",12],
+            "speaker" : "Reimu:",
+            "dialogue" : "I will not kill myself if I fail."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",12],
+            "speaker" : "Reimu:",
+            "dialogue" : "My service is valuable to Gensokyo, and I don't want the people of Kozankyo to see me like this."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",12],
+            "speaker" : "Reimu:",
+            "dialogue" : "This incident is the one I want to kill."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",15],
+            "speaker" : "Mabayu:",
+            "dialogue" : "Are you convinced that you will succeed?"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",15],
+            "speaker" : "Reimu:",
+            "dialogue" : "The Federal Kingdom of Gensokyo will not be defeated by this accursed hair spell."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",15],
+            "speaker" : "Reimu:",
+            "dialogue" : "I've dealt with much worse things over the years."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",8],
+            "speaker" : "Mabayu:",
+            "dialogue" : "My mother thinks you're better with this hairstyle."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",8],
+            "speaker" : "Reimu:",
+            "dialogue" : "She failed to realize the massive disadvantages of having floor-length hair. I will confront her.",
+            "funct" : ["scr_cutscene_stage_clear"]
+        }
+    ]
+}

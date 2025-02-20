@@ -1,0 +1,108 @@
+{
+    "char_info" : {
+        "char_name" : "Mabayu Kanbe",
+        "char_desc" : "The Dancing Haunted Doll"
+    },
+    "boss_sprite" : "spr_mabayu",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_sanae_portrait",1],
+            "speaker" : "Sanae:",
+            "dialogue" : "I've at least found somebody I can talk to.",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",1],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "???:",
+            "dialogue" : "Hey. What's up?"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "Sanae:",
+            "dialogue" : "My hair is too long!",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "right_portrait" : ["spr_mabayu_portrait",4],
+            "speaker" : "Mabayu:",
+            "dialogue" : "I know that your hair is very long. I must tell you that only women are affected by this enchantment."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "right_portrait" : ["spr_mabayu_portrait",4],
+            "speaker" : "Mabayu:",
+            "dialogue" : "You won't find any cases involving men anywhere in Gensokyo."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",4],
+            "speaker" : "Sanae:",
+            "dialogue" : "Nonsense! My gender can't be the only one..."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "right_portrait" : ["spr_mabayu_portrait",4],
+            "speaker" : "Sanae:",
+            "dialogue" : "Anyway, have you been affected by this?"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "Mabayu:",
+            "dialogue" : "No, this is how I normally look."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "Sanae:",
+            "dialogue" : "Well, I don't look normal here. My hair only extends down past my shoulders. It extends to my height."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "Mabayu:",
+            "dialogue" : "This spell isn't affecting either me or my mother. This seems to only affect you and other women."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "Mabayu:",
+            "dialogue" : "If you don't want this hair, cut it then!"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",7],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "Sanae:",
+            "dialogue" : "It's impossible; it will just grow back in seconds."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "Sanae:",
+            "dialogue" : "This is a curse, and I'm assuming your mother is to blame."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "Sanae:",
+            "dialogue" : "You don't need to tell me to go see her and I'm not an idiot like you.",
+            "funct" : ["scr_cutscene_change_bgm",10]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",4],
+            "speaker" : "Mabayu:",
+            "dialogue" : "My mother is locked behind closed doors; you can't see her."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",4],
+            "speaker" : "Mabayu:",
+            "dialogue" : "Besides, she has no plans to meet with anybody else. Let me tie your hair in a million knots!",
+            "funct" : ["scr_cutscene_start_boss","obj_mabayu"]
+        }
+    ]
+}

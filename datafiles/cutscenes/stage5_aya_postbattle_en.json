@@ -1,0 +1,28 @@
+{
+    "char_info" : {
+        "char_name" : "Mabayu Kanbe",
+        "char_desc" : "The Dancing Haunted Doll"
+    },
+    "boss_sprite" : "spr_mabayu",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",15],
+            "speaker" : "Aya:",
+            "dialogue" : "This wasn't funny!"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",15],
+            "speaker" : "Mabayu:",
+            "dialogue" : "Are you just going to continue on and meet with my mother?"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",15],
+            "speaker" : "Aya:",
+            "dialogue" : "Your mother's in here? That's where I'll go next. Her attempt to undermine me will fail.",
+            "funct" : ["scr_cutscene_stage_clear"]
+        }
+    ]
+}

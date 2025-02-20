@@ -1,0 +1,127 @@
+{
+    "char_info" : {
+        "char_name" : "Mabayu Kanbe",
+        "char_desc" : "The Dancing Haunted Doll"
+    },
+    "boss_sprite" : "spr_mabayu",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "???:",
+            "dialogue" : "This is my hairstyle, which I love playing with.",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "???:",
+            "dialogue" : "As you can clearly see, it looks just like a veil. It's clear and easily visible."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "Aya:",
+            "dialogue" : "This is irrelevant. I want to know if I can fix my hair issue.",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "Mabayu:",
+            "dialogue" : "Well, this is an enchantment. There's no way to turn it off, unless..."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",4],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "Aya:",
+            "dialogue" : "Unless? I must be getting close."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",4],
+            "right_portrait" : ["spr_mabayu_portrait",7],
+            "speaker" : "Mabayu:",
+            "dialogue" : "Oh dear... If you get too close, you won't like what she'll do."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_mabayu_portrait",7],
+            "speaker" : "Aya:",
+            "dialogue" : "I'm not sure who it is, but what has happened to Gensokyo is humiliating. I look completely unacceptable."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_mabayu_portrait",3],
+            "speaker" : "Mabayu:",
+            "dialogue" : "Unacceptable? Gee, looks like you had a bad experience with this enchantment."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_mabayu_portrait",3],
+            "speaker" : "Aya:",
+            "dialogue" : "I'm not usually affected by incidents on any scale but this one?"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_mabayu_portrait",3],
+            "speaker" : "Aya:",
+            "dialogue" : "This is something that may never end."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_mabayu_portrait",4],
+            "speaker" : "Mabayu:",
+            "dialogue" : "You can't turn it off."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",4],
+            "speaker" : "Aya:",
+            "dialogue" : "Just look at my absurd appearance. I can't write for the Daily Bunbunmaru looking like this."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",4],
+            "speaker" : "Aya:",
+            "dialogue" : "How can Hatate expect to see me with this hair? She might be affected too!"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",4],
+            "speaker" : "Aya:",
+            "dialogue" : "I'm sure you're struggling not to smile."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",3],
+            "speaker" : "Mabayu:",
+            "dialogue" : "I will always smile. This is too fun!",
+            "funct" : ["scr_cutscene_change_bgm",10]
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",3],
+            "speaker" : "Aya:",
+            "dialogue" : "Don't lie to me. I know you find my rants amusing."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "Mabayu:",
+            "dialogue" : "I have too much respect for you."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "Aya:",
+            "dialogue" : "I've had enough of your lies. I know you're enjoying my current predicament."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",4],
+            "speaker" : "Mabayu:",
+            "dialogue" : "If you want more, just come for my show!",
+            "funct" : ["scr_cutscene_start_boss","obj_mabayu"]
+        }
+    ]
+}
