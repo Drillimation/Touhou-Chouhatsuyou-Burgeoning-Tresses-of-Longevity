@@ -1,0 +1,133 @@
+{
+    "char_info" : {
+        "char_name" : "神戸マバユ",
+        "char_desc" : "踊ってくる幽霊な人形"
+    },
+    "boss_sprite" : "spr_mabayu",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_marisa_portrait",0],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "？？？：",
+            "dialogue" : "この金色の女性に今踊るよ。",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",1],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "マリサ：",
+            "dialogue" : "誰かを見つけた！幻想郷にどったの？",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",1],
+            "right_portrait" : ["spr_mabayu_portrait",3],
+            "speaker" : "マバユ：",
+            "dialogue" : "皆さんはこの祝福を楽しんでるわよ！"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",7],
+            "right_portrait" : ["spr_mabayu_portrait",3],
+            "speaker" : "マリサ：",
+            "dialogue" : "他が楽しまないのだ。この髪型が持つのは私だけ。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",7],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "マバユ：",
+            "dialogue" : "金色に輝くあんたに、私が「大きくて太い魔女」で呼びたいのだろう。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "マリサ：",
+            "dialogue" : "ああもう、侮辱を幻想郷連邦王国の女王様に置けんぞ。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "マリサ：",
+            "dialogue" : "貴様が私を嘲笑できなく、太り過ぎじゃないのよ。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",5],
+            "speaker" : "マバユ：",
+            "dialogue" : "あら。あなたはマリサ女王様だったとは気づかなかったね。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",5],
+            "speaker" : "マバユ：",
+            "dialogue" : "他の解釈から、短い髪と黒い服を着た…"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",0],
+            "right_portrait" : ["spr_mabayu_portrait",5],
+            "speaker" : "マリサ：",
+            "dialogue" : "15歳の誕生日にお姫様なった前にかつてそれを着た。しかし聞け。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",5],
+            "speaker" : "マリサ：",
+            "dialogue" : "霊夢はこれが好きじゃん。切ってみたが数秒で伸ばしてきた。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",3],
+            "speaker" : "マバユ：",
+            "dialogue" : "お母さんが幻想郷を祝福したかったものだった。超ロングヘアは新しい美の本質！"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",3],
+            "speaker" : "マリサ：",
+            "dialogue" : "マスタースパークを喉に押し込めたらいいのに！少し船外！"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "マバユ：",
+            "dialogue" : "船外は？ふふ、厳しい女王。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "マリサ：",
+            "dialogue" : "ユカリ女王は力の面で強いかも。レイムの髪型を傷めたので母が支払うけど！"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "マバユ：",
+            "dialogue" : "支払う？いくら？",
+            "funct" : ["scr_cutscene_change_bgm",10]
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "マリサ：",
+            "dialogue" : "彼女を弾幕で溺れるんよ！私より美しくなることは許さないのよ！"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "right_portrait" : ["spr_mabayu_portrait",4],
+            "speaker" : "マバユ：",
+            "dialogue" : "彼女に会わないでしょ。私を倒しても、コテンパンにしてやる。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",4],
+            "speaker" : "マリサ：",
+            "dialogue" : "より大きいコテンパンはどう？"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",3],
+            "speaker" : "マバユ：",
+            "dialogue" : "コテンパンにしたいなら、かかってこいよ！",
+            "funct" : ["scr_cutscene_start_boss","obj_mabayu"]
+        }
+    ]
+}

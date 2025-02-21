@@ -1,0 +1,28 @@
+{
+    "char_info" : {
+        "char_name" : "神戸マバユ",
+        "char_desc" : "踊ってくる幽霊な人形"
+    },
+    "boss_sprite" : "spr_mabayu",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_sanae_portrait",1],
+            "right_portrait" : ["spr_mabayu_portrait",15],
+            "speaker" : "マバユ：",
+            "dialogue" : "貴様！信じられん！この塔はお客さん向けに設計されてない。今突破口をした！"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",1],
+            "right_portrait" : ["spr_mabayu_portrait",15],
+            "speaker" : "マバユ：",
+            "dialogue" : "オフにするよう説得したいのね。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "right_portrait" : ["spr_mabayu_portrait",15],
+            "speaker" : "サナエ：",
+            "dialogue" : "まず、なんでこれを始めたのか？手遅れになる前に彼女に会うはず。",
+            "funct" : ["scr_cutscene_stage_clear"]
+        }
+    ]
+}

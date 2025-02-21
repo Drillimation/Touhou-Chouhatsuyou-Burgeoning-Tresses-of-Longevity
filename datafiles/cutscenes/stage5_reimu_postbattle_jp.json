@@ -1,0 +1,76 @@
+{
+    "char_info" : {
+        "char_name" : "神戸マバユ",
+        "char_desc" : "踊ってくる幽霊な人形"
+    },
+    "boss_sprite" : "spr_mabayu",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_reimu_portrait",1],
+            "right_portrait" : ["spr_mabayu_portrait",8],
+            "speaker" : "レイム：",
+            "dialogue" : "母から解決策があるはずだ。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",1],
+            "right_portrait" : ["spr_mabayu_portrait",8],
+            "speaker" : "レイム：",
+            "dialogue" : "彼女に会って呪文を止めるよう説得するまで、出ないし！"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",1],
+            "right_portrait" : ["spr_mabayu_portrait",12],
+            "speaker" : "マバユ：",
+            "dialogue" : "降伏しないね？まだ失敗するつもり。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",12],
+            "speaker" : "レイム：",
+            "dialogue" : "失敗すれば自分を殺さないのよ。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",12],
+            "speaker" : "レイム：",
+            "dialogue" : "功労は幻想郷に貴重であり、鉱山京の人民は私をこう見たくないわ。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",12],
+            "speaker" : "レイム：",
+            "dialogue" : "この異変は殺したいもの。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",15],
+            "speaker" : "マバユ：",
+            "dialogue" : "成功すると思うのか？"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",15],
+            "speaker" : "レイム：",
+            "dialogue" : "幻想郷連邦王国はこの呪われた髪呪文で倒さないの！"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",15],
+            "speaker" : "レイム：",
+            "dialogue" : "長年にわたり、もっとひどいもんに対処した。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",8],
+            "speaker" : "マバユ：",
+            "dialogue" : "お母さんはこの髪型でずっと良くと思うね。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",8],
+            "speaker" : "レイム：",
+            "dialogue" : "床に長さの髪の大きな欠点を理解できなかった。対峙するわ！",
+            "funct" : ["scr_cutscene_stage_clear"]
+        }
+    ]
+}

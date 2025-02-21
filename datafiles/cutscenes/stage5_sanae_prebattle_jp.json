@@ -1,0 +1,108 @@
+{
+    "char_info" : {
+        "char_name" : "神戸マバユ",
+        "char_desc" : "踊ってくる幽霊な人形"
+    },
+    "boss_sprite" : "spr_mabayu",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_sanae_portrait",1],
+            "speaker" : "サナエ：",
+            "dialogue" : "話せる誰かを見つけた。",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",1],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "？？？：",
+            "dialogue" : "こんにちは！お元気？"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "サナエ：",
+            "dialogue" : "髪は長すぎるのだ！",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "right_portrait" : ["spr_mabayu_portrait",4],
+            "speaker" : "マバユ：",
+            "dialogue" : "髪はとても長いを知る。女性たちだけは祝福で影響を受けると言わなきゃ。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "right_portrait" : ["spr_mabayu_portrait",4],
+            "speaker" : "マバユ：",
+            "dialogue" : "幻想郷各地に男性が影響を受けなかった。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",4],
+            "speaker" : "サナエ：",
+            "dialogue" : "まさか！性別は唯一のものであるはずがない…"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "right_portrait" : ["spr_mabayu_portrait",4],
+            "speaker" : "サナエ：",
+            "dialogue" : "とにかく、これで影響を受けたの？"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",5],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "マバユ：",
+            "dialogue" : "いいえ、これは普通の外見。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "サナエ：",
+            "dialogue" : "じゃ、私が普通じゃん。肩までの長さの髪が持つけど、身長まで伸びた。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "マバユ：",
+            "dialogue" : "この呪文は私や母には影響しないわ。あなたと他の女性たちだけは影響を受けるのね。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "マバユ：",
+            "dialogue" : "この髪型がほしくないなら、切れ！"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",7],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "サナエ：",
+            "dialogue" : "不可能だ！数秒で伸ばしてくる。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "サナエ：",
+            "dialogue" : "これが呪であり、母のせいだと思う。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "サナエ：",
+            "dialogue" : "彼女を見に行けと言う必要はないわ。そしてあんたのようにばかじゃないのよ。",
+            "funct" : ["scr_cutscene_change_bgm",10]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",4],
+            "speaker" : "マバユ：",
+            "dialogue" : "お母さんは閉ざされた扉の向こうに後ろ。彼女を見れないわ。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",4],
+            "speaker" : "マバユ：",
+            "dialogue" : "さらに、他に誰かに会う計画がないし。百万ノットに髪を結ばせて！",
+            "funct" : ["scr_cutscene_start_boss","obj_mabayu"]
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "char_info" : {
+        "char_name" : "神戸マバユ",
+        "char_desc" : "踊ってくる幽霊な人形"
+    },
+    "boss_sprite" : "spr_mabayu",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "？？？：",
+            "dialogue" : "今まで、この髪型で踊れなかったのを。",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "？？？：",
+            "dialogue" : "今とてもいい良い少女であり、ファッション賞を勝てるよ。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_mabayu_portrait",0],
+            "speaker" : "レイム：",
+            "dialogue" : "私の新しい髪型が好きじゃないけど…",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_mabayu_portrait",3],
+            "speaker" : "マバユ：",
+            "dialogue" : "あっ、博麗神社の巫女さん！この髪型に熱意を共有していないわ。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",3],
+            "speaker" : "レイム：",
+            "dialogue" : "聞け。これが命令。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",4],
+            "speaker" : "マバユ：",
+            "dialogue" : "お母さんに呪文をオフにして欲しいと思う。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",7],
+            "right_portrait" : ["spr_mabayu_portrait",4],
+            "speaker" : "レイム：",
+            "dialogue" : "荒野で聞いた話によると、私を助けられる誰かを探してる成功がなかった。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",7],
+            "right_portrait" : ["spr_mabayu_portrait",4],
+            "speaker" : "レイム：",
+            "dialogue" : "母は探してる人と思うね…"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",7],
+            "right_portrait" : ["spr_mabayu_portrait",3],
+            "speaker" : "マバユ：",
+            "dialogue" : "彼女が嘘。呪文を終わるように頼めないの…",
+            "funct" : ["scr_cutscene_change_bgm",10]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",3],
+            "speaker" : "レイム：",
+            "dialogue" : "じゃ、これが博麗神社の巫女さんから命令。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",3],
+            "speaker" : "レイム：",
+            "dialogue" : "この問題の解決について母で話したいのよ。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",6],
+            "right_portrait" : ["spr_mabayu_portrait",4],
+            "speaker" : "マバユ：",
+            "dialogue" : "不可能を見つけてるかと心配。私を倒そうとするのは運が悪くなる。",
+            "funct" : ["scr_cutscene_start_boss","obj_mabayu"]
+        }
+    ]
+}

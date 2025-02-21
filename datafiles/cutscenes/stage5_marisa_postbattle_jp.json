@@ -1,0 +1,40 @@
+{
+    "char_info" : {
+        "char_name" : "神戸マバユ",
+        "char_desc" : "踊ってくる幽霊な人形"
+    },
+    "boss_sprite" : "spr_mabayu",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_marisa_portrait",1],
+            "right_portrait" : ["spr_mabayu_portrait",15],
+            "speaker" : "マリサ：",
+            "dialogue" : "母が私の弾幕で窒息死したらいいのに！"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",1],
+            "right_portrait" : ["spr_mabayu_portrait",15],
+            "speaker" : "マバユ：",
+            "dialogue" : "愛する母を軽蔑するか傷つけられないの…"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",1],
+            "right_portrait" : ["spr_mabayu_portrait",15],
+            "speaker" : "マリサ：",
+            "dialogue" : "食物を見れば、すべてを食べるけど、太いにする何でもを食べん！"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",1],
+            "right_portrait" : ["spr_mabayu_portrait",13],
+            "speaker" : "マバユ：",
+            "dialogue" : "和食だけを食べるのか？"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",7],
+            "right_portrait" : ["spr_mabayu_portrait",13],
+            "speaker" : "マリサ：",
+            "dialogue" : "それ以上を食べるけど、もう十分だぜ！",
+            "funct" : ["scr_cutscene_stage_clear"]
+        }
+    ]
+}

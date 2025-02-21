@@ -1,132 +1,132 @@
 {
     "char_info" : {
-        "char_name" : "Mabayu Kanbe",
-        "char_desc" : "The Dancing Haunted Doll"
+        "char_name" : "神戸マバユ",
+        "char_desc" : "踊ってくる幽霊な人形"
     },
     "boss_sprite" : "spr_mabayu",
     "t_scene_info" : [
         {
             "left_portrait" : ["spr_aya_portrait",5],
             "right_portrait" : ["spr_mabayu_portrait",0],
-            "speaker" : "???:",
-            "dialogue" : "This is my hairstyle, which I love playing with.",
+            "speaker" : "？？？：",
+            "dialogue" : "こちらは髪型であり、遊ぶのが大好き。",
             "funct" : ["scr_cutscene_reveal_sprite"]
         },
         {
             "left_portrait" : ["spr_aya_portrait",5],
             "right_portrait" : ["spr_mabayu_portrait",0],
-            "speaker" : "???:",
-            "dialogue" : "As you can clearly see, it looks just like a veil. It's clear and easily visible."
+            "speaker" : "？？？：",
+            "dialogue" : "ご覧のようにベールに似てる。はっきりしていて見やすい。"
         },
         {
             "left_portrait" : ["spr_aya_portrait",5],
             "right_portrait" : ["spr_mabayu_portrait",0],
-            "speaker" : "Aya:",
-            "dialogue" : "This is irrelevant. I want to know if I can fix my hair issue.",
+            "speaker" : "アヤ：",
+            "dialogue" : "無関係だ。髪型の問題を直せるか知りたい。",
             "funct" : ["scr_cutscene_reveal_name"]
         },
         {
             "left_portrait" : ["spr_aya_portrait",5],
             "right_portrait" : ["spr_mabayu_portrait",0],
-            "speaker" : "Mabayu:",
-            "dialogue" : "Well, this is an enchantment. There's no way to turn it off, unless..."
+            "speaker" : "マバユ：",
+            "dialogue" : "じゃ、祝福だね。オフにする方法がない。さもないと…"
         },
         {
             "left_portrait" : ["spr_aya_portrait",4],
             "right_portrait" : ["spr_mabayu_portrait",0],
-            "speaker" : "Aya:",
-            "dialogue" : "Unless? I must be getting close."
+            "speaker" : "アヤ：",
+            "dialogue" : "さもないと？そろそろかな。"
         },
         {
             "left_portrait" : ["spr_aya_portrait",4],
             "right_portrait" : ["spr_mabayu_portrait",7],
-            "speaker" : "Mabayu:",
-            "dialogue" : "Oh dear... If you get too close, you won't like what she'll do."
+            "speaker" : "マバユ：",
+            "dialogue" : "やばい…近づきすぎれば、これが好きじゃないでしょ…"
         },
         {
             "left_portrait" : ["spr_aya_portrait",5],
             "right_portrait" : ["spr_mabayu_portrait",7],
-            "speaker" : "Aya:",
-            "dialogue" : "I'm not sure who it is, but what has happened to Gensokyo is humiliating."
+            "speaker" : "アヤ：",
+            "dialogue" : "あなたの後ろに何があるのか知らないが、幻想郷に起こったのは屈辱的だ。"
         },
         {
             "left_portrait" : ["spr_aya_portrait",5],
             "right_portrait" : ["spr_mabayu_portrait",7],
-            "speaker" : "Aya:",
-            "dialogue" : "I look completely unacceptable."
+            "speaker" : "アヤ：",
+            "dialogue" : "全く受け入れられないのよ。"
         },
         {
             "left_portrait" : ["spr_aya_portrait",5],
             "right_portrait" : ["spr_mabayu_portrait",3],
-            "speaker" : "Mabayu:",
-            "dialogue" : "Unacceptable? Gee, looks like you had a bad experience with this enchantment."
+            "speaker" : "マバユ：",
+            "dialogue" : "受け入れられないのは？で、この祝福で悪い経験をした。"
         },
         {
             "left_portrait" : ["spr_aya_portrait",5],
             "right_portrait" : ["spr_mabayu_portrait",3],
-            "speaker" : "Aya:",
-            "dialogue" : "I'm not usually affected by incidents on any scale but this one?"
+            "speaker" : "アヤ：",
+            "dialogue" : "あらゆる規模で異変の影響を受けないけど。これはどう？"
         },
         {
             "left_portrait" : ["spr_aya_portrait",5],
             "right_portrait" : ["spr_mabayu_portrait",3],
-            "speaker" : "Aya:",
-            "dialogue" : "This is something that may never end."
+            "speaker" : "アヤ：",
+            "dialogue" : "終わらんかもしれない何かだ。"
         },
         {
             "left_portrait" : ["spr_aya_portrait",5],
             "right_portrait" : ["spr_mabayu_portrait",4],
-            "speaker" : "Mabayu:",
-            "dialogue" : "You can't turn it off."
+            "speaker" : "マバユ：",
+            "dialogue" : "オフにできないわね。"
         },
         {
             "left_portrait" : ["spr_aya_portrait",2],
             "right_portrait" : ["spr_mabayu_portrait",4],
-            "speaker" : "Aya:",
-            "dialogue" : "Just look at my absurd appearance. I can't write for the Daily Bunbunmaru looking like this."
+            "speaker" : "アヤ：",
+            "dialogue" : "ただ不条理な外見を見て。このように似ればブンブンマル新聞に書けないのよ！"
         },
         {
             "left_portrait" : ["spr_aya_portrait",2],
             "right_portrait" : ["spr_mabayu_portrait",4],
-            "speaker" : "Aya:",
-            "dialogue" : "How can Hatate expect to see me with this hair? She might be affected too!"
+            "speaker" : "アヤ：",
+            "dialogue" : "ハタテがどうやって私をこの髪型で見れる？彼女も影響を受けたかも！"
         },
         {
             "left_portrait" : ["spr_aya_portrait",2],
             "right_portrait" : ["spr_mabayu_portrait",4],
-            "speaker" : "Aya:",
-            "dialogue" : "I'm sure you're struggling not to smile."
+            "speaker" : "アヤ：",
+            "dialogue" : "笑わないように苦労するかと思う。"
         },
         {
             "left_portrait" : ["spr_aya_portrait",2],
             "right_portrait" : ["spr_mabayu_portrait",3],
-            "speaker" : "Mabayu:",
-            "dialogue" : "I will always smile. This is too fun!",
+            "speaker" : "マバユ：",
+            "dialogue" : "常に笑う。これは楽しすぎるね！",
             "funct" : ["scr_cutscene_change_bgm",10]
         },
         {
             "left_portrait" : ["spr_aya_portrait",2],
             "right_portrait" : ["spr_mabayu_portrait",3],
-            "speaker" : "Aya:",
-            "dialogue" : "Don't lie to me. I know you find my rants amusing."
+            "speaker" : "アヤ：",
+            "dialogue" : "嘘をつかないで。暴言は面白いと思うか私が知る。"
         },
         {
             "left_portrait" : ["spr_aya_portrait",2],
             "right_portrait" : ["spr_mabayu_portrait",0],
-            "speaker" : "Mabayu:",
-            "dialogue" : "I have too much respect for you."
+            "speaker" : "マバユ：",
+            "dialogue" : "あんたに尊敬しすぎるのがある。"
         },
         {
             "left_portrait" : ["spr_aya_portrait",2],
             "right_portrait" : ["spr_mabayu_portrait",0],
-            "speaker" : "Aya:",
-            "dialogue" : "I've had enough of your lies. I know you're enjoying my current predicament."
+            "speaker" : "アヤ：",
+            "dialogue" : "嘘で十分だ。苦境を楽しんでるか知る。"
         },
         {
             "left_portrait" : ["spr_aya_portrait",2],
             "right_portrait" : ["spr_mabayu_portrait",4],
-            "speaker" : "Mabayu:",
-            "dialogue" : "If you want more, just come for my show!",
+            "speaker" : "マバユ：",
+            "dialogue" : "もっとがほしいなら、演芸会に来い！",
             "funct" : ["scr_cutscene_start_boss","obj_mabayu"]
         }
     ]

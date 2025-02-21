@@ -1,0 +1,28 @@
+{
+    "char_info" : {
+        "char_name" : "神戸マバユ",
+        "char_desc" : "踊ってくる幽霊な人形"
+    },
+    "boss_sprite" : "spr_mabayu",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",15],
+            "speaker" : "アヤ：",
+            "dialogue" : "面白くなかった！"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",15],
+            "speaker" : "マバユ：",
+            "dialogue" : "進んでお母さんに会うつもりなのか？"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",15],
+            "speaker" : "アヤ：",
+            "dialogue" : "お母さんはここにいるのか？次は彼女だ。私を弱体化する試みが失敗するよ。",
+            "funct" : ["scr_cutscene_stage_clear"]
+        }
+    ]
+}
