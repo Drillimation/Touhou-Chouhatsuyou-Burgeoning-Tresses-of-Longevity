@@ -64,12 +64,12 @@
     {"$GMFolder":"","%Name":"Miscellaneous","folderPath":"folders/Sprites/Miscellaneous.yy","name":"Miscellaneous","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Stage 5","folderPath":"folders/Timelines/Stage 5.yy","name":"Stage 5","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Spell Cards","folderPath":"folders/Timelines/Spell Cards.yy","name":"Spell Cards","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Stage 1","folderPath":"folders/Timelines/Stage 1.yy","name":"Stage 1","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Stage 2","folderPath":"folders/Timelines/Stage 2.yy","name":"Stage 2","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Stage 3","folderPath":"folders/Timelines/Stage 3.yy","name":"Stage 3","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Stage 4","folderPath":"folders/Timelines/Stage 4.yy","name":"Stage 4","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Stage 5","folderPath":"folders/Timelines/Stage 5.yy","name":"Stage 5","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"intro_en.json","CopyToMask":-1,"filePath":"datafiles/cutscenes","name":"intro_en.json","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
