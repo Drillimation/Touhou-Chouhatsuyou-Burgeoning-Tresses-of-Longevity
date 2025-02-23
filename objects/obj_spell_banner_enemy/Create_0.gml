@@ -18,6 +18,7 @@ x_pos = 512;
 y_pos = 288;
 failed = false;
 opac = 0;
+subimg = 0;
 
 audio_play_sound(snd_spell_card_declare,10,false);
 

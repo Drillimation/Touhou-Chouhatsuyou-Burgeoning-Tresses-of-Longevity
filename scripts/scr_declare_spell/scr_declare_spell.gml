@@ -1,4 +1,4 @@
-function scr_declare_spell(_spell_id,_cut_in,_bg){
+function scr_declare_spell(_spell_id,_cut_in,_bg,_subimg = 0){
 	var inst = instance_create_layer(0,0,"Spell",obj_spell_banner_enemy);
 	with(inst) {
 		spell_id = _spell_id;
@@ -16,5 +16,6 @@ function scr_declare_spell(_spell_id,_cut_in,_bg){
 		cut_in = _cut_in;
 		bg = _bg;
 		boss_id = other.id;		
+		subimg = _subimg;
 	}
 }
