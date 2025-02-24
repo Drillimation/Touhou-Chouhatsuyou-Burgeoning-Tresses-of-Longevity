@@ -11,6 +11,6 @@ for(var i = 0; i < 8; i++) {
 	draw_set_halign(fa_left);
 	draw_text(view_xview + 8,(view_yview + 56) + (i * 16),results_data[# 0,i])
 	draw_set_halign(fa_right);
-	draw_text(view_xview + 176,(view_yview + 96) + (i * 16),results_data[# 1,i]);
-	draw_text(view_xview + 248,(view_yview + 96) + (i * 16),results_data[# 2,i]);
+	draw_text(view_xview + 176,(view_yview + 64) + (i * 16),results_data[# 1,i]);
+	draw_text(view_xview + 248,(view_yview + 64) + (i * 16),results_data[# 2,i]);
 }

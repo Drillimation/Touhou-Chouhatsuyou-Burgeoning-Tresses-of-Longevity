@@ -57,12 +57,12 @@
     ],
     "BOSS_MABAYU" : [
         ["timeline_mabayu_01","timeline_mabayu_01","timeline_mabayu_01","timeline_mabayu_01",60],
-        ["timeline_spell_card_31","timeline_spell_card_31","timeline_spell_card_32","timeline_spell_card_32",60],
+        ["timeline_spell_card_32","timeline_spell_card_32","timeline_spell_card_33","timeline_spell_card_33",60],
         ["timeline_mabayu_02","timeline_mabayu_02","timeline_mabayu_02","timeline_mabayu_02",60],
-        ["timeline_spell_card_33","timeline_spell_card_33","timeline_spell_card_34","timeline_spell_card_34",60],
+        ["timeline_spell_card_34","timeline_spell_card_34","timeline_spell_card_35","timeline_spell_card_35",60],
         ["timeline_mabayu_03","timeline_mabayu_03","timeline_mabayu_03","timeline_mabayu_03",60],
-        ["timeline_spell_card_35","timeline_spell_card_35","timeline_spell_card_36","timeline_spell_card_36",65],
-        ["timeline_spell_card_37","timeline_spell_card_37","timeline_spell_card_38","timeline_spell_card_38",70]
+        ["timeline_spell_card_36","timeline_spell_card_36","timeline_spell_card_37","timeline_spell_card_37",65],
+        ["timeline_spell_card_38","timeline_spell_card_38","timeline_spell_card_38","timeline_spell_card_38",70]
     ],
     "BOSS_MABAYU_ST6" : [
         ["timeline_mabayu_04","timeline_mabayu_04","timeline_mabayu_04","timeline_mabayu_04",60],
