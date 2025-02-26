@@ -1,0 +1,41 @@
+{
+    "char_info" : {
+        "char_name" : "Mabayu Kanbe",
+        "char_desc" : "The Dancing Haunted Doll"
+    },
+    "boss_sprite" : "spr_mabayu",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "right_portrait" : ["spr_mabayu_portrait",8],
+            "speaker" : "Mabayu:",
+            "dialogue" : "To the Netherworld you go!",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",7],
+            "right_portrait" : ["spr_mabayu_portrait",8],
+            "speaker" : "Marisa:",
+            "dialogue" : "The people have had just enough of you and your mother's foolery."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",7],
+            "right_portrait" : ["spr_mabayu_portrait",8],
+            "speaker" : "Mabayu:",
+            "dialogue" : "This has nothing to do with the spell."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",8],
+            "speaker" : "Marisa:",
+            "dialogue" : "Move or I'll shoot. Not moving means you are dead."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",12],
+            "speaker" : "Mabayu:",
+            "dialogue" : "You won't wait to see my mom...",
+            "funct" : ["scr_cutscene_start_boss","obj_mabayu_st6"]
+        }
+    ]
+}

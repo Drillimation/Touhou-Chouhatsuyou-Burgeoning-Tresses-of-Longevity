@@ -1,0 +1,41 @@
+{
+    "char_info" : {
+        "char_name" : "神戸マバユ",
+        "char_desc" : "踊ってくる幽霊な人形"
+    },
+    "boss_sprite" : "spr_mabayu",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "right_portrait" : ["spr_mabayu_portrait",8],
+            "speaker" : "マバユ：",
+            "dialogue" : "地獄に行くよ！",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",7],
+            "right_portrait" : ["spr_mabayu_portrait",8],
+            "speaker" : "マリサ：",
+            "dialogue" : "人民たちはあんたと母のおふざけにもう飽きた。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",7],
+            "right_portrait" : ["spr_mabayu_portrait",8],
+            "speaker" : "マバユ：",
+            "dialogue" : "呪文とは関係ないわ。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",8],
+            "speaker" : "マリサ：",
+            "dialogue" : "動かなくと撃つ。じっとしているのは死んでるのを意味。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",12],
+            "speaker" : "マバユ：",
+            "dialogue" : "お母さんを見るのが待ち遠しいでしょ…",
+            "funct" : ["scr_cutscene_start_boss","obj_mabayu_st6"]
+        }
+    ]
+}

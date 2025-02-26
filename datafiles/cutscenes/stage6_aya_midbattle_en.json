@@ -1,0 +1,53 @@
+{
+    "char_info" : {
+        "char_name" : "Mabayu Kanbe",
+        "char_desc" : "The Dancing Haunted Doll"
+    },
+    "boss_sprite" : "spr_mabayu",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",8],
+            "speaker" : "Aya:",
+            "dialogue" : "I won't be defeated by this humiliating spell. Queen Marisa's hair is what makes up her character.",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",8],
+            "speaker" : "Aya:",
+            "dialogue" : "The Federal Kingdom of Gensokyo will be doomed without her hair."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",8],
+            "speaker" : "Mabayu:",
+            "dialogue" : "I would love to see her bald."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",8],
+            "speaker" : "Aya:",
+            "dialogue" : "You won't rip it all out. She's the best person to lead the kingdom, even if I think my own hair is bad."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",11],
+            "speaker" : "Mabayu:",
+            "dialogue" : "I'll laugh hard if I succeed."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_mabayu_portrait",11],
+            "speaker" : "Aya:",
+            "dialogue" : "Getting rid of this spell won't be easy, but I will not tolerate this hairstyle anymore."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_mabayu_portrait",12],
+            "speaker" : "Mabayu:",
+            "dialogue" : "You're going to fail before you land an eye on her!",
+            "funct" : ["scr_cutscene_start_boss","obj_mabayu_st6"]
+        }
+    ]
+}

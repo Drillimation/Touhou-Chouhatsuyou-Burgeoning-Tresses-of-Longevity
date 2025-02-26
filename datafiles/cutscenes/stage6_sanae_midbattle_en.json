@@ -1,0 +1,47 @@
+{
+    "char_info" : {
+        "char_name" : "Mabayu Kanbe",
+        "char_desc" : "The Dancing Haunted Doll"
+    },
+    "boss_sprite" : "spr_mabayu",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_sanae_portrait",7],
+            "right_portrait" : ["spr_mabayu_portrait",8],
+            "speaker" : "Mabayu:",
+            "dialogue" : "I see that you're going to go up and meet my mother.",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",8],
+            "speaker" : "Sanae:",
+            "dialogue" : "You can see my intentions. I don't need to be told about this. Let me talk with her, please."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",12],
+            "speaker" : "Mabayu:",
+            "dialogue" : "Sorry, but she's not going to meet with you."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",12],
+            "speaker" : "Sanae:",
+            "dialogue" : "If you continue blocking me, you're screwed."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",11],
+            "speaker" : "Mabayu:",
+            "dialogue" : "All she'll do is double the length of your hair."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",11],
+            "speaker" : "Sanae:",
+            "dialogue" : "Not letting me pass means you'll get another round of danmaku to the face!",
+            "funct" : ["scr_cutscene_start_boss","obj_mabayu_st6"]
+        }
+    ]
+}

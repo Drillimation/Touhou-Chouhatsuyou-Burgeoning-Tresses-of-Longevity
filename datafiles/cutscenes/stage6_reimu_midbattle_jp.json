@@ -1,0 +1,47 @@
+{
+    "char_info" : {
+        "char_name" : "神戸マバユ",
+        "char_desc" : "踊ってくる幽霊な人形"
+    },
+    "boss_sprite" : "spr_mabayu",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_mabayu_portrait",8],
+            "speaker" : "マバユ：",
+            "dialogue" : "お母さんがこの呪文をオフにしてほしい？成功しないわ…",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",8],
+            "speaker" : "レイム：",
+            "dialogue" : "一人で成功するとしても、役割を果たさなきゃ。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",12],
+            "speaker" : "マバユ：",
+            "dialogue" : "あんたをまだ失敗する。これを取り除けないよ。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",12],
+            "speaker" : "レイム：",
+            "dialogue" : "幻想郷連邦王国の栄光のために、成功してこの呪文を壊すと確信。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",4],
+            "right_portrait" : ["spr_mabayu_portrait",12],
+            "speaker" : "レイム：",
+            "dialogue" : "彼女から解決を見つけるわ。この呪文をもうすぐ終わるのよ！"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",4],
+            "right_portrait" : ["spr_mabayu_portrait",11],
+            "speaker" : "マバユ：",
+            "dialogue" : "彼女に会う機会を受ける前に失敗するぜ！",
+            "funct" : ["scr_cutscene_start_boss","obj_mabayu_st6"]
+        }
+    ]
+}

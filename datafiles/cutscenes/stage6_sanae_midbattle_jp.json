@@ -1,0 +1,47 @@
+{
+    "char_info" : {
+        "char_name" : "神戸マバユ",
+        "char_desc" : "踊ってくる幽霊な人形"
+    },
+    "boss_sprite" : "spr_mabayu",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_sanae_portrait",7],
+            "right_portrait" : ["spr_mabayu_portrait",8],
+            "speaker" : "マバユ：",
+            "dialogue" : "あんたが行ってお母さんに会うと思う。",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",8],
+            "speaker" : "サナエ：",
+            "dialogue" : "意図を見られる。これについて私を言われる必要はないの。彼女と話させて。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",12],
+            "speaker" : "マバユ：",
+            "dialogue" : "ごめんなさいが、あなたに会わないのよ。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",12],
+            "speaker" : "サナエ：",
+            "dialogue" : "阻止し続けるなら、終わりだ。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",11],
+            "speaker" : "マバユ：",
+            "dialogue" : "髪の長さをただ倍にするね。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",11],
+            "speaker" : "サナエ：",
+            "dialogue" : "通してくれないなら顔に別の弾幕のラウンドを受けるぜ！",
+            "funct" : ["scr_cutscene_start_boss","obj_mabayu_st6"]
+        }
+    ]
+}

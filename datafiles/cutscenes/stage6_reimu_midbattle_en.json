@@ -1,0 +1,47 @@
+{
+    "char_info" : {
+        "char_name" : "Mabayu Kanbe",
+        "char_desc" : "The Dancing Haunted Doll"
+    },
+    "boss_sprite" : "spr_mabayu",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_mabayu_portrait",8],
+            "speaker" : "Mabayu:",
+            "dialogue" : "You want my mother to turn off this spell? You won't succeed.",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",8],
+            "speaker" : "Reimu:",
+            "dialogue" : "I must do my part, even if I think I'll succeed alone."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",12],
+            "speaker" : "Mabayu:",
+            "dialogue" : "She will still fail you. You won't be able to do anything to rid yourself of this."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",12],
+            "speaker" : "Reimu:",
+            "dialogue" : "For the glory of the Federal Kingdom of Gensokyo, I'm convincing myself I will succeed and break this spell."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",4],
+            "right_portrait" : ["spr_mabayu_portrait",12],
+            "speaker" : "Reimu:",
+            "dialogue" : "It's imperative I will seek a solution from her. This spell will end very soon!"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",4],
+            "right_portrait" : ["spr_mabayu_portrait",11],
+            "speaker" : "Mabayu:",
+            "dialogue" : "I'm going to fail you before you have a chance to meet with her!",
+            "funct" : ["scr_cutscene_start_boss","obj_mabayu_st6"]
+        }
+    ]
+}

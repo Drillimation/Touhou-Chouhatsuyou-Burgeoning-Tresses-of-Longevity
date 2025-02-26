@@ -1,0 +1,53 @@
+{
+    "char_info" : {
+        "char_name" : "神戸マバユ",
+        "char_desc" : "踊ってくる幽霊な人形"
+    },
+    "boss_sprite" : "spr_mabayu",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",8],
+            "speaker" : "アヤ：",
+            "dialogue" : "屈辱的な呪文は私を倒さないの。マリサ女王様の髪は性格を作る。",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",8],
+            "speaker" : "アヤ：",
+            "dialogue" : "髪の毛がなければ、幻想郷連邦王国も女王がない。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",8],
+            "speaker" : "マバユ：",
+            "dialogue" : "禿げたになってほしい。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",8],
+            "speaker" : "アヤ：",
+            "dialogue" : "抜けないわよ。私の髪型は悪いことであっても王国を統治する最高の人。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mabayu_portrait",11],
+            "speaker" : "マバユ：",
+            "dialogue" : "成功すれば大笑い。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_mabayu_portrait",11],
+            "speaker" : "アヤ：",
+            "dialogue" : "この呪文を倒すのは簡単じゃないが、この髪型をもう耐えん。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_mabayu_portrait",12],
+            "speaker" : "マバユ：",
+            "dialogue" : "彼女を見る前に失敗するつもり！",
+            "funct" : ["scr_cutscene_start_boss","obj_mabayu_st6"]
+        }
+    ]
+}
