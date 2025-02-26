@@ -1,0 +1,118 @@
+{
+    "char_info" : {
+        "char_name" : "Yuugiku Kanbe",
+        "char_desc" : "The Queen of the Yao Tribe"
+    },
+    "boss_sprite" : "spr_yuugiku",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_sanae_portrait",7],
+            "speaker" : "Sanae:",
+            "dialogue" : "It's always going to be one of those days."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",7],
+            "speaker" : "Sanae:",
+            "dialogue" : "An experiment is going to go terribly wrong and create a crisis affecting all of Gensokyo."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",1],
+            "speaker" : "Sanae:",
+            "dialogue" : "At least I don't have to worry about that talkative girl anymore."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",1],
+            "speaker" : " ",
+            "dialogue" : "Pardon?",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",4],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "Sanae:",
+            "dialogue" : "I'm ordering you to turn off this spell because you negatively affected my physical appearance.",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",4],
+            "right_portrait" : ["spr_yuugiku_portrait",4],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "Negative? How?"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",7],
+            "right_portrait" : ["spr_yuugiku_portrait",4],
+            "speaker" : "Sanae:",
+            "dialogue" : "I must deactivate this enchantment before I'm buried alive in hair.",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",7],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "This enchantment only grows hair to a person's height."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",7],
+            "right_portrait" : ["spr_yuugiku_portrait",3],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "All of Gensokyo's women and girls are blessed by it for the essence of beauty."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",3],
+            "speaker" : "Sanae:",
+            "dialogue" : "I will safely shut it off because too much beauty is too much."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",7],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "Wrong! I married my husband because I wanted his wealth; he wanted my beauty in exchange."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",7],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "This was what caused my daughter to be a member of this world.",
+            "funct" : ["scr_cutscene_change_bgm",12]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",3],
+            "speaker" : "Sanae:",
+            "dialogue" : "I object to all that. I will reduce you to a person who just got chemotherapy!"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",2],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "I don't have time for any objections you may have. This tower does not need any tumors like you!"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",7],
+            "right_portrait" : ["spr_yuugiku_portrait",2],
+            "speaker" : "Sanae:",
+            "dialogue" : "You shouldn't insult me."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",7],
+            "right_portrait" : ["spr_yuugiku_portrait",2],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "For God's sake, you can't convince me to turn off the spell with your objections, so shut up."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",7],
+            "right_portrait" : ["spr_yuugiku_portrait",2],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "This spell does not need any interference from you."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",7],
+            "right_portrait" : ["spr_yuugiku_portrait",2],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "I will knock you off the tower and your landing spot will be your grave!",
+            "funct" : ["scr_cutscene_start_boss","obj_yuugiku"]
+        }
+    ]
+}

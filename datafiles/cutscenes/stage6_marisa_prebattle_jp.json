@@ -1,0 +1,153 @@
+{
+    "char_info" : {
+        "char_name" : "神戸ユウギク",
+        "char_desc" : "瑶族の女王"
+    },
+    "boss_sprite" : "spr_yuugiku",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "speaker" : "マリサ：",
+            "dialogue" : "なんで一体バカが黙らなかった？"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "speaker" : "マリサ：",
+            "dialogue" : "この問題の始源を探すのに一日中費やしたわ。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "speaker" : "マリサ：",
+            "dialogue" : "この不名誉のために支払う。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "speaker" : " ",
+            "dialogue" : "誰と話してるの？",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "マリサ：",
+            "dialogue" : "明らかに君だ。これは受け入れられないといくつかが言った。",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "right_portrait" : ["spr_yuugiku_portrait",3],
+            "speaker" : "ユウギク：",
+            "dialogue" : "なぜ？この呪文は祝福となるはず。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",7],
+            "right_portrait" : ["spr_yuugiku_portrait",3],
+            "speaker" : "マリサ：",
+            "dialogue" : "私がこの呪文を終わるのだぜ。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",7],
+            "right_portrait" : ["spr_yuugiku_portrait",1],
+            "speaker" : "ユウギク：",
+            "dialogue" : "じゃ、頑張ってオフにしてみろ。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",3],
+            "right_portrait" : ["spr_yuugiku_portrait",1],
+            "speaker" : "マリサ：",
+            "dialogue" : "頭がおかしいになってコテンパンにしてやる後、本当に終わり！"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",3],
+            "right_portrait" : ["spr_yuugiku_portrait",4],
+            "speaker" : "ユウギク：",
+            "dialogue" : "対戦の所は大広間だけ。この部屋は小さすぎるね！"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",7],
+            "right_portrait" : ["spr_yuugiku_portrait",4],
+            "speaker" : "マリサ：",
+            "dialogue" : "わかるけど、これが止める必要。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",7],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "ユウギク：",
+            "dialogue" : "ただ引っ込んでな。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "マリサ：",
+            "dialogue" : "ごめんなさいが、出れんぞ。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "マリサ：",
+            "dialogue" : "娘さんが言ったものから、私は幻想郷連邦王国の最も美しい女性のみになれる。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "right_portrait" : ["spr_yuugiku_portrait",3],
+            "speaker" : "ユウギク：",
+            "dialogue" : "早口になりすぎた。今私が幻想郷の最も美しい女性だぜ！"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",3],
+            "speaker" : "マリサ：",
+            "dialogue" : "美しさを失うよ。その後、王位を取り戻す！"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",3],
+            "speaker" : "マリサ：",
+            "dialogue" : "呪文をオフにしないなら、終わりだよ。",
+            "funct" : ["scr_cutscene_change_bgm",12]
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "ユウギク：",
+            "dialogue" : "私を倒しても、結果が好きじゃん…"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "マリサ：",
+            "dialogue" : "どれくらい続くのか？"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "right_portrait" : ["spr_yuugiku_portrait",1],
+            "speaker" : "ユウギク：",
+            "dialogue" : "無期限。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",1],
+            "speaker" : "マリサ：",
+            "dialogue" : "フランドール・スカーレットよりも迷惑にするんだ！"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",6],
+            "speaker" : "ユウギク：",
+            "dialogue" : "私が魂を紅悪魔に売って欲しい？まさか！"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",6],
+            "speaker" : "ユウギク：",
+            "dialogue" : "夫が来て救うまでこの部屋に閉じ込めるよ。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",7],
+            "speaker" : "マリサ：",
+            "dialogue" : "あら、楽しくて永い夜になりそうね。",
+            "funct" : ["scr_cutscene_start_boss","obj_yuugiku"]
+        }
+    ]
+}

@@ -1,0 +1,131 @@
+{
+    "char_info" : {
+        "char_name" : "Yuugiku Kanbe",
+        "char_desc" : "The Queen of the Yao Tribe"
+    },
+    "boss_sprite" : "spr_yuugiku",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "speaker" : "Aya:",
+            "dialogue" : "If anyone dares to challenge Gensokyo's dimensions through manipulation, I must purge them."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "speaker" : " ",
+            "dialogue" : "Purge what!?",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",1],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "Aya:",
+            "dialogue" : "There you are. Why must humanoids and youkai-borns suffer these problems?",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",1],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "I wanted every woman in Gensokyo to have hair as long as their body!"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "Aya:",
+            "dialogue" : "Whenever a youkai-born conducts an experiment, nothing ever goes right."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "Aya:",
+            "dialogue" : "Every day, something will happen that angers either race."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "Aya:",
+            "dialogue" : "As the scrolls of history roll for millennia, there will never seem to be any end."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_yuugiku_portrait",4],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "True. Some people become sad when things have to change."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_yuugiku_portrait",4],
+            "speaker" : "Aya:",
+            "dialogue" : "But for heaven's sake. This hair is making me a complete imbecile."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_yuugiku_portrait",4],
+            "speaker" : "Aya:",
+            "dialogue" : "Everyone in the Daily Bunbunmaru knows about this hair issue that has also affected me."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_yuugiku_portrait",3],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "Are your rants a joke?"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_yuugiku_portrait",3],
+            "speaker" : "Aya:",
+            "dialogue" : "No! Gensokyo does not deserve any tengu with hair that looks like a long bridal veil."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_yuugiku_portrait",4],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "That's what I wore when I married my husband."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",4],
+            "speaker" : "Aya:",
+            "dialogue" : "Even though your spell put a smile on your own face, it didn't for me!"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "Don't get angry. This is supposed to be fun."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "Aya:",
+            "dialogue" : "Reimu has said this hair is so annoying. She or I can't stand seeing ourselves like this.",
+            "funct" : ["scr_cutscene_change_bgm",12]
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "Aya:",
+            "dialogue" : "I'm going to end this."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_yuugiku_portrait",6],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "End this? Are you wanting to fight me?"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",6],
+            "speaker" : "Aya:",
+            "dialogue" : "My rants and danmaku will continue until this spell is shut off."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",7],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "I won't be happy if you win...",
+            "funct" : ["scr_cutscene_start_boss","obj_yuugiku"]
+        }
+    ]
+}

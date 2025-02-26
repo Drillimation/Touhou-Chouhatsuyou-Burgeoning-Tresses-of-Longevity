@@ -1,0 +1,149 @@
+{
+    "char_info" : {
+        "char_name" : "Yuugiku Kanbe",
+        "char_desc" : "The Queen of the Yao Tribe"
+    },
+    "boss_sprite" : "spr_yuugiku",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_reimu_portrait",0],
+            "speaker" : "Reimu:",
+            "dialogue" : "I should be at the real thing by now."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",0],
+            "speaker" : " ",
+            "dialogue" : "Pardon?",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",4],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "Reimu:",
+            "dialogue" : "There you are. I have an order for you."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",7],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "Reimu:",
+            "dialogue" : "I need your help with turning off this spell. I've been unable to make any progress.",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",7],
+            "right_portrait" : ["spr_yuugiku_portrait",4],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "What can I say?"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_yuugiku_portrait",4],
+            "speaker" : "Reimu:",
+            "dialogue" : "I have no idea if you started this, but someone out there must be behind this."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_yuugiku_portrait",4],
+            "speaker" : "Reimu:",
+            "dialogue" : "I'm ordering you to find a solution to this problem and I'm not leaving until you do so."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_yuugiku_portrait",3],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "I'm not having any problems you want me to fix."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",3],
+            "speaker" : "Reimu:",
+            "dialogue" : "Well, this is a problem. Just look at me."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "You can just back off. I didn't invite anyone into this tower!"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "Reimu:",
+            "dialogue" : "Let me ask. Did you start this?"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_yuugiku_portrait",4],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "Both I and my daughter have embraced this spell to enhance the beauty of Gensokyo's people."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",4],
+            "speaker" : "Reimu:",
+            "dialogue" : "So, it was you then. You're to blame. I shouldn't have known that!"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",4],
+            "speaker" : "Reimu:",
+            "dialogue" : "If I defeat you, this spell will likely be turned off. I've already wasted enough time."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",4],
+            "speaker" : "Reimu:",
+            "dialogue" : "Curse you and your daughter!"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "You must learn to embrace your new hairstyle. There's no way you can turn off my spell."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "Reimu:",
+            "dialogue" : "I must reverse it. I'm the shrine maiden of the Hakurei Shrine, having the power to resolve all incidents!"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "You want to free everyone including yourself from this spell? I told you my spell can't be turned off.",
+            "funct" : ["scr_cutscene_change_bgm",12]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "Reimu:",
+            "dialogue" : "I demand you turn off this accursed hair effect immediately. Otherwise, prepare yourself to be punished."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",3],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "You can't punish me. I am invincible!"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",3],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "Go have a ball with the Queen of the Federal Kingdom of Gensokyo."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_yuugiku_portrait",3],
+            "speaker" : "Reimu:",
+            "dialogue" : "The heck you say?"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_yuugiku_portrait",4],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "You heard me. Good luck.",
+            "funct" : ["scr_cutscene_start_boss","obj_yuugiku"]
+        }
+    ]
+}

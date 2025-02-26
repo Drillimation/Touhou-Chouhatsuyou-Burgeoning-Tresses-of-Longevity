@@ -1,0 +1,149 @@
+{
+    "char_info" : {
+        "char_name" : "神戸ユウギク",
+        "char_desc" : "瑶族の女王"
+    },
+    "boss_sprite" : "spr_yuugiku",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_reimu_portrait",0],
+            "speaker" : "レイム：",
+            "dialogue" : "今本当のものに到着するべき。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",0],
+            "speaker" : " ",
+            "dialogue" : "すみません？",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",4],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "レイム：",
+            "dialogue" : "そこに！命令がある。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",7],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "レイム：",
+            "dialogue" : "この呪文をオフにするのに助けが必要。進めなかった。",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",7],
+            "right_portrait" : ["spr_yuugiku_portrait",4],
+            "speaker" : "ユウギク：",
+            "dialogue" : "何を言えばいいでしょうか？"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_yuugiku_portrait",4],
+            "speaker" : "レイム：",
+            "dialogue" : "あなたがこれを始めた場合がわからないが、誰かが責任を負っている。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_yuugiku_portrait",4],
+            "speaker" : "レイム：",
+            "dialogue" : "この問題の解決があるか尋ねてるわ。答えるまで離れない。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_yuugiku_portrait",3],
+            "speaker" : "ユウギク：",
+            "dialogue" : "直してほしい問題があってない。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",3],
+            "speaker" : "レイム：",
+            "dialogue" : "じゃ、これが問題。私を見て。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "ユウギク：",
+            "dialogue" : "帰ってもいいよ。誰でもをこの塔に招待しなかったし！"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "レイム：",
+            "dialogue" : "質問させて。これを始めたのか？"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_yuugiku_portrait",4],
+            "speaker" : "ユウギク：",
+            "dialogue" : "幻想郷の人々の美しさを強化するには私と娘さんがこの呪文を抱きしめた。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",4],
+            "speaker" : "レイム：",
+            "dialogue" : "じゃ、あんただった。せいだぜ！知っているべきではなかったよ！"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",4],
+            "speaker" : "レイム：",
+            "dialogue" : "あなたを倒せば、この呪文をおそらくオフにする。すでに十分な時間を無駄にした。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",4],
+            "speaker" : "レイム：",
+            "dialogue" : "あんたと娘さん、貴様！"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "ユウギク：",
+            "dialogue" : "新しい髪型を抱きしめ方を学ばなきゃ。呪文をオフにできない。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "レイム：",
+            "dialogue" : "逆転しなきゃ。博麗神社の巫女さん。すべての異変を解決する力！"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "ユウギク：",
+            "dialogue" : "皆さんとあんたをこの呪文から解放したいのか？呪文をオフにできないと言った。",
+            "funct" : ["scr_cutscene_change_bgm",12]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "レイム：",
+            "dialogue" : "この呪われた髪呪文をすぐにオフにしろ。さもないと、罰に備えろ。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",3],
+            "speaker" : "ユウギク：",
+            "dialogue" : "私を罰できないの。無敵だぜ！"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",3],
+            "speaker" : "ユウギク：",
+            "dialogue" : "帰って幻想郷連邦王国の女王で踊れ！"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_yuugiku_portrait",3],
+            "speaker" : "レイム：",
+            "dialogue" : "一体？"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_yuugiku_portrait",4],
+            "speaker" : "ユウギク：",
+            "dialogue" : "聞いた。がんばれ！",
+            "funct" : ["scr_cutscene_start_boss","obj_yuugiku"]
+        }
+    ]
+}

@@ -1,0 +1,131 @@
+{
+    "char_info" : {
+        "char_name" : "神戸ユウギク",
+        "char_desc" : "瑶族の女王"
+    },
+    "boss_sprite" : "spr_yuugiku",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "speaker" : "アヤ：",
+            "dialogue" : "誰でもが幻想郷の寸法を弄ってみれば、悪魔祓いする。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "speaker" : " ",
+            "dialogue" : "悪魔祓いは！？",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",1],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "アヤ：",
+            "dialogue" : "あ、いたいた。なんで人間と妖怪人が問題に悩まされなきゃ？",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",1],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "ユウギク：",
+            "dialogue" : "私はすべての幻想郷の女性は体と同じ長さの髪がほしい！"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "アヤ：",
+            "dialogue" : "妖怪人が実験をやるときは、何もうまくいかないわ。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "アヤ：",
+            "dialogue" : "毎日、どっちの人種でもを怒る何かが起こる。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "アヤ：",
+            "dialogue" : "歴史の巻物が転がすと、完了と終了がないのね。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_yuugiku_portrait",4],
+            "speaker" : "ユウギク：",
+            "dialogue" : "本当だ。物事が変えるときは、悲しい。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_yuugiku_portrait",4],
+            "speaker" : "アヤ：",
+            "dialogue" : "ああもう、髪型は私を愚か者にされた。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_yuugiku_portrait",4],
+            "speaker" : "アヤ：",
+            "dialogue" : "幻想郷全国はこの髪の問題を知ってる。私も影響を受けた。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_yuugiku_portrait",3],
+            "speaker" : "ユウギク：",
+            "dialogue" : "暴言は冗談でしょ？"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_yuugiku_portrait",3],
+            "speaker" : "アヤ：",
+            "dialogue" : "いいえ！幻想郷は長いブライダルベールに似てる髪で天狗に値しないのよ！"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_yuugiku_portrait",4],
+            "speaker" : "ユウギク：",
+            "dialogue" : "夫を結婚したときはそれを被ったね。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",4],
+            "speaker" : "アヤ：",
+            "dialogue" : "呪文が顔に笑みに置きても、私に置かなかった！"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "ユウギク：",
+            "dialogue" : "怒りになるな！これは楽しいはず。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "アヤ：",
+            "dialogue" : "この髪型はとても迷惑だとレイムが言った。新しい外見を見るのは耐えられん。",
+            "funct" : ["scr_cutscene_change_bgm",12]
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "アヤ：",
+            "dialogue" : "これを終わるつもり。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_yuugiku_portrait",6],
+            "speaker" : "ユウギク：",
+            "dialogue" : "これを終わるのは？私を戦いたいのか？"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",6],
+            "speaker" : "アヤ：",
+            "dialogue" : "呪文をオフにしたまで暴言と弾幕が続けるわ。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",7],
+            "speaker" : "ユウギク：",
+            "dialogue" : "勝てば嬉しくないよね…",
+            "funct" : ["scr_cutscene_start_boss","obj_yuugiku"]
+        }
+    ]
+}

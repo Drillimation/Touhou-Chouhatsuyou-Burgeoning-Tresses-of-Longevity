@@ -1,0 +1,118 @@
+{
+    "char_info" : {
+        "char_name" : "神戸ユウギク",
+        "char_desc" : "瑶族の女王"
+    },
+    "boss_sprite" : "spr_yuugiku",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_sanae_portrait",7],
+            "speaker" : "サナエ：",
+            "dialogue" : "いつもそんな日になる…"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",7],
+            "speaker" : "サナエ：",
+            "dialogue" : "実験はひどく間違って幻想郷全国が影響を受ける危機を作るのだ。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",1],
+            "speaker" : "サナエ：",
+            "dialogue" : "ありがたいにおしゃべりな少女をもう心配する必要はないよね。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",1],
+            "speaker" : " ",
+            "dialogue" : "すみませんの？",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",4],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "サナエ：",
+            "dialogue" : "外見は否定的に影響を受けたのでこの呪文をオフにしてほしい。",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",4],
+            "right_portrait" : ["spr_yuugiku_portrait",4],
+            "speaker" : "ユウギク：",
+            "dialogue" : "否定的は？どうして？"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",7],
+            "right_portrait" : ["spr_yuugiku_portrait",4],
+            "speaker" : "サナエ：",
+            "dialogue" : "髪の毛で生き埋めにされる前にこの香りをオフにしなきゃ。",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",7],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "ユウギク：",
+            "dialogue" : "この香りは髪を人の長さに伸ばす。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",7],
+            "right_portrait" : ["spr_yuugiku_portrait",3],
+            "speaker" : "ユウギク：",
+            "dialogue" : "美の真​​髄として、すべての幻想郷の女性と少女たちを祝福した。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",3],
+            "speaker" : "サナエ：",
+            "dialogue" : "安全にオフにするよ。美しすぎるのはやりすぎ。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",7],
+            "speaker" : "ユウギク：",
+            "dialogue" : "正しくないの！富が欲しかったので夫を結婚した。彼が美しさが欲しかった。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",7],
+            "speaker" : "ユウギク：",
+            "dialogue" : "これは娘さんは存在する理由。",
+            "funct" : ["scr_cutscene_change_bgm",12]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",3],
+            "speaker" : "サナエ：",
+            "dialogue" : "すべてに反対する。あんたは化学療法を受けたばかりの人になるのだ！"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",2],
+            "speaker" : "ユウギク：",
+            "dialogue" : "反対の時間がないの。この塔は腫瘍が欲しくないのよ！"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",7],
+            "right_portrait" : ["spr_yuugiku_portrait",2],
+            "speaker" : "サナエ：",
+            "dialogue" : "侮辱できん。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",7],
+            "right_portrait" : ["spr_yuugiku_portrait",2],
+            "speaker" : "ユウギク：",
+            "dialogue" : "ああもう、反対で呪文をオフにするよう説得できないので、黙れ。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",7],
+            "right_portrait" : ["spr_yuugiku_portrait",2],
+            "speaker" : "ユウギク：",
+            "dialogue" : "この呪文はあんたの干渉はないの。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",7],
+            "right_portrait" : ["spr_yuugiku_portrait",2],
+            "speaker" : "ユウギク：",
+            "dialogue" : "塔から落ちて着陸地点はお墓なるのだぜ！",
+            "funct" : ["scr_cutscene_start_boss","obj_yuugiku"]
+        }
+    ]
+}

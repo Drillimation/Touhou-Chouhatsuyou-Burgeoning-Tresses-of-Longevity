@@ -1,0 +1,153 @@
+{
+    "char_info" : {
+        "char_name" : "Yuugiku Kanbe",
+        "char_desc" : "The Queen of the Yao Tribe"
+    },
+    "boss_sprite" : "spr_yuugiku",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "speaker" : "Marisa:",
+            "dialogue" : "Why did that idiot not shut the heck up?"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "speaker" : "Marisa:",
+            "dialogue" : "I've spent all day trying to find the source of this problem."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "speaker" : "Marisa:",
+            "dialogue" : "She's gonna pay for this disgrace."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "speaker" : " ",
+            "dialogue" : "Who you talking to?",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "Marisa:",
+            "dialogue" : "You, obviously. For what some have said, this is unacceptable.",
+            "funct" : ["scr_cutscene_reveal_name"]
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "right_portrait" : ["spr_yuugiku_portrait",3],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "Why is that? This spell is meant to be a blessing!"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",7],
+            "right_portrait" : ["spr_yuugiku_portrait",3],
+            "speaker" : "Marisa:",
+            "dialogue" : "This spell will be finished by me."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",7],
+            "right_portrait" : ["spr_yuugiku_portrait",1],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "Heh. Good luck trying to turn it off."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",3],
+            "right_portrait" : ["spr_yuugiku_portrait",1],
+            "speaker" : "Marisa:",
+            "dialogue" : "This will only end once I go insane and beat you to a pulp."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",3],
+            "right_portrait" : ["spr_yuugiku_portrait",4],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "Only a ballroom would be the place for a battle. This room is too small for such a battle!"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",7],
+            "right_portrait" : ["spr_yuugiku_portrait",4],
+            "speaker" : "Marisa:",
+            "dialogue" : "I see, but this has to stop."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",7],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "You can just back off."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "Marisa:",
+            "dialogue" : "Sorry, but I can't leave."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "Marisa:",
+            "dialogue" : "From what your daughter told me, I can only be the most beautiful woman in the Federal Kingdom of Gensokyo."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "right_portrait" : ["spr_yuugiku_portrait",3],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "You spoke too soon. I am now the most beautiful woman in Gensokyo."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",3],
+            "speaker" : "Marisa:",
+            "dialogue" : "You will lose the beauty. Afterward, I will reclaim the title."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",3],
+            "speaker" : "Marisa:",
+            "dialogue" : "If you don't turn off the spell, you're screwed.",
+            "funct" : ["scr_cutscene_change_bgm",12]
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "Even if you defeat me, you won't wait to see the effects."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "right_portrait" : ["spr_yuugiku_portrait",0],
+            "speaker" : "Marisa:",
+            "dialogue" : "How much longer are you going to keep the spell on?"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "right_portrait" : ["spr_yuugiku_portrait",1],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "Indefinitely."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",1],
+            "speaker" : "Marisa:",
+            "dialogue" : "You're more annoying than Flandre Scarlet!"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",6],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "Are you saying I sell my soul to the Scarlet Devil? No way!"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",6],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "You will be locked away in this room until your husband comes to rescue you."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_yuugiku_portrait",7],
+            "speaker" : "Marisa:",
+            "dialogue" : "Oh, this is going to be a long and fun night.",
+            "funct" : ["scr_cutscene_start_boss","obj_yuugiku"]
+        }
+    ]
+}
