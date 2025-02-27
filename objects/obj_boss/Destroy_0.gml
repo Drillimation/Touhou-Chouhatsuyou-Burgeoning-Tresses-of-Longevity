@@ -53,7 +53,7 @@ switch(boss_type) {
 			end_path_function = "BOSS_CUTSCENE";
 			midboss = obj_enemy;
 			midboss_sprite = spr_mayu;
-			path_start(path_scroll_h2,stage_speed,path_action_stop,true);
+			path_start(other.second_half_path,stage_speed,path_action_stop,true);
 		}
 		break;
 	case 1:
