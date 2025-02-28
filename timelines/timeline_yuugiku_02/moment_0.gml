@@ -1,1 +1,4 @@
-ammo = 12;
+ammo = 4;
+speed = 0;
+enemy_bbox_top = 32;
+enemy_bbox_bottom = 96;

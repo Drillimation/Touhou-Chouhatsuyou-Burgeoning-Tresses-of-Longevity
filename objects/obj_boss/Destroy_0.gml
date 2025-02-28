@@ -79,6 +79,6 @@ switch(boss_type) {
 		}
 		break;
 	case 3:
-		instance_create_depth(0,0,0,obj_final_defeat);
+		instance_create_depth(x,y,0,obj_final_defeat);
 		break;
 }

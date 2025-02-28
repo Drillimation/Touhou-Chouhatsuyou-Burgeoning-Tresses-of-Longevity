@@ -6,13 +6,13 @@ boss_id = 0;
 boss_type = 3;
 _bar = spr_boss_health_11;
 drop_items_after_death = false;
-defeat_img = 8;
+defeat_img = 7;
 second_half_path = path_scroll_h2;
 
 struct_data[0] = scr_json_load_file("main/boss_attack_layouts.json","struct_data",false);
 attack = array_reverse(struct_data[0].BOSS_YUUGIKU)
 
-scr_boss_stats(array_length(attack),2000)
+scr_boss_stats(array_length(attack),1500)
 
 timer = attack[life - 1][4];
 

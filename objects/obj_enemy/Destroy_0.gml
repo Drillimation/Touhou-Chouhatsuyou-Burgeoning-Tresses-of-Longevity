@@ -1,3 +1,4 @@
+timeline_running = false;
 if hp <= 0 {
 	global.player_stats[enemy_id].player_score += 50;
 	instance_create_depth(x,y,-1000,obj_enemy_explosion);

@@ -6,7 +6,7 @@ boss_id = 0;
 boss_type = 0;
 _bar = spr_boss_health_2;
 drop_items_after_death = true;
-defeat_img = 7;
+defeat_img = 6;
 second_half_path = path_scroll_h4;
 
 struct_data[0] = scr_json_load_file("main/boss_attack_layouts.json","struct_data",false);

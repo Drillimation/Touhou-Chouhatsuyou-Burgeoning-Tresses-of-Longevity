@@ -1,4 +1,4 @@
-stage_speed = 0.5;
+stage_speed = 1;
 end_path_function = "MIDBOSS_CUTSCENE";
 midboss = obj_mabayu_st6;
 midboss_sprite = spr_mabayu;
