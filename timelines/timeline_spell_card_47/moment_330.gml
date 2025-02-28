@@ -1,6 +1,5 @@
 with(obj_bullet_enemy) {
-	enemy_function = undefined;
-	enemy_function_array = [];
-	direction = irandom_range(0,360);
-	speed = 1.25;
+	instance_destroy();
+	randomize();
+	scr_shoot_bullet_enemy(1.25,irandom_range(0,360),sprite_index,image_index,0,0,false,snd_enemy_fire_kira);
 }
