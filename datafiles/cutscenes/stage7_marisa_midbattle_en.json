@@ -1,0 +1,53 @@
+{
+    "char_info" : {
+        "char_name" : "Mabayu Kanbe",
+        "char_desc" : "The Dancing Haunted Doll"
+    },
+    "boss_sprite" : "spr_mabayu",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_marisa_portrait",0],
+            "right_portrait" : ["spr_mabayu_ex_portrait",0],
+            "speaker" : "Mabayu:",
+            "dialogue" : "Hello again, my Majesty. I want to tell you something.",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",5],
+            "right_portrait" : ["spr_mabayu_ex_portrait",0],
+            "speaker" : "Marisa:",
+            "dialogue" : "You came in too quickly. What's going on here?"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_mabayu_ex_portrait",0],
+            "speaker" : "Mabayu:",
+            "dialogue" : "Did you think defeating my mother would turn off the spell?"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_mabayu_ex_portrait",0],
+            "speaker" : "Marisa:",
+            "dialogue" : "It didn't work. Reimu tried cutting her hair only for it to grow back!"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",2],
+            "right_portrait" : ["spr_mabayu_ex_portrait",3],
+            "speaker" : "Mabayu:",
+            "dialogue" : "Haha! There's no way to turn it off unless you meet with my mother again."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",4],
+            "right_portrait" : ["spr_mabayu_ex_portrait",3],
+            "speaker" : "Marisa:",
+            "dialogue" : "I'm officially going to try again and convince her to turn off the spell."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",4],
+            "right_portrait" : ["spr_mabayu_ex_portrait",3],
+            "speaker" : "Mabayu:",
+            "dialogue" : "I'm going to slow you down in the process!",
+            "funct" : ["scr_cutscene_start_boss","obj_mabayu_ex"]
+        }
+    ]
+}

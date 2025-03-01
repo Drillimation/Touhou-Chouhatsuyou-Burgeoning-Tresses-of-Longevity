@@ -1,0 +1,53 @@
+{
+    "char_info" : {
+        "char_name" : "神戸マバユ",
+        "char_desc" : "踊ってくる幽霊な人形"
+    },
+    "boss_sprite" : "spr_mabayu",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_aya_portrait",0],
+            "right_portrait" : ["spr_mabayu_ex_portrait",0],
+            "speaker" : "マバユ：",
+            "dialogue" : "呪文をオフにできなかったのをお知らせしたが、お母さんにダメージを与えた。",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mabayu_ex_portrait",0],
+            "speaker" : "アヤ：",
+            "dialogue" : "明らかを指摘するのをやめて、彼女に会えるには動け。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mabayu_ex_portrait",0],
+            "speaker" : "マバユ：",
+            "dialogue" : "幻想郷の女性たちをもっと良く見せたかった。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mabayu_ex_portrait",0],
+            "speaker" : "アヤ：",
+            "dialogue" : "同意しないよ。いくつかに、その御伽のお姫様に似ていなくても、どうやって生きていくのか？"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mabayu_ex_portrait",4],
+            "speaker" : "マバユ：",
+            "dialogue" : "まだ恥ずかしいの？"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_mabayu_ex_portrait",4],
+            "speaker" : "アヤ：",
+            "dialogue" : "王女が魔王を我慢できなくても…"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_mabayu_ex_portrait",3],
+            "speaker" : "アヤ：",
+            "dialogue" : "新しい魔法を我慢できないのを保証するには、パワーアップ！",
+            "funct" : ["scr_cutscene_start_boss","obj_mabayu_ex"]
+        }
+    ]
+}

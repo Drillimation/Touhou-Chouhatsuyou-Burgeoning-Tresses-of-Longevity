@@ -1,0 +1,53 @@
+{
+    "char_info" : {
+        "char_name" : "Mabayu Kanbe",
+        "char_desc" : "The Dancing Haunted Doll"
+    },
+    "boss_sprite" : "spr_mabayu",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_aya_portrait",0],
+            "right_portrait" : ["spr_mabayu_ex_portrait",0],
+            "speaker" : "Mabayu:",
+            "dialogue" : "I am here to inform that you were unable to turn off the spell, but inflicted damage on my mother.",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mabayu_ex_portrait",0],
+            "speaker" : "Aya:",
+            "dialogue" : "Stop pointing out the obvious and move so that I can see her."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mabayu_ex_portrait",0],
+            "speaker" : "Mabayu:",
+            "dialogue" : "She did it because she wanted all women in Gensokyo to look better."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mabayu_ex_portrait",0],
+            "speaker" : "Aya:",
+            "dialogue" : "I disagree. To some, how can they live without looking like the princess from that fairy tale?"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_mabayu_ex_portrait",4],
+            "speaker" : "Mabayu:",
+            "dialogue" : "Are you still embarrassed?"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_mabayu_ex_portrait",4],
+            "speaker" : "Aya:",
+            "dialogue" : "Even a princess wouldn't stand a demon king."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",5],
+            "right_portrait" : ["spr_mabayu_ex_portrait",3],
+            "speaker" : "Aya:",
+            "dialogue" : "I've powered up to ensure you won't stand my new magic!",
+            "funct" : ["scr_cutscene_start_boss","obj_mabayu_ex"]
+        }
+    ]
+}

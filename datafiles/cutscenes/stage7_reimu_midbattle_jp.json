@@ -1,0 +1,65 @@
+{
+    "char_info" : {
+        "char_name" : "神戸マバユ",
+        "char_desc" : "踊ってくる幽霊な人形"
+    },
+    "boss_sprite" : "spr_mabayu",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_reimu_portrait",0],
+            "right_portrait" : ["spr_mabayu_ex_portrait",0],
+            "speaker" : "マバユ：",
+            "dialogue" : "はじめまして、レイム。呪文をオフにできると思ったのか？",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mabayu_ex_portrait",0],
+            "speaker" : "レイム：",
+            "dialogue" : "いいえ。髪をまだ治す必要。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mabayu_ex_portrait",3],
+            "speaker" : "マバユ：",
+            "dialogue" : "新しい髪で良く見えると博麗神社を訪問してる人々が言った。私もそう思う。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mabayu_ex_portrait",3],
+            "speaker" : "レイム：",
+            "dialogue" : "そうじゃないわ。まだひどく見える。私を聞け。母が狂気を終わらなきゃ。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mabayu_ex_portrait",5],
+            "speaker" : "マバユ：",
+            "dialogue" : "レイムさま…"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mabayu_ex_portrait",5],
+            "speaker" : "レイム：",
+            "dialogue" : "私のように悪そうね？あなたも悪そうと思う。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mabayu_ex_portrait",5],
+            "speaker" : "レイム：",
+            "dialogue" : "現代のファッショントレンドを見た？これを忘れないのよ。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mabayu_ex_portrait",3],
+            "speaker" : "マバユ：",
+            "dialogue" : "前にお母さんにやったのせいで、復讐をすると思うよ！"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_mabayu_ex_portrait",3],
+            "speaker" : "レイム：",
+            "dialogue" : "彼女を見るのを待てないわ…",
+            "funct" : ["scr_cutscene_start_boss","obj_mabayu_ex"]
+        }
+    ]
+}

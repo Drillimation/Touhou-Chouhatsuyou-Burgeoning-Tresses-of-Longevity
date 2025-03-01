@@ -1,0 +1,65 @@
+{
+    "char_info" : {
+        "char_name" : "Mabayu Kanbe",
+        "char_desc" : "The Dancing Haunted Doll"
+    },
+    "boss_sprite" : "spr_mabayu",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_reimu_portrait",0],
+            "right_portrait" : ["spr_mabayu_ex_portrait",0],
+            "speaker" : "Mabayu:",
+            "dialogue" : "Hello again, Reimu. Did you think the spell could be turned off?",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mabayu_ex_portrait",0],
+            "speaker" : "Reimu:",
+            "dialogue" : "It hasn't. I still need my hair fixed."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mabayu_ex_portrait",3],
+            "speaker" : "Mabayu:",
+            "dialogue" : "You thought the people visiting the Hakurei Shrine say you look better with your new hair. I think so too."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mabayu_ex_portrait",3],
+            "speaker" : "Reimu:",
+            "dialogue" : "That wasn't the case. I still look awful. Listen to me. I demand your mother end this hair madness."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mabayu_ex_portrait",5],
+            "speaker" : "Mabayu:",
+            "dialogue" : "Reimu..."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mabayu_ex_portrait",5],
+            "speaker" : "Reimu:",
+            "dialogue" : "Does she look as bad as I am? I think you're the same."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mabayu_ex_portrait",5],
+            "speaker" : "Reimu:",
+            "dialogue" : "Have you not looked at contemporary fashion trends? I'm not going to forget this."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_mabayu_ex_portrait",3],
+            "speaker" : "Mabayu:",
+            "dialogue" : "I think I'll be swearing revenge for what you did to my mother earlier!"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_mabayu_ex_portrait",3],
+            "speaker" : "Reimu:",
+            "dialogue" : "I can't wait to see her...",
+            "funct" : ["scr_cutscene_start_boss","obj_mabayu_ex"]
+        }
+    ]
+}

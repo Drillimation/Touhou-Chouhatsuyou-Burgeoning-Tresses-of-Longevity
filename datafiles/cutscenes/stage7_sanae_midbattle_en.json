@@ -1,0 +1,53 @@
+{
+    "char_info" : {
+        "char_name" : "Mabayu Kanbe",
+        "char_desc" : "The Dancing Haunted Doll"
+    },
+    "boss_sprite" : "spr_mabayu",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_sanae_portrait",0],
+            "right_portrait" : ["spr_mabayu_ex_portrait",0],
+            "speaker" : "Mabayu:",
+            "dialogue" : "Hello again, Sanae. Did you think the spell could be turned off?",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",3],
+            "right_portrait" : ["spr_mabayu_ex_portrait",0],
+            "speaker" : "Sanae:",
+            "dialogue" : "At least you got to know me."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mabayu_ex_portrait",0],
+            "speaker" : "Sanae:",
+            "dialogue" : "I'm saying no because nothing was done to my hair, as well as the gods of the Moriya Shrine."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mabayu_ex_portrait",4],
+            "speaker" : "Mabayu:",
+            "dialogue" : "My mother says you look better with that hair."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mabayu_ex_portrait",3],
+            "speaker" : "Mabayu:",
+            "dialogue" : "You are also correct; there is no official way to turn off the spell!"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mabayu_ex_portrait",3],
+            "speaker" : "Sanae:",
+            "dialogue" : "Now that I'm seeing you again, I also want to meet with your mother once more!"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",2],
+            "right_portrait" : ["spr_mabayu_ex_portrait",5],
+            "speaker" : "Mabayu:",
+            "dialogue" : "Once more? You won't wait to see her...",
+            "funct" : ["scr_cutscene_start_boss","obj_mabayu_ex"]
+        }
+    ]
+}
