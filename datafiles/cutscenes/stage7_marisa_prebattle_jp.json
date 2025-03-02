@@ -1,0 +1,101 @@
+{
+    "char_info" : {
+        "char_name" : "神戸ユウギク",
+        "char_desc" : "瑶族の女王"
+    },
+    "boss_sprite" : "spr_yuugiku_ex",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_marisa_portrait",0],
+            "speaker" : "マリサ：",
+            "dialogue" : "戻ってきた。",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",0],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",2],
+            "speaker" : "ユウギク：",
+            "dialogue" : "またあなたに会えて嬉しいけど、私にしたものを見ろ。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",3],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",2],
+            "speaker" : "マリサ：",
+            "dialogue" : "今、壮大なマスタースパークでぴかぴかの禿げた頭を狙うよ。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",3],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",5],
+            "speaker" : "ユウギク：",
+            "dialogue" : "まだ、呪文は有効だけど、髪が伸ばしてこない。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",4],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",5],
+            "speaker" : "マリサ：",
+            "dialogue" : "今回はあんたと狂気を終わる。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",4],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",5],
+            "speaker" : "ユウギク：",
+            "dialogue" : "まだ踊れるけど…"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",3],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",5],
+            "speaker" : "マリサ：",
+            "dialogue" : "髪がなければ、もう踊らん！脱いだった！"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",3],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",0],
+            "speaker" : "ユウギク：",
+            "dialogue" : "これは私の復讐。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",0],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",0],
+            "speaker" : "ユウギク：",
+            "dialogue" : "何をするのでしょ？"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",0],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",0],
+            "speaker" : "ユウギク：",
+            "dialogue" : "本当に去れるわよ。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",3],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",0],
+            "speaker" : "マリサ：",
+            "dialogue" : "あんたの敗北後、去って行けと言ったが、今私が去らないの！"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",3],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",7],
+            "speaker" : "ユウギク：",
+            "dialogue" : "ああもう、去っていただけますか？"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",4],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",7],
+            "speaker" : "マリサ：",
+            "dialogue" : "なんで滞在させないのか？これが復讐計画だぜ！",
+            "funct" : ["scr_cutscene_change_bgm",14]
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",4],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",2],
+            "speaker" : "ユウギク：",
+            "dialogue" : "これがまったくひどいになってあんたを罰するんだ。"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",4],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",2],
+            "speaker" : "ユウギク：",
+            "dialogue" : "あなたを禿げた馬鹿に変身するわ。それから、他の人々の計画に異議を唱えられるのよ！",
+            "funct" : ["scr_cutscene_start_boss","obj_yuugiku_ex"]
+        }
+    ]
+}

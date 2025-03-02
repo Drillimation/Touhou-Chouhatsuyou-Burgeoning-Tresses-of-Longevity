@@ -1,0 +1,125 @@
+{
+    "char_info" : {
+        "char_name" : "神戸ユウギク",
+        "char_desc" : "瑶族の女王"
+    },
+    "boss_sprite" : "spr_yuugiku_ex",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_sanae_portrait",0],
+            "speaker" : "サナエ：",
+            "dialogue" : "彼女を戦った前回は同じに似てないし…",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",0],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",7],
+            "speaker" : "ユウギク：",
+            "dialogue" : "全く違うになった。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",0],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",7],
+            "speaker" : "ユウギク：",
+            "dialogue" : "外見は同じであっても、見ないのものは髪。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",1],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",7],
+            "speaker" : "サナエ：",
+            "dialogue" : "正しいね。魔法が効いたに違いないわよ。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",1],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",5],
+            "speaker" : "ユウギク：",
+            "dialogue" : "毎日、人は髪の毛50～100本を失う。すべてを失うとは思ってなかった！"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",3],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",5],
+            "speaker" : "サナエ：",
+            "dialogue" : "まだ影響を受けたが、始めたから影響を受けなかった。なんで伸ばしてこないのか？"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",3],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",5],
+            "speaker" : "ユウギク：",
+            "dialogue" : "これは面白い物語。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",3],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",4],
+            "speaker" : "ユウギク：",
+            "dialogue" : "長い演説の時間がないけど、より大きい対戦を求める！"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",3],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",4],
+            "speaker" : "ユウギク：",
+            "dialogue" : "それに準備できる。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",0],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",4],
+            "speaker" : "サナエ：",
+            "dialogue" : "何を待ってるのか？"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",0],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",0],
+            "speaker" : "ユウギク：",
+            "dialogue" : "恥ずかしい思いをする覚悟。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",0],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",7],
+            "speaker" : "ユウギク：",
+            "dialogue" : "失ってる髪は脱毛症。破壊する自己免疫疾患。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",0],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",7],
+            "speaker" : "ユウギク：",
+            "dialogue" : "髪は人々が私を識別する方法だった。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",0],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",7],
+            "speaker" : "ユウギク：",
+            "dialogue" : "恥ずかしくて、脆弱、動揺、裏切られた。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",0],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",7],
+            "speaker" : "ユウギク：",
+            "dialogue" : "来て私を話す子供たちを想像する。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",4],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",7],
+            "speaker" : "サナエ：",
+            "dialogue" : "髪は重要。髪型に関係なく人々を平等に判断するべき。",
+            "funct" : ["scr_cutscene_change_bgm",14]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",4],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",0],
+            "speaker" : "ユウギク：",
+            "dialogue" : "まだ強さが持つけど。この変化は心理的なびっくり。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",1],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",0],
+            "speaker" : "サナエ：",
+            "dialogue" : "とにかく、やっと呪文をオフふにする準備できるのか？"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",1],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",7],
+            "speaker" : "ユウギク：",
+            "dialogue" : "出来る限り努力できるけど…",
+            "funct" : ["scr_cutscene_start_boss","obj_yuugiku_ex"]
+        }
+    ]
+}

@@ -1,0 +1,125 @@
+{
+    "char_info" : {
+        "char_name" : "Yuugiku Kanbe",
+        "char_desc" : "The Queen of the Yao Tribe"
+    },
+    "boss_sprite" : "spr_yuugiku_ex",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_sanae_portrait",0],
+            "speaker" : "Sanae:",
+            "dialogue" : "She doesn't look the same the last time I fought her...",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",0],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",7],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "You made me completely different."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",0],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",7],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "While my appearance is the same, the only thing you aren't seeing is my hair."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",1],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",7],
+            "speaker" : "Sanae:",
+            "dialogue" : "Correct. My magic must've worked on you."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",1],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",5],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "Every day, people shed 50-100 strands. You didn't expect to see me shed all of them!"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",3],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",5],
+            "speaker" : "Sanae:",
+            "dialogue" : "I'm still affected, but you aren't because you started it. How come it's not growing back?"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",3],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",5],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "This is an incredibly moving story."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",3],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",4],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "I have no time for a long speech, but this may call for an even bigger battle!"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",3],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",4],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "I'd be ready for something like that."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",0],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",4],
+            "speaker" : "Sanae:",
+            "dialogue" : "Ready for what?"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",0],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",0],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "You'll be ready to be put to shame."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",0],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",7],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "Hair loss is called alopecia. It's an autoimmune disease that literally destroys it."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",0],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",7],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "My hair was my trademark and a way for people to identify me."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",0],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",7],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "I'm now embarrassed, vulnerable, shaken, and betrayed."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",0],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",7],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "I imagine all the children who come up and talk to me."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",4],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",7],
+            "speaker" : "Sanae:",
+            "dialogue" : "Hair matters. People should be equally judged on whatever hairstyle they have.",
+            "funct" : ["scr_cutscene_change_bgm",14]
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",4],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",0],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "But I still have my strength. This change is a huge psychological shock."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",1],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",0],
+            "speaker" : "Sanae:",
+            "dialogue" : "Anyway, are you finally ready to turn off this spell?"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",1],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",7],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "You can try as you might, but only winners may be able to...",
+            "funct" : ["scr_cutscene_start_boss","obj_yuugiku_ex"]
+        }
+    ]
+}

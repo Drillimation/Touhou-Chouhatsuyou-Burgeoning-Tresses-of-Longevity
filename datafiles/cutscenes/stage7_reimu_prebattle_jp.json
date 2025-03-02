@@ -1,0 +1,106 @@
+{
+    "char_info" : {
+        "char_name" : "神戸ユウギク",
+        "char_desc" : "瑶族の女王"
+    },
+    "boss_sprite" : "spr_yuugiku_ex",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "speaker" : "レイム：",
+            "dialogue" : "古い髪を取り戻したい。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "speaker" : " ",
+            "dialogue" : "この呪文を終わらないのをあんたが知らないが…",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",5],
+            "speaker" : "ユウギク：",
+            "dialogue" : "私があまり楽しくなかった。まだ踊れるけど、私に何をしたか見ろ。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",3],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",5],
+            "speaker" : "レイム：",
+            "dialogue" : "おめでとう、禿げた大猿なった！"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",5],
+            "speaker" : "レイム：",
+            "dialogue" : "何度も見た時間飛ぶ妖怪人のように、なんで髪が伸びてないの？"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",4],
+            "speaker" : "ユウギク：",
+            "dialogue" : "この呪文で、少女が自分に合った髪型を選べる。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",0],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",4],
+            "speaker" : "レイム：",
+            "dialogue" : "気にしない。円形脱毛症を発症したのか？狂気を終れると思った？"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",0],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",4],
+            "speaker" : "レイム：",
+            "dialogue" : "いつものように何もしなかったわ。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",0],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",2],
+            "speaker" : "ユウギク：",
+            "dialogue" : "じゃ、気をつけて。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",2],
+            "speaker" : "レイム：",
+            "dialogue" : "どういう意味？心配しすぎた。何もしなかったので、すでに怒り。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",2],
+            "speaker" : "レイム：",
+            "dialogue" : "この異変は通常より悪いになった。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",0],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",4],
+            "speaker" : "ユウギク：",
+            "dialogue" : "レイム様、何を言いたいの？"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",1],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",4],
+            "speaker" : "レイム：",
+            "dialogue" : "本当にこの髪狂気を終わるよ。ほぼ１週間続いてる。",
+            "funct" : ["scr_cutscene_change_bgm",14]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",1],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",2],
+            "speaker" : "ユウギク：",
+            "dialogue" : "禿げたでも、これを終わらないの。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",1],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",2],
+            "speaker" : "ユウギク：",
+            "dialogue" : "太陽を頭で遮れてあんたを暗闇で包まれる！"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",0],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",2],
+            "speaker" : "レイム：",
+            "dialogue" : "呪文をやめるまで、ここで留まり去らないのよ。",
+            "funct" : ["scr_cutscene_start_boss","obj_yuugiku_ex"]
+        }
+    ]
+}

@@ -1,0 +1,93 @@
+{
+    "char_info" : {
+        "char_name" : "Yuugiku Kanbe",
+        "char_desc" : "The Queen of the Yao Tribe"
+    },
+    "boss_sprite" : "spr_yuugiku_ex",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_aya_portrait",1],
+            "speaker" : "Aya:",
+            "dialogue" : "Enough of her. I'm curious to see what damage I inflicted on her mother..."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",1],
+            "speaker" : " ",
+            "dialogue" : "Oh, I'm not liking this..."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",0],
+            "speaker" : "Aya:",
+            "dialogue" : "What good news do you have to tell me?",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",0],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",7],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "Remember the duel we had? You gave me a shiny bald head."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",3],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",7],
+            "speaker" : "Aya:",
+            "dialogue" : "That's what I'll start calling you from now on."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",3],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",7],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "You dared to come in, wipe out over 200 centimeters worth of hair, and try to shut off my spell."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",4],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",7],
+            "speaker" : "Aya:",
+            "dialogue" : "I'm going to kick your butt again and convince you to turn off the spell."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",4],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",2],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "You flushed my hair into the Misty Lake. I warned you that trying to defeat me would backfire."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",2],
+            "speaker" : "Aya:",
+            "dialogue" : "And that's why I'm still affected! You're an idiotic ape."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",6],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "Is that what you're going to call me?"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",4],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",6],
+            "speaker" : "Aya:",
+            "dialogue" : "Yes, that is."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",4],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",6],
+            "speaker" : "Aya:",
+            "dialogue" : "I won't sleep in the tower you live in, put my hair out the window, and have it sway in the wind.",
+            "funct" : ["scr_cutscene_change_bgm",14]
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",4],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",5],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "That's no way to find a husband."
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",5],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "You're a total failure for this incident. Once I defeat you, your spell will permanently end!",
+            "funct" : ["scr_cutscene_start_boss","obj_yuugiku_ex"]
+        }
+    ]
+}

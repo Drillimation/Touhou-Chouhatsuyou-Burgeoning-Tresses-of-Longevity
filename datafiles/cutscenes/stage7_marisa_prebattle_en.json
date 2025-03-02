@@ -1,0 +1,101 @@
+{
+    "char_info" : {
+        "char_name" : "Yuugiku Kanbe",
+        "char_desc" : "The Queen of the Yao Tribe"
+    },
+    "boss_sprite" : "spr_yuugiku_ex",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_marisa_portrait",0],
+            "speaker" : "Marisa:",
+            "dialogue" : "I have returned.",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",0],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",2],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "I'm glad to see you again because look at what you did to me."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",3],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",2],
+            "speaker" : "Marisa:",
+            "dialogue" : "Now I'm going to target your shiny bald head with my magnificent Master Spark."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",3],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",5],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "The spell may still be in effect, but my hair won't grow back."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",4],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",5],
+            "speaker" : "Marisa:",
+            "dialogue" : "I'm going to stop you and your madness this time."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",4],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",5],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "I can still dance though..."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",3],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",5],
+            "speaker" : "Marisa:",
+            "dialogue" : "You won't dance anymore without your hair. I took it off!"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",3],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",0],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "This will be my revenge."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",0],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",0],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "What should we do now?"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",0],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",0],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "You can officially back off."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",3],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",0],
+            "speaker" : "Marisa:",
+            "dialogue" : "You told me to leave after your defeat, but I won't leave now!"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",3],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",7],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "For God's sake, can you just please back off?"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",4],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",7],
+            "speaker" : "Marisa:",
+            "dialogue" : "Why won't you let me stay? This is my revenge plot!",
+            "funct" : ["scr_cutscene_change_bgm",14]
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",4],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",2],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "This is it. This has become totally outrageous and you're going to be punished for this disgrace."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",4],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",2],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "I will make you into another bald fool who will object to your peoples' orders!",
+            "funct" : ["scr_cutscene_start_boss","obj_yuugiku_ex"]
+        }
+    ]
+}

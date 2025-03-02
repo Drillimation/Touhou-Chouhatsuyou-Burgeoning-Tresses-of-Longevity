@@ -1,0 +1,93 @@
+{
+    "char_info" : {
+        "char_name" : "神戸ユウギク",
+        "char_desc" : "瑶族の女王"
+    },
+    "boss_sprite" : "spr_yuugiku_ex",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_aya_portrait",1],
+            "speaker" : "アヤ：",
+            "dialogue" : "もう十分だ。母に与えたダメージを見たい…"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",1],
+            "speaker" : " ",
+            "dialogue" : "あら、これが好きじゃないわ…"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",0],
+            "speaker" : "アヤ：",
+            "dialogue" : "何を言うものがある？",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",0],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",7],
+            "speaker" : "ユウギク：",
+            "dialogue" : "やった対戦を覚えるのか？ぴかぴかの禿げた頭を与えた。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",3],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",7],
+            "speaker" : "アヤ：",
+            "dialogue" : "今日からあなたをそう呼ぶことにするもん。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",3],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",7],
+            "speaker" : "ユウギク：",
+            "dialogue" : "入って、髪の毛200cmを消し去って、呪文をオフにしようとしたね。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",4],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",7],
+            "speaker" : "アヤ：",
+            "dialogue" : "またあんたを倒して、呪文をオフにするよう説得する。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",4],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",2],
+            "speaker" : "ユウギク：",
+            "dialogue" : "髪を霧の湖に投げた。私を倒そうとしてるのが失敗するだろうと警告したよ。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",2],
+            "speaker" : "アヤ：",
+            "dialogue" : "そしてまだ影響を受けた理由！馬鹿な大猿！"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",6],
+            "speaker" : "ユウギク：",
+            "dialogue" : "私を呼びたいのものだ？"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",4],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",6],
+            "speaker" : "アヤ：",
+            "dialogue" : "はい、そうだぜ。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",4],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",6],
+            "speaker" : "アヤ：",
+            "dialogue" : "住む塔に寝たり、髪を窓の外に捨て、風に揺らさないの。",
+            "funct" : ["scr_cutscene_change_bgm",14]
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",4],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",5],
+            "speaker" : "ユウギク：",
+            "dialogue" : "夫を探す方法じゃん。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",2],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",5],
+            "speaker" : "ユウギク：",
+            "dialogue" : "この異変なので完全な失敗！あんたを倒す後、呪文は永久に終了するのよ！",
+            "funct" : ["scr_cutscene_start_boss","obj_yuugiku_ex"]
+        }
+    ]
+}

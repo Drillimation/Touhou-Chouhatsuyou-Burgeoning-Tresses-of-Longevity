@@ -1,0 +1,106 @@
+{
+    "char_info" : {
+        "char_name" : "Yuugiku Kanbe",
+        "char_desc" : "The Queen of the Yao Tribe"
+    },
+    "boss_sprite" : "spr_yuugiku_ex",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "speaker" : "Reimu:",
+            "dialogue" : "I want my old hair back."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "speaker" : " ",
+            "dialogue" : "You don't know I have no intention of ending this spell, but...",
+            "funct" : ["scr_cutscene_reveal_sprite"]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",5],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "It hasn't been too much fun for me now. I can still dance, but look at what you did to me."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",3],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",5],
+            "speaker" : "Reimu:",
+            "dialogue" : "Congratulations, you've become a bald objecting ape."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",5],
+            "speaker" : "Reimu:",
+            "dialogue" : "How come you're not growing hair, like some time-traveling youkai I've seen several times?"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",4],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "With this spell, any girl can choose whatever hairstyle to look their best."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",0],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",4],
+            "speaker" : "Reimu:",
+            "dialogue" : "It doesn't matter. Have you developed alopecia areata or something?"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",0],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",4],
+            "speaker" : "Reimu:",
+            "dialogue" : "Did you really think I would end your madness? You did nothing like usual."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",0],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",2],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "Well, watch out."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",2],
+            "speaker" : "Reimu:",
+            "dialogue" : "What do you mean? I'm worrying too much. I'm already mad because you did nothing."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",5],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",2],
+            "speaker" : "Reimu:",
+            "dialogue" : "This incident has led to me having too much beauty than I normally have."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",0],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",4],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "What do you have to say, Reimu?"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",1],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",4],
+            "speaker" : "Reimu:",
+            "dialogue" : "I'm officially going to end this hair madness. It's been going on for nearly a week now.",
+            "funct" : ["scr_cutscene_change_bgm",14]
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",1],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",2],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "Even if I am bald, you will not end this."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",1],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",2],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "I can now block out the sun with my head and shroud you in darkness."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",0],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",2],
+            "speaker" : "Reimu:",
+            "dialogue" : "I'm staying here and won't leave until this spell is stopped.",
+            "funct" : ["scr_cutscene_start_boss","obj_yuugiku_ex"]
+        }
+    ]
+}
