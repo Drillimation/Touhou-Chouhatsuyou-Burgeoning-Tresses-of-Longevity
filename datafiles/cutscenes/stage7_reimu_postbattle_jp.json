@@ -1,0 +1,136 @@
+{
+    "char_info" : {
+        "char_name" : "神戸ユウギク",
+        "char_desc" : "瑶族の女王"
+    },
+    "boss_sprite" : "spr_yuugiku_ex",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_reimu_portrait",1],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "レイム：",
+            "dialogue" : "進んだ！"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",1],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "レイム：",
+            "dialogue" : "呪文をオフにされたかも。髪を修復できないけど。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",1],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "ユウギク：",
+            "dialogue" : "他の人々は長髪モデルなる機会を放棄するし。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",1],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "ユウギク：",
+            "dialogue" : "全国各地で形成された。これに捧げられた舞踏会である。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",1],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "ユウギク：",
+            "dialogue" : "私と娘は幻想郷で大ヒットだっただろう。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",4],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "レイム：",
+            "dialogue" : "また勝った。呪文を壊したので今何をするのか？"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",4],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "ユウギク：",
+            "dialogue" : "また成功したいなら、一つお願いがある。髪を切れて私に与えられる。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",4],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "ユウギク：",
+            "dialogue" : "修復に10年間かかる髪を置き換えるには、かつらを作る。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "レイム：",
+            "dialogue" : "要求をするよ。この全体の状況は不条理だった。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "レイム：",
+            "dialogue" : "幻想郷には人々が多くのは汚い獣なった。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "レイム：",
+            "dialogue" : "誰かがこの呪文を再起動すれば、お祓い棒で打つ。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "レイム：",
+            "dialogue" : "カグヤ皇后とユカリ女王は影響を与えなかった。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "ユウギク：",
+            "dialogue" : "これで嬉しくなかった。腰より長い髪が好きじゃないのか？"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",0],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "レイム：",
+            "dialogue" : "数年前内戦後、髪を切って染めた。新たな始まりが欲しかった。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",0],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "ユウギク：",
+            "dialogue" : "浮世絵には遺産は生き続ける。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "レイム：",
+            "dialogue" : "受け入れられなかった。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "レイム：",
+            "dialogue" : "昔の自分に戻って嬉しいが、いくつかは顔で揺らしたり振り回したり。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "レイム：",
+            "dialogue" : "別の異変が起こっても、諦めないわ。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "レイム：",
+            "dialogue" : "あなたを排除しても、将来の異変を終わるのよ！"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "ユウギク：",
+            "dialogue" : "再成長を加速するために、たくさんケラチンビタミンを飲む。"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",3],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "レイム：",
+            "dialogue" : "何が待っているのかしら。",
+            "funct" : ["scr_cutscene_game_clear"]
+        }
+    ]
+}

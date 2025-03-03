@@ -1,0 +1,82 @@
+{
+    "char_info" : {
+        "char_name" : "Yuugiku Kanbe",
+        "char_desc" : "The Queen of the Yao Tribe"
+    },
+    "boss_sprite" : "spr_yuugiku_ex",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_marisa_portrait",1],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",9],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "You greatly angered me by making me bald and defeating me a second time."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",1],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",9],
+            "speaker" : "Marisa:",
+            "dialogue" : "I didn't lose any strands this time around. I'm greatly happy I was able to turn off your spell."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",1],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "What am I going to do now?"
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",3],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "Marisa:",
+            "dialogue" : "You'll become a poor old woman."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",6],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",9],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "Or perhaps you should be a dead woman."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",3],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",9],
+            "speaker" : "Marisa:",
+            "dialogue" : "At last, you have stopped Reimu's hair from having a growth explosion."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",3],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "I've had enough of this. For my future, me and my daughter are just going to travel."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",4],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "Marisa:",
+            "dialogue" : "I'm respectful to youkai-borns, but Reimu is demanding these sorts of incidents stop."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",4],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "But I need to look beautiful again."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",0],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "Marisa:",
+            "dialogue" : "Reimu can cut her hair and construct a wig that we can give to you as a gift."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",0],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "But I also found out that keratin vitamins can restore my hair to normal..."
+        },
+        {
+            "left_portrait" : ["spr_marisa_portrait",0],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "Marisa:",
+            "dialogue" : "Farewell. May we meet again one day...",
+            "funct" : ["scr_cutscene_game_clear"]
+        }
+    ]
+}

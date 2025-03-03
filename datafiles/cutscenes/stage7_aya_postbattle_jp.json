@@ -1,0 +1,52 @@
+{
+    "char_info" : {
+        "char_name" : "神戸ユウギク",
+        "char_desc" : "瑶族の女王"
+    },
+    "boss_sprite" : "spr_yuugiku_ex",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_aya_portrait",1],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "ユウギク：",
+            "dialogue" : "呪文をオフにされた。髪が伸ばしてくるのを神様に祈る。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",0],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "アヤ：",
+            "dialogue" : "髪を異変前の長さに切るよ。あなたに与えるね。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",0],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "ユウギク：",
+            "dialogue" : "計画してるものだった。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",0],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "ユウギク：",
+            "dialogue" : "かつての栄光を回復するかつらを作るわ。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",4],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "アヤ：",
+            "dialogue" : "ギフトで嬉しいなるのを祈る。"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",4],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "ユウギク：",
+            "dialogue" : "さらにケラチンビタミンについて考えてみた…"
+        },
+        {
+            "left_portrait" : ["spr_aya_portrait",7],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "アヤ：",
+            "dialogue" : "紅霧異変とか、春雪異変とか、永夜異変とか、他の異変を見たかも。",
+            "funct" : ["scr_cutscene_game_clear"]
+        }
+    ]
+}

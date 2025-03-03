@@ -1,0 +1,52 @@
+{
+    "char_info" : {
+        "char_name" : "Yuugiku Kanbe",
+        "char_desc" : "The Queen of the Yao Tribe"
+    },
+    "boss_sprite" : "spr_yuugiku_ex",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_sanae_portrait",1],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "Okay. I will turn off the spell, but only if you do one thing to me."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",1],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "Sanae:",
+            "dialogue" : "I might have left a bruise somewhere on your skull, but tell me."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",1],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "If you cut your hair with the spell off and give it to me,"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",1],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "I'll use it to construct a wig and artificially restore my former glory."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",4],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "Sanae:",
+            "dialogue" : "Cutting my hair will also restore my former glory as well..."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",4],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "Natural regrowth can be achieved through Yagokoro Pharmaceutical's keratin vitamins..."
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",4],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "Sanae:",
+            "dialogue" : "Farewell. I have no intention of seeing you again...",
+            "funct" : ["scr_cutscene_game_clear"]
+        }
+    ]
+}

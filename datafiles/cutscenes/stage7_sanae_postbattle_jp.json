@@ -1,0 +1,52 @@
+{
+    "char_info" : {
+        "char_name" : "神戸ユウギク",
+        "char_desc" : "瑶族の女王"
+    },
+    "boss_sprite" : "spr_yuugiku_ex",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_sanae_portrait",1],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "ユウギク：",
+            "dialogue" : "大丈夫。呪文をオフにするけど、一つだけやるべきもの。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",1],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "サナエ：",
+            "dialogue" : "頭蓋骨に打撲を置きたかもしれなかったが、私を教えろ。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",1],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "ユウギク：",
+            "dialogue" : "オフにした状態で、髪を切て私に与えれば、"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",1],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "ユウギク：",
+            "dialogue" : "かつらを作ってかつての栄光を人工的に回復する。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",4],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "サナエ：",
+            "dialogue" : "髪を切ることもかつて栄光を回復するのね。"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",4],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "ユウギク：",
+            "dialogue" : "自然な再生は八意薬品のケラチンビタミンで達成できる…"
+        },
+        {
+            "left_portrait" : ["spr_sanae_portrait",4],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "サナエ：",
+            "dialogue" : "さらばだ。また会う計画がないよ…",
+            "funct" : ["scr_cutscene_game_clear"]
+        }
+    ]
+}

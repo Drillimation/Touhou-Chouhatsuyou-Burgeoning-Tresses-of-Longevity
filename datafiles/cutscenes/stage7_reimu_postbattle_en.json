@@ -1,0 +1,136 @@
+{
+    "char_info" : {
+        "char_name" : "Yuugiku Kanbe",
+        "char_desc" : "The Queen of the Yao Tribe"
+    },
+    "boss_sprite" : "spr_yuugiku_ex",
+    "t_scene_info" : [
+        {
+            "left_portrait" : ["spr_reimu_portrait",1],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "Reimu:",
+            "dialogue" : "Progress has been made."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",1],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "Reimu:",
+            "dialogue" : "The spell may have been turned off but you won't have any progress in restoring your hair."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",1],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "Others will abandon finding opportunities to become long-hair models."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",1],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "They may have formed all over Gensokyo, and some are also hosting fancy balls dedicated to this."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",1],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "Me and my daughter could've been huge hits in Gensokyo."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",4],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "Reimu:",
+            "dialogue" : "I've already won against you again. What are you going to do now since the spell has been broken?"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",4],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "If I want to be successful again, I have one favor to ask. You can cut your own hair and give it to me."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",4],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "I can construct a wig to replace my hair that may take over a decade to restore."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "Reimu:",
+            "dialogue" : "While I will accept your request, this entire situation was beyond absurd."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "Reimu:",
+            "dialogue" : "A lot of people in Gensokyo have become foul beasts."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "Reimu:",
+            "dialogue" : "Anyone who dares to restart this spell will have my Purification Rod down their throats."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "Reimu:",
+            "dialogue" : "Empress Kaguya and Queen Yukari were not affected."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "You were not happy with this. You appear to hate any form of long hair past the waist."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",0],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "Reimu:",
+            "dialogue" : "After a civil war several years ago, I cut and dyed my own hair for a new beginning."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",0],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "My legacy will live on in woodblock prints."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "Reimu:",
+            "dialogue" : "This was unacceptable."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "Reimu:",
+            "dialogue" : "I'm happy to be back to my old self but some are still swinging and whipping their hair in my face!"
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "Reimu:",
+            "dialogue" : "Even if another incident happens, I won't be finished."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "Reimu:",
+            "dialogue" : "I will put an end to all future incidents even if I have you eliminated."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",2],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "Yuugiku:",
+            "dialogue" : "To speed up my regrowth, I will take lots of keratin vitamins."
+        },
+        {
+            "left_portrait" : ["spr_reimu_portrait",3],
+            "right_portrait" : ["spr_yuugiku_ex_portrait",8],
+            "speaker" : "Reimu:",
+            "dialogue" : "I will put an end to all future incidents even if I have you eliminated.",
+            "funct" : ["scr_cutscene_game_clear"]
+        }
+    ]
+}
