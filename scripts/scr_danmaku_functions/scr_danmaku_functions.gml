@@ -98,6 +98,40 @@ function scr_danmaku_shoot_flower(_delay,_i_max,_j_max,_init_speed,_speed_decrea
 	}
 }
 
+function scr_danmaku_shoot_more(_rate,_max,_indefinite,_array) {
+	if !variable_instance_exists(id,"_tick") {
+		_tick = 0;
+		temp_time = _max;
+	}
+	_tick += 1
+	_tick = _tick mod _rate
+	if _tick == 0 {
+		if _indefinite == false {
+			script_execute_ext(scr_shoot_bullet_enemy,_array)
+		}
+		else {
+			if temp_time >= 1 {
+				script_execute_ext(scr_shoot_bullet_enemy,_array)
+				temp_time -= 1;
+			}
+		}
+	}
+}
+
+function scr_danmaku_change_speed(_speed,_rate) {
+	if speed != _speed {
+		if speed > _speed {
+			speed -= _rate;
+		}
+		if speed < _speed {
+			speed += _rate;
+		}
+	}
+	else {
+		speed = _speed;
+	}
+}
+
 function scr_danmaku_marisa_laser(_speed,_xscale) {
 	speed = _speed;
 	image_xscale = _xscale;

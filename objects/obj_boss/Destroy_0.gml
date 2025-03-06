@@ -49,7 +49,7 @@ switch(boss_type) {
 		view_yview = camera_get_view_y(view_camera[0]);
 		var cam = instance_create_layer(view_xview + 128,view_yview + 144,"Instances",obj_camera)
 		with(cam) {
-			stage_speed = 0.5;
+			stage_speed = other.second_half_speed;
 			end_path_function = "BOSS_CUTSCENE";
 			midboss = obj_enemy;
 			midboss_sprite = spr_mayu;

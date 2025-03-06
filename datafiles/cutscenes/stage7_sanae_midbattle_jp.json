@@ -3,7 +3,7 @@
         "char_name" : "神戸マバユ",
         "char_desc" : "踊ってくる幽霊な人形"
     },
-    "boss_sprite" : "spr_mabayu",
+    "boss_sprite" : "spr_mabayu_ex",
     "t_scene_info" : [
         {
             "left_portrait" : ["spr_sanae_portrait",0],

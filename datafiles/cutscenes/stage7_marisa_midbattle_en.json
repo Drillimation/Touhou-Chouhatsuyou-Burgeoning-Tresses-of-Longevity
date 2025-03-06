@@ -3,7 +3,7 @@
         "char_name" : "Mabayu Kanbe",
         "char_desc" : "The Dancing Haunted Doll"
     },
-    "boss_sprite" : "spr_mabayu",
+    "boss_sprite" : "spr_mabayu_ex",
     "t_scene_info" : [
         {
             "left_portrait" : ["spr_marisa_portrait",0],

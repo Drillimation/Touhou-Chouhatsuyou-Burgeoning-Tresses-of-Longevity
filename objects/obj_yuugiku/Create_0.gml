@@ -8,6 +8,7 @@ _bar = spr_boss_health_11;
 drop_items_after_death = false;
 defeat_img = 7;
 second_half_path = path_scroll_h2;
+second_half_speed = 0.5;
 
 struct_data[0] = scr_json_load_file("main/boss_attack_layouts.json","struct_data",false);
 attack = array_reverse(struct_data[0].BOSS_YUUGIKU)
