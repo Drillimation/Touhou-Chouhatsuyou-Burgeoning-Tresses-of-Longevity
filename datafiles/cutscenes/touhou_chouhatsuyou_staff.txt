@@ -1,0 +1,59 @@
+Touhou Chouhatsuyou ~ Burgeoning Tresses of Longevity
+
+STAFF CREDITS
+
+[#FF0000]Director
+[#FFFFFF]Susumu Takajima
+
+[#FF0000]Producer
+[#FFFFFF]Susumu Takajima
+
+[#FF0000]Programmer
+[#FFFFFF]Susumu Takajima
+
+[#FF0000]Design Manager
+[#FFFFFF]Emiko Hosokawa
+
+[#FF0000]Art Director and Design
+[#FFFFFF]Susumu Takajima
+E. Enthusiasm
+Curly Brace
+
+[#FF0000]Characters created by
+[#FFFFFF]Jun'ya Ohta
+Susumu Takajima
+
+[#FF0000]Music
+[#FFFFFF]Susumu Takajima
+
+[#FF0000]Original Touhou Project themes by
+[#FFFFFF]Jun'ya Ohta
+
+Soundtrack available on Bandcamp from Drillimation Records
+
+[#FF0000]Sound Mixing and Editing
+[#FFFFFF]Susumu Takajima
+
+[#FF0000]Technical Support
+[#FFFFFF]Emiko Hosokawa
+E. Enthusiasm
+
+[#FF0000]Localization
+[#FFFFFF]Susumu Takajima (Japanese)
+
+[#FF0000]Special Thanks
+[#FFFFFF]Julian Adams
+
+This game uses the Scribble Text Rendering Engine, licensed under the MIT License.
+
+[#FF0000]Executive Producer
+[#FFFFFF]Susumu Takajima
+
+©2023 Drillimation Systems Co., Ltd./Studio Emiko/E. Enthusiasm.
+Characters © Team Shanghai Alice/Drillimation Systems Co., Ltd.
+
+Drillimation Systems, Studio Emiko, and E. Enthusiasm are the authors of this software for the purposes of copyright. The source code for this game is licensed under the GNU General Public License v2.0 or later and is available on GitHub. The rights to all audiovisual assets including characters, graphical assets, and its soundtrack are reserved.
+
+This game used sustainability strategies to reduce carbon emissions and environmental impact.
+
+The story, all names, characters, and events portrayed in this game are fictitious. All resemblances are purely coincidental.
