@@ -49,7 +49,7 @@ This game uses the Scribble Text Rendering Engine, licensed under the MIT Licens
 [#FF0000]Executive Producer
 [#FFFFFF]Susumu Takajima
 
-©2023 Drillimation Systems Co., Ltd./Studio Emiko/E. Enthusiasm.
+©2025 Drillimation Systems Co., Ltd./Studio Emiko/E. Enthusiasm.
 Characters © Team Shanghai Alice/Drillimation Systems Co., Ltd.
 
 Drillimation Systems, Studio Emiko, and E. Enthusiasm are the authors of this software for the purposes of copyright. The source code for this game is licensed under the GNU General Public License v2.0 or later and is available on GitHub. The rights to all audiovisual assets including characters, graphical assets, and its soundtrack are reserved.
