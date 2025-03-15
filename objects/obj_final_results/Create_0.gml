@@ -36,8 +36,8 @@ for(var i = 0; i < 8; i++) {
 	results_data[# 0,i] = left_text[i];
 }
 results_data[# 1,0] = " ";
-results_data[# 2,1] = " ";
-results_data[# 1,0] = diff_text;
+results_data[# 2,0] = diff_text;
+results_data[# 1,1] = " ";
 results_data[# 2,1] = global.global_stats.continues_used;
 for(var i = 0; i < 6; i++) {
 	results_data[# 1,i+2] = p1_statistics[i];

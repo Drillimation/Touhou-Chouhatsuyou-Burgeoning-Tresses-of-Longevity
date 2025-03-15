@@ -5,7 +5,7 @@ alarm[0] = 900;
 if global.global_stats.breezy_mode == 0 {
 	left_text = @"RANK
 
-	DREAM
+	CHERRY
 
 	POINT
 
@@ -37,7 +37,7 @@ if global.global_stats.breezy_mode == 0 {
 else {
 	left_text = @"RANK
 
-	DREAM
+	CHERRY
 
 	POINT
 

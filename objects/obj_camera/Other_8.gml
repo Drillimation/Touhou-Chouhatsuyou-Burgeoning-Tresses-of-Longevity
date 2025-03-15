@@ -1,3 +1,5 @@
+camera_set_view_pos(view_camera[0], x - (view_wport[0] / 2), y - (view_hport[0] / 2));
+camera_set_view_pos(view_camera[1], x - (view_wport[1] / 2), y - (view_hport[1] / 2));
 switch(end_path_function) {
 	case "MIDBOSS": 
 		view_xview = camera_get_view_x(view_camera[0]);

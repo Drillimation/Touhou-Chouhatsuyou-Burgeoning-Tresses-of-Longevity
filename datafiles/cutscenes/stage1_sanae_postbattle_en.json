@@ -27,7 +27,8 @@
             "left_portrait" : ["spr_sanae_portrait",2],
             "right_portrait" : ["spr_mayu_portrait",9],
             "speaker" : "Sanae:",
-            "dialogue" : "I'm out of here. I heard this may have started in the Palace of Eternity..."
+            "dialogue" : "I'm out of here. I heard this may have started in the Palace of Eternity...",
+            "funct" : ["scr_cutscene_stage_clear"]
         }
     ]
 }

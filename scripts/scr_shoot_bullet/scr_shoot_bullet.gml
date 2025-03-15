@@ -21,6 +21,7 @@ function scr_shoot_bullet_player(_speed, _direction, _sprite, _color, _x, _y, _a
 			effect_script = _function
 			script_array = _function_arguments
 		}
+		scr_player_bullet_angle();
 	}
 }
 

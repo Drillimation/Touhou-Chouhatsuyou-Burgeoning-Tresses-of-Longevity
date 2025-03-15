@@ -23,7 +23,7 @@
   ],
   "name":"spr_aya_spell",
   "nineSlice":null,
-  "origin":5,
+  "origin":3,
   "parent":{
     "name":"Characters",
     "path":"folders/Sprites/Characters.yy",
@@ -75,7 +75,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":300,
+    "xorigin":0,
     "yorigin":48,
   },
   "swatchColours":null,

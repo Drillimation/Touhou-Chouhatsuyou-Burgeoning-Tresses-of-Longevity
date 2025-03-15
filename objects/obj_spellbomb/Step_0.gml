@@ -52,11 +52,9 @@ if instance_exists(obj_player_1) or instance_exists(obj_player_2) {
 			y = py;
 			break;
 		case spr_aya_spell:
-			direction = 270;
+			direction = 90;
 			image_angle = direction
-			image_xscale += 0.001;
-			image_yscale += 0.001;
-			y_pos = 0;
+			y_pos = 287;
 			break;
 		case spr_sanae_spell:
 			speed = 0;
@@ -64,6 +62,18 @@ if instance_exists(obj_player_1) or instance_exists(obj_player_2) {
 			image_angle = 0
 			image_xscale += 0.05;
 			image_yscale += 0.05;
+			image_xscale = clamp(image_xscale,0,8);
+			image_yscale = clamp(image_yscale,0,8);
+			switch(item_id) {
+				case 0:
+					px = obj_player_1.x
+					py = obj_player_1.y
+					break;
+				case 1:
+					px = obj_player_2.x
+					py = obj_player_2.y
+					break;
+			}
 			x = px;
 			y = py;
 			break;

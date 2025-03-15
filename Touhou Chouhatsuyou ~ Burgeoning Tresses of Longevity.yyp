@@ -442,6 +442,7 @@
     {"id":{"name":"scr_newgame","path":"scripts/scr_newgame/scr_newgame.yy",},},
     {"id":{"name":"scr_one_channel_sound","path":"scripts/scr_one_channel_sound/scr_one_channel_sound.yy",},},
     {"id":{"name":"scr_pausable_rooms","path":"scripts/scr_pausable_rooms/scr_pausable_rooms.yy",},},
+    {"id":{"name":"scr_player_bullet_angle","path":"scripts/scr_player_bullet_angle/scr_player_bullet_angle.yy",},},
     {"id":{"name":"scr_player_shoot_speed","path":"scripts/scr_player_shoot_speed/scr_player_shoot_speed.yy",},},
     {"id":{"name":"scr_shoot_bullet","path":"scripts/scr_shoot_bullet/scr_shoot_bullet.yy",},},
     {"id":{"name":"scr_toggle_fullscreen","path":"scripts/scr_toggle_fullscreen/scr_toggle_fullscreen.yy",},},

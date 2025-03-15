@@ -27,7 +27,8 @@
             "left_portrait" : ["spr_sanae_portrait",2],
             "right_portrait" : ["spr_mayu_portrait",9],
             "speaker" : "サナエ：",
-            "dialogue" : "行ってくる。これは永遠亭で始めたと思うわ…"
+            "dialogue" : "行ってくる。これは永遠亭で始めたと思うわ…",
+            "funct" : ["scr_cutscene_stage_clear"]
         }
     ]
 }

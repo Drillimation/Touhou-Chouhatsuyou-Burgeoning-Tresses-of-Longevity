@@ -148,13 +148,12 @@ function scr_danmaku_reimu_aim(_range) {
 }
 
 function scr_danmaku_sanae_aim(_range) {
-	temp_time = _range;
 	if instance_exists(obj_enemy) {
-		var ex = instance_nearest(x, y, obj_enemy).x;
-		var ey = instance_nearest(x, y, obj_enemy).y;
-		if y == ey {
-			if x <= ex { direction = 0; }
-			if x >= ex { direction = 180; }
+		if collision_circle(x,y,_range,obj_enemy,false,true) {
+			var ex = instance_nearest(x, y, obj_enemy).x;
+			var ey = instance_nearest(x, y, obj_enemy).y;
+			if abs(y - ey) <= 4 and x < ex { direction = 0; }
+			if abs(y - ey) <= 4 and x > ex { direction = 180; }
 		}
 	}
 }

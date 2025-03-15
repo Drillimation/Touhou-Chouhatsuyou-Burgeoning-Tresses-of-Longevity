@@ -1,5 +1,5 @@
-scr_shoot_bullet_enemy(0,0,spr_bullet_large,1,64,64,false,0,false)
-scr_shoot_bullet_enemy(0,0,spr_bullet_large,1,192,64,false,0,false)
+scr_shoot_bullet_enemy(0,0,spr_bullet_large,1,64,64,false,snd_enemy_fire,false)
+scr_shoot_bullet_enemy(0,0,spr_bullet_large,1,192,64,false,snd_enemy_fire,false)
 
 for(var i = 0; i < 18; i++) {
 	for(var j = 0; j < game_difficulty + 1; j++) {
