@@ -4,7 +4,7 @@ A mysterious scent has caused everyone's hair to grow haywire...
 ***Touhou Chouhatsuyou ~ Burgeoning Tresses of Longevity*** is a *Touhou Project* fangame developed by Drillimation Systems in collaboration with Studio Emiko (who helped create a few of the game's characters) and E. Enthusiasm (who did most of the game's sprites and background tiles). Curly Brace also helped out on the game's spell card backgrounds. After a mysterious scent that causes every woman's hair to grow to the height of their body, four girls seek out the source of the scent. The game is intentionally developed in the style of a Super Nintendo game, featuring 16-bit graphics and audio.
 
 ## How to Play
-*Touhou houhatsuyou ~ Burgeoning Tresses of Longevity* can be played using a keyboard or controller. You can also play local multiplayer (two XInput controllers are required for this feature). The goal is pretty much the same as in every other *Touhou* game: Defeat the stage boss to move onto the next stage.
+*Touhou Chouhatsuyou ~ Burgeoning Tresses of Longevity* can be played using a keyboard or controller. You can also play local multiplayer (two XInput controllers are required for this feature). The goal is pretty much the same as in every other *Touhou* game: Defeat the stage boss to move onto the next stage.
 
 - The arrow keys, left analog stick, and D-pad move the character.
 - The Z key and A button shoots.

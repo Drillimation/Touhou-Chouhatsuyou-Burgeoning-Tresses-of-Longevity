@@ -1,6 +1,6 @@
 scr_change_bgm(15);
 
-if global.global_stats.continues_used >= 1 {
+if global.global_stats.continues_used == 0 {
 	switch(global.player_stats[0].character) {
 		case "REIMU": _sequence = [layer_sequence_create("Instances",0,0,sequence_ending_01),0]; break;
 		case "MARISA": _sequence = [layer_sequence_create("Instances",0,0,sequence_ending_03),2]; break;
