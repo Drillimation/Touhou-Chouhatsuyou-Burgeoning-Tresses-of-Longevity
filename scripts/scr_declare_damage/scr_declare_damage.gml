@@ -70,10 +70,8 @@ function scr_declare_damage(_damage, _id){
 			}
 		}
 	}
-	if instance_exists(obj_spell_banner_enemy) {
-		with(obj_spell_banner_enemy) {
-			failed = true;
-		}
+	with(obj_spell_banner_enemy) {
+		failed = true;
 	}
 	instance_destroy();
 }

@@ -46,6 +46,7 @@ if array_contains(pausable_room_list,room_get_name(room)) or global.global_stats
 				if array_contains(spawnable_room_list,room_get_name(room)) {
 					instance_create_depth(view_xview + 192,view_yview + 208,0,obj_player_2);
 					if instance_exists(obj_continue) {
+						instance_activate_object(obj_enemy);
 						instance_create_depth(view_xview + 64,view_yview + 208,0,obj_player_1);
 						global.player_stats[0].player_score = round(((global.player_stats[0].player_score / 10) / 2)) * 10
 						global.player_stats[1].player_score = round(((global.player_stats[1].player_score / 10) / 2)) * 10

@@ -85,7 +85,7 @@
         {
             "left_portrait" : ["spr_aya_portrait",2],
             "right_portrait" : ["spr_yuugiku_ex_portrait",5],
-            "speaker" : "ユウギク：",
+            "speaker" : "アヤ：",
             "dialogue" : "この異変なので完全な失敗！あんたを倒す後、呪文は永久に終了するのよ！",
             "funct" : ["scr_cutscene_start_boss","obj_yuugiku_ex"]
         }

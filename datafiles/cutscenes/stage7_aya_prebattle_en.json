@@ -85,7 +85,7 @@
         {
             "left_portrait" : ["spr_aya_portrait",2],
             "right_portrait" : ["spr_yuugiku_ex_portrait",5],
-            "speaker" : "Yuugiku:",
+            "speaker" : "Aya:",
             "dialogue" : "You're a total failure for this incident. Once I defeat you, your spell will permanently end!",
             "funct" : ["scr_cutscene_start_boss","obj_yuugiku_ex"]
         }
