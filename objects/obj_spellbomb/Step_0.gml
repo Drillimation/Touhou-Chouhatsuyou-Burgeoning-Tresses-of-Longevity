@@ -62,8 +62,8 @@ if instance_exists(obj_player_1) or instance_exists(obj_player_2) {
 			image_angle = 0
 			image_xscale += 0.05;
 			image_yscale += 0.05;
-			image_xscale = clamp(image_xscale,0,8);
-			image_yscale = clamp(image_yscale,0,8);
+			image_xscale = clamp(image_xscale,0,4);
+			image_yscale = clamp(image_yscale,0,4);
 			switch(item_id) {
 				case 0:
 					px = obj_player_1.x
