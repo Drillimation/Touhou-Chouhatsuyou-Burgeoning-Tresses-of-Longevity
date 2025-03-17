@@ -78,8 +78,8 @@ function scr_player_shoot_speed(){
 						scr_shoot_bullet_player(4,(90 + (amt * 2.5)) - (i * 5),aux,0,aux_tur[2],aux_tur[1],do_aim,snd_shoot,play_id,scr_danmaku_reimu_aim,[256]);
 						break;
 					case "MARISA":
-						scr_shoot_bullet_player(4,(90 + (amt * 2.5)) - (i * 5),aux,0,aux_tur[0],aux_tur[1],do_aim,snd_shoot,play_id,scr_danmaku_marisa_laser,[0,18]);
-						scr_shoot_bullet_player(4,(90 + (amt * 2.5)) - (i * 5),aux,0,aux_tur[2],aux_tur[1],do_aim,snd_shoot,play_id,scr_danmaku_marisa_laser,[0,18]);
+						scr_shoot_bullet_player(4,(90 + (amt * 2.5)) - (i * 5),aux,0,aux_tur[0],aux_tur[1],do_aim,snd_shoot,play_id,scr_danmaku_marisa_laser,[0,(y_pos / 16) + 1]);
+						scr_shoot_bullet_player(4,(90 + (amt * 2.5)) - (i * 5),aux,0,aux_tur[2],aux_tur[1],do_aim,snd_shoot,play_id,scr_danmaku_marisa_laser,[0,(y_pos / 16) + 1]);
 						break;
 					case "AYA":
 						scr_shoot_bullet_player(4,(90 + (amt * 2.5)) - (i * 5),aux,0,aux_tur[0],aux_tur[1],do_aim,snd_shoot,play_id);

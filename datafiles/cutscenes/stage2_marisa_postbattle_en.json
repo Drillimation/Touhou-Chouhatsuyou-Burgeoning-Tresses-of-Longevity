@@ -12,25 +12,25 @@
             "dialogue" : "I'll plead with you, my Majesty. Their power may be unimaginable."
         },
         {
-            "left_portrait" : ["spr_reimu_portrait",3],
+            "left_portrait" : ["spr_marisa_portrait",3],
             "right_portrait" : ["spr_kisumi_portrait",8],
             "speaker" : "Marisa:",
             "dialogue" : "Didn't Kagami tell me that when I was about to enter some church to shut down a stormy concert?"
         },
         {
-            "left_portrait" : ["spr_reimu_portrait",3],
+            "left_portrait" : ["spr_marisa_portrait",3],
             "right_portrait" : ["spr_kagami_portrait",8],
             "speaker" : "Kagami:",
             "dialogue" : "Yeah, I did. Are you heading off to the Palace of Eternity?"
         },
         {
-            "left_portrait" : ["spr_reimu_portrait",2],
+            "left_portrait" : ["spr_marisa_portrait",2],
             "right_portrait" : ["spr_kagami_portrait",8],
             "speaker" : "Marisa:",
             "dialogue" : "Yes. In fact, Eirin told me about a vitamin that acts like fertilizer for hair."
         },
         {
-            "left_portrait" : ["spr_reimu_portrait",2],
+            "left_portrait" : ["spr_marisa_portrait",2],
             "right_portrait" : ["spr_kisumi_portrait",8],
             "speaker" : "Kisumi:",
             "dialogue" : "So, this is how you became the Queen of your own kingdom...",
