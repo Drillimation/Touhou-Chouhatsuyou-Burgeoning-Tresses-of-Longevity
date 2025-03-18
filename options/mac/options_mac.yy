@@ -7,6 +7,8 @@
       "option_mac_display_name":"Touhou Chouhatsuyou ~ Burgeoning Tresses of Longevity",
       "option_mac_interpolate_pixels":"false",
       "option_mac_min_version":"10.13",
+      "option_mac_texture_page":"4096x4096",
+      "option_mac_signing_identity":"",
     },
   },
   "name":"macOS",
