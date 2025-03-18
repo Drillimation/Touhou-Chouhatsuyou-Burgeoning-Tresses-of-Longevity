@@ -1,6 +1,14 @@
 {
   "$GMMacOptions":"",
   "%Name":"macOS",
+  "ConfigValues":{
+    "itch.io":{
+      "option_mac_output_dir":"~/touhou_chouhatsuyou",
+      "option_mac_display_name":"Touhou Chouhatsuyou ~ Burgeoning Tresses of Longevity",
+      "option_mac_interpolate_pixels":"false",
+      "option_mac_min_version":"10.13",
+    },
+  },
   "name":"macOS",
   "option_mac_allow_fullscreen":false,
   "option_mac_allow_incoming_network":false,
