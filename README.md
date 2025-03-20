@@ -1,3 +1,5 @@
+<p align="center"><img src="https://drillimationcom.wordpress.com/wp-content/uploads/2025/03/logo_en_large.png"></p>
+
 # Touhou-Chouhatsuyou-Burgeoning-Tresses-of-Longevity
 A mysterious scent has caused everyone's hair to grow haywire...
 ## Info
