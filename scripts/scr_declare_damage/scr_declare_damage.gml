@@ -43,6 +43,7 @@ function scr_declare_damage(_damage, _id){
 			global.player_stats[_id].bombs = 3;
 		}
 		global.player_stats[_id].pow -= 12
+		global.player_stats[_id].timesrevived += 1;
 		global.global_stats.cherry -= round(global.global_stats.cherry_max * (0.25 * global.global_stats.difficulty));
 		global.global_stats.cherry = clamp(global.global_stats.cherry,0,global.global_stats.cherry_max);
 		instance_destroy(obj_bullet_enemy);

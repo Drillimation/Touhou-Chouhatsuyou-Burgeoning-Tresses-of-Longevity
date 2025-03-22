@@ -64,6 +64,7 @@
     {"$GMFolder":"","%Name":"Enemies","folderPath":"folders/Sprites/Enemies.yy","name":"Enemies","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Items","folderPath":"folders/Sprites/Items.yy","name":"Items","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Miscellaneous","folderPath":"folders/Sprites/Miscellaneous.yy","name":"Miscellaneous","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Steamworks","folderPath":"folders/Steamworks.yy","name":"Steamworks","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extra Stage","folderPath":"folders/Timelines/Extra Stage.yy","name":"Extra Stage","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -234,6 +235,7 @@
   },
   "name":"Touhou Chouhatsuyou ~ Burgeoning Tresses of Longevity",
   "resources":[
+    {"id":{"name":"Steamworks","path":"extensions/Steamworks/Steamworks.yy",},},
     {"id":{"name":"font_chicago","path":"fonts/font_chicago/font_chicago.yy",},},
     {"id":{"name":"font_misaki","path":"fonts/font_misaki/font_misaki.yy",},},
     {"id":{"name":"font_ms_gothic","path":"fonts/font_ms_gothic/font_ms_gothic.yy",},},

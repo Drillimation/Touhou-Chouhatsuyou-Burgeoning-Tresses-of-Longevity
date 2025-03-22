@@ -1,5 +1,5 @@
 if os_get_config() == "Steam" {
-	/*steam_update();
+	steam_update();
 
 	if steam_is_subscribed() {
 		if steam_is_screenshot_requested() {
@@ -7,5 +7,5 @@ if os_get_config() == "Steam" {
 		    screen_save(file)
 		    steam_send_screenshot(file, window_get_width(), window_get_height());
 		}
-	}*/
+	}
 }
