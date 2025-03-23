@@ -1,4 +1,5 @@
 global.global_stats.continues_used += 1;
+instance_activate_all();
 with(obj_camera) {
 	switch(global.global_stats.stage) {
 		case 1: path_speed = 0.5; break;

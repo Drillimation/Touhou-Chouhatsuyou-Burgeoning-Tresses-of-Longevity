@@ -75,7 +75,7 @@
         "When in difficult situations, push %xu to use a spell card."
     ],
     "miscellaneous" : {
-        "continue_screen" : "To continue, insert coins and push 1P %startu.",
+        "continue_screen" : "To continue, insert coins (%selectu) and push 1P %au.",
         "insert_coin" : "To insert coins, push %selectu.",
         "power_off" : "Power off the cabinet?",
         "name_entry_screen" : "Push %au to input, %bu to erase, and %startu to confirm."
