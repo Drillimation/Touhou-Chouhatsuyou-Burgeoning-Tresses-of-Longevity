@@ -73,13 +73,13 @@
             "left_portrait" : ["spr_aya_portrait",7],
             "right_portrait" : ["spr_mayu_portrait",4],
             "speaker" : "Aya:",
-            "dialogue" : "Every man I try to talk to flees in terror when they see me."
+            "dialogue" : "Every person I try to talk to flees in terror when they see me."
         },
         {
             "left_portrait" : ["spr_aya_portrait",7],
             "right_portrait" : ["spr_mayu_portrait",4],
             "speaker" : "Mayu:",
-            "dialogue" : "Are those humanoid men?"
+            "dialogue" : "Are those humanoids or youkai-borns?"
         },
         {
             "left_portrait" : ["spr_aya_portrait",7],
