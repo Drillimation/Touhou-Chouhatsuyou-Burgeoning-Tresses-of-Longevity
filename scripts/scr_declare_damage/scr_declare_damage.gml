@@ -9,6 +9,8 @@ function scr_declare_damage(_damage, _id){
 			scr_one_channel_sound(snd_pichuun);
 			if global.global_stats.point_item >= 20 + (20 * global.player_stats[_id].timesrevived) {
 				global.global_stats.point_item -= 20 + (20 * global.player_stats[_id].timesrevived);
+				global.player_stats[_id].pow -= 12
+				global.player_stats[_id].pow = clamp(global.player_stats[_id].pow,0,100);
 				global.player_stats[_id].timesrevived += 1;
 				global.player_stats[other.play_id].player_health = 30;
 				randomize();
@@ -43,6 +45,7 @@ function scr_declare_damage(_damage, _id){
 			global.player_stats[_id].bombs = 3;
 		}
 		global.player_stats[_id].pow -= 12
+		global.player_stats[_id].pow = clamp(global.player_stats[_id].pow,0,100);
 		global.player_stats[_id].timesrevived += 1;
 		global.global_stats.cherry -= round(global.global_stats.cherry_max * (0.25 * global.global_stats.difficulty));
 		global.global_stats.cherry = clamp(global.global_stats.cherry,0,global.global_stats.cherry_max);
