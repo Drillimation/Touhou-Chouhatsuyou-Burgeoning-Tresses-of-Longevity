@@ -11,7 +11,11 @@
   "androidsourcedir":"",
   "author":"",
   "classname":"",
-  "ConfigValues":{},
+  "ConfigValues":{
+    "itch.io":{
+      "copyToTargets":"194",
+    },
+  },
   "copyToTargets":194,
   "description":"",
   "exportToGame":true,

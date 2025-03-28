@@ -1,5 +1,5 @@
 {
-  "$GMProject":"",
+  "$GMProject":"v1",
   "%Name":"Touhou Chouhatsuyou ~ Burgeoning Tresses of Longevity",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
@@ -76,6 +76,7 @@
     {"$GMFolder":"","%Name":"Stage 5","folderPath":"folders/Timelines/Stage 5.yy","name":"Stage 5","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Stage 6","folderPath":"folders/Timelines/Stage 6.yy","name":"Stage 6","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
+  "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"endings_en.json","CopyToMask":-1,"filePath":"datafiles/cutscenes","name":"endings_en.json","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"endings_jp.json","CopyToMask":-1,"filePath":"datafiles/cutscenes","name":"endings_jp.json","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
@@ -231,7 +232,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.11.0.179",
+    "IDEVersion":"2024.1300.0.785",
   },
   "name":"Touhou Chouhatsuyou ~ Burgeoning Tresses of Longevity",
   "resources":[
