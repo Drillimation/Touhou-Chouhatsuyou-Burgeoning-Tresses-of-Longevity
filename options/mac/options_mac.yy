@@ -9,6 +9,13 @@
       "option_mac_min_version":"10.13",
       "option_mac_texture_page":"4096x4096",
       "option_mac_signing_identity":"",
+      "option_mac_splash_png":"splash/splash.png",
+    },
+    "Steam":{
+      "option_mac_signing_identity":"",
+      "option_mac_output_dir":"~/touhou-chouhatsuyou",
+      "option_mac_interpolate_pixels":"false",
+      "option_mac_splash_png":"splash/splash.png",
     },
   },
   "name":"macOS",
