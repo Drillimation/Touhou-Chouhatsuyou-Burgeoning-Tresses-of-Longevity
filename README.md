@@ -16,6 +16,7 @@ A mysterious scent has caused everyone's hair to grow haywire...
 ## Installation
 You can download the game for free here:
 - itch.io: https://drillimation.itch.io/touhou-chouhatsuyou-burgeoning-tresses-of-longevity/
+- Steam: https://store.steampowered.com/app/3611530/
 
 ## Tools used to make this game:
 - GameMaker Studio (the game itself)
