@@ -1,4 +1,7 @@
 function scr_declare_damage(_damage, _id){
+	with(obj_spell_banner_enemy) {
+		failed = true;
+	}
 	if global.global_stats.breezy_mode == true {
 		instance_destroy();
 		global.player_stats[_id].player_health -= _damage;
@@ -73,9 +76,6 @@ function scr_declare_damage(_damage, _id){
 				instance_create_depth(0,0,0,obj_continue);
 			}
 		}
-	}
-	with(obj_spell_banner_enemy) {
-		failed = true;
 	}
 	instance_destroy();
 }
