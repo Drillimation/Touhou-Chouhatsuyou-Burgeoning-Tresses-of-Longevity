@@ -18,7 +18,7 @@ assignees: ''
  - OS: [e.g. Windows 11]
  - Graphics Card: [e.g. NVidia GeForce RTX]
  - Sound Card: [e.g. SoundBlaster]
- - Browser: [e.g. Chrome, Firefox, Edge, Safari, Opera]
+ - Browser: [e.g. Chrome, Firefox, Edge, Safari, Opera] <!-- Disregard if you are not playing the HTML5 version. -->
 
 **Description**
 <!-- Please describe your issue in one or more sentences below. Do not use non-descriptive phrases such as "boss is glitchy" or "boss is overpowered". -->
