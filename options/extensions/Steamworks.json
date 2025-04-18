@@ -3,19 +3,25 @@
   "configurables": {
     "fc7d5b5e-1344-49ee-bca6-8579b0c68d50": null,
     "2d6a1c61-98e7-4289-8eff-d70ef6dac1ff": {
-      "Default": {
-        "value": "/Users/drillimationsystems/Downloads/steamworks_sdk_161"
+      "Steam": {
+        "value": "C:\\\\Users\\\\drill\\\\Downloads\\\\steamworks_sdk_161\\\\sdk"
       },
       "itch.io": {
-        "value": "/Users/drillimationsystems/Downloads/steamworks_sdk_161/sdk"
+        "value": "C:\\\\Users\\\\drill\\\\Downloads\\\\steamworks_sdk_161\\\\sdk"
       },
-      "Steam": {
-        "value": "/Users/drillimationsystems/Downloads/steamworks_sdk_161/sdk"
+      "HTML5": {
+        "value": "C:\\\\Users\\\\drill\\\\Downloads\\\\steamworks_sdk_161\\\\sdk"
       }
     },
     "c37a2e1d-c82f-4d90-9d0a-b4a2b3b3da08": null,
     "2d512363-a8c0-4025-8b9f-b53e231b025d": {
-      "Default": {
+      "Steam": {
+        "value": "3611530"
+      },
+      "itch.io": {
+        "value": "3611530"
+      },
+      "HTML5": {
         "value": "3611530"
       }
     },
