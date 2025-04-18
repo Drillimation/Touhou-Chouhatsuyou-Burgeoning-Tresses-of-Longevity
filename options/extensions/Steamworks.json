@@ -4,13 +4,10 @@
     "fc7d5b5e-1344-49ee-bca6-8579b0c68d50": null,
     "2d6a1c61-98e7-4289-8eff-d70ef6dac1ff": {
       "Steam": {
-        "value": "C:\\\\Users\\\\drill\\\\Downloads\\\\steamworks_sdk_161\\\\sdk"
+        "value": "/Users/drillimationsystems/Downloads/steamworks_sdk_161/sdk"
       },
       "itch.io": {
-        "value": "C:\\\\Users\\\\drill\\\\Downloads\\\\steamworks_sdk_161\\\\sdk"
-      },
-      "HTML5": {
-        "value": "C:\\\\Users\\\\drill\\\\Downloads\\\\steamworks_sdk_161\\\\sdk"
+        "value": "/Users/drillimationsystems/Downloads/steamworks_sdk_161/sdk"
       }
     },
     "c37a2e1d-c82f-4d90-9d0a-b4a2b3b3da08": null,
@@ -19,9 +16,6 @@
         "value": "3611530"
       },
       "itch.io": {
-        "value": "3611530"
-      },
-      "HTML5": {
         "value": "3611530"
       }
     },
