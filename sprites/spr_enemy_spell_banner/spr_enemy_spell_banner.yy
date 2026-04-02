@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_enemy_spell_banner",
   "bboxMode":0,
   "bbox_bottom":15,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"bc1ab36d-0f21-44ef-9c4f-db8bca261c60","name":"bc1ab36d-0f21-44ef-9c4f-db8bca261c60","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bc1ab36d-0f21-44ef-9c4f-db8bca261c60","name":"bc1ab36d-0f21-44ef-9c4f-db8bca261c60","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,15 +1,17 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v2",
   "%Name":"snd_bgm_boss_extra",
   "audioGroupId":{
     "name":"bgm",
     "path":"audiogroups/bgm",
   },
   "bitDepth":1,
-  "bitRate":128,
+  "channelFormat":1,
   "compression":1,
+  "compressionQuality":4,
   "conversionMode":0,
   "duration":399.07846,
+  "exportDir":"",
   "name":"snd_bgm_boss_extra",
   "parent":{
     "name":"BGM",
@@ -20,6 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":48000,
   "soundFile":"snd_bgm_boss_extra.ogg",
-  "type":1,
   "volume":1.0,
 }

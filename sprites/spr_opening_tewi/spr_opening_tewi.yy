@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_opening_tewi",
   "bboxMode":0,
   "bbox_bottom":243,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"9747d8f3-0c84-443a-8b48-136f286fab53","name":"9747d8f3-0c84-443a-8b48-136f286fab53","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9747d8f3-0c84-443a-8b48-136f286fab53","name":"9747d8f3-0c84-443a-8b48-136f286fab53","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

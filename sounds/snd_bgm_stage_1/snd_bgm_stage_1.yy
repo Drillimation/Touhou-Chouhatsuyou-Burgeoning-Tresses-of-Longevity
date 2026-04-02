@@ -1,15 +1,17 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v2",
   "%Name":"snd_bgm_stage_1",
   "audioGroupId":{
     "name":"bgm",
     "path":"audiogroups/bgm",
   },
   "bitDepth":1,
-  "bitRate":128,
+  "channelFormat":1,
   "compression":1,
+  "compressionQuality":4,
   "conversionMode":0,
   "duration":246.85133,
+  "exportDir":"",
   "name":"snd_bgm_stage_1",
   "parent":{
     "name":"BGM",
@@ -20,6 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":48000,
   "soundFile":"snd_bgm_stage_1.ogg",
-  "type":1,
   "volume":1.0,
 }

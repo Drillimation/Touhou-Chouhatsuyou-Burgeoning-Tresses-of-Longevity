@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_opening_kaguya",
   "bboxMode":0,
   "bbox_bottom":287,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"dc239948-7dd0-4bf9-8899-ec53ccc8b0a7","name":"dc239948-7dd0-4bf9-8899-ec53ccc8b0a7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"dc239948-7dd0-4bf9-8899-ec53ccc8b0a7","name":"dc239948-7dd0-4bf9-8899-ec53ccc8b0a7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

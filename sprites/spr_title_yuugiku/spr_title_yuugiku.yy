@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_title_yuugiku",
   "bboxMode":0,
   "bbox_bottom":252,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"cbc91f0b-93e7-41db-91f4-d35a93991f64","name":"cbc91f0b-93e7-41db-91f4-d35a93991f64","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cbc91f0b-93e7-41db-91f4-d35a93991f64","name":"cbc91f0b-93e7-41db-91f4-d35a93991f64","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

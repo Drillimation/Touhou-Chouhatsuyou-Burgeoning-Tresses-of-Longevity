@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_opening_hakurei_shrine",
   "bboxMode":0,
   "bbox_bottom":223,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"118dcdd7-4bbe-4ce1-b55d-47678431c880","name":"118dcdd7-4bbe-4ce1-b55d-47678431c880","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"118dcdd7-4bbe-4ce1-b55d-47678431c880","name":"118dcdd7-4bbe-4ce1-b55d-47678431c880","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

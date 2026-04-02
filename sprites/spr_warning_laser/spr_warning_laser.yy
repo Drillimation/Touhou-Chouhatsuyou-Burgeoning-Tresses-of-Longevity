@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_warning_laser",
   "bboxMode":0,
   "bbox_bottom":4,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"9d37c5ad-e46f-481c-88aa-fa66bea4b06c","name":"9d37c5ad-e46f-481c-88aa-fa66bea4b06c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9d37c5ad-e46f-481c-88aa-fa66bea4b06c","name":"9d37c5ad-e46f-481c-88aa-fa66bea4b06c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
